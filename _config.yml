@@ -2,7 +2,7 @@ title: Bitcoin Plebs
 description: A zero-to-hero bitcoin pleb training program on bitcoin testnet
 theme: just-the-docs
 
-url: https://pleb5.github.io
+url: bitcoinplebs.org
 
 plugins:
   - jekyll-default-layout
