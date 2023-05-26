@@ -17,26 +17,29 @@ permalink: /a-fool-and-his-bitcoin/
 
 ---
 
-**You spilled coffee on your paper backup! ☕**
+### You spilled coffee on your paper backup! ☕
+{: .no_toc }
 
 Literally, destroy the piece of paper you wrote your words on. Don’t fake this step. Now what? Is everything lost?
 
 ## OBJECTIVE: Saving the day
 
 1. Understand the implications of losing a backup: Those 12 words **ARE your bitcoin!** Is there a way to save the coins, or is it forever stuck in an unspendable state on the blockchain?
-2. Wait, you just generated the words on Sparrow… So, maybe it is saved on the machine as well in binary form? [Let’s check!] todo: link to images
-3. Look, there it is!
-4. Now create 2 backups instead of one and put them to different places
+2. Wait, you just generated the words on Sparrow… So, maybe it is saved on the machine as well in binary form?
+3. In Sparrow go to `Settings` --> `View Seed`
+4. Look, there it is!
+5. Now create 2 backups instead of one and put them to different places
     1. Paper lamination adds some protection to paper
-5. From now on, operate under the assumption that you are NOT protected by computers if all of your physical backups are destroyed!
+6. From now on, operate under the assumption that you are NOT protected by computers if all of your physical backups are destroyed!
     2. Human memory (aka brain wallet) and electronic devices are not to be trusted as safe and secure storages of highly sensitive information!
-6. Optional: Check advice for ordering Bitcoin-related things online[link]
-7. Order metal plates to defend against all kinds of degradation[link]
+7. Optional: Check advice for [ordering Bitcoin-related things online](/pleb-lessons/#ordering-bitcoin-related-things-online)
+8. Order metal plates to defend against all kinds of degradation
     3. **Don’t use the steel plates yet! Use it later for real bitcoin.**
 
 ---
 
-**Your backup is lost! 😱🖐️**
+### Your backup is lost! 😱🖐️
+{: .no_toc }
 
 You were sure you hid it under your mattress! How could that happen?! You can’t be sure if your backup was stolen, trashed, or just lost somehow. You don’t have time to ruminate and search for days.
 
@@ -45,22 +48,22 @@ You were sure you hid it under your mattress! How could that happen?! You can’
 2. Back it up, test recovery
 3. Transfer all funds to that ASAP!
     1. Generate a receive address in the new wallet
-    2. Go to the “Send” tab in your first wallet
-    3. Select “Max” to send all funds
-    4. Set fee priority to “very high”
-    5. “Create Transaction”
-    6. “Finalize Transaction for Signing”
-    7. “Sign”
-    8. “Broadcast Transaction”
-4. Go to your new wallet’s “Transactions” tab and see how the rescue transaction appears first unconfirmed(node learns about your transaction of interest) and then confirmations start to accumulate
+    2. Go to the `Send` tab in your first wallet
+    3. Select `Max` to send all funds
+    4. Set fee priority to `very high`
+    5. `Create Transaction`
+    6. `Finalize Transaction for Signing`
+    7. `Sign`
+    8. `Broadcast Transaction`
+4. Go to your new wallet’s `Transactions` tab and see how the rescue transaction appears first unconfirmed(node learns about your transaction of interest) and then confirmations start to accumulate
 5. Once your funds are safe, meaning the transaction has at least 6 confirmations(It could take an hour), delete the older wallet from Sparrow
 6. Also destroy the 2 backups associated with that old wallet because your transaction history is still tied to it
+
+---
 
 **Warning:** A cunning attacker would have just taken a photo or written down the information on the backup and you might never know that it is compromised.
 
 There is a way to defend against people finding your key backups. You can create a so-called **“passphrased wallet”** which requires your passphrase **in addition** to your seed words to access the funds.
-
----
 
 ## OBJECTIVE: Defend against the bare key-backup problem
 1. 💡Learn about [passphrased wallets](/pleb-lessons/#bip39-passphrased-wallets)
@@ -83,7 +86,8 @@ Now you have a fairly robust setup that protects against accidental loss and fun
 
 ---
 
-**You fell for a clickbait email. You downloaded some strange file and now your computer seems to be infected. 📥🦠**
+### You fell for a clickbait email. You downloaded some strange file and now your computer seems to be infected. 📥🦠
+{: .no_toc }
 
 The computer now is compromised meaning cyber attackers can steal your keys from your computer and log your keystrokes whenever you input your passphrase!
 
@@ -91,7 +95,7 @@ The computer now is compromised meaning cyber attackers can steal your keys from
 1. You don’t have time to fix the infected machine yet
 2. Get another safe desktop computer or a safe mobile phone
 3. Get a copy of the secret key and the passphrase backups
-4. Install [Sparrow](https://sparrowwallet.com) on the desktop or [Samourai wallet](https://samouraiwallet.com) on and recover your wallet 
+4. Install [Sparrow](https://sparrowwallet.com) on the desktop (or [Samourai wallet](https://samouraiwallet.com) on mobile if you were on `mainnet`, stay on desktop for this exercise though) and recover your wallet 
 5. In Sparrow/Samourai create a new passphrased wallet(new seed phrase, new passphrase) **on the other**, **safe** **device**
     1. This time, also make sure to set an **encryption password**
     2. Don’t mistake passphrases for wallet-encryption passwords
@@ -105,13 +109,17 @@ Now your funds are safe but as long as the wallet file is on the infected machin
 
 ## OBJECTIVE: Destroy your wallet on the unsafe computer and wipe the operating system to start fresh
 1. You could **just** **delete** the wallet from sparrow as an easy but not very secure deletion method
-2. The better way is to find the location where sparrow stores your wallet data and **erase** it **with** the shred **command**
+2. The better way is to find the location where sparrow stores your wallet data and **erase** it **with** the `shred` **command**
     1. In the directory where the wallet is stored run this command in the terminal. Sparrow uses a hidden directory to store wallets
-    2. cd ~/.sparrow/signet/wallets
-    3. sudo shred -zvu -n 5 &lt;your_wallet_file_name>
+    ```sh
+	cd ~/.sparrow/signet/wallets
+	```
+    ```sh
+	sudo shred -zvu -n 5 <your_wallet_file_name>
+	```
     4. **Warning! This command is to be handled with special caution!**
 3. The ultimate safest way is to **incinerate** the **storage** device which is how Google and all serious companies deals with secure deletion of sensitive data
-4. Optionally reinstall Ubuntu on the unsafe computer. Select erase disk and in the advanced section it gives you the option to overwrite all data. It will be slower than a normal reinstall
+4. Optionally reinstall Ubuntu on the unsafe computer. Select `erase disk` and in the advanced section it gives you the option to `overwrite all data`. It will be slower than a normal reinstall
     5. Make sure nothing important is permanently deleted just because of this exercise
 
 There is a case to be made for never using a compromised computer ever again to store real funds. There are types of malware that can be baked in even above the operating system level. Decide at your own risk.
@@ -125,14 +133,22 @@ If you did not reinstall Ubuntu, now just simulate starting fresh by reinstallin
 ## OBJECTIVE: Reinstall Sparrow wallet
 1. Close Sparrow
 2. Do it from the terminal
-    1. sudo apt remove sparrow
-3. Now delete all the downloaded files (for real, please)
-    2. cd ~/Downloads
-    3. rm *sparrow*
-4. Download files again from the [Sparrow wallet website](https://sparrowwalet.com)
-5. There is something really strange with this website, don’t you think?
+    ```sh
+	sudo apt remove sparrow
+	```
+3. Now delete all the downloaded files (for real!)
+    ```sh
+	cd ~/Downloads
+	```
+    ```sh
+	rm *sparrow*
+	```
+4. The `'*'` character is for pattern matching. See "linux shell regular expressions" for more info
+5. Download files again from the [Sparrow wallet website](https://sparrowwalet.com)
+6. There is something really strange with this website, don’t you think?
 
-**You visited a copycat website to download Sparrow wallet. You almost fell for another trickster! 📥🦠 (Don’t worry this is just for simulation purposes. Or is it? ;)**
+### You visited a copycat website to download Sparrow wallet. You almost fell for another trickster! 📥🦠 (Don’t worry this is just for simulation purposes. Or is it? ;)
+{: .no_toc }
 
 ---
 
@@ -153,7 +169,6 @@ You now see the problem with storing secrets on general purpose computers connec
 
 ## OBJECTIVE: Start using a hardware wallet
 1. 💡 Learn about [hardware wallets and cold storage](/pleb-lessons/#hardware-wallets-and-cold-storage)
-2. 💡 Check advice for [ordering bitcoin related things](/pleb-lessons/#ordering-bitcoin-related-things-online)
 3. Order a hardware wallet. Good choices:
     1. **You can order prebuilt versions of SeedSigner as well as Specter! See recommended shops in “Advice for ordering bitcoin related things” section**
     2. [SeedSigner](https://seedsigner.com/hardware/)(tutorials will rely on this device!)
@@ -161,29 +176,31 @@ You now see the problem with storing secrets on general purpose computers connec
     3. [SpecterDIY](https://specter.solutions/hardware/)
     4. [Coldcard](https://coldcard.com/)
     5. [Foundation Passport](https://foundationdevices.com/passport/)
+    6. 💡 Check advice for [ordering bitcoin related things](/pleb-lessons/#ordering-bitcoin-related-things-online)
 4. Order a USB web camera with a privacy shutter. This is to read QR codes into Sparrow. Kind of a struggle with Laptop built-in webcams but it works
-5. Order endurance-type microSD cards, no need for huge capacity. Order a few spare pieces for later assignments
-6. Order a multifunctional sd card reader for your desktop
-7. Look at how the device is powered (no USB cables remember) and order batteries too. SeedSigner has its own power supply
-8. Don't be cheap. Buy reputable brands to save you from the headache
+5. Order endurance/industrial-type microSD cards, no need for huge capacity, smallest is enough, [Kingston preferred](https://www.kingston.com/en/memory-cards/industrial-grade-microsd-uhs-i-u3). Order a few spare pieces for later assignments
+6. Order a multifunctional sd/microsd card reader for your desktop. Kingston is decent.
+7. Look at how the hardware wallet is powered (no USB cables remember) and order batteries if needed. SeedSigner has its own power supply
+8. Don't be cheap. Buy reputable brands to save you from headaches
 
 You may find yourself spending a few hundred cuckbucks on bitcoin related stuff if you want a decent setup. Your bitcoin security budget when compared to securing e.g. physical gold is not that pricey though.
 
 ---
 
-**Your hardware wallet has arrived. Time to go Cold Storage 🧊**
+### Your hardware wallet has arrived. Time to go Cold Storage 🧊
+{: .no_toc }
 
 So how can you be pretty sure this thing will not steal your bitcoin? There can be many methods devised to verify hardware wallets. The verification also depends on your type of hww and available resources.
 
 ## OBJECTIVE: Download, verify and burn the SeedSigner image on a microSD card (alternative guide on SeedSigner [github page](https://github.com/seedsigner#software-installation))
-1. Boot into Ubuntu Live
+1. Boot into Ubuntu Live(safe clean environment for critical tasks)
     1. Get your Ubuntu installation USB stick
     2. Insert it into your computer and reboot
-    3. You might have to change the boot order in the BIOS settings
-    4. Select “Try or install Ubuntu”
+    3. You might have to change the boot order in the BIOS settings to boot from the USB stick
+    4. Select `Try or install Ubuntu`
     5. Wait to boot, it’s gonna take longer
-    6. Select “Try Ubuntu”. This takes you to a clean environment. It is safer for verification. It forgets any changes you make in the system once your reboot unless you deliberately save files on persistent storage outside this environment
-2. In Firefox (default in Ubuntu Live) go to the [SeedSigner](https://seedsigner.com/) website 
+    6. Select `Try Ubuntu`. This takes you to a clean environment. It is safer for verification. It forgets any changes you make in the system once your reboot unless you deliberately save files on persistent storage outside this environment
+2. In Firefox (default in Ubuntu Live) go to the [SeedSigner](https://seedsigner.com/) website
 3. Right on the front page it gives you what you need
     7. Go to the GPG pubkey link it will take you to a Github file
     8. Go to the “raw” file. Copy the URL in the browser
@@ -240,7 +257,7 @@ So how can you be pretty sure this thing will not steal your bitcoin? There can 
     31. You can mark the microSD with a permanent marker
 12. Insert the sd into your raspberry pi and test if it boots SeedSigner OS alright
 	13. Should take 1 minute at most
-14. If all is good, you can reboot your computer. Remove the USB stick when it prompts you, not sooner!
+14. If all is good, you can `reboot` your computer. Remove the USB stick when it prompts you, **not sooner!**
 15. Boot your computer into your regular environment
 
 This “live operating system” method can be used to verify crucial things or carry out critical operations when you want to make sure you don’t leak info on a clean system. All your package installs and downloads are gone now.
@@ -249,26 +266,26 @@ This “live operating system” method can be used to verify crucial things or 
 
 ## OBJECTIVE: Verify your hardware wallet
 1. If you get a device from one of the reputed vendors then it will arrive in a tamper-evident bag. Check it carefully and follow vendor instructions!
-2. Create a new dummy wallet in Sparrow with no funds and no history
+2. Create a new `dummy wallet` in Sparrow with no funds and no history
     1. 12 words
     2. No need for passphrase
     3. Go along with the defaults otherwise
     4. No need for password either
-3. Go to the “Addresses” tab and see the first few addresses
+3. Go to the `Addresses` tab and see the first few addresses
 4. Power up your hardware wallet
 5. Switch it to testnet mode
-    5. SeedSigner: Settings --> Advanced --> Bitcoin network --> Testnet
-    6. You might set it up to remember the configuration settings only: Settings -> Persistent settings --> Enabled 
+    5. SeedSigner: `Settings` --> `Advanced` --> `Bitcoin network` --> `Testnet`
+    6. You might set it up to remember the configuration settings only: `Settings` --> `Persistent settings` --> `Enabled`
     7. This does not remember your private key, just the configurations like testnet mode
 6. Recover the dummy seed phrase
-    8. “Seeds” --> “Enter 12-word seed”
+    8. `Seeds` --> `Enter 12-word seed`
     9. With the joystick you can select the characters
     10. SeedSigner will try to guess the word from the characters already given
     11. The buttons on the right side help select the word you want. The one in the middle selects the word[edited image]
     12. You can delete characters or go back to edit a word
-    13. No passphrase, just click “Done”
+    13. No passphrase, just click `Done`
 7. Navigate to the address explorer in the hardware wallet
-    14. Seedsigner: Address Explorer -> Native Segwit -> Receive Addresses(or change address, only the matching matters)
+    14. Seedsigner: `Address Explorer` --> `Native Segwit` --> `Receive Addresses`(or change address, only the matching matters)
 8. Cross-check the addresses you see in Sparrow with the addresses in your hardware wallet
 9. If you have hardware wallets of multiple hardware profiles you can add that to the checking process too
 
@@ -279,28 +296,28 @@ This “live operating system” method can be used to verify crucial things or 
     1. 15.000 sats is enough
 2. Now send it back using Sparrow AND Seedsigner to sign the transaction
 3. Create the transaction in Sparrow
-4. Select “Finalize Transaction for Signing”
-5. Select “Show QR”: This will show a QR code containing the unsigned bitcoin transaction
+4. Select `Finalize Transaction for Signing`
+5. Select `Show QR`: This will show a QR code containing the unsigned bitcoin transaction
 6. Scan it with the HWW camera
-    2. SeedSigner: “Scan” option in main menu
+    2. SeedSigner: `Scan` option in main menu
     3. If you struggle with the scan:
-        1. try to clean the camera lens with a cloth
-        2. Decrease density of the QR in Sparrow
+        1. Try to clean the camera lens with a cloth
+        2. `Decrease density` of the QR in Sparrow
         3. Try to do it in better lighting conditions
 7. Review the transaction details on SeedSigner
 8. Check addresses in Sparrow if they match
-9. Approve PSBT(sign): This will show the QR code containing the signed transaction data on the SeedSigner screen
+9. `Approve PSBT`(sign): This will show the QR code containing the signed transaction data on the SeedSigner screen
 10. Scan it now with your USB web camera (or laptop webcam)
     4. Cancel the QR window in Sparrow
-    5. Click “Scan QR” and scan it with the webcam. It will be harder because SeedSigner has a small screen
+    5. Click `Scan QR` and scan it with the webcam. It will be harder because SeedSigner has a small screen
         4. If it shows an error try to enable the webcam if it is disabled or reconnect USB
         5. Orientation doesn’t matter
         6. Try to wait for autofocus to kick in
         7. Hold the camera(or the hardware wallet) firm. You can put your elbow on the desk to get more stability
         8. Try to establish good lighting conditions: Reduce glare by reducing brightness of the screen with the joystick down action and/or adjusting the surrounding lights
-11. Now you can see the “Signature” progress bar in Sparrow filled blue
-12. “View the Final Transaction”
-13. “Broadcast Transaction”
+11. Now you can see the `Signature` progress bar in Sparrow filled blue
+12. You can `View the Final Transaction`
+13. `Broadcast Transaction`
 14. If everything went well and the sum appears in your Passphrased Wallet after a while, the spend was successful
 15. You can safely unplug SeedSigner from power, it will not harm the device. The USB cable is less durable so unplug from AC socket rather
 16. Now you can trust your signing device even more
@@ -312,51 +329,52 @@ Now that you verified your hardware wallet sufficiently you can start migrating 
 ## OBJECTIVE: Create a secure private key on the Hardware wallet (SeedSigner guide)
 
 1. As soon as SeedSigner has booted you can remove the sd card to as an additional security measure before you load or create any private keys on it
-2. Main menu -> Tools -> Select New seed from camera or dice
+2. `Main menu` -> `Tools` -> Select `New seed` from camera or dice
 3. Select 12 words
 4. Roll with the dice or capture the image and follow instructions
-5. Once you get to the “Finalize Seed” screen select “BIP39 Passphrase”
+5. Once you get to the `Finalize Seed` screen select `BIP39 Passphrase`
 6. Use your previous passphrase
 7. Back it up properly, verify
 8. Write down the master fingerprint as well
-9. Done[images]
-    1. You can backup the seed anytime until you power-off the device. Seeds -> Select your seed -> Backup Seed
+9. Done
+    1. You can backup the seed anytime until you power-off the device. `Seeds` -> Select your seed -> `Backup Seed`
 
 ---
 
 ## OBJECTIVE: Import the public key/Xpub into Sparrow wallet - SeedSigner
 
-1. In Sparrow Go to File --> New wallet --> Name it
-2. Select “Airgapped Hardware Wallet”
-3. Find your brand and select “Scan”
+1. In Sparrow Go to `File` --> `New wallet` --> Name it
+2. Select `Airgapped Hardware Wallet`
+3. Find your brand and click `Scan`
 4. Now get your hardware wallet
-5. From the main menu go to “Seeds” --> Click on Seed
-6. Select “Export Xpub” --> Single Sig --> Native Segwit --> Sparrow
+5. From the main menu go to `Seeds` --> Click on Seed
+6. Select `Export Xpub` --> `Single Sig` --> `Native Segwit` --> `Sparrow`
 7. It will prompt you that you are now giving **Important Privacy Information **to Sparrow. Click I understand
 8. It will show you the Xpub details screen. The fingerprint is what matters to you right now
-9. Click “Export Xpub”. It will show the QR code
+9. Click `Export Xpub`. It will show the QR code
 10. Scan it with the webcam into Sparrow
     1. You will see the progress in Sparrow as the animated QR code is loaded in full
     2. Hold it firm until the scan is complete
-11. You see the data appearing in Sparrow. Click “Apply”
-12. Add an encryption password of your choice
-    3. Sparrow will only store your Xpub so it cannot leak your private key. At most the encrypted payment history file can leak from the unsafe computer
+11. You see the data appearing in Sparrow. Click `Apply`
+12. Add an encryption `Wallet Password` of your choice
+    3. Sparrow will only store your `Xpub` so it cannot leak your private key. At most the encrypted payment history file can leak from the unsafe computer
     4. **Don’t ever mistake your passphrase for the encryption password because you basically compromise it at that very moment!**
 13. Test total recovery of the airgapped wallet
-    5. Delete from Sparrow
+    5. Delete wallet from Sparrow
     6. Unplug SeedSigner from the power source
-        1. For stateful devices like Coldcard/Foundation: Erase/Destroy the seed. The option will be around the Advanced settings/Danger zone sections
+        1. For stateful devices like Coldcard/Foundation: `Erase/Destroy` the seed. The option will be around the `Advanced settings/Danger zone` sections
     7. Recover your private key with the seed words backup on your hardware wallet
     8. Create the new airgapped wallet in Sparrow again
-    9. Do the Xpub transfer process again
+    9. Do the `Xpub` transfer process again
 14. Sweep your funds into the airgapped wallet
     10. You don’t need SeedSigner for that because we send from the hot wallet
 15. You can delete the old Passphrased hot wallet
 16. Test self-spend of the airgapped wallet
-    11. Copy an unused receive address to the “Send” tab of the same wallet
+    11. Copy an unused receive address to the `Send` tab of the same wallet
     12. Send 10.000 sats to the same wallets address
     13. Sign it with SeedSigner
-    14. See it confirming
+    14. Also see that the `Change Address` gets verified too
+    15. See it confirming in Sparrow
 
 ---
 
@@ -364,21 +382,23 @@ You start to get the idea about hardware wallets. Now we can test the address ve
 
 ## OBJECTIVE: “Buy” some more bitcoin from the [signet faucet](https://signetfaucet.com)[link]
 
-1. Generate a new receiving address in your watch-only wallet “Receive” tab in Sparrow
+1. Generate a new receiving address in your watch-only wallet `Receive` tab in Sparrow
     1. Check the icon about address reuse
 2. There is a QR code next to the address. Get the Hardware wallet and Scan the address
     2. Click on it in Sparrow wallet to enlarge
 3. Once it is scanned the device will recognize that it is a bitcoin address and will give you the option to verify it
     3. SeedSigner: Select the seed to verify or load another one (if it is an address of a different seed than the loaded one) for the verification
-4. Verify receiving address on the hardware wallet[images]
+4. Verify receiving address on the hardware wallet
 5. If the verification takes too long (multiple thousands of addresses are checked and no match is found) there is something weird going on. It should raise suspicion
     4. If you restarted SeedSigner and you are in mainnet mode instead of testnet, the address cannot be verified!
     5. Addresses on mainnet differ from testnet for obvious security reasons
 6. After verification you can now use the safe address and do the transfer from the faucet as usual
 
-**Don't trust networked computers from now on. Never put any crucial sensitive data in them, like your cold storage secret keys or passphrases. Only trust your verified hardware wallet.**
+### Don't trust networked computers from now on. Never put any crucial sensitive data in them, like your cold storage secret keys or passphrases. Only trust your verified hardware wallet
+{: .no_toc }
 
-**Secure your hardware wallet so you minimize the threat of tampering(swapping out sd cards or whole device)**
+### Secure your hardware wallet so you minimize the threat of tampering(swapping out sd cards or whole device)
+{: .no_toc }
 
 Even if your computer is not to be trusted, it is also important to note that other computers are less trustworthy which means don’t even run any Wallet software like Sparrow wallet on unknown or unsafe computers.
 
@@ -388,7 +408,8 @@ Your bitcoin tech-architecture looks like this:
 
 ---
 
-**Sparrow and Seedsigner released new versions. Time to update software and firmware securely 💽**
+### Sparrow and Seedsigner released new versions. Time to update software and firmware securely 💽
+{: .no_toc }
 
 ## OBJECTIVE: Upgrade Sparrow and SeedSigner
 
@@ -408,7 +429,7 @@ Your bitcoin tech-architecture looks like this:
 
 ---
 
-**Pat yourself on the back! This is a big step!**
-{: .text-delta }
+### Pat yourself on the back! This is a big step!
+{: .no_toc }
 
 [Next Quest](/order-and-entropy/){: .btn .btn-green }

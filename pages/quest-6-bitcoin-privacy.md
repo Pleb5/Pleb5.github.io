@@ -31,14 +31,14 @@ Now it starts to get more serious. You will realize that security is not just ab
     2. The [wallet clustering](https://oxt.me/directory) of different big fishes is interesting
     3. The [history of bitcoin](https://oxt.me/history) is a very interesting section too
 4. Create a transaction where you merge multiple UTXOs into one UTXO
-    4. Select multiple UTXOs in your wallet on the “UTXOs” tab, with left mouse click while holding “ctrl” button
+    4. Select multiple UTXOs in your wallet on the `UTXOs` tab, with left mouse click while holding `ctrl` button
     5. If you don’t have multiple UTXOs get some from a [faucet](https://signetfaucet.com) or perform a self-spend
-    6. Choose the “Send selected” option. It will take you to the “Send” tab to complete the transaction creation process
+    6. Choose the `Send selected` option. It will take you to the `Send` tab to complete the transaction creation process
     7. Send it to this address
         ```sh
 		tb1q8660fer4ch2twd6xn58e8pau3edkgkvft9a654
 		```
-    8. Fill in a label e.g. `“Merged inputs test”`
+    8. Fill in a label e.g. `Merged inputs test`
 5. Check the privacy ramifications of your transaction in Sparrow 
     9. Sparrow will show you the transaction graph. It shows that two of your UTXOs are the inputs merged into one output and some fee
     10. At the bottom of the page you can see an `“i”` info icon with `“Analysis”` written on it. Hover over it to see the message
@@ -87,22 +87,22 @@ This is where your external information comes in. You know more about your trans
     1. Use different wallets, address types, amounts… Devise interesting life-like scenarios. Imitate KYC bitcoin purchases too for the sake of having some doxxed UTXOs to practice with
     2. Use consistent labeling. E.g.: **To: btcplebs; reason: donation** (lol)
     3. When receiving: **From: joe; reason: sale of old laptop**
-    4. You can override Sparrow’s coin selection by hovering on one of the inputs and clicking the little “x” icon on the Transaction Graph in the Transaction creation window
+    4. You can override Sparrow’s coin selection by hovering on one of the inputs and clicking the little `“x”` icon on the Transaction Graph in the Transaction creation window
     5. You can **make** a doxxing change UTXO **unspendable** by going to UTXOs tab and right click on the “Outputs” column of that specific UTXO. The context menu gives the option to “**freeze**” the UTXO
     6. This way it became unspendable until you “**unfreeze**” it
-2. Read Sparrow docs on [spending privately](https://sparrowwallet.com/docs/spending-privately.html)
+2. 💡 Read Sparrow docs on [spending privately](https://sparrowwallet.com/docs/spending-privately.html)
     7. Many of these privacy practices will become usable when we get to mainnet
-3. Create followup transactions using UTXOs from your initial transactions as inputs. Use sparrow privacy info icon and transaction visualization along with your labels:
+3. Create followup transactions using UTXOs from your initial transactions as inputs. Use Sparrow privacy info icon and transaction visualization along with your labels:
     8. Transactions with good privacy practices
     9. Transactions with potentially doxxing bad privacy practices
 4. Analyze the privacy implications of these followup transactions based on heuristics you learned about. Be the evil chain analysis company. Use a blockchain explorer and add any other external data you would be using to doxx yourself
 5. Export your wallet history and **labels **by generating a Sparrow wallet export file(this feature is based on a BIP so other wallets will implement it in time to be compatible) 
     10. Select the wallet to be exported on the wallets tab
-    11. File --> Export --> Select sparrow --> Save file
+    11. `File` --> `Export` --> Select sparrow --> Save file
     12. The export will use your wallet encryption password to store it safely
-    13. Save the export in your Keepass Database(Advanced --> Add in the Attachments section)
+    13. Save the export in your Keepass Database(`Advanced` --> `Add` in the Attachments section)
     14. Delete the watch-only wallet from Sparrow
-    15. Restore from the Keepass database(Advanced --> Select attachment --> Save) and reload it in Sparrow
+    15. Restore from the Keepass database(`Advanced` --> Select attachment --> `Save`) and reload it in Sparrow
     16. Find your precious labels recovered
 6. Share the experience with friends and the group!
 
@@ -189,20 +189,22 @@ If you get stuck at a certain step try to hit up the bitcoin plebs nostr group[l
 ## OBJECTIVE(optional): Prepare the external 1TB SSD
 
 1. Put the disk in the case and plug in your computer
-2. Launch “Disks” program
-3. Select your 1TB disk and go to settings wheel -> “Format Partition”
-4. Name the disk and go for Ext4 file system
-5. You can password protect the disk too. Make sure to read about LUKS(Linux Unified Key Setup) before doing that because it has some implications you better know
-6. Complete the process. You will see the name of the disk and “Ext4” label appearing instead of the initial “Unkown”
-7. The “Play” button mounts the disk - becomes accessible to the user
-8. The button can unmount if you want. You will use that from now on extensively with your node so don’t do it or stop your node with “bitcoin-cli stop” before unmounting
-9. See the “Mounted at” section. Note the path or write it down. You will need that as the data directory for your node
-10. You can close the Disks program
+2. Launch `Disks` program
+3. Select your 1TB disk and go to Settings wheel --> `Format Partition`
+4. Name the disk and go for `Ext4` file system
+5. You can password protect the disk too. Make sure to read about `LUKS`(Linux Unified Key Setup) before doing that because it has some implications you better know
+6. Complete the process. You will see the name of the disk and `Ext4` label appearing instead of the initial `Unkown`
+7. The `Play` button mounts the disk - becomes accessible to the user
+8. The button can unmount if you want. You will use that from now on extensively with your node so don’t do it or stop your node before unmounting
+9. See the `Mounted at` section. Note the path or write it down. You will need that as the data directory for your node
+10. You can close the `Disks` program
 11. You can check info about your storage devices in the terminal
-    1. lsblk
+    ```sh
+	lsblk
+	```
     2. blk stands for “block device” which is how Linux calls hard disk storage where you read and write blocks of data
-    3. You can think of “sd&lt;a/b/c/d>” as different storage devices
-    4. Storage devices connected through faster means with PCIe (not USB) are named “nvme”: non-volatile memory express. If you connected your SSD this this way it will list it with the this label
+    3. You can think of `<a/b/c/d>` as different storage devices
+    4. Storage devices connected through faster means with PCIe (not USB) are named `nvme`: non-volatile memory express. If you connected your SSD this this way it will list it with the this label
     5. The different partitions are segregated for different tasks in the OS. The list shows them in a tree-structure, stemming from the disk and partitions taking up a chunk of space from it
 12. Done
 
@@ -225,7 +227,7 @@ If you get stuck at a certain step try to hit up the bitcoin plebs nostr group[l
 		gpg --import
 		```
         2. Substitute `<developer name>` for their real name(e.g. `Sjors`) and run this command for all developer keys you want to download
-        3. Use the “up” arrow to easily bring back the previous command and edit the names
+        3. Use the `up` arrow to easily bring back the previous command and edit the names
     7. It might complain about this and that missing or not found but it should say imported
     8. You can go and learn more about gpg “[Web of trust](https://www.gnupg.org/gph/en/manual.html#AEN554)” and how to add trust to these keys when you cross check them
     9. You can cross-check by finding the people online but going to conferences and meetups is also a great way to connect and verify. It could be considered kind of a trophy
@@ -242,7 +244,7 @@ At the time of writing, the process of verification of the executable is the fol
         ```sh
 		gpg --verify SHA256SUMS.asc
 		```
-    3. You should be able to find lines that say `“Good Signature from <developer name you chose to import>`. If you can’t find any then none of the developers you imported signed that release. This can be a warning sign of possible malicious software but since not every bitcoin core developer signs every release, it could be the case that there are other trustworthy developers who signed it. Import more signatures and retry
+    3. You should be able to find lines that say `Good Signature from <developer name you chose to import>`. If you can’t find any then none of the developers you imported signed that release. This can be a warning sign of possible malicious software but since not every bitcoin core developer signs every release, it could be the case that there are other trustworthy developers who signed it. Import more signatures and retry
     4. Now that we can trust the `SHA256SUMS` file, we can verify the downloaded bitcoin core linux archive file with it. That means if we create the hash of the downloaded `bitcoin-24.0.1-x86_64-linux-gnu.tar.gz` file on our machine, it should be listed in the list of precalculated release hashes in the `SHA256SUMS` file. We will ignore missing release files for different platforms:
         ```sh
 		sha256sum --check SHA256SUMS --ignore-missing
@@ -312,13 +314,76 @@ First of all let’s prepare to drive all traffic of Bitcoin Core through the To
     ```sh
 	nano bitcoin.conf
 	```
-5. Edit `bitcoin.conf` like this[image with descriptions. paste as code here?]
-    6. You can browse config options if you open another terminal tab and call the help command on bitcoind. You can search the output with the terminal search function
-        ```sh
-		bitcoind -h
-		```
+5. Edit `bitcoin.conf` like this:
+	```sh
+	#bitcoin core configuration file
+
+	#These vaules can be overwritten by command line arguments
+
+	############## bitcoind options ###################
+
+	#Accept command line and JSON-RPC(remote) commands
+	server=1
+
+	#Run as a background process
+	daemon=1
+
+	# Maintain a full transaction index
+	#This is not an electrum or fulcrum indexer, it does not index addresses
+	txindex=1
+
+	# Let bitcoin core set up its wallet. Sparrow will make use of this
+	disablewallet=0
+
+	# Data directory. Blocks will also be stored here. USE YOUR OWN USERNAME!
+	datadir=/media/five/five-disk/.bitcoin
+
+	# If you have enough capacity in your home folder use that path
+	# datadir=/home/<username>/.bitcoin
+
+	############### Connection settings ###################
+
+	# User and password for authentication. Sensitive stuff!!
+	rpcuser=five
+	rpcpassword=myNodesControlPasswordThisGottaBeStrong!
+
+	# Control port. Standard default
+	rpcport=8332
+
+	#Commented out but can be used later
+	#Allow other computers to control this node e.g. in a home network.
+	#See CIDR notation on how to define ip_addresses:
+	#rpcallowip=<ip_addresses>
+
+	# Bind bitcoind to always listen on this address for commands. Only used with rpcallowip!
+	#rpcbind=127.0.0.1:8332  <--- allow local access along with external access defined in allowip
+
+	# Only connect to Peer Nodes through Tor
+	onlynet=onion
+	proxy=127.0.0.1:9050
+	bind=127.0.0.1
+
+	# Don't let bitcoin core get peers using clearnet dns servers
+	dnsseed=0
+	dns=0
+
+
+	########## Optimizations ############
+
+	# Don't let our mempool of unconfirmed transactions grow above 300MB
+	maxmempool=300
+	maxconnections=40
+	```
+6. If you use an external SSD: bitcoind will look for the `.bitcoin` folder in your home folder by default but there is no such folder in your home directory, only in your SSD mount point. So in order to automatically redirect queries of that directory, create a magic portal to this directory, called a symbolic link or `symlink`. **Use your own username in the path:**
+    ```sh
+	ln -s “/media/<username>/<path_to_folder>/.bitcoin” “/home/<username>/.bitcoin”
+	```
+7. You can browse config options if you open another terminal tab and call the help command on bitcoind. You can search the output with the terminal search function
+	```sh
+	bitcoind -h
+	```
     7. edit, save `ctrl + o` and exit `ctrl + x`
-6. If bitcoind is shut down (due to some error or your computer gets shut down) your node is shut down. Although you might have to sometimes restart it manually when you modify settings in bitcoin.conf, let’s make sure it is run on startup:
+6. If `bitcoind` is shut down (due to some error or your computer gets shut down) your node is shut down. Although you might have to sometimes restart it manually when you modify settings in `bitcoin.conf`, let’s make sure it is run on startup:
     ```sh
 	crontab -e
 	```
@@ -328,10 +393,6 @@ First of all let’s prepare to drive all traffic of Bitcoin Core through the To
 		@reboot sleep 30 ; bitcoind
 		```
         3. This line also lets your SSD be mounted by delaying the launch of bitcoind for 30 seconds after boot. There are other more sophisticated ways to do this with `systemd` scheduler
-7. One last step if you use an external SSD: bitcoind will look for the `.bitcoin` folder in your home folder by default but there is no such folder in your home directory, only in your SSD mount point. So in order to automatically redirect this, create a magic portal to this directory, called a symbolic link or `symlink`. **Use your own username:**
-    ```sh
-	ln -s “/media/five/five-disk/.bitcoin” “/home/five/.bitcoin”
-	```
 8. Start bitcoind by just typing the command:
 	```sh
 	bitcoind
@@ -391,6 +452,7 @@ However, let’s use `Sparrow` in testnet mode just a little more for a couple o
 
 ---
 
-Let's go play around with P2P markets!
+### Let's go play around with P2P markets!
+{: .no_toc }
 
 [Next Quest](/nokyc-bitcoin/){: .btn .btn-green }

@@ -21,9 +21,9 @@ The next step is to complete the guide of setting yourself up for the journey. S
 
 💡Means you will be briefed with basic theoretical knowledge before you go on your objectives. The gist of it will be clear just from these concise descriptions but I will include links here and there to decent additional sources for you to go and learn even more if you like.
 
-**Simply put**: Read -> Apply -> Reflect, share, discuss -> Repeat
+**Simply put**: Read --> Apply --> Reflect, Share, Discuss --> Repeat
 
-Anyone serious about Bitcoin and/or IT security recommends a Linux operating system. Laptops and Desktops have stronger computational capabilities so they are better suited for Bitcoin operations than mobile phones.
+Anyone serious about Bitcoin and IT security recommends a Linux operating system. Laptops and Desktops have stronger computational capabilities so they are better suited for Bitcoin operations than mobile phones.
 
 ## OBJECTIVE: Gear up!
 1. Get a decent new or used Laptop/PC that you dedicate to bitcoin. Main parameters:
@@ -35,11 +35,14 @@ Anyone serious about Bitcoin and/or IT security recommends a Linux operating sys
     4. Place the computer somewhere safe in your apartment and use a wired internet connection
 2. **You can compromise by using a machine with less RAM and SSD because most quests are designed for bitcoin testnet, a simulated bitcoin environment.** However, once you want to change to mainnet for the real deal, you will need to meet the above requirements
 
+---
+
+
 ## OBJECTIVE: Install a fresh Ubuntu Jammy 22.04 LTS
 1. 💡 Learn about the [Linux terminal](/pleb-lessons/#the-linux-terminalaka-linux-command-line-shell-bash/)
-2. If you get stuck Ubuntu website has [a guide too](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
-3. The commands in the guide are not always exact because program versions and file names can vary. Text in \<angle brackets> mean you must replace that with your version. Use **tab completion** often to avoid having to type much and get the commands right
-4. Download the [desktop image](https://www.releases.ubuntu.com/jammy/)[link] on whatever operating system your machine is running right now
+2. If you get stuck Ubuntu website has [a guide too](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)(with images)
+3. The commands in the guide are not always exact because program versions and file names can vary. Text in `<angle brackets>` mean you must replace that with your version. Use `tab completion` often to avoid having to type much and get the commands right
+4. Download the [desktop image](https://www.releases.ubuntu.com/jammy/) on whatever operating system your machine is running right now
 5. Download and install [Balena Etcher](https://www.balena.io/etcher#download-etcher), a great software to burn images. Linux instructions:
     1. Download the Appimage for Linux x64 from the website
     2. AppImage files are portable programs. They can be run without installation
@@ -57,11 +60,11 @@ Anyone serious about Bitcoin and/or IT security recommends a Linux operating sys
 		```
     6. Try to run it again
 5. Burn the image on the USB drive
-6. Reboot your computer from the USB stick and select the first option: “Try or install Ubuntu”
-7. Select “Minimal installation”
-8. Select “Erase disk and install Ubuntu”. Follow instructions
+6. Reboot your computer from the USB stick and select the first option: `“Try or install Ubuntu”`
+7. Select `“Minimal installation”`
+8. Select `“Erase disk and install Ubuntu”`. Follow instructions
 9. Name your user and choose a strong, dedicated password
-10. Leave it on the default “Require my password to login”. Continue
+10. Leave it on the default `“Require my password to login”`. Continue
 11. Complete the process
 12. Once it is done, go for these options for your privacy:
     7. Don’t connect social accounts
@@ -71,25 +74,27 @@ Anyone serious about Bitcoin and/or IT security recommends a Linux operating sys
 14. Set up Firefox
     10. Make it the default browser
     11. Make DuckDuckGo your search engine, it is more private. In the settings search bar you can easily find this setting
-15. Quick tip: To launch an application press the “Super” button(mostly with windows icon) and start typing the name
+15. Quick tip: To launch an application press the `“Super”` button(mostly with windows icon) and start typing the name
 16. Quick tip: Add to favorites (left column) makes things convenient. by Super --> Type name --> Right-click --> Add to favorites
 17. Don’t bloat this system too much with unnecessary apps because it is a risk. Try to keep it restricted to software you need for bitcoin
+
+---
 
 ## OBJECTIVE: Join the Bitcoin Plebs community
 1. 💡Learn about the [nostr protocol](/pleb-lessons/#nostrnotes-and-other-stuff-transmitted-by-relays/) that allows you to connect to the bitcoin plebs community
 2. 💡Learn about the concept of [public key cryptography](/pleb-lessons/#public-key-cryptography/)
 3. Install the **[Alby extension](https://getalby.com/#alby-extension) in your browser**
-4. Create a new Alby account. Lightning address too.
+4. Create a new Alby account. `Lightning address` too.
 5. Backup your password:
     1. In a [Password manager](https://bitwarden.com) 
     2. You can even write it on a piece of paper. Protect against a computer breakdown
 6. Pin the Alby extension in the browser
-7. Navigate to “Discover” in Alby and find the nostr section
+7. Navigate to `“Discover”`` in Alby and find the nostr section
 8. Go to the **[Iris](https://iris.to/)** nostr client. It is a stable browser-based client
-9. Click on “Nostr extension login” link and connect with Alby 
+9. Click on `“Nostr extension login”` link and connect with Alby 
     3. This way, your nostr private key is slightly safer
     4. Confirm Iris to read your public key
-10. Follow my account if you have any questions. Search the nip05 identity or my account public key(npub)
+10. Follow my account if you have any questions. Search the `nip05 identity` or my account public key(npub)
     ```sh
 	five@btcplebs.com
 	```
@@ -110,6 +115,9 @@ Anyone serious about Bitcoin and/or IT security recommends a Linux operating sys
 19. If it went fine, shortly you can see the same profile info and messages you sent on your desktop.
 20. Note: The feature set of different nostr clients can be different depending on what and how they are implemented. Basic messaging should be available on all clients but e.g. Lightning zaps(small amounts of bitcoin sent to another user) or group chat features are not included on all clients. [More info](https://www.nostr.net/) on feature set of nostr clients
 
+---
+## Tor
+{: .no_toc }
 The Tor browser is a powerful privacy tool to fend off snoopers trying to monitor our online activities and potentially do us harm. A bitcoin pleb cannot let this happen. Browsing anything bitcoin-related in clear-net comes with some privacy risks.
 
 Tor is great for looking up simple info but can be a painfully slow experience and time is the scarcest of all things. Instead you can browse with Firefox or [Mullvad browser](https://mullvad.net/en/browser) coupled with [Proton](https://protonvpn.com/)- or [Mullvad](https://mullvad.net/en) VPN service enabled on the desktop. VPN is great but choose wisely because many of the services out there are just a fraud and you trust them not to log your activities and they can start logging without notice anytime the government asks them to do so.
@@ -119,20 +127,23 @@ Tor is great for looking up simple info but can be a painfully slow experience a
 2. Your Ubuntu came with a handy tool to use for encryption and verification: GPG(Gnu Privacy Guard, implementing the OpenPGP standard). Open a terminal to use it
     1. Super + start typing “terminal”(add to favorites with right-click)
 3. Go to the [website](https://www.torproject.org/) of the Tor project. It should be a simple https website(check the little lock icon in the address bar)
-4. Go to Download Tor Browser and select Linux
+4. Go to `Download Tor Browser` and select Linux
 5. Download the signature file as well
-6. Click on the little question mark or go to [this link](https://support.torproject.org/tbb/) to learn how to verify Tor browser
-7. You should follow the Linux 64-bit instructions (and use man \<command> where you are unsure). The process of verification is straightforward:
-    2. You download the public key(or get it by any other means) of the developer(s)
-    3. You import it into gpg
-    4. You download a signed file or a file and a detached signature file
-    5. You verify the signature of the file against the public key
-    6. Note: The process can vary for different software but the fundamentals remain the same
-8. Install Tor browser with the command line method [according to instructions](https://tb-manual.torproject.org/installation/)
-    7. In the terminal navigate into the download directory
-        ```sh
-		cd ~/Downloads
-		```
+7. In the terminal navigate into the download directory
+	```sh
+	cd ~/Downloads
+	```
+8. Verify Tor Browser (use man \<command> where you are unsure)
+    2. You download the public key(or get it by any other means) of the developer(s) and import it in gpg
+    ```sh
+	gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
+	```
+    6. You verify the signature of the file against the public key
+    ```sh
+	gpg --verify tor-browser-linux64-12.0.5_ALL.tar.xz.asc
+	```
+    8. Note: Verification processes can vary for different software but the fundamentals remain the same
+9. Install Tor browser with the command line method [according to instructions](https://tb-manual.torproject.org/installation/)    
     8. Run the command to extract the archive
         ```sh
 		tar -xf tor-browser…. <press Tab to complete>
@@ -147,12 +158,14 @@ Tor is great for looking up simple info but can be a painfully slow experience a
 		```
     11. Run Tor browser. First time run it with a command argument to register the desktop app
         ```sh
-		./start-tor-browser<press Tab> –register-app
+		./start-tor-browser<press Tab> --register-app
 		```
-	12. You can now launch Tor browser using the Super + \<typing> method
+	12. You can now launch Tor browser using the `Super + <typing>` method
 	13. Add Tor browser to favorites
 
 When you are doing anything bitcoin-related the most interaction is going to be with your bitcoin wallet software. This is the brain coordinating your efforts to manage and monitor your funds. One of the most popular wallets today is Sparrow wallet. It allows for ease of use while implementing advanced features. Learning bitcoin starts with Sparrow wallet in my opinion. So let’s start to use it!
+
+---
 
 ## OBJECTIVE: Start using Sparrow wallet
 1. Open Firefox browser and navigate to the [Sparrow wallet website](https://sparrowwallet.com/)(clearnet link)
@@ -192,6 +205,8 @@ When you are doing anything bitcoin-related the most interaction is going to be 
 
 Bitcoin plebs have a wonderful training ground to hone their skills in a safe environment. It is called bitcoin testnet. These are bitcoin networks that function almost the same as the “mainnet” - i.e. real-money version, just they are for testing, learning and experimenting with fake-bitcoin. There are multiple testnets for different purposes. The one you will use is quite new and it’s called “Signet”.
 
+---
+
 ## OBJECTIVE: Configure Sparrow to launch in signet mode
 1. The easiest way to make Sparrow always launch in signet mode is to set a so-called “environment variable” which is just a fancy term for “I want this program to run with these special parameters”
 2. In the terminal edit this file that contains important things to run at startup
@@ -202,33 +217,34 @@ Bitcoin plebs have a wonderful training ground to hone their skills in a safe en
     ```sh
 	export SPARROW_NETWORK=”signet”
 	```
-4. Then insert another line allowing you to launch Sparrow from anywhere in the terminal not just where it is actually located(/opt/sparrow/bin)
+4. Then insert another line allowing you to launch Sparrow from anywhere in the terminal not just where it is actually located `/opt/sparrow/bin`
     ```sh
 	export PATH=”$PATH:/opt/sparrow/bin”
 	```
-5. Save the file: ctrl + o, enter
-6. Exit nano: ctrl + x
+5. Save the file: `ctrl + o --> enter`
+6. Exit nano: `ctrl + x`
 7. Restart your computer for it to take effect
     ```sh
 	reboot
 	```
 8. Now you can launch Sparrow and add it to favorites
-9. There is an initial mini-tutorial. At the end you can configure your server settings
+9. On first launch it gives you an initial mini-tutorial. At the end you can configure your server settings
 10. This setting is also available from File menu
-11. In the Server settings connect Sparrow to the bitcoin plebs signet server through tor
-    5. Select Private Electrum as Server Type
-    6. Edit the URL and Port field, respectively:
+11. In the `Server settings` connect Sparrow to the bitcoin plebs signet server through tor
+    5. Select `Private Electrum` as Server Type
+    6. Edit the `URL` and `Port` field, respectively:
         ```sh
 		nvsnjmymbis5o3jnzplzzula4tkdh5ygpzoideao5jg53wigqbqpvaid.onion
 		```
 		```sh
 		50021
 		```
-12. Press the “Test Connection” button and follow the logs. You should arrive at a screen something like this
-    8. Sparrow is not connecting to the Bitcoin Plebs signet server through tor
+12. Press the `“Test Connection”` button and follow the logs. You should arrive at a screen something like this
+    8. Sparrow is now connecting to the Bitcoin Plebs signet server through tor
 13. Click Close
-14. Now your screen should look like this. In the bottom-right corner you have the Server switch turned on and color blue, and next to it you see a sign that you are connected through tor which greatly increases your privacy
-15. If Sparrow loses connection for any reason and you cannot re-establish it with the bitcoinplebs node, you can try these alternative signet nodes, ALL on port `38333`
+14. In the bottom-right corner you have the `Server switch` turned on and color blue, and next to it you see a sign that you are connected through tor which greatly increases your privacy
+15. Hover over the icons with your mouse to check additional info. In Sparrow you can hover over many things and it will give you great additional insights
+16. If Sparrow loses connection for any reason and you cannot re-establish it with the bitcoinplebs node, you can try these alternative signet nodes, ALL on port `38333`
     ```sh
 	s7fcvn5rblem7tiquhhr7acjdhu7wsawcph7ck44uxyd6sismumemcyd.onion
 	```
@@ -244,9 +260,10 @@ Bitcoin plebs have a wonderful training ground to hone their skills in a safe en
     ```sh
 	nsgyo7begau4yecc46ljfecaykyzszcseapxmtu6adrfagfrrzrlngyd.onion
 	```
-16. Hover over them with your mouse to check additional info. In Sparrow you can hover over many things and it will give you great additional insights
 
-**Congratulations! You are all set!**
-{: .text-delta }
+---
+
+### Congratulations! You are all set!
+{: .no_toc .text-delta }
 
 [Next Quest](/the-journey-begins/){: .btn .btn-green }

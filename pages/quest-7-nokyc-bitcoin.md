@@ -27,7 +27,7 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
 
 1. 💡 Learn about the [P2P market ecosystem and how to get NoKYC bitcoin](/pleb-lessons/#p2p-markets-and-nokyc-bitcoin)
 2. Reboot Sparrow in legacy-testnet mode
-    1. From menu: Tools --> Restart in Testnet
+    1. From menu: `Tools` --> `Restart in Testnet`
     2. From the command line. Close Sparrow then:
         ```sh
 		Sparrow -n testnet
@@ -35,7 +35,7 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
     3. Luckily legacy testnet has a built-in public server option. Connect to that in the server preferences. Sparrow server button should be yellow now
     4. Create 2 new testnet hot wallets. No encryption password necessary for these
     5. Get some testnet coins for one of the wallets from a testnet faucet
-        2. Try [this](https://testnet-faucet.mempool.co/) or [this](https://coinfaucet.eu/en/btc-testnet/) or [this](https://testnet-faucet.com/btc-testnet/)[links]
+        2. Try [this](https://testnet-faucet.mempool.co/) or [this](https://coinfaucet.eu/en/btc-testnet/) or [this](https://testnet-faucet.com/btc-testnet/)
     6. You are ready to try out P2P trading on testnet
 
 ---
@@ -45,15 +45,15 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
 1. Go to HodlHodl [testnet version](https://hhtestnet.com/)
 2. Create 2 testnet accounts. You will need 2 test email addresses
     1. For privacy:
-		2. You can use duck [email protection](https://duckduckgo.com/email/faq)
+		2. You can use duck [email protection](https://duckduckgo.com/email/faq) for free
 		3. Protonmail aliases if you pay for a [mail plus subscription](https://proton.me/mail/pricing)[not an affiliate link]
 		4. Or these two combined
 		5. Or just use separate email addresses
     6. Generate and Save your passwords in your Keepass of course(or cloud based password manager since this testnet accounts are not that crucial)
     7. Confirm accounts and log in both of them with different browser sessions(incognito tab or different browsers)
-    8. Either now or later at the trade you will be asked to create an extra “trade password” in the Account settings. Save those too they are important
-3. Copy an unused address in your testnet wallets and save them in your HodlHodl accounts. This is used as the btc buyer’s “release address” where funds arrive after he paid for the sats in fiat
-    9. Click on your username in HodlHodl and select dashboard
+    8. Either now or later at the trade you will be asked to create an extra `“Trade password”` in the `Account settings`. Save those too they are important
+3. Copy an unused address in your testnet wallets and save them in your HodlHodl accounts. This is used as the btc buyer’s `Release address` where funds arrive after he paid for the sats in fiat
+    9. Click on your username in HodlHodl and select `Dashboard`
     10. Go to Settings and paste the address there from Sparrow
     11. **Always use a different unused release address for every trade**
 4. Create an offer to SELL bitcoin with one of the accounts. This is your maker account for this trade
@@ -66,7 +66,7 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
     18. Change from `“Fixed amount”` to `“Amount range”` for the offer. Don’t go over your sender wallets limit because you won’t be able to sell the sats you don’t have ;)
     19. Go to `“Create new payment instruction”`
     20. Choose any payment method. It doesn’t matter since there will be no real fiat payment
-    21. Use 24 hours access option and add an `Offer Description`
+    21. Use 24 hours access option and add an `Offer Description` if you want
     22. See how the trade process goes at the bottom of the page
     23. Click `“Create offer to sell BTC”` (hopefully last time you do this ;)
 5. Go to the other account and take the offer
@@ -76,7 +76,8 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
     27. Click on the offer and it shows the details. Enter an amount in the range. Look at how the fees and other trade data changes
     28. Double-check the `bitcoin receive address`
     29. Accept the offer
-    30. Look at the page and browse all the info. Then click on `“Generate escrow”`. Enter payment password
+    30. Look at the page and browse all the info. Then click on `“Generate escrow”`
+    31. Enter payment password
 6. Go to the maker account in the other browser and carry on with the trade
     31. Go to `“My Contracts”` and click on the pending contract
     32. Click on `“Generate escrow”` and enter password
@@ -113,7 +114,7 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
     9. Scroll down to Testnet and go to the onion address site
     10. The unsafe clearnet site is more stable
 3. Note: This exercise works with one Tor browser but it can be buggy sometimes. It is easier to do it different Tor browsers but Tor does not allow multiple browser instances to be opened. So either use another computer/android mobile phone with a Tor browser OR Use clearnet Robosats with the other trading party
-4. Generate your one-time Robots(maker) for the trade
+4. Generate your one-time Robot(maker) for the trade
     11. Click `"Generate Robot"` and save the token then continue
     12. Backup the robot token always when you create one. It is just for one trade, can be in a simple offline text file
     13. Click `“Create”` and this time choose the btc buyer role for the maker
@@ -127,10 +128,10 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
     19. Lightning wallets might complain that the payment was unsuccessful but the hold invoice still gets paid this way
     20. It should make the payment. If no route was found, just refresh page or go to another browser and try again
     21. Once it is paid your offer is public
-5. Generate the taker Robot and take the order. You can do this from an android phone, or another machine or the same machine as a last resort do this:
+5. Generate the `Taker Robot` and take the order. You can do this from an android phone, or another machine or the same machine as a last resort do this:
     22. Open another tab in Tor browser and navigate to testnet Robosats again
     23. You can add another Robot in the same `“Robot garage”` on the Robot tab
-6. Go to the offers tab and find your offer. If you created a buy offer then go to sell or the other way round. Make sure the currency matches
+6. Go to the `Offers` tab and find your offer. If you created a buy offer then go to sell or the other way round. Make sure the currency matches
 7. Click on the offer and see details. Enter minimum amount and take order
 8. Pay the taker bond from `htlc.me` or Phoenix wallet
     24. **Don’t run out of time**
@@ -210,7 +211,7 @@ Sparrow wallet has been connecting to the Bitcoin Plebs Signet node. To launch S
 
 1. Check with `htop` that your node restarted after reboot
 2. Open `Sparrow` in mainnet mode
-3. Go to `File --> Preferences --> Server`
+3. Go to `File` --> `Preferences` --> `Server`
 4. (If you already have a connection then press `“Edit Existing Connection”`. Server Configuration settings become editable)
 5. Select `Bitcoin Core` from the server options
 6. In the `Bitcoin Core RPC` section you see some settings
@@ -275,7 +276,7 @@ If the transaction fees rise (which is supposed to be a good thing that improves
 
 1. 💡 Learn about Lightning wallets from this [comparison article](https://darthcoin.substack.com/p/lightning-wallets-comparison)
 2. You can watch [this tutorial video](https://youtu.be/XW_wzRz_BDI) about Robosats from BTC Sessions
-3. Probably your best choice would be to use something that [Robosats lists](https://learn.robosats.com/docs/wallets/) as fully compatible AND is desktop compatible as well. [Alby](https://getalby.com/) is my go-to wallet in this case. It goes very well with using nostr on desktop too
+3. Probably your best choice would be to use something that [Robosats lists](https://learn.robosats.com/docs/wallets/) as fully compatible AND is desktop compatible as well. If you go custodial, [Alby](https://getalby.com/) is a decent choice in my case. It goes very well with using nostr on desktop too
     1. On mobile the choice is not so obvious because of all sorts of potential compatibility issues
 4. Install the `Alby extension` on a compatible browser according to instructions if you haven't already
 5. Create an account with a private email address(no gmail)

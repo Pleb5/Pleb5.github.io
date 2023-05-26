@@ -17,7 +17,8 @@ permalink: /order-and-entropy/
 
 ---
 
-**You realize your housekeeper could have read your sensitive information in your paper notebook all along.**
+### You realize your housekeeper could have read your sensitive information in your paper notebook all along
+{: .no_toc }
 
 Since your **paper notebook** contains sensitive private information about your bitcoin-related things it is ill-advised to keep it in plain text on your desk in the long run. Also, backing up and updating hand-written text if anything changes is an arduous task.
 
@@ -37,7 +38,8 @@ You might also have some important **digital notes** unencrypted on your compute
 
 ---
 
-**Now take a look at your computer generated password/passphrase and compare it to the wallet Password or the BIP39 Passphrase you picked.**
+### Now take a look at your computer generated password/passphrase and compare it to the wallet Password or the BIP39 Passphrase you picked
+{: .no_toc }
 
 ## OBJECTIVE: Transfer bitcoin metadata to Keepass
 
@@ -55,11 +57,11 @@ You might also have some important **digital notes** unencrypted on your compute
 		passwd
 		```
 9. You can copy your handy digital notes in this database too
-10. Any privacy or security leak could be harmful for your bitcoin even if it is not bitcoin related at first glance. Therefore, change all your passwords to stronger, generated ones and enable two-factor authentication wherever possible[totp image]
+10. Any privacy or security leak could be harmful for your bitcoin even if it is not bitcoin related at first glance. Therefore, change all your passwords to stronger, generated ones and enable two-factor authentication wherever possible
     9. Optional: For non-bitcoin related things you can also use Bitwarden which is cloud-based and much more convenient for mobile. It is open-source and has a free plan. Back it up from time to time in KeePassXC as an attachment. In that case, shred the downloaded file afterwards
     10. Optional: You can use U2F (Universal two-factor authentication) if you use Bitwarden. It is in the paid plan
     11. **Don’t use bitwarden or any cloud-based service for bitcoin-related passwords and metadata**
-11. From now on never leave your computer unlocked!(Keyboard Super+L usually)
+11. From now on never leave your computer unlocked!(Keyboard `Super+L` usually)
 
 ---
 
@@ -94,7 +96,8 @@ Your first line of defense is your skills and knowledge. However, a strong commu
 
 ---
 
-**Time for your meta-data backup**
+### Time for your meta-data backup
+{: .no_toc }
 
 ## OBJECTIVE: Backup the KeePass database on industrial micro sd cards
 
@@ -110,7 +113,8 @@ Your first line of defense is your skills and knowledge. However, a strong commu
 
 ---
 
-**Congratulations!**
+### Congratulations!
+{: .no_toc }
 
 This is an important step in your journey. The meta-data you have just backed up is an important basis for designing a strong Bitcoin Self-Custody system. You can improve your setup to be ever smarter, faster and stronger. Keep those sd cards safe.
 
@@ -124,7 +128,7 @@ This is an important step in your journey. The meta-data you have just backed up
 
 ---
 
-**Let's get really private! :)**
-{: .text-delta }
+### Let's get really private! :)
+{: .no_toc }
 
 [Next Quest](/bitcoin-privacy/){: .btn .btn-green }

@@ -136,46 +136,47 @@ You can see your wallet setup and flow of your funds layed out in front of you. 
 3. Design the number of copies of each required piece of information
 4. Determine the storage medium, package, location and holder of each copy
     2. Think about the security of those places and the people you want to trust. Guns and safes are good. Secret places can be compromised more easily
-5. Start your own threat model and security best practices document and refine the setup
-    3. Look at the “Threat Modeling and security best practices” template[link] for inspiration
+5. Start your own threat model document
     4. Prioritize possible threats you want to defend against
-    5. Refine your setup
+    5. Devise a reaction-scenario
+    6. Refine your Citadel setup if needed
 6. Look at it with your loved ones. Talk about it and refine it once again.
     6. Go over the design choices, tradeoffs and possible vulnerabilities with them
-    7. Go over the inheritance procedure. Write it down or model it in the diagram or both. You could add wallets for this purpose specifically if you want.
-    8. Cover any other important cases like traveling and vacation, possible relocation of residence, 
-7. Save your work in the Keepass Database
-8. Export your diagrams in editable and view-only(pdf) format
-9. Delete the original file
+    7. Go over the inheritance procedure. Write it down or model it in the diagram or both. You could add wallets for this purpose specifically if you want
+    8. Cover any other important cases like traveling and vacation, possible relocation of residence...
+8. Export your diagrams in editable and view-only(pdf) format and save them in KeePass
+9. Delete the original unencrypted files
 10. Create new records in your Keepass database for each wallet and save important data
     9. Wallet encryption password
-    10. Wallet fingerprint and any notes 
+    10. Wallet fingerprint and any notes
     11. Add attachment: Sparrow wallet export which contains your labels as well
-    12. Add any other attributes for easy overview, edit and copy, in the “Additional attributes” section: Storage mediums, packages, locations, holders etc. by private key copies
-    13. Use tags and folders for easier search
-11. Define when and how you will maintain and audit your Citadel
+    12. Add any other attributes for easy overview, edit and copy, in the `“Additional attributes”` section: Storage mediums, packages, locations, holders etc. by private key copies
+13. Save your Security-Privacy best practices in KeePass
+14. Use tags and folders in KeePass for easier search
+16. Define when and how you will maintain and audit your Citadel
     14. Check on trustees
     15. Check secret places if any
     16. Check wallet balances
         1. You can choose to check on them regularly by having them open in watch-only mode Sparrow. The tradeoff is that your Xpubs could be leaked by your networked computer. Always use strong encryption passwords for wallet files
     17. Occasional Privacy sanitations
-12. Create instructions for trustees
+17. Create instructions for trustees
     18. Cover the cases described above
     19. You can implement a protocol with them about what to do in certain situations.
         2. How you would normally ask for the info they hold and what to do if you seem to be under duress or anything is off with you
-13. Meet your trustees and have a conversation. Share the instructions with them. Emphasize that they are no “single points of failure”. They hold important information but they are not holding your life savings. It is just additional insurance
-14. Develop drills for your heirs and trustees to learn to use your stack and understand bitcoin. Get creative. Share them in the group!
-15. Optional: Lay out a plan for upgrade in the future
+18. Meet your trustees and have a conversation. Share the instructions with them. Emphasize that they are no “single points of failure”. They hold important information but they are not holding your life savings. It is just additional insurance
+19. Develop drills for your heirs and trustees to learn to use your stack and understand bitcoin. Get creative. Share them in the group!
+20. Optional: Lay out a plan for upgrade in the future
     20. What upsides the upgrade will bring
     21. When and how you will upgrade it
-16. Bitcoin is still young. Many Self Custody solutions may come in 5-10 years that will make you reconsider your design. Count on this.
+21. Save all your work in the Keepass Database. Copy it to the backup microSD cards
+22. Bitcoin is still young. Many Self Custody solutions may come in 5-10 years that will make you reconsider your design. Count on this.
 
 ---
 
 ### Great! This is what I call Proof of Work!
 {: .no_toc }
 
-Now you can consider yourself a real bitcoin pleb!
+**Now you can consider yourself a real Bitcoin Pleb!**
 
 Share your experience with this journey and of course…keep learning because this is just the beginning.
 
