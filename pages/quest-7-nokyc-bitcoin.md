@@ -292,4 +292,4 @@ If the transaction fees rise (which is supposed to be a good thing that improves
 
 You completed all the challenges so far on your path to become a Bitcoin Pleb! Now that you have mastered all these tools it is time to graduate!
 
-[Next Quest](/nokyc-bitcoin/){: .btn .btn-green }
+[Next Quest](/build-your-citadel/){: .btn .btn-green }
