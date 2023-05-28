@@ -1187,14 +1187,24 @@ The minimal distance between the factors should be considered your bottleneck. A
 ---
 
 ### Signing
+Signing can be done all on you own or involving your trustees. If you have a “signatory”, a trustee that understands bitcoin, then you can establish a signing protocol with them. The protocol can be very simple like "I will call you at least a week before the transaction" or very sophisticated like asking for IDs, showing in public places, having to answer specific questions and so on.
 
-Single-sig multifactor signing has to occur with the factors combined somehow in one place, loaded into a hardware wallet most definitely.
+This can be helpful to secure crucial transactions. Your trustee can knows you and might observe that something is off with you. For example she picks up on an SOS signal from you calling for help according to your unique established protocol. Or just observes that you did not initiate the transaction according to protocol. In these cases the trustee can call the police and/or refuse to help with the signature process.
 
-There is of course the possibility of getting the factors through encrypted means, e.g. Signal or PGP. It is quite hard to avoid having to expose your sensitive information in an unencrypted cleartext form in this case. You have to decrypt that message somehow and hardware wallets are deliberately feature-truncated machines so they are probably unable to do that. Your data will be leaked all over the place, hopefully in an encrypted form only but this is not the greatest guarantee of safety.
+#### Signing with single-sig
+Single-sig multifactor(and non-taproot) signing has to occur with the factors combined somehow in one place, loaded into a hardware wallet most definitely.
 
-Mostly you will be combining your factors by physically bringing them to each other. This will mitigate some of the problems above. It will be inconvenient but if it is cold storage, it should be hard to do after all. 
+There is of course the possibility of getting the factors through encrypted means, e.g. Signal or PGP. It is quite hard to avoid having to expose your sensitive information in unencrypted cleartext form in this case. You have to decrypt that message somehow and hardware wallets are deliberately feature-truncated machines so they are probably unable to do that. Your data will be leaked all over the place, hopefully in an encrypted form only but this is not the greatest guarantee of safety.
 
-Multisig could be an exception here. If you have a “signatory”, a trustee that understands bitcoin, then you can ask that person to sign the transaction for you. Of course you should then establish some protocol that helps mitigate the possibility that someone could impersonate you or apply duress to get your bitcoin. If your trustee knows you better and sees that something seems to be off with you, he/she can call the police and/or refuse to sign.
+Mostly you will be combining your factors by physically bringing them to each other. This will mitigate some of the problems above. It will be inconvenient but if it is cold storage, it should be hard to do after all. You load the wallet combining the factors, create a transaction in Sparrow and sign it. Then you return the sensitive pieces of information to their safe places.
+
+#### Signing with multisig
+
+Signing a multisig transaction from scratch (you don't have your multisig wallet open) will start by loading the wallet Descriptor in a wallet software that can coordinate multisig wallets like Sparrow. This is done by loading all participant Xpubs and setting the quorum policy(e.g. 2 of 3) or loading the whole Descriptor in one go if you have it backed up e.g. in QR code form.
+
+Then you just create the PSBT and load it into a hardware signer like SeedSigner. You can use multiple types of signers(e.g. Coldcard + Seedsigner) for added safety. You review the transaction, sign it and load the signed PSBT back into Sparrow. Then do this process again, this time loading a PSBT with one signature already there, to produce a second signature on a hardware signer. This process goes on with passing the PSBT, signing and passing it back, until enough signatures have been produced for the minimum threshold of the quorum. You can (and should) of course do the signing rounds with the different keys so that only the PSBT travels, never the keys. This is quite safe because no one can compromise the keys in a signing session.
+
+In the end it is quite similar to the process to deal with single-sig wallets, with the added ping-pong with the PSBT-s. You can watch a [video](https://youtu.be/qJ_SpQX_YKw?list=PLxdf8G0kzsUUqr4oVXRHL1L-iK1q9hCfq&t=1504) about this from BTC Sessions about multisig.
 
 ---
 
