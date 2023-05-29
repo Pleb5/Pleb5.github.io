@@ -225,7 +225,8 @@ The block validation is done by all full-fledged bitcoin nodes. They check for v
 
 This is where the recipient comes into play. If she also runs a node or connects to a trusted node, she can verify that the payment happened based on the information of that node. As soon as the payment recipient’s node receives the mined block containing the transaction of interest and validates it, it then signals to the recipient’s wallet software(Sparrow) that “hey, a transaction that your wallet is interested in has just been confirmed!” and the confirmation is displayed on your screen. 
 
-You are happy, the sender is happy and the miner is happy too, because they got the fees from the transaction and they got the **“block subsidy”**, the amount of bitcoin that they can give themselves for this great service of doing the Proof of Work mining.
+You are happy, the sender is happy and the miner is happy too, because they got the fees from the transaction and they got the **“block subsidy”**, the amount of bitcoin that they can give themselves for this great service of doing the Proof of Work mining:
+[![Bitcoin Transactions](/assets/img/diagrams/bitcoin_transaction.drawio.png)](/assets/img/diagrams/bitcoin_transaction.drawio.png){:target="_blank"}
 
 So if you wanted to visualize the bitcoin network, what you would see is nodes connecting to each other and tossing around unconfirmed transactions and mined blocks. Your wallet is “just” a tool to help interact with this network according to your needs.
 
@@ -243,9 +244,10 @@ This is done by the sender unlocking the inputs first with her cryptographic sig
 
 The new output is now tied to your address which means it is locked to your public key under the hood. This effectively transfers ownership of that chunk of bitcoin to you because you are the only one capable of unlocking that chunk now with your private key by creating a consecutive transaction where this UTXO becomes the input.
 
-UTXOs can be thought of as banknotes because they hold an exact amount of bitcoin. This means that when you want to spend your UTXO you always unlock the whole chunk, not just a portion of it. Say you have to pay 10.000 satoshis(100.000.000 satoshis are one bitcoin and the network only understands satoshis under the hood) for a gum but you have a UTXO that is 5000 and another that is 8000. Your wallet combines these UTXOs as inputs and creates an output of 10.000 sats locking it to the gum seller’s address.
+UTXOs can be thought of as banknotes because they hold an exact amount of bitcoin. This means that when you want to spend your UTXO you always unlock the whole chunk, not just a portion of it. Say you have to pay 10.000 satoshis(100.000.000 satoshis are one bitcoin and the network only understands satoshis under the hood) for a gum but you have a UTXO that is 5000 and another that is 8000. Your wallet combines these UTXOs as inputs and creates an output of 10.000 sats locking it to the merchant's address:
+[![HD wallets and UTXOs](/assets/img/diagrams/hd_wallets_and_utxo_model.drawio.png)](/assets/img/diagrams/hd_wallets_and_utxo_model.drawio.png){:target="_blank"}
 
-So what happens to that 3000 extra? Well, let’s say you pay an additional 1000 in fees for the miners to incentivize them to include your transaction in their block. The remaining 2000 is what we call the **change output **and it is locked to one of your **change addresses** which is just the same as a receive address so you can later spend that too of course**. **
+So what happens to that 3000 extra? Well, let’s say you pay an additional 1000 in fees for the miners to incentivize them to include your transaction in their block. The remaining 2000 is what we call the **change output** and it is locked to one of your **change addresses** which is just the same as a receive address so you can later spend that too of course.
 
 The fee is implied, so it does not create an additional output(we save some bytes of data this way). The miners know this from the transaction data. The input amounts of a bitcoin transaction are therefore always greater than or equal (zero fees paid) to the output amounts if we add them up. 
 
@@ -417,9 +419,9 @@ This is another case when hardware wallets come handy. Since there is a much low
 
 #### Connection between Sparrow and the hardware wallet
 
-So your private key has been generated on this specialized device. Is your hardware wallet now isolated forever from Sparrow? Of course not because 
+[![Initial Architecture](/assets/img/diagrams/architecture_bitcoinplebs_quest_4.drawio.png)](/assets/img/diagrams/architecture_bitcoinplebs_quest_4.drawio.png){:target="_blank"}
 
-
+So your private key has been generated on this specialized device. Is your hardware wallet now isolated forever from Sparrow? Of course not because:
 
 * Sparrow needs to know about your public key to generate bitcoin addresses and watch your balance. So you have to import it in Sparrow somehow
 * Your transactions are created by Sparrow with help from your node and they need to be **signed** somehow with the private key. So Sparrow constructs the transaction, sends this transaction data (PSBT - Partially Signed Bitcoin Transaction) to the hardware wallet for signing and then it has to be communicated back to Sparrow for broadcasting the signed transaction to the network.
@@ -485,7 +487,8 @@ If you are planning to use multisig it is even more advised to have multiple typ
 
 ## Entropy
 
-As it stands in 2023, this is the **usual **time for a hacker to crack passwords/passphrases[image]:
+As it stands in 2023, this is the **usual** time for a hacker to crack passwords/passphrases:
+[![brute force password cracking](/assets/img/brute_force_password_cracking.png)](/assets/img/brute_force_password_cracking.png){:target="_blank"}
 
 The 12 words you wrote down are from the bip39 list of 2048 possible mnemonic words, as mentioned before. This represents at least 128 bits of entropy(+4 bits checksum) for a 12-word secret, **as long as this was truly randomly-generated data**. Capturing real-life physical entropy from our environment is crucial therefore.
 
@@ -504,7 +507,7 @@ You now realize that your passphrase is not on the same level of security as you
 
 ### General Privacy considerations
 
-Privacy is discussed quite a lot these days but most people ignore the alarming amount of surveillance we are put under by governments all the time[image].
+Privacy is discussed quite a lot these days but most people ignore the alarming amount of surveillance we are put under by governments all the time.
 
 Quote from the Bitcoin [Whitepaper](https://nakamotoinstitute.org/static/docs/bitcoin.pdf) Chapter 10. about privacy by Satoshi himself:
 
@@ -529,6 +532,7 @@ This has serious consequences:
 
 6. Once you have bought KYC bitcoin on a traditional exchange like Coinbase, Kraken, Binance, Swan… that record is there forever in a centralized database. They know at least how much you bought and who you are. And assume they share everything with the government. You will have to account for these in case they expect you to do so.
 7. And so you come up with all this “boating accident” type of “I lost it” or “I donated it all away” but they are not dumb. They can issue subpoenas and put you and your circles under tremendous stress
+[![Privacy and KYC](/assets/img/diagrams/privacy_and_kyc.drawio.png)](/assets/img/diagrams/privacy_and_kyc.drawio.png){:target="_blank"}
 8. Gist of it: 
     1. You should have a substantial NoKYC bitcoin stash. NoKYC means of course that the purchase is very hard to be tied to your name. If you have NoKYC bitcoin you solve many privacy headaches at the root. Of course you can still improve on privacy even if you bought NoKYC. And you should. But you’re much better-off.
     2. KYC bitcoin is regulated and therefore is impaired property compared to NoKYC bitcoin
@@ -849,6 +853,8 @@ Fiat accounts are trusted in Bisq through a process called “signing” where y
 
 You can see that the more decentralized a platform is, the more reputation algorithms come into play, sometimes also called “Web of trust”. These are methods to incentivize good behavior for everyone’s sake, however it is hard to get it right. If the platform is more centralized it tends to determine reputation more vaguely and you are more exposed to the centralized coordinator/arbitrator meaning people’s subjective whims on who can use the platform and how.
 
+[![buy btc nokyc](/assets/img/diagrams/buy_btc_nokyc.drawio.png)](/assets/img/diagrams/buy_btc_nokyc.drawio.png){:target="_blank"}
+
 ---
 
 ### General advice on P2P trading
@@ -879,7 +885,7 @@ They say life’s a game. We know that life’s not just a game nevertheless we 
 
 So let’s play with the idea that you are the defender of your sats and many threats, be it acts of God or people, are trying to take away those sats from you. This is the game you are playing when you Self-Custody your bitcoin, therefore you must adopt an adversarial mindset.
 
-When you think about the possible threats to your bitcoin stash you must **identify** threats, **evaluate** the probabilities and possible consequences of these threats and proactively set up defenses to **mitigate** these threats. You cannot cannot analyze all the possibilities so you **prioritize. **
+When you think about the possible threats to your bitcoin stash you must **identify** threats, **evaluate** the probabilities and possible consequences of these threats and proactively set up defenses to **mitigate** these threats. You cannot cannot analyze all the possibilities so you **prioritize**.
 
 How to do that? You assume that an attacker carries out an attack the best way they can. You assume that your house might be robbed or catch fire or be destroyed by an earthquake or whatever is more common in your area. You assume your networked computer is already owned and all your keystrokes are logged. You assume that a friend can go rogue under certain circumstances. You assume that you might forget your seed words or give it away when threatened. You assume that you will act emotionally after events like a breakup or the sudden death of a family member and screw up even easy tasks. You must take these things into account and count on these happening. Visualize these events. Face the threats and counteract prematurely. This is a probabilities game. You can’t go blindfolded on the path. It is irresponsible and will bring you pain and suffering. Of course at least that can be a more useful lesson for you than anyone could offer.
 
@@ -1072,6 +1078,7 @@ The wallet descriptor is born when the multisig wallet is born. All Xpubs have t
         * Relocation of residence
         * Emergency sweeps/spends
         * …
+
 ---
 
 ##### 2 of 3 multisig
@@ -1130,7 +1137,7 @@ You can make multiple backup copies of the 2 Quorum keys to eliminate single poi
 
 You can now see how 2 of 2 multisig eliminates most of the usual downsides of multisig and provides the security of any two-factor method with some additional benefits which makes it a great candidate for a cold storage solution with simplicity in mind.
 
-[Image about 2 of 3 vs. 2 of 2 multisig: sets of key backups to secure] \
+[![2 of 3 vs. 2 of 2 multisig](/assets/img/diagrams/2_of_2_vs_2_of_3_multisig.drawio.png)](/assets/img/diagrams/2_of_2_vs_2_of_3_multisig.drawio.png){:target="_blank"}
 
 ---
 
@@ -1225,6 +1232,10 @@ The downside is that there are certain limitations on miniscript that do not all
 **OP_VAULT** would basically enable you to implement reactive protection. Spending bitcoin from vaulted wallets would be approved only after a given time delay period during which you can sweep your funds into another wallet, allowing you to unvault coins in a simple way but having a super secure cold wallet escape recovery path vetoing any unsanctioned transactions. It makes use of tapscript and would need an additional protocol upgrade (soft consensus fork) of bitcoin script which could delay its adoption significantly knowing how slowly and rigorously they implement protocol changes nowadays(which is not bad at all).
 
 Also, plenty of new **products** are being developed improving convenience/security or other important factors of Self Custody like new ways to create steel backups with [SteelQR](https://vulcan21.com/steelqr/), [Seedmint](https://vulcan21.com/seedmint/), [SeedHammer](https://seedhammer.com/) and [Roninsteel](https://ronindojo.io/en/roninsteel).
+
+### To sum up a few wallet structures and spending with them:
+[![Bitcoin Wallets](/assets/img/diagrams/bitcoin_wallets.drawio.png)](/assets/img/diagrams/bitcoin_wallets.drawio.png){:target="_blank"}
+
 
 ### Conclusion
 I am pretty bullish on bitcoin Self Custody Technology getting increasingly better as we are learning the lessons from the real life experience of Plebs.

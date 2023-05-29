@@ -116,7 +116,8 @@ From the Principles you wrote down, you can now get down to the nitty-gritty pra
     13. Coinjoin hot wallet(s). If you know what you’re doing.
     14. Decoy wallets with enough sats to satisfy an attacker. I’d recommend above 500 USD. Your call
 6. Get a simplistic, **open source**, **offline** flowchart diagramming or mind mapping tool. My go-to is [draw.io desktop](https://get.diagrams.net/)
-7. Model the flow of your funds. See example[draw io image]
+7. Model the flow of your funds. See example:
+[![My citadel fundflow](/assets/img/diagrams/my_citadel_flowchart.drawio.png)](/assets/img/diagrams/my_citadel_flowchart.drawio.png){:target="_blank"}
     15. The sources and wallets are the nodes
     16. The arrows show the funds flowing to your wallets or to the external world as spendings.
     17. You can use colors and shapes to distinguish between fiat and bitcoin wallets

@@ -22,7 +22,8 @@ permalink: /order-and-entropy/
 
 Since your **paper notebook** contains sensitive private information about your bitcoin-related things it is ill-advised to keep it in plain text on your desk in the long run. Also, backing up and updating hand-written text if anything changes is an arduous task.
 
-You might also have some important **digital notes** unencrypted on your computer, and also some important details about your bitcoin citadel(self-custody system) only **in your head**. It is better to store and manage all this intelligence in one safe place. You have to switch to offline digital encrypted passwords and notes. An open-source popular choice is **KeePassXC**(formerly KeePass).
+You might also have some important **digital notes** unencrypted on your computer, and also some important details about your bitcoin citadel(self-custody system) only **in your head**. It is better to store and manage all this intelligence in one safe place. You have to switch to offline digital encrypted passwords and notes. An open-source popular choice is **KeePassXC**(formerly KeePass):
+![Isolation of metadata](/assets/img/diagrams/isolation_of_citadel_metadata.drawio.png){:target="_blank"}
 
 ## OBJECTIVE: Start using KeePassXC([Progress Images](/progress-order-and-entropy/){:target="_blank"})
 

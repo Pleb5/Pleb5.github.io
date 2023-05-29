@@ -114,7 +114,8 @@ So far Sparrow has been connecting to the Bitcoin Plebs dedicated learning Node 
 
 While it is very bad practice to leak your financial data to third parties by using other's nodes, you can still go back and use this test setup any time. It is not leaking real financial information.
 
-So, the result architecture you want to arrive at looks like the following[inserted image]
+So, the result architecture you want to arrive at looks like the following:
+[Final Architecture](/assets/img/diagrams/architecture_bitcoinplebs_quest_6.drawio.png){:target="_blank"}
 
 There are three major ways to interact with the bitcoin peer-to-peer network:
 
