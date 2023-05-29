@@ -22,7 +22,7 @@ permalink: /a-fool-and-his-bitcoin/
 
 Literally, destroy the piece of paper you wrote your words on. Don’t fake this step. Now what? Is everything lost?
 
-## OBJECTIVE: Saving the day
+## OBJECTIVE: Saving the day([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 
 1. Understand the implications of losing a backup: Those 12 words **ARE your bitcoin!** Is there a way to save the coins, or is it forever stuck in an unspendable state on the blockchain?
 2. Wait, you just generated the words on Sparrow… So, maybe it is saved on the machine as well in binary form?
@@ -43,7 +43,7 @@ Literally, destroy the piece of paper you wrote your words on. Don’t fake this
 
 You were sure you hid it under your mattress! How could that happen?! You can’t be sure if your backup was stolen, trashed, or just lost somehow. You don’t have time to ruminate and search for days.
 
-## OBJECTIVE: Sweep funds to safety
+## OBJECTIVE: Sweep funds to safety([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 1. Create a new wallet
 2. Back it up, test recovery
 3. Transfer all funds to that ASAP!
@@ -65,7 +65,7 @@ You were sure you hid it under your mattress! How could that happen?! You can’
 
 There is a way to defend against people finding your key backups. You can create a so-called **“passphrased wallet”** which requires your passphrase **in addition** to your seed words to access the funds.
 
-## OBJECTIVE: Defend against the bare key-backup problem
+## OBJECTIVE: Defend against the bare key-backup problem([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 1. 💡Learn about [passphrased wallets](/pleb-lessons/#bip39-passphrased-wallets)
 2. Create a new wallet but this time, use the bip39 passphrase feature in Sparrow
     1. No password needed yet
@@ -91,7 +91,7 @@ Now you have a fairly robust setup that protects against accidental loss and fun
 
 The computer now is compromised meaning cyber attackers can steal your keys from your computer and log your keystrokes whenever you input your passphrase!
 
-## OBJECTIVE: Save funds once again
+## OBJECTIVE: Save funds once again([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 1. You don’t have time to fix the infected machine yet
 2. Get another safe desktop computer or a safe mobile phone
 3. Get a copy of the secret key and the passphrase backups
@@ -107,8 +107,8 @@ Now your funds are safe but as long as the wallet file is on the infected machin
 
 ---
 
-## OBJECTIVE: Destroy your wallet on the unsafe computer and wipe the operating system to start fresh
-1. You could **just** **delete** the wallet from sparrow as an easy but not very secure deletion method
+## OBJECTIVE: Destroy your wallet on the unsafe computer and wipe the operating system to start fresh([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+1. You could **just** **delete** wallets from sparrow as an easy but not very secure deletion method
 2. The better way is to find the location where sparrow stores your wallet data and **erase** it **with** the `shred` **command**
     1. In the directory where the wallet is stored run this command in the terminal. Sparrow uses a hidden directory to store wallets
     ```sh
@@ -192,7 +192,8 @@ You may find yourself spending a few hundred cuckbucks on bitcoin related stuff 
 
 So how can you be pretty sure this thing will not steal your bitcoin? There can be many methods devised to verify hardware wallets. The verification also depends on your type of hww and available resources.
 
-## OBJECTIVE: Download, verify and burn the SeedSigner image on a microSD card (alternative guide on SeedSigner [github page](https://github.com/seedsigner#software-installation))
+## OBJECTIVE: Download, verify and burn the SeedSigner image on a microSD card([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+1. Alternative guide on SeedSigner [github page](https://github.com/seedsigner#software-installation)
 1. Boot into Ubuntu Live(safe clean environment for critical tasks)
     1. Get your Ubuntu installation USB stick
     2. Insert it into your computer and reboot
@@ -264,7 +265,7 @@ This “live operating system” method can be used to verify crucial things or 
 
 ---
 
-## OBJECTIVE: Verify your hardware wallet
+## OBJECTIVE: Verify your hardware wallet([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 1. If you get a device from one of the reputed vendors then it will arrive in a tamper-evident bag. Check it carefully and follow vendor instructions!
 2. Create a new `dummy wallet` in Sparrow with no funds and no history
     1. 12 words
@@ -291,7 +292,7 @@ This “live operating system” method can be used to verify crucial things or 
 
 ---
 
-## OBJECTIVE: Verify spending with the hardware wallet
+## OBJECTIVE: Verify spending with the hardware wallet([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 1. Send a small amount of testcoins to this dummy wallet from your main wallet
     1. 15.000 sats is enough
 2. Now send it back using Sparrow AND Seedsigner to sign the transaction
@@ -326,7 +327,7 @@ Now that you verified your hardware wallet sufficiently you can start migrating 
 
 ---
 
-## OBJECTIVE: Create a secure private key on the Hardware wallet (SeedSigner guide)
+## OBJECTIVE: Create a secure private key on SeedSigner ([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 
 1. As soon as SeedSigner has booted you can remove the sd card to as an additional security measure before you load or create any private keys on it
 2. `Main menu` -> `Tools` -> Select `New seed` from camera or dice
@@ -341,7 +342,7 @@ Now that you verified your hardware wallet sufficiently you can start migrating 
 
 ---
 
-## OBJECTIVE: Import the public key/Xpub into Sparrow wallet - SeedSigner
+## OBJECTIVE: Import the public key/Xpub from SeedSigner into Sparrow wallet([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 
 1. In Sparrow Go to `File` --> `New wallet` --> Name it
 2. Select `Airgapped Hardware Wallet`
@@ -349,7 +350,7 @@ Now that you verified your hardware wallet sufficiently you can start migrating 
 4. Now get your hardware wallet
 5. From the main menu go to `Seeds` --> Click on Seed
 6. Select `Export Xpub` --> `Single Sig` --> `Native Segwit` --> `Sparrow`
-7. It will prompt you that you are now giving **Important Privacy Information **to Sparrow. Click I understand
+7. It will prompt you that you are now giving **Important Privacy Information** to Sparrow. Click I understand
 8. It will show you the Xpub details screen. The fingerprint is what matters to you right now
 9. Click `Export Xpub`. It will show the QR code
 10. Scan it with the webcam into Sparrow
@@ -380,7 +381,7 @@ Now that you verified your hardware wallet sufficiently you can start migrating 
 
 You start to get the idea about hardware wallets. Now we can test the address verification function. Best way to do this is stacking some more sats! :)
 
-## OBJECTIVE: “Buy” some more bitcoin from the [signet faucet](https://signetfaucet.com)[link]
+## OBJECTIVE: “Buy” some more bitcoin from the [signet faucet](https://signetfaucet.com)([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 
 1. Generate a new receiving address in your watch-only wallet `Receive` tab in Sparrow
     1. Check the icon about address reuse

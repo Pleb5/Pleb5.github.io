@@ -25,7 +25,7 @@ Feel free to not just complete the exercises but also try out other exciting thi
 
 **You really need to take ownership of your coins or they will be frozen for eternity!**
 
-## OBJECTIVE: Create your first Bitcoin wallet!
+## OBJECTIVE: Create your first Bitcoin wallet!([Progress Images](/progress-the-journey-begins/){:target="_blank"})
 1. 💡Learn about [Bitcoin ownership basics](/pleb-lessons/#bitcoin-ownership)
 2. Create your first Bitcoin Wallet. `Go to File` --> `New Wallet`
 3. Give it a name like “myfirstwallet”
@@ -48,7 +48,7 @@ Your exchange is on the brink of collapse. The yield generator algorithms sadly 
 
 ---
 
-## OBJECTIVE: Save your coins from the exchange
+## OBJECTIVE: Save your coins from the exchange([Progress Images](/progress-the-journey-begins/){:target="_blank"})
 1. 💡Learn about the [Bitcoin Transactions and the UTXO model](/pleb-lessons/#bitcoin-transactions-and-the-utxo-model)
 2. Go to the `Receive` tab in Sparrow
 3. Get a new receiving address in Sparrow wallet

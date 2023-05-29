@@ -24,7 +24,7 @@ Since your **paper notebook** contains sensitive private information about your 
 
 You might also have some important **digital notes** unencrypted on your computer, and also some important details about your bitcoin citadel(self-custody system) only **in your head**. It is better to store and manage all this intelligence in one safe place. You have to switch to offline digital encrypted passwords and notes. An open-source popular choice is **KeePassXC**(formerly KeePass).
 
-## OBJECTIVE: Start using KeePassXC
+## OBJECTIVE: Start using KeePassXC([Progress Images](/progress-order-and-entropy/){:target="_blank"})
 
 1. Download, verify and install [KeePassXC](https://keepassxc.org) password manager
     1. You should be able to pull it off by yourself at this point
@@ -41,7 +41,7 @@ You might also have some important **digital notes** unencrypted on your compute
 ### Now take a look at your computer generated password/passphrase and compare it to the wallet Password or the BIP39 Passphrase you picked
 {: .no_toc }
 
-## OBJECTIVE: Transfer bitcoin metadata to Keepass
+## OBJECTIVE: Transfer bitcoin metadata to Keepass([Progress Images](/progress-order-and-entropy/){:target="_blank"})
 
 1. Since it is a bitcoin testnet wallet, you can safely put your BIP39 Passphrase and Wallet Password into the KeePassXC Password generator and check the entropy of these
 2. **You may realize that these are way too weak. This is a lesson that humans are not good at generating randomness! More on the implications later…**
@@ -79,7 +79,7 @@ Your first line of defense is your skills and knowledge. However, a strong commu
 
 ---
 
-## OBJECTIVE: Level up on entropy and apply changes to your bitcoin setup
+## OBJECTIVE: Level up on entropy and apply changes to your bitcoin setup([Progress Images](/progress-order-and-entropy/){:target="_blank"})
 
 1. 💡 Learn about [entropy and its importance in bitcoin](/pleb-lessons/#entropy)
 2. Generate a stronger bip39 passphrase on KeePassXC

@@ -80,7 +80,7 @@ Anyone serious about Bitcoin and IT security recommends a Linux operating system
 
 ---
 
-## OBJECTIVE: Join the Bitcoin Plebs community
+## OBJECTIVE: Join the Bitcoin Plebs community([Progress images](/progress-get-on-board/){:target="_blank"})
 1. 💡Learn about the [nostr protocol](/pleb-lessons/#nostrnotes-and-other-stuff-transmitted-by-relays/) that allows you to connect to the bitcoin plebs community
 2. 💡Learn about the concept of [public key cryptography](/pleb-lessons/#public-key-cryptography/)
 3. Install the **[Alby extension](https://getalby.com/#alby-extension) in your browser**
@@ -122,7 +122,7 @@ The Tor browser is a powerful privacy tool to fend off snoopers trying to monito
 
 Tor is great for looking up simple info but can be a painfully slow experience and time is the scarcest of all things. Instead you can browse with Firefox or [Mullvad browser](https://mullvad.net/en/browser) coupled with [Proton](https://protonvpn.com/)- or [Mullvad](https://mullvad.net/en) VPN service enabled on the desktop. VPN is great but choose wisely because many of the services out there are just a fraud and you trust them not to log your activities and they can start logging without notice anytime the government asks them to do so.
 
-## OBJECTIVE: Download, verify and Install Tor browser(process similar to Mullvad browser)
+## OBJECTIVE: Download, verify and Install Tor browser(process similar to Mullvad browser)([Progress images](/progress-get-on-board/){:target="_blank"})
 1. 💡 Learn about [Verification of digital information](/pleb-lessons/#verifying-digital-information/)
 2. Your Ubuntu came with a handy tool to use for encryption and verification: GPG(Gnu Privacy Guard, implementing the OpenPGP standard). Open a terminal to use it
     1. Super + start typing “terminal”(add to favorites with right-click)
@@ -167,7 +167,7 @@ When you are doing anything bitcoin-related the most interaction is going to be 
 
 ---
 
-## OBJECTIVE: Start using Sparrow wallet
+## OBJECTIVE: Start using Sparrow wallet([Progress images](/progress-get-on-board/){:target="_blank"})
 1. Open Firefox browser and navigate to the [Sparrow wallet website](https://sparrowwallet.com/)(clearnet link)
     1. Download is very slow on Tor browser but you can try
 2. Go to Download and navigate to version 1.7.6 in [previous releases](https://github.com/sparrowwallet/sparrow/releases/tag/1.7.6)(known working version with the this course)
@@ -207,7 +207,7 @@ Bitcoin plebs have a wonderful training ground to hone their skills in a safe en
 
 ---
 
-## OBJECTIVE: Configure Sparrow to launch in signet mode
+## OBJECTIVE: Configure Sparrow to launch in signet mode([Progress images](/progress-get-on-board/){:target="_blank"})
 1. The easiest way to make Sparrow always launch in signet mode is to set a so-called “environment variable” which is just a fancy term for “I want this program to run with these special parameters”
 2. In the terminal edit this file that contains important things to run at startup
     ```sh

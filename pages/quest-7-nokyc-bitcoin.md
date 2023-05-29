@@ -23,7 +23,7 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
 
 ---
 
-## OBJECTIVE: Prepare yourself to test P2P bitcoin exchanges
+## OBJECTIVE: Prepare yourself to test P2P bitcoin exchanges([Progress Images](/progress-nokyc-bitcoin/){:target="_blank"})
 
 1. 💡 Learn about the [P2P market ecosystem and how to get NoKYC bitcoin](/pleb-lessons/#p2p-markets-and-nokyc-bitcoin)
 2. Reboot Sparrow in legacy-testnet mode
@@ -40,7 +40,7 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
 
 ---
 
-## OBJECTIVE: Try HodlHodl on testnet
+## OBJECTIVE: Try HodlHodl on testnet([Progress Images](/progress-nokyc-bitcoin/){:target="_blank"})
 
 1. Go to HodlHodl [testnet version](https://hhtestnet.com/)
 2. Create 2 testnet accounts. You will need 2 test email addresses
@@ -97,9 +97,7 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
 
 **Warning: This exercise has not been thoroughly tested to work 100% because it builds on tools that are not always reliable.**
 
-## OBJECTIVE: Try [Robosats](https://learn.robosats.com/) on testnet
-
-
+## OBJECTIVE: Try Robosats on testnet([Progress Images](/progress-nokyc-bitcoin/){:target="_blank"})
 
 1. First you need a testnet Lightning wallet
     1. Go to this custodial testnet [Lightning site](https://htlc.me/)
@@ -190,7 +188,7 @@ Sparrow wallet has been connecting to the Bitcoin Plebs Signet node. To launch S
 ### Warning: Don’t ever use the same seed words for your testnet wallets as your mainnet ones. Generate fresh wallets.
 {: .no_toc }
 
-## OBJECTIVE: Launch Sparrow in mainnet mode
+## OBJECTIVE: Launch Sparrow in mainnet mode([Progress Images](/progress-nokyc-bitcoin/){:target="_blank"})
 
 1. Edit the `“.profile”` file
     ```sh
@@ -206,7 +204,7 @@ Sparrow wallet has been connecting to the Bitcoin Plebs Signet node. To launch S
 
 ---
 
-## OBJECTIVE: Connect Sparrow to Bitcoin Core
+## OBJECTIVE: Connect Sparrow to Bitcoin Core([Progress Images](/progress-nokyc-bitcoin/){:target="_blank"})
 
 
 1. Check with `htop` that your node restarted after reboot
