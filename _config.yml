@@ -62,3 +62,13 @@ color_scheme: dark
 #    url: https://github.com/just-the-docs/just-the-docs
 #    hide_icon: false # set to true to hide the external link icon - defaults to false
 
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+
+
+
+
