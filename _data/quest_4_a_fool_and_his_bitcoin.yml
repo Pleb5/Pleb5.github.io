@@ -1,0 +1,65 @@
+- objective_name: 'OBJECTIVE: Saving the day'
+  progress_imgs: true
+  progress_imgs_path: '1_saving_the_day'
+
+- objective_name: 'OBJECTIVE: Sweep funds to safety '
+  progress_imgs: true
+  progress_imgs_path: '2_sweep_funds'
+
+- objective_name: 'OBJECTIVE: Defend against the bare key-backup problem '
+  progress_imgs: true
+  progress_imgs_path: '3_defend_with_passphrase'
+
+- objective_name: 'OBJECTIVE: Save funds once again '
+  progress_imgs: true
+  progress_imgs_path: '4_save_again_set_encryption_psw'
+
+- objective_name: 'OBJECTIVE: Destroy your wallet on the unsafe computer and wipe the operating system to start fresh '
+  progress_imgs: true
+  progress_imgs_path: '5_delete_wallets'
+
+- objective_name: 'OBJECTIVE: Reinstall Sparrow wallet '
+  progress_imgs: false
+  progress_imgs_path: ''
+
+- objective_name: 'OBJECTIVE: Defend against the dark arts of phishing and malware '
+  progress_imgs: false
+  progress_imgs_path: ''
+
+- objective_name: 'OBJECTIVE: Start using a hardware wallet '
+  progress_imgs: false
+  progress_imgs_path: ''
+
+- objective_name: 'OBJECTIVE: Download, verify and burn the SeedSigner image on a microSD card'
+  progress_imgs: true
+  progress_imgs_path: '6_seedsigner_image'
+
+- objective_name: 'OBJECTIVE: Verify your hardware wallet'
+  progress_imgs: true
+  progress_imgs_path: '7_verify_hardware_wallet'
+
+- objective_name: 'OBJECTIVE: Verify spending with the hardware wallet'
+  progress_imgs: true
+  progress_imgs_path: '8_verify_spending_with_hww'
+
+- objective_name: 'OBJECTIVE: Create a secure private key on SeedSigner'
+  progress_imgs: true
+  progress_imgs_path: '9_seedsigner_create_private_key'
+
+- objective_name: 'OBJECTIVE: Import the public key/Xpub from SeedSigner into Sparrow wallet'
+  progress_imgs: true
+  progress_imgs_path: '10_import_Xpub_test_self_spend'
+
+- objective_name: 'OBJECTIVE: “Buy” some more bitcoin from the signet faucet'
+  progress_imgs: true
+  progress_imgs_path: '11_buy_more_bitcoin_verify_receive_address'
+
+- objective_name: 'OBJECTIVE: Upgrade Sparrow and SeedSigner'
+  progress_imgs: false
+  progress_imgs_path: ''
+
+
+
+
+
+

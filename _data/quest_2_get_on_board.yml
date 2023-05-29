@@ -1,0 +1,19 @@
+- objective_name: 'OBJECTIVE: Gear up!'
+  progress_imgs: false
+  progress_imgs_path: ''
+
+- objective_name: 'OBJECTIVE: Install a fresh Ubuntu Jammy 22.04 LTS'
+  progress_imgs: false
+  progress_imgs_path: ''
+  
+- objective_name: 'OBJECTIVE: Download, verify and Install Tor browser(process similar to Mullvad browser)'
+  progress_imgs: true
+  progress_imgs_path: '/quest_2_get_on_board/tor_browser/'
+
+- objective_name: 'OBJECTIVE: Start using Sparrow wallet'
+  progress_imgs: true
+  progress_imgs_path: '/quest_2_get_on_board/sparrow_install/'
+  
+- objective_name: 'OBJECTIVE: Configure Sparrow to launch in signet mode'
+  progress_imgs: true
+  progress_imgs_path: '/quest_2_get_on_board/sparrow_configure/'

@@ -1,0 +1,29 @@
+- objective_name: 'OBJECTIVE: Prepare yourself to test P2P bitcoin exchanges '
+  progress_imgs: true
+  progress_imgs_path: '1_start_sparrow_in_legacy_testnet_mode'
+
+- objective_name: 'OBJECTIVE: Try HodlHodl on testnet'
+  progress_imgs: true
+  progress_imgs_path: '2_try_hodlhodl_testnet'
+
+- objective_name: 'OBJECTIVE: Try Try Robosats on testnet'
+  progress_imgs: true
+  progress_imgs_path: '3_try_robosats_testnet'
+
+- objective_name: 'OBJECTIVE: Launch Sparrow in mainnet mode'
+  progress_imgs: true
+  progress_imgs_path: '4_launch_sparrow_in_mainnet'
+
+- objective_name: 'OBJECTIVE: Connect Sparrow to Bitcoin Core '
+  progress_imgs: true
+  progress_imgs_path: '5_connect_sparrow_mainnet_to_bitcoin_core'
+
+- objective_name: 'OBJECTIVE: Let’s get serious: Buy some NoKYC bitcoin '
+  progress_imgs: false
+  progress_imgs_path: ''
+
+- objective_name: '(OPTION 1) OBJECTIVE: Buy some real NoKYC sats with Robosats using Lightning '
+  progress_imgs: false
+  progress_imgs_path: ''
+
+

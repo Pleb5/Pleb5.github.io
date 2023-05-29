@@ -1,0 +1,7 @@
+- objective_name: 'OBJECTIVE: Create your first Bitcoin wallet!'
+  progress_imgs: true
+  progress_imgs_path: 'create_first_wallet'
+
+- objective_name: 'OBJECTIVE: Save your coins from the exchange'
+  progress_imgs: true
+  progress_imgs_path: 'save_your_coins'

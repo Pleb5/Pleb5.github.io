@@ -1,0 +1,19 @@
+- objective_name: 'OBJECTIVE: Start using KeePassXC'
+  progress_imgs: true
+  progress_imgs_path: '1_use_keepass_xc'
+
+- objective_name: 'OBJECTIVE: Transfer bitcoin metadata to Keepass'
+  progress_imgs: true
+  progress_imgs_path: '2_transfer_metadata_check_weak_passwords'
+
+- objective_name: 'OBJECTIVE: Level up on entropy and apply changes to your bitcoin setup'
+  progress_imgs: true
+  progress_imgs_path: '3_level_up_entropy_save_metadata'
+
+- objective_name: 'OBJECTIVE: Backup the KeePass database on industrial micro sd cards'
+  progress_imgs: false
+  progress_imgs_path: ''
+
+- objective_name: 'OBJECTIVE: Run a few experiments in your Signet learning environment'
+  progress_imgs: false
+  progress_imgs_path: ''

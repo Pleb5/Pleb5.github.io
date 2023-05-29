@@ -1,0 +1,35 @@
+- objective_name: 'OBJECTIVE: Get to know the enemy '
+  progress_imgs: true
+  progress_imgs_path: '1_merged_inputs_test'
+
+- objective_name: 'OBJECTIVE: Start practicing coin control '
+  progress_imgs: true
+  progress_imgs_path: '2_export_labels'
+
+- objective_name: 'OBJECTIVE: 💡 Learn about bitcoin nodes '
+  progress_imgs: false
+  progress_imgs_path: ''
+
+- objective_name: 'OBJECTIVE(optional): Prepare the external 1TB SSD'
+  progress_imgs: true
+  progress_imgs_path: '3_prepare_ssd'
+
+- objective_name: 'OBJECTIVE: Download bitcoin core and prepare for verification '
+  progress_imgs: true
+  progress_imgs_path: '4_download_bitcoin_core'
+
+- objective_name: 'OBJECTIVE: Verify Bitcoin Core '
+  progress_imgs: true
+  progress_imgs_path: '5_verify_bitcoin_core'
+
+- objective_name: 'OBJECTIVE: Install Bitcoin Core '
+  progress_imgs: true
+  progress_imgs_path: '6_install_bitcoin_core'
+
+- objective_name: 'OBJECTIVE: Setup a Tor proxy service'
+  progress_imgs: true
+  progress_imgs_path: '7_setup_tor'
+
+- objective_name: 'OBJECTIVE: Configure and learn to manage Bitcoin Core'
+  progress_imgs: true
+  progress_imgs_path: '8_configure_bitcoin_core'
