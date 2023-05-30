@@ -39,7 +39,7 @@ Anyone serious about Bitcoin and IT security recommends a Linux operating system
 
 
 ## OBJECTIVE: Install a fresh Ubuntu Jammy 22.04 LTS
-1. 💡 Learn about the [Linux terminal](/pleb-lessons/#the-linux-terminalaka-linux-command-line-shell-bash/)
+1. 💡 Learn about the [Linux terminal](/pleb-lessons/#the-linux-terminalaka-linux-command-line-shell-bash)
 2. If you get stuck Ubuntu website has [a guide too](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)(with images)
 3. The commands in the guide are not always exact because program versions and file names can vary. Text in `<angle brackets>` mean you must replace that with your version. Use `tab completion` often to avoid having to type much and get the commands right
 4. Download the [desktop image](https://www.releases.ubuntu.com/jammy/) on whatever operating system your machine is running right now

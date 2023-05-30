@@ -296,6 +296,8 @@ First of all let’s prepare to drive all traffic of Bitcoin Core through the To
 	```
     4. This immediately starts tor daemon listening on port `9050` for incoming traffic
 
+![tor_with_bitcoin](/assets/img/graphics/tor_with_bitcoin.jpg)
+
 ---
 
 ## OBJECTIVE: Configure and learn to manage Bitcoin Core([Progress Images](/progress-bitcoin-privacy){:target="_blank"})

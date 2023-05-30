@@ -12,6 +12,13 @@ Before you actually start your journey, you have to be crystal clear about your 
 
 This training program is for those who strive to be Bitcoin Pleb sovereign individuals. But this is not merely about becoming sovereign. It is also about becoming the “Uncle Jim” for your friends and loved ones in bitcoin custody issues. We cannot rely on companies and centralized fragile entities to share Self-Custody Wisdom that is required for a resilient decentralized bitcoin future. We need grassroots adoption. We need people who are willing to go far and beyond to do the work and share the knowledge. You need to train your computer skills and also soak up the Pleb Culture of bitcoin. Do you recognize yourself in this description? Are you ready to put in the work? This is for you then.
 
+---
+
+## Disclaimer
+Strictly educational content. Should you choose to apply the practices described in any content shared on this website, you do so at your own risk and I shall in no event be liable for any financial loss suffered. Nothing shall be construed as providing consulting, professional financial advice or legal advice as to securing bitcoin.
+
+---
+
 ## OBJECTIVE: Complete the [Pledge of the Bitcoin Pleb] assignment(hybrid pdf download)
 * It will make you think about whether this is really for you
 * It is not a hand-in assignment
@@ -29,3 +36,4 @@ Advice: Take some time between objectives to reflect. Take notes and absorb what
 
 
 [Pledge of the Bitcoin Pleb]: /assets/pdf/pledge_of_the_bitcoin_pleb.pdf
+{: target="_blank"}

@@ -6,6 +6,7 @@ permalink: /join-the-fray/
 
 # Quest 9: Join the Fray for Freedom: Your Bitcoin-future needs You
 {: .no_toc }
+![anon_nostr_bitcoin_pleb](/assets/img/graphics/anon_nostr_bitcoin_pleb.jpg)
 
 ---
 
@@ -23,21 +24,21 @@ Join the great bitcoin hive mind: Be in the know from trusted bitcoin voices and
 
 ## OBJECTIVE: People to follow
 
-* Bitcoiners with great content. Follow their work and look for them on nostr, twitter and Telegram groups
-*     1. [Saifedean Ammous](https://saifedean.com/)
-*     2. [Robert Breedlove](https://whatismoneypodcast.com/)
-*     3. [Aleks Svetski](https://linktr.ee/svetski)
-*     4. [Matt Odell](https://citadeldispatch.com/)
-*     5. [Marty Bent](https://tftc.io/)
-*     6. [BTC Sessions](https://www.btcsessions.ca/)
-*     7. [6102 Bitcoin](https://bitcoin-only.com/)
-*     8. [BitcoinQnA](https://bitcoiner.guide/)
-*     9. [Econoalchemist](https://www.econoalchemist.com/)
-*     10. [Ministry of Nodes](https://www.ministryofnodes.com.au/)
-*     11. [Stephan Livera](https://stephanlivera.com/)
-*     12. [Dergigi](https://dergigi.com/)
-*     13. [The Bitcoin Manual](https://thebitcoinmanual.com)
-*     14. [Michael Saylor](https://www.michael.com/)
+Bitcoiners with great content. Follow their work and look for them on nostr, twitter and Telegram groups:
+*     [Saifedean Ammous](https://saifedean.com/)
+*     [Robert Breedlove](https://whatismoneypodcast.com/)
+*     [Aleks Svetski](https://linktr.ee/svetski)
+*     [Matt Odell](https://citadeldispatch.com/)
+*     [Marty Bent](https://tftc.io/)
+*     [BTC Sessions](https://www.btcsessions.ca/)
+*     [6102 Bitcoin](https://bitcoin-only.com/)
+*     [BitcoinQnA](https://bitcoiner.guide/)
+*     [Econoalchemist](https://www.econoalchemist.com/)
+*     [Ministry of Nodes](https://www.ministryofnodes.com.au/)
+*     [Stephan Livera](https://stephanlivera.com/)
+*     [Dergigi](https://dergigi.com/)
+*     [The Bitcoin Manual](https://thebitcoinmanual.com)
+*     [Michael Saylor](https://www.michael.com/)
 * Look at people _they_ follow and start broadening your bitcoin social network
 
 ---

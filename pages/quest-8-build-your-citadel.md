@@ -77,7 +77,7 @@ There can be no Captain without principles of his/her own. So let’s start at t
 
 ## OBJECTIVE: Write down your own Pleb Principles
 1. Contemplate on your Principles as a Bitcoin Pleb. Compose a draft of your thoughts of what that means to you in your Keepass database
-2. Read the [Pleb Principles template](/assets/pdf/pleb_principles.pdf) for inspiration
+2. Read the [Pleb Principles template](/assets/pdf/pleb_principles.pdf){: target="_blank"} for inspiration
 3. Refine your Principles from the inspiration
 4. Share your thoughts and experience if you feel like it!
 
@@ -116,7 +116,7 @@ From the Principles you wrote down, you can now get down to the nitty-gritty pra
     13. Coinjoin hot wallet(s). If you know what you’re doing.
     14. Decoy wallets with enough sats to satisfy an attacker. I’d recommend above 500 USD. Your call
 6. Get a simplistic, **open source**, **offline** flowchart diagramming or mind mapping tool. My go-to is [draw.io desktop](https://get.diagrams.net/)
-7. Model the flow of your funds. See example:
+7. Model the flow of your funds. See example(click to enlarge):
 [![My citadel fundflow](/assets/img/diagrams/my_citadel_flowchart.drawio.png)](/assets/img/diagrams/my_citadel_flowchart.drawio.png){:target="_blank"}
     15. The sources and wallets are the nodes
     16. The arrows show the funds flowing to your wallets or to the external world as spendings.

@@ -230,7 +230,7 @@ Sparrow wallet has been connecting to the Bitcoin Plebs Signet node. To launch S
     9. If you hover over it it should say that it is connected and the info about the connection
     10. To the left of it you see the Tor sign appearing. Hover over it and it should say something like `“External Tor proxy enabled”`
 10. Create your first mainnet airgapped wallet. You will use it soon enough! Consider backing it up in steel!
-11. Take a quick look at the result architecture again:
+11. Take a quick look at the result architecture again(click to enlarge):
 [![Final Architecture](/assets/img/diagrams/architecture_bitcoinplebs_quest_6.drawio.png)](/assets/img/diagrams/architecture_bitcoinplebs_quest_6.drawio.png){:target="_blank"}
 
 Note that this guide is a fairly minimalistic approach in order to jumpstart your bitcoin node journey. Feel free to look for additional features, optimizations and security hardening measures in the `Bitcoin Plebs` community or other node-related communities, like the [Raspibolt](https://raspibolt.org) or [Raspiblitz](https://raspiblitz.org) community to improve your node experience and level up your nodes capabilities:
