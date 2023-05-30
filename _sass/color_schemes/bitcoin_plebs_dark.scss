@@ -1,0 +1,15 @@
+@import "./color_schemes/dark";
+
+h1 {
+  color: #976108;
+  text-align: center;
+}
+
+p, li, ul, ol{
+  font-size: 1em;
+}
+
+.bitcoin_transactions{
+  width: auto;
+  max-height: 70%;
+}

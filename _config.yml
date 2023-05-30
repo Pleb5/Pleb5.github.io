@@ -2,6 +2,8 @@ title: Bitcoin Plebs
 description: A zero-to-hero bitcoin pleb training program on bitcoin testnet
 theme: just-the-docs
 
+color_scheme: bitcoin_plebs_dark.scss
+
 url: bitcoinplebs.org
 
 plugins:
@@ -51,9 +53,6 @@ aux_links_new_tab: false
 #
 # Supports true (default) or false
 heading_anchors: true
-
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
 
 
 # External navigation links
