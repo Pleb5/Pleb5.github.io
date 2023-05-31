@@ -68,7 +68,7 @@ Bitcoiners with great content. Follow their work and look for them on nostr, twi
 2. [Bitcoin Optech](https://bitcoinops.org/)
 3. [Bitcoin Magazine](https://bitcoinmagazine.com/)
 
-### Most importantly
+## Most importantly
 {: .no_toc }
 
 FOSS wins if we stand together and build a future where everyone can be free and sovereign if they are willing to take responsibility and demonstrate Proof of Work.

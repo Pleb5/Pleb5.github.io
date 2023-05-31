@@ -95,7 +95,7 @@ The computer now is compromised meaning cyber attackers can steal your keys from
 1. You don’t have time to fix the infected machine yet
 2. Get another safe desktop computer or a safe mobile phone
 3. Get a copy of the secret key and the passphrase backups
-4. Install [Sparrow](https://sparrowwallet.com) on the desktop (or [Samourai wallet](https://samouraiwallet.com) on mobile if you were on `mainnet`, stay on desktop for this exercise though) and recover your wallet 
+4. Install [Sparrow](https://sparrowwallet.com){:target="_blank"} on the desktop (or [Samourai wallet](https://samouraiwallet.com){:target="_blank"} on mobile if you were on `mainnet`, stay on desktop for this exercise though) and recover your wallet 
 5. In Sparrow/Samourai create a new passphrased wallet(new seed phrase, new passphrase) **on the other**, **safe** **device**
     1. This time, also make sure to set an **encryption password**
     2. Don’t mistake passphrases for wallet-encryption passwords
@@ -144,7 +144,7 @@ If you did not reinstall Ubuntu, now just simulate starting fresh by reinstallin
 	rm *sparrow*
 	```
 4. The `'*'` character is for pattern matching. See "linux shell regular expressions" for more info
-5. Download files again from the [Sparrow wallet website](https://sparrowwalet.com)
+5. Download files again from the [Sparrow wallet website](https://sparrowwalet.com){:target="_blank"}
 6. There is something really strange with this website, don’t you think?
 
 ### You visited a copycat website to download Sparrow wallet. You almost fell for another trickster! 📥🦠 (Don’t worry this is just for simulation purposes. Or is it? ;)
@@ -171,11 +171,11 @@ You now see the problem with storing secrets on general purpose computers connec
 1. 💡 Learn about [hardware wallets and cold storage](/pleb-lessons/#hardware-wallets-and-cold-storage)
 3. Order a hardware wallet. Good choices:
     1. **You can order prebuilt versions of SeedSigner as well as Specter! See recommended shops in “Advice for ordering bitcoin related things” section**
-    2. [SeedSigner](https://seedsigner.com/hardware/)(tutorials will rely on this device!)
+    2. [SeedSigner](https://seedsigner.com/hardware/){:target="_blank"}(tutorials will rely on this device!)
         1. The “open pill” design with the standard raspberry camera (instead of zero cam) was the best experience for me
-    3. [SpecterDIY](https://specter.solutions/hardware/)
-    4. [Coldcard](https://coldcard.com/)
-    5. [Foundation Passport](https://foundationdevices.com/passport/)
+    3. [SpecterDIY](https://specter.solutions/hardware/){:target="_blank"}
+    4. [Coldcard](https://coldcard.com/){:target="_blank"}
+    5. [Foundation Passport](https://foundationdevices.com/passport/){:target="_blank"}
     6. 💡 Check advice for [ordering bitcoin related things](/pleb-lessons/#ordering-bitcoin-related-things-online)
 4. Order a USB web camera with a privacy shutter. This is to read QR codes into Sparrow. Kind of a struggle with Laptop built-in webcams but it works
 5. Order endurance/industrial-type microSD cards, no need for huge capacity, smallest is enough, [Kingston preferred](https://www.kingston.com/en/memory-cards/industrial-grade-microsd-uhs-i-u3). Order a few spare pieces for later assignments
@@ -193,7 +193,7 @@ You may find yourself spending a few hundred cuckbucks on bitcoin related stuff 
 So how can you be pretty sure this thing will not steal your bitcoin? There can be many methods devised to verify hardware wallets. The verification also depends on your type of hww and available resources.
 
 ## OBJECTIVE: Download, verify and burn the SeedSigner image on a microSD card([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
-1. Alternative guide on SeedSigner [github page](https://github.com/seedsigner#software-installation)
+1. Alternative guide on SeedSigner [github page](https://github.com/seedsigner#software-installation){:target="_blank"}
 1. Boot into Ubuntu Live(safe clean environment for critical tasks)
     1. Get your Ubuntu installation USB stick
     2. Insert it into your computer and reboot
@@ -201,7 +201,7 @@ So how can you be pretty sure this thing will not steal your bitcoin? There can 
     4. Select `Try or install Ubuntu`
     5. Wait to boot, it’s gonna take longer
     6. Select `Try Ubuntu`. This takes you to a clean environment. It is safer for verification. It forgets any changes you make in the system once your reboot unless you deliberately save files on persistent storage outside this environment
-2. In Firefox (default in Ubuntu Live) go to the [SeedSigner](https://seedsigner.com/) website
+2. In Firefox (default in Ubuntu Live) go to the [SeedSigner](https://seedsigner.com/){:target="_blank"} website
 3. Right on the front page it gives you what you need
     7. Go to the GPG pubkey link it will take you to a Github file
     8. Go to the “raw” file. Copy the URL in the browser
@@ -233,11 +233,11 @@ So how can you be pretty sure this thing will not steal your bitcoin? There can 
 	```
     22. Should output “…OK”
     23. You can check what these manifest files look like with nano
-7. You can fairly trust the image at this point. You might go to the [SeedSigner Telegram](https://t.me/joinchat/GHNuc_nhNQjLPWsS) group or nostr, Twitter, Github, Keybase to get additional verification, most of all the gpg pubkey to match with the one you downloaded
+7. You can fairly trust the image at this point. You might go to the [SeedSigner Telegram](https://t.me/joinchat/GHNuc_nhNQjLPWsS){:target="_blank"} group or nostr, Twitter, Github, Keybase to get additional verification, most of all the gpg pubkey to match with the one you downloaded
     24. The Telegram group should have above 1000 members and a good amount of history. Browse a little bit in the chat to verify you are in the right place. Many scam groups out there
 8. You save the verified image file on a persistent storage device like your hdd or an sd card for later use
 9. Burn the image you previously saved with Balena Etcher on a dedicated microSD card
-    25. Download [Balena etcher](https://www.balena.io/etcher#download-etcher) for Linux x64 bit AppImage file
+    25. Download [Balena etcher](https://www.balena.io/etcher#download-etcher){:target="_blank"} for Linux x64 bit AppImage file
     ```sh
 	cd ~/Downloads
 	```
@@ -282,7 +282,7 @@ This “live operating system” method can be used to verify crucial things or 
     8. `Seeds` --> `Enter 12-word seed`
     9. With the joystick you can select the characters
     10. SeedSigner will try to guess the word from the characters already given
-    11. The buttons on the right side help select the word you want. The one in the middle selects the word[edited image]
+    11. The buttons on the right side help select the word you want. The one in the middle selects the word
     12. You can delete characters or go back to edit a word
     13. No passphrase, just click `Done`
 7. Navigate to the address explorer in the hardware wallet
@@ -381,7 +381,7 @@ Now that you verified your hardware wallet sufficiently you can start migrating 
 
 You start to get the idea about hardware wallets. Now we can test the address verification function. Best way to do this is stacking some more sats! :)
 
-## OBJECTIVE: “Buy” some more bitcoin from the [signet faucet](https://signetfaucet.com)([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+## OBJECTIVE: “Buy” some more bitcoin from the [signet faucet](https://signetfaucet.com){:target="_blank"}([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 
 1. Generate a new receiving address in your watch-only wallet `Receive` tab in Sparrow
     1. Check the icon about address reuse
@@ -403,9 +403,9 @@ You start to get the idea about hardware wallets. Now we can test the address ve
 
 Even if your computer is not to be trusted, it is also important to note that other computers are less trustworthy which means don’t even run any Wallet software like Sparrow wallet on unknown or unsafe computers.
 
-Your bitcoin tech-architecture looks like this:
+Your bitcoin tech-architecture looks like this(`click to enlarge`):
 
-[Before and after images]
+[![Initial Architecture](/assets/img/diagrams/architecture_bitcoinplebs_quest_4.drawio.png)](/assets/img/diagrams/architecture_bitcoinplebs_quest_4.drawio.png){:target="_blank"}
 
 ---
 
@@ -430,7 +430,7 @@ Your bitcoin tech-architecture looks like this:
 
 ---
 
-### Pat yourself on the back! This is a big step!
+## Pat yourself on the back! This is a big step!
 {: .no_toc }
 
 [Next Quest](/order-and-entropy/){: .btn .btn-green }

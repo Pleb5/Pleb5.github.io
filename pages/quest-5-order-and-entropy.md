@@ -27,9 +27,9 @@ You might also have some important **digital notes** unencrypted on your compute
 
 ## OBJECTIVE: Start using KeePassXC([Progress Images](/progress-order-and-entropy/){:target="_blank"})
 
-1. Download, verify and install [KeePassXC](https://keepassxc.org) password manager
+1. Download, verify and install [KeePassXC](https://keepassxc.org){:target="_blank"} password manager
     1. You should be able to pull it off by yourself at this point
-2. The website has a nice getting started guide, user manual and faq section. Scroll through the [Getting Started Guide](https://keepassxc.org/docs/KeePassXC_GettingStarted)
+2. The website has a nice getting started guide, user manual and faq section. Scroll through the [Getting Started Guide](https://keepassxc.org/docs/KeePassXC_GettingStarted){:target="_blank"}
 3. Create a test database and play around with it. You can’t break anything this way. Then dispose of it and create your serious database
 4. Create a new database. Use a strong generated password/passphrase of at least 128 bits of entropy which is the minimum security standard
     2. This password is also highly secure information. Treat it like a Bitcoin secret key
@@ -123,13 +123,13 @@ This is an important step in your journey. The meta-data you have just backed up
 
 1. Create different types of wallets and fund them with testcoins from faucets or your existing wallets
 2. Pass around some testcoins between your wallets
-3. Explore more settings in Sparrow and read its [faq](https://sparrowwallet.com/docs/faq.html) and [documentation](https://sparrowwallet.com/docs/) for more practical Bitcoin knowledge
+3. Explore more settings in Sparrow and read its [faq](https://sparrowwallet.com/docs/faq.html){:target="_blank"} and [documentation](https://sparrowwallet.com/docs/){:target="_blank"} for more practical Bitcoin knowledge
 4. Take notes on your findings/best practices and handy commands/options or solutions to common issues in your KeePass database. Back it up from time to time
 5. Share your experience and ask anything in the group of course!
 
 ---
 
-### Let's get really private! :)
+## Let's get really private! :)
 {: .no_toc }
 
 [Next Quest](/bitcoin-privacy/){: .btn .btn-green }

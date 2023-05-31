@@ -19,15 +19,29 @@ The next step is to complete the guide of setting yourself up for the journey. S
 
 ---
 
-💡Means you will be briefed with basic theoretical knowledge before you go on your objectives. The gist of it will be clear just from these concise descriptions but I will include links here and there to decent additional sources for you to go and learn even more if you like.
+## Important notes:
+{: .no_toc }
 
-**Simply put**: Read --> Apply --> Reflect, Share, Discuss --> Repeat
+> You will encounter highlighted terminal code like this:
+```sh
+cd ..
+```
+> There is a copy button on the right side of the code box. You can use that but MAKE SURE TO INSPECT CODE BEFORE HITTING ENTER IN THE TERMINAL!
+
+
+>💡Means you will be briefed with basic theoretical knowledge before you go on your objectives. The gist of it will be clear just from these concise descriptions but I will include links here and there to decent additional sources for you to go and learn even more if you like.
+
+## **Simply put**: Read --> Apply --> Reflect, Share, Discuss --> Repeat
+{: .no_toc }
+
+
+---
 
 Anyone serious about Bitcoin and IT security recommends a Linux operating system. Laptops and Desktops have stronger computational capabilities so they are better suited for Bitcoin operations than mobile phones.
 
 ## OBJECTIVE: Gear up!
 1. Get a decent new or used Laptop/PC that you dedicate to bitcoin. Main parameters:
-    1. At least 8GB RAM
+    1. At least 4GB RAM
     2. 1TB SSD. Many laptops don’t have that much SSD capacity by default but it is easy to get an SSD-case with a USB connector
         1. SanDisk is a decent brand. Get the 2.5” size
         2. Ugreen is one option for the case. Look for UASP support and make sure the SSD fits in
@@ -40,10 +54,10 @@ Anyone serious about Bitcoin and IT security recommends a Linux operating system
 
 ## OBJECTIVE: Install a fresh Ubuntu Jammy 22.04 LTS
 1. 💡 Learn about the [Linux terminal](/pleb-lessons/#the-linux-terminalaka-linux-command-line-shell-bash)
-2. If you get stuck Ubuntu website has [a guide too](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)(with images)
+2. If you get stuck Ubuntu website has [a guide too](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview){:target="_blank"}(with images)
 3. The commands in the guide are not always exact because program versions and file names can vary. Text in `<angle brackets>` mean you must replace that with your version. Use `tab completion` often to avoid having to type much and get the commands right
-4. Download the [desktop image](https://www.releases.ubuntu.com/jammy/) on whatever operating system your machine is running right now
-5. Download and install [Balena Etcher](https://www.balena.io/etcher#download-etcher), a great software to burn images. Linux instructions:
+4. Download the [desktop image](https://www.releases.ubuntu.com/jammy/){:target="_blank"} on whatever operating system your machine is running right now
+5. Download and install [Balena Etcher](https://www.balena.io/etcher#download-etcher){:target="_blank"}, a great software to burn images. Linux instructions:
     1. Download the Appimage for Linux x64 from the website
     2. AppImage files are portable programs. They can be run without installation
     3. Make the file executable
@@ -81,16 +95,16 @@ Anyone serious about Bitcoin and IT security recommends a Linux operating system
 ---
 
 ## OBJECTIVE: Join the Bitcoin Plebs community([Progress images](/progress-get-on-board/){:target="_blank"})
-1. 💡Learn about the [nostr protocol](/pleb-lessons/#nostrnotes-and-other-stuff-transmitted-by-relays/) that allows you to connect to the bitcoin plebs community
-2. 💡Learn about the concept of [public key cryptography](/pleb-lessons/#public-key-cryptography/)
+1. 💡Learn about the [nostr protocol](/pleb-lessons/#nostrnotes-and-other-stuff-transmitted-by-relays) that allows you to connect to the bitcoin plebs community
+2. 💡Learn about the concept of [public key cryptography](/pleb-lessons/#public-key-cryptography)
 3. Install the **[Alby extension](https://getalby.com/#alby-extension) in your browser**
 4. Create a new Alby account. `Lightning address` too.
 5. Backup your password:
-    1. In a [Password manager](https://bitwarden.com) 
+    1. In a [Password manager](https://bitwarden.com){:target="_blank"} 
     2. You can even write it on a piece of paper. Protect against a computer breakdown
 6. Pin the Alby extension in the browser
 7. Navigate to `“Discover”`` in Alby and find the nostr section
-8. Go to the **[Iris](https://iris.to/)** nostr client. It is a stable browser-based client
+8. Go to the **[Iris](https://iris.to/){:target="_blank"}** nostr client. It is a stable browser-based client
 9. Click on `“Nostr extension login”` link and connect with Alby 
     3. This way, your nostr private key is slightly safer
     4. Confirm Iris to read your public key
@@ -101,7 +115,7 @@ Anyone serious about Bitcoin and IT security recommends a Linux operating system
     ```sh
 	npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw
 	```
-11. Iris is great but it does not have group chat functionality implemented. Install [Damus](https://apps.apple.com/ca/app/damus/id1628663131)(iOS) or [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst)(Android) on your phone. They both have the group chat feature
+11. Iris is great but it does not have group chat functionality implemented. Install [Damus](https://apps.apple.com/ca/app/damus/id1628663131){:target="_blank"}(iOS) or [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst){:target="_blank"}(Android) on your phone. They both have the group chat feature
 12. Go to the group chat section and join the **BitcoinPlebs.org** group chat. Paste this in the search bar
     ```sh
 	note1k6v50jltmertwwgh8tgnw0lvnawufe8rpnp0ugy69fgpz727qk5qj74f57
@@ -120,20 +134,20 @@ Anyone serious about Bitcoin and IT security recommends a Linux operating system
 {: .no_toc }
 The Tor browser is a powerful privacy tool to fend off snoopers trying to monitor our online activities and potentially do us harm. A bitcoin pleb cannot let this happen. Browsing anything bitcoin-related in clear-net comes with some privacy risks.
 
-Tor is great for looking up simple info but can be a painfully slow experience and time is the scarcest of all things. Instead you can browse with Firefox or [Mullvad browser](https://mullvad.net/en/browser) coupled with [Proton](https://protonvpn.com/)- or [Mullvad](https://mullvad.net/en) VPN service enabled on the desktop. VPN is great but choose wisely because many of the services out there are just a fraud and you trust them not to log your activities and they can start logging without notice anytime the government asks them to do so.
+Tor is great for looking up simple info but can be a painfully slow experience and time is the scarcest of all things. Instead you can browse with Firefox or [Mullvad browser](https://mullvad.net/en/browser){:target="_blank"} coupled with [Proton](https://protonvpn.com/){:target="_blank"}- or [Mullvad](https://mullvad.net/en){:target="_blank"} VPN service enabled on the desktop. VPN is great but choose wisely because many of the services out there are just a fraud and you trust them not to log your activities and they can start logging without notice anytime the government asks them to do so.
 
 ## OBJECTIVE: Download, verify and Install Tor browser(process similar to Mullvad browser)([Progress images](/progress-get-on-board/){:target="_blank"})
-1. 💡 Learn about [Verification of digital information](/pleb-lessons/#verifying-digital-information/)
+1. 💡 Learn about [Verification of digital information](/pleb-lessons/#verifying-digital-information)
 2. Your Ubuntu came with a handy tool to use for encryption and verification: GPG(Gnu Privacy Guard, implementing the OpenPGP standard). Open a terminal to use it
     1. Super + start typing “terminal”(add to favorites with right-click)
-3. Go to the [website](https://www.torproject.org/) of the Tor project. It should be a simple https website(check the little lock icon in the address bar)
+3. Go to the [website](https://www.torproject.org/){:target="_blank"} of the Tor project. It should be a simple https website(check the little lock icon in the address bar)
 4. Go to `Download Tor Browser` and select Linux
 5. Download the signature file as well
 7. In the terminal navigate into the download directory
 	```sh
 	cd ~/Downloads
 	```
-8. Verify Tor Browser (use man \<command> where you are unsure)
+8. Verify Tor Browser (use `man <command>` where you are unsure)
     2. You download the public key(or get it by any other means) of the developer(s) and import it in gpg
     ```sh
 	gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
@@ -143,7 +157,7 @@ Tor is great for looking up simple info but can be a painfully slow experience a
 	gpg --verify tor-browser-linux64-12.0.5_ALL.tar.xz.asc
 	```
     8. Note: Verification processes can vary for different software but the fundamentals remain the same
-9. Install Tor browser with the command line method [according to instructions](https://tb-manual.torproject.org/installation/)    
+9. Install Tor browser with the command line method [according to instructions](https://tb-manual.torproject.org/installation/){:target="_blank"}:
     8. Run the command to extract the archive
         ```sh
 		tar -xf tor-browser…. <press Tab to complete>
@@ -168,19 +182,19 @@ When you are doing anything bitcoin-related the most interaction is going to be 
 ---
 
 ## OBJECTIVE: Start using Sparrow wallet([Progress images](/progress-get-on-board/){:target="_blank"})
-1. Open Firefox browser and navigate to the [Sparrow wallet website](https://sparrowwallet.com/)(clearnet link)
+1. Open Firefox browser and navigate to the [Sparrow wallet website](https://sparrowwallet.com/){:target="_blank"}(clearnet link)
     1. Download is very slow on Tor browser but you can try
-2. Go to Download and navigate to version 1.7.6 in [previous releases](https://github.com/sparrowwallet/sparrow/releases/tag/1.7.6)(known working version with the this course)
+2. Go to Download and navigate to version 1.7.6 in [previous releases](https://github.com/sparrowwallet/sparrow/releases/tag/1.7.6){:target="_blank"}(known working version with the this course)
 3. Download these files(click “show all assets” to expand the list)
 	* sparrow_1.7.6.1_amd64.deb(debian 64-bit linux package, no server in name!) 
 	* …manifest.txt file
 	* …manifest.txt.**asc** file
-4. Verify the downloaded software according to [instructions](https://sparrowwallet.com/download/):
+4. Verify the downloaded software according to [instructions](https://sparrowwallet.com/download/){:target="_blank"}:
     5. Import Craig Raw’s(developer of Sparrow wallet) public key
         ```sh
 		curl https://keybase.io/craigraw/pgp_keys.asc | gpg --import
 		```
-    6. The manifest file contains the [hash fingerprints](https://en.wikipedia.org/wiki/Fingerprint_(computing)) of the different releases. If you view the file you can see the release you downloaded is also listed. If we can trust the manifest file then we can generate a fingerprint from our downloaded Sparrow file and compare that fingerprint with the one listed in the manifest file. If the fingerprint we generated matches the one listed in the manifest file then we can trust the downloaded software and go ahead with the installation 
+    6. The manifest file contains the [hash fingerprints](https://en.wikipedia.org/wiki/Fingerprint_(computing)){:target="_blank"} of the different releases. If you view the file you can see the release you downloaded is also listed. If we can trust the manifest file then we can generate a fingerprint from our downloaded Sparrow file and compare that fingerprint with the one listed in the manifest file. If the fingerprint we generated matches the one listed in the manifest file then we can trust the downloaded software and go ahead with the installation 
     7. To trust the manifest file you have to check its signature against Craig’s public key
     8. Go to Downloads
         ```sh
@@ -263,7 +277,7 @@ Bitcoin plebs have a wonderful training ground to hone their skills in a safe en
 
 ---
 
-### Congratulations! You are all set!
+## Congratulations! You are all set!
 {: .no_toc .text-delta }
 
 [Next Quest](/the-journey-begins/){: .btn .btn-green }

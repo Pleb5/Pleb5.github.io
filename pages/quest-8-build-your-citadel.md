@@ -34,8 +34,9 @@ Get too lazy and comfortable and lose your bitcoin. Get too proud and lose your 
 
 Become virtuous and vigilant, and enjoy the fruits of freedom for you and your family, far into the future. The new legacies are just being brought to life. It starts small. It starts with individuals. It starts with you. The safe haven for you and for anyone you might share it with.
 
-**This is Your Bitcoin Citadel**
-{: .text-delta }
+## This is Your Bitcoin Citadel
+{: .no_toc }
+![bitcoin_citadel_1](/assets/img/graphics/bitcoin_citadel_1.jpg)
 
 **Therefore, You must master Self Custody and develop your Bitcoin Pleb Philosophy to safeguard that legacy you started to build!**
 
@@ -45,7 +46,12 @@ You must know that creating something is far more difficult than maintaining it.
 
 Think of your Citadel literally like your safe haven fortress-like city that has lines of defenses, soldiers, citizens and rules to abide by for all inhabitants.
 
-You are the Captain of this Citadel.
+
+
+## You are the Captain of this Citadel
+{: .no_toc }
+
+![captain of the citadel](/assets/img/graphics/captain_of_the_citadel.jpg)
 
 ## OBJECTIVE: Read the Art of War by Sun Tzu
 	It is free and you will benefit from it tremendously, not to say that it is an afternoon read. 
@@ -174,10 +180,13 @@ You can see your wallet setup and flow of your funds layed out in front of you. 
 
 ---
 
-### Great! This is what I call Proof of Work!
+## Great! This is what I call Proof of Work!
 {: .no_toc }
+{: .no_toc }
+![bitcoin_citadel_2](/assets/img/graphics/bitcoin_citadel_2.jpg)
 
-**Now you can consider yourself a real Bitcoin Pleb!**
+## Now you can consider yourself a real Bitcoin Pleb!
+{: .no_toc }
 
 Share your experience with this journey and of course…keep learning because this is just the beginning.
 

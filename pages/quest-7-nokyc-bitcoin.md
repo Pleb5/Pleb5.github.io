@@ -35,18 +35,18 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
     3. Luckily legacy testnet has a built-in public server option. Connect to that in the server preferences. Sparrow server button should be yellow now
     4. Create 2 new testnet hot wallets. No encryption password necessary for these
     5. Get some testnet coins for one of the wallets from a testnet faucet
-        2. Try [this](https://testnet-faucet.mempool.co/) or [this](https://coinfaucet.eu/en/btc-testnet/) or [this](https://testnet-faucet.com/btc-testnet/)
+        2. Try [this](https://testnet-faucet.mempool.co/){:target="_blank"} or [this](https://coinfaucet.eu/en/btc-testnet/){:target="_blank"} or [this](https://testnet-faucet.com/btc-testnet/){:target="_blank"}
     6. You are ready to try out P2P trading on testnet
 
 ---
 
 ## OBJECTIVE: Try HodlHodl on testnet([Progress Images](/progress-nokyc-bitcoin/){:target="_blank"})
 
-1. Go to HodlHodl [testnet version](https://hhtestnet.com/)
+1. Go to HodlHodl [testnet version](https://hhtestnet.com/){:target="_blank"}
 2. Create 2 testnet accounts. You will need 2 test email addresses
     1. For privacy:
-		2. You can use duck [email protection](https://duckduckgo.com/email/faq) for free
-		3. Protonmail aliases if you pay for a [mail plus subscription](https://proton.me/mail/pricing)[not an affiliate link]
+		2. You can use duck [email protection](https://duckduckgo.com/email/faq){:target="_blank"} for free
+		3. Protonmail aliases if you pay for a [mail plus subscription](https://proton.me/mail/pricing){:target="_blank"}
 		4. Or these two combined
 		5. Or just use separate email addresses
     6. Generate and Save your passwords in your Keepass of course(or cloud based password manager since this testnet accounts are not that crucial)
@@ -100,13 +100,13 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
 ## OBJECTIVE: Try Robosats on testnet([Progress Images](/progress-nokyc-bitcoin/){:target="_blank"})
 
 1. First you need a testnet Lightning wallet
-    1. Go to this custodial testnet [Lightning site](https://htlc.me/)
+    1. Go to this custodial testnet [Lightning site](https://htlc.me/){:target="_blank"}
     2. It can be buggy sometimes. Just refresh page or try a different browser session
     3. Follow instructions and save secret
     4. You get some initial Lightning tBTC
     5. You can fund a Phoenix testnet Lightning wallet as an alternative
-2. Open a Tor Browser and go to [https://robosats.com](https://robosats.com)
-    6. Go to the dotted menu `“…”`(more) in the bottom bar and the hat icon will take you to https://learn.robosats.com
+2. Open a Tor Browser and go to [https://robosats.com](https://robosats.com){:target="_blank"}
+    6. Go to the dotted menu `“…”`(more) in the bottom bar and the hat icon will take you to [https://learn.robosats.com](https://learn.robosats.com){:target="_blank"}
     7. Select `“Quick start”` and browse the topics and links
     8. Go to `“Access Robosats”`
     9. Scroll down to Testnet and go to the onion address site
@@ -118,7 +118,7 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
     13. Click `“Create”` and this time choose the btc buyer role for the maker
     14. Enable advanced settings in the the top-right corner to see some more details
     15. Decide on amount range, dummy payment method and premium
-    16. Robosats uses [fidelity bonds](https://learn.robosats.com/docs/bonds/) as a pre-commitment mechanism to incentivize honesty in trades. This is determined as a percentage of the value of the trade in sats. You can set it to any percentage and Robosats will ask you to lock in that amount before the trade. The more you set it the more “fidelity” is assumed by traders. If you cheat or don’t follow up on the trade, your bond is not returned to you
+    16. Robosats uses [fidelity bonds](https://learn.robosats.com/docs/bonds/){:target="_blank"} as a pre-commitment mechanism to incentivize honesty in trades. This is determined as a percentage of the value of the trade in sats. You can set it to any percentage and Robosats will ask you to lock in that amount before the trade. The more you set it the more “fidelity” is assumed by traders. If you cheat or don’t follow up on the trade, your bond is not returned to you
     17. Click `“Create order”`. You are presented a Lightning hold invoice as the maker bond
         1. Pay it in time, it gives you like 10 minutes
     18. Copy it and go to htlc.me. Go to `“Send”` and paste the Lightning invoice then hit enter to pay
@@ -233,7 +233,7 @@ Sparrow wallet has been connecting to the Bitcoin Plebs Signet node. To launch S
 11. Take a quick look at the result architecture again(click to enlarge):
 [![Final Architecture](/assets/img/diagrams/architecture_bitcoinplebs_quest_6.drawio.png)](/assets/img/diagrams/architecture_bitcoinplebs_quest_6.drawio.png){:target="_blank"}
 
-Note that this guide is a fairly minimalistic approach in order to jumpstart your bitcoin node journey. Feel free to look for additional features, optimizations and security hardening measures in the `Bitcoin Plebs` community or other node-related communities, like the [Raspibolt](https://raspibolt.org) or [Raspiblitz](https://raspiblitz.org) community to improve your node experience and level up your nodes capabilities:
+Note that this guide is a fairly minimalistic approach in order to jumpstart your bitcoin node journey. Feel free to look for additional features, optimizations and security hardening measures in the `Bitcoin Plebs` community or other node-related communities, like the [Raspibolt](https://raspibolt.org){:target="_blank"} or [Raspiblitz](https://raspiblitz.org){:target="_blank"} community to improve your node experience and level up your nodes capabilities:
 
 1. You can use more advanced node configuration options
 2. You can set up your own private electrum(electrs/fulcrum) server. This will speed up wallet loading in Sparrow, improves privacy and unlocks extra services that rely on an electrum server implementation
@@ -242,6 +242,10 @@ Note that this guide is a fairly minimalistic approach in order to jumpstart you
 5. … and many more!
 
 ---
+
+
+## The following is NO professional advice! Author cannot be held liable for any harm, damage or losses you incur by applying the following practices!
+{: .no_toc }
 
 ## OBJECTIVE: Let’s get serious: Buy some NoKYC bitcoin
 
@@ -252,30 +256,30 @@ Note that this guide is a fairly minimalistic approach in order to jumpstart you
     1. This is great if you don’t have NoKYC sats to pledge for escrow on other platforms
     2. You can coinjoin funds after each buy if you know [how to do it](https://sparrowwallet.com/docs/mixing-whirlpool.html)(not part of this program). It will be more private
 5. Use the sats you bought to buy some more NoKYC bitcoin on `HodlHodl` and `Bisq`
-    3. Watch [this video](https://www.youtube.com/watch?v=FmyYxrZM3Ms&ab_channel=BTCSessions) about HodlHodl and [this one](https://www.youtube.com/watch?v=4LyEKA5Iq9I&t=819s&ab_channel=BTCSessions) about Bisq from the one and only BTC Sessions
+    3. Watch [this video](https://www.youtube.com/watch?v=FmyYxrZM3Ms&ab_channel=BTCSessions){:target="_blank"} about HodlHodl and [this one](https://www.youtube.com/watch?v=4LyEKA5Iq9I&t=819s&ab_channel=BTCSessions){:target="_blank"} about Bisq from the one and only BTC Sessions
 
 OPTIONAL: In order to try `Robosats`, a bitcoin wallet is required that is NoKYC and has Lightning capabilities. Lightning is not a focus of this training program so feel free to skip this part if you want to learn more and start your Lightning journey with a sovereign node setup.
 
 Lightning is great because although bitcoin’s primary strength is being a store of value, it is great to showcase what it can do as a medium of exchange as well. However, Lightning is still in its infancy and there are all kinds of risks involved. Hot wallet risk, channel backups, mandatory security upgrades from time to time… it is mainly for experimentation with small amounts.
 
-That said, transacting on Lightning can be really cheap, fast and the settlement is instant. You can do many things with it that showcases the benefits of programmable money like **zapping** on nostr, **streaming** **sats** for your favorite [value for value podcast](https://value4value.info/) or just generally **pay/receive** sats **privately** and **cheaper** than a base-layer transaction.
+That said, transacting on Lightning can be really cheap, fast and the settlement is instant. You can do many things with it that showcases the benefits of programmable money like **zapping** on nostr, **streaming** **sats** for your favorite [value for value podcast](https://value4value.info/){:target="_blank"} or just generally **pay/receive** sats **privately** and **cheaper** than a base-layer transaction.
 
 If the transaction fees rise (which is supposed to be a good thing that improves the security of bitcoin) Lightning will be essential to small bitcoin payments. I reckon you will be using Lightning in the not-so-distant-future anyway.
 
 ### Your LN options to try Robosats
 1. Get a decent custodial but NoKYC Lightning wallet and load it up with a little amount of sats
-2. Get a decent non-custodial Lightning mobile wallet like [Phoenix](https://phoenix.acinq.co/) or [Breez](https://breez.technology/)
+2. Get a decent non-custodial Lightning mobile wallet like [Phoenix](https://phoenix.acinq.co/){:target="_blank"} or [Breez](https://breez.technology/){:target="_blank"}
 3. Upgrade to a LN full node and use Lighting in a non-custodial sovereign way. You can upgrade your current machine or buy a dedicated Nodl or a Raspiblitz node
     1. Once you have your own Lightning node up and running, you can try funding its on-chain wallet, open channels and make some payments
     2. It can also be used in testnet mode(might be a good substitute for htlc.me)
-    3. Use [Zeus wallet](https://zeusln.app/) to control your LN node from mobile
+    3. Use [Zeus wallet](https://zeusln.app/){:target="_blank"} to control your LN node from mobile
 4. Skip this part and come back later
 
 ## (OPTION 1) OBJECTIVE: Buy some real NoKYC sats with Robosats using Lightning
 
-1. 💡 Learn about Lightning wallets from this [comparison article](https://darthcoin.substack.com/p/lightning-wallets-comparison)
-2. You can watch [this tutorial video](https://youtu.be/XW_wzRz_BDI) about Robosats from BTC Sessions
-3. Probably your best choice would be to use something that [Robosats lists](https://learn.robosats.com/docs/wallets/) as fully compatible AND is desktop compatible as well. If you go custodial, [Alby](https://getalby.com/) is a decent choice in my case. It goes very well with using nostr on desktop too
+1. 💡 Learn about Lightning wallets from this [comparison article](https://darthcoin.substack.com/p/lightning-wallets-comparison){:target="_blank"}
+2. You can watch [this tutorial video](https://youtu.be/XW_wzRz_BDI){:target="_blank"} about Robosats from BTC Sessions
+3. Probably your best choice would be to use something that [Robosats lists](https://learn.robosats.com/docs/wallets/){:target="_blank"} as fully compatible AND is desktop compatible as well. If you go custodial, [Alby](https://getalby.com/){:target="_blank"} is a decent choice in my case. It goes very well with using nostr on desktop too
     1. On mobile the choice is not so obvious because of all sorts of potential compatibility issues
 4. Install the `Alby extension` on a compatible browser according to instructions if you haven't already
 5. Create an account with a private email address(no gmail)
@@ -287,7 +291,7 @@ If the transaction fees rise (which is supposed to be a good thing that improves
 
 ---
 
-### Congratulations!
+## Congratulations!
 {: .no_toc }
 
 You completed all the challenges so far on your path to become a Bitcoin Pleb! Now that you have mastered all these tools it is time to graduate!

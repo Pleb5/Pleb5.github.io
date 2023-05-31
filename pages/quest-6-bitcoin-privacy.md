@@ -19,20 +19,20 @@ permalink: /bitcoin-privacy/
 
 Now it starts to get more serious. You will realize that security is not just about doing everything “the right way”. It is far more than that. Security is also about hiding ourselves from the foe and revealing ourselves to the friend.
 
-### In essence: Privacy
+## In essence: Privacy
 {: .no_toc }
 
 ## OBJECTIVE: Get to know the enemy([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
 
 1. 💡Learn a lesson about [Bitcoin Plebs and Privacy](/pleb-lessons/#bitcoin-plebs-and-privacy)
-2. Use the Tor Browser to go to the chain analysis research site [OXT](oxt.me)
+2. Use the Tor Browser to go to the chain analysis research site [OXT](oxt.me){:target="_blank"}
     1. This site has been developed by privacy advocates to raise awareness and help others use bitcoin privately. It is a free-to-use chain-analysis tool with a bunch of other useful information on the bitcoin base-layer
 3. Browse the site and play around with it
-    2. The [wallet clustering](https://oxt.me/directory) of different big fishes is interesting
-    3. The [history of bitcoin](https://oxt.me/history) is a very interesting section too
+    2. The [wallet clustering](https://oxt.me/directory){:target="_blank"} of different big fishes is interesting
+    3. The [history of bitcoin](https://oxt.me/history){:target="_blank"} is a very interesting section too
 4. Create a transaction where you merge multiple UTXOs into one UTXO
     4. Select multiple UTXOs in your wallet on the `UTXOs` tab, with left mouse click while holding `ctrl` button
-    5. If you don’t have multiple UTXOs get some from a [faucet](https://signetfaucet.com) or perform a self-spend
+    5. If you don’t have multiple UTXOs get some from a [faucet](https://signetfaucet.com){:target="_blank"} or perform a self-spend
     6. Choose the `Send selected` option. It will take you to the `Send` tab to complete the transaction creation process
     7. Send it to this address
         ```sh
@@ -56,13 +56,13 @@ Now it starts to get more serious. You will realize that security is not just ab
         4. How many people completed this task
         5. Looking at transaction dates and correlating this info with messages in the group further gives you info on the growth rate of the group and potentially also some info about group members
 9. Now open up a Tor browser and go to this site:
-    15. [https://keepassxc.org/donate/](https://keepassxc.org/donate/)
+    15. [https://keepassxc.org/donate/](https://keepassxc.org/donate/){:target="_blank"}
     16. Scroll down. It will probably show you the donation address KeePassXC uses. Such a great password manager could use a fixed address for donations? "You gotta be kidding me, right?" No.
         ```sh
 		1P7VPcL31rFzcHKbgVoqW6VoMBRQY5UYdR
 		```
     17. Many projects only provide a fixed address because it is convenient. It is very bad privacy though
-    18. Use [BTCPay Server](https://btcpayserver.org/) or bip47 paynyms for more privacy when the you want to give users automatic addresses for a service or donations
+    18. Use [BTCPay Server](https://btcpayserver.org/){:target="_blank"} or bip47 paynyms for more privacy when the you want to give users automatic addresses for a service or donations
     19. Search that address in mempool.space switching to mainnet. You will see all the incoming bitcoin in the past, current balance and if you scroll down you can browse recent and past transaction activity. The address is highlighted in all transaction graphs.
     20. Now you could try to track down donors’ addresses or see how KeePassXC uses their donation fund and try to find out more about their developers/contributors addresses
     21. You could try to look into this in OXT as well. Since this is a chain analysis tool it will give you additional details e.g. time pattern analysis of the transactions to this address
@@ -90,7 +90,7 @@ This is where your external information comes in. You know more about your trans
     4. You can override Sparrow’s coin selection by hovering on one of the inputs and clicking the little `“x”` icon on the Transaction Graph in the Transaction creation window
     5. You can **make** a doxxing change UTXO **unspendable** by going to UTXOs tab and right click on the “Outputs” column of that specific UTXO. The context menu gives the option to “**freeze**” the UTXO
     6. This way it became unspendable until you “**unfreeze**” it
-2. 💡 Read Sparrow docs on [spending privately](https://sparrowwallet.com/docs/spending-privately.html)
+2. 💡 Read Sparrow docs on [spending privately](https://sparrowwallet.com/docs/spending-privately.html){:target="_blank"}
     7. Many of these privacy practices will become usable when we get to mainnet
 3. Create followup transactions using UTXOs from your initial transactions as inputs. Use Sparrow privacy info icon and transaction visualization along with your labels:
     8. Transactions with good privacy practices
@@ -115,15 +115,15 @@ So far Sparrow has been connecting to the Bitcoin Plebs dedicated learning Node 
 While it is very bad practice to leak your financial data to third parties by using other's nodes, you can still go back and use this test setup any time. It is not leaking real financial information.
 
 So, the result architecture you want to arrive at looks like the following:
-[Final Architecture](/assets/img/diagrams/architecture_bitcoinplebs_quest_6.drawio.png){:target="_blank"}
+[![Final Architecture](/assets/img/diagrams/architecture_bitcoinplebs_quest_6.drawio.png)](/assets/img/diagrams/architecture_bitcoinplebs_quest_6.drawio.png){:target="_blank"}
 
 There are three major ways to interact with the bitcoin peer-to-peer network:
 
 * Using others nodes: **Not recommended**. Sparrow has preconfigured "more trusted" public nodes in Sparrow mainnet mode in the “Public Servers” section. You don’t necessarily doxx your identity by default if you use public servers but if you want to be serious, don’t trust, verify
-* Using your dedicated **hosted node service **and connecting remotely: A trade-off worth thinking about. Less pain with hosting BUT there is the risk of the service provider logging or leaking your activities and it can shut you down or try to deanonymize you. They will comply immediately if authorities turn up and you might not even know about it. Having said that, I think [Nodl cloud](https://www.nodl.eu/nodl-cloud/) is a great choice in this category
+* Using your dedicated **hosted node service** and connecting remotely: A trade-off worth thinking about. Less pain with hosting BUT there is the risk of the service provider logging or leaking your activities and it can shut you down or try to deanonymize you. They will comply immediately if authorities turn up and you might not even know about it. Having said that, I think [Nodl cloud](https://www.nodl.eu/nodl-cloud/) is a great choice in this category
 * **Self hosting** your own node: Accessible and the most sovereign way, with the added perk of learning opportunities. Especially if you plan to stack your savings in bitcoin and to onboard family and friends. You can be the "Uncle Jim" for them until they learn enough to do it themselves.
 
-In bitcoin they also say "trusted third parties are security holes" to emphasize how much better off you are security-wise if you self-host your own verified bitcoin node. In fact you can self-host many other important pieces of open-source bitcoin-related software like your own [mempool.space](https://mempool.space/) instance or [BTCPay server](https://btcpayserver.org/). Feel free to jump into these rabbit holes to gain even more sovereignty and learn cool computer-skills.
+In bitcoin they also say "trusted third parties are security holes" to emphasize how much better off you are security-wise if you self-host your own verified bitcoin node. In fact you can self-host many other important pieces of open-source bitcoin-related software like your own [mempool.space](https://mempool.space/){:target="_blank"} instance or [BTCPay server](https://btcpayserver.org/){:target="_blank"}. Feel free to jump into these rabbit holes to gain even more sovereignty and learn cool computer-skills.
 
 ## Your Options in Self-Hosting Land
 
@@ -147,9 +147,9 @@ The list of my favorite open-source node projects were selected by these criteri
 
 #### My Recommendations:
 
-* [Raspiblitz](https://raspiblitz.org/): Lightning and more. Probably the cheapest. Terminal based Cypherpunk-style usage. Highly recommended for aspiring sovereign node runners. Great support from volunteers
-* [Nodl](https://www.nodl.eu/): Lightning and more. Sleek UI, performance hardware
-* [RoninDojo](https://ronindojo.io/index): No Lightning but strong privacy-focus. Best with the Samourai software stack
+* [Raspiblitz](https://raspiblitz.org/){:target="_blank"}: Lightning and more. Probably the cheapest. Terminal based Cypherpunk-style usage. Highly recommended for aspiring sovereign node runners. Great support from volunteers
+* [Nodl](https://www.nodl.eu/){:target="_blank"}: Lightning and more. Sleek UI, performance hardware
+* [RoninDojo](https://ronindojo.io/index){:target="_blank"}: No Lightning but strong privacy-focus. Best with the Samourai software stack
 
 Note that most of the node projects can be ported to Ubuntu(and some other distros) by burning the appropriate OS image or running them in virtual machines. Look for guides if interested.
 
@@ -161,7 +161,7 @@ You should go for a dedicated hardware setup long-term and run things as they we
 
 Running your own bitcoin full node is a must for sovereignty. It is however a topic of contention whether running your own Lightning node is a good idea. It adds substantial complexity and management costs. It also comes with potential security gotchas putting your funds on Lightning channels at risk.
 
-However it is very handy to run a sovereign Lightning node with some funds on Lightning when on-chain transaction fees are getting high. High fees are good for bitcoin base-layer security and it should be the long-term trend. At that point you're going to pay a lot to open channels. The early bird catches the low-fee Lightning channels, they say. [Start here](https://www.lightningnode.info/).
+However it is very handy to run a sovereign Lightning node with some funds on Lightning when on-chain transaction fees are getting high. High fees are good for bitcoin base-layer security and it should be the long-term trend. At that point you're going to pay a lot to open channels. The early bird catches the low-fee Lightning channels, they say. [Start here](https://www.lightningnode.info/){:target="_blank"}.
 
 That said, most people use Lightning with custodial wallets which is acceptable if you don't put more money on the line than you are okay with losing.
 
@@ -173,7 +173,7 @@ Know yourself, know your limits. You can start with option 1 or 2 then experimen
 
 Raspberries are gonna be your most compatible choice if you want to try multiple software on a single dedicated hardware because it is kinda the cheapest and most popular so projects tend to port their software for at least that.
 
-**Raspiblitz** is my favorite in this category. Check out the [alternative platforms guide](https://github.com/rootzoll/raspiblitz/tree/dev/alternative.platforms#%EF%B8%8F-alternative-platforms-for-the-raspiblitz-%EF%B8%8F)[link] for hardware alternatives to Raspberry.
+**Raspiblitz** is my favorite in this category. Check out the [alternative platforms guide](https://github.com/rootzoll/raspiblitz/tree/dev/alternative.platforms#%EF%B8%8F-alternative-platforms-for-the-raspiblitz-%EF%B8%8F){:target="_blank"} for hardware alternatives to Raspberry.
 
 I will note again that using a Node implementation on the particular hardware that it was designed for is going to be an overall safer and better experience.
 
@@ -185,7 +185,7 @@ Take notes in your KeePass database to save handy info you learn here!
 
 This is going to be the most technical part of the whole chapter. Don’t worry though, every step is well-explained. For additional learning you can take your time and research each concept or command in the guide. Command manuals can be browsed using **man \<command>** in the terminal. 
 
-If you get stuck at a certain step try to hit up the bitcoin plebs nostr group[link] for help. Remember to beware shady direct messages.
+If you get stuck at a certain step try to hit up the bitcoin plebs nostr group for help. Remember to beware shady direct messages.
 
 ## OBJECTIVE(optional): Prepare the external 1TB SSD([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
 
@@ -213,7 +213,7 @@ If you get stuck at a certain step try to hit up the bitcoin plebs nostr group[l
 
 ## OBJECTIVE: Download bitcoin core and prepare for verification([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
 
-1. Go to the bitcoin core [webpage](https://bitcoincore.org). Go to the “Download” section
+1. Go to the bitcoin core [webpage](https://bitcoincore.org){:target="_blank"}. Go to the “Download” section
 2. Download the latest version(24.0.1 at the time of writing) with the necessary files for verification:
     1. `“Download Bitcoin Core”` button downloads the main archive file (for x86-64 architecture, Linux platform)
     2. `SHA256 binary hashes`: Contains the hash list of that bitcoin core release for the different platforms. This list must contain the unique hash identifier of the archive file you just downloaded
@@ -230,12 +230,10 @@ If you get stuck at a certain step try to hit up the bitcoin plebs nostr group[l
         2. Substitute `<developer name>` for their real name(e.g. `Sjors`) and run this command for all developer keys you want to download
         3. Use the `up` arrow to easily bring back the previous command and edit the names
     7. It might complain about this and that missing or not found but it should say imported
-    8. You can go and learn more about gpg “[Web of trust](https://www.gnupg.org/gph/en/manual.html#AEN554)” and how to add trust to these keys when you cross check them
+    8. You can go and learn more about gpg “[Web of trust](https://www.gnupg.org/gph/en/manual.html#AEN554){:target="_blank"}” and how to add trust to these keys when you cross check them
     9. You can cross-check by finding the people online but going to conferences and meetups is also a great way to connect and verify. It could be considered kind of a trophy
 
 ---
-
-At the time of writing, the process of verification of the executable is the following[image about verification process]. You will do this process now step by step on your machine.
 
 ## OBJECTIVE: Verify Bitcoin Core([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
 
@@ -250,7 +248,7 @@ At the time of writing, the process of verification of the executable is the fol
         ```sh
 		sha256sum --check SHA256SUMS --ignore-missing
 		```
-    5. Expected result: `bitcoin-24.0.1-x86_64-linux-gnu.tar.gz: OK`[images]
+    5. Expected result: `bitcoin-24.0.1-x86_64-linux-gnu.tar.gz: OK`
 
 It was somewhat arduous to verify bitcoin core(especially if you cross-checked public keys from different sources. In this case, congratulations!). We should not take this process lightly because malware could indeed do us lots of harm. All your bitcoin transactions will be routed through your node so treat it with utmost respect.
 
@@ -288,7 +286,7 @@ First of all let’s prepare to drive all traffic of Bitcoin Core through the To
 
 ## OBJECTIVE: Setup a Tor proxy service([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
 
-1. Check out this explainer [youtube video](https://youtu.be/QRYzre4bf7I) about how Tor works and how [Tor onion services](https://youtu.be/QRYzre4bf7I) work(clearnet links)
+1. Check out this explainer [youtube video](https://youtu.be/QRYzre4bf7I){:target="_blank"} about how Tor works and how [Tor onion services](https://youtu.be/QRYzre4bf7I){:target="_blank"} work(clearnet links)
 2. Install tor package
     1. Open a terminal and run command
     ```sh
@@ -434,7 +432,7 @@ First of all let’s prepare to drive all traffic of Bitcoin Core through the To
 	tail -f ~/.bitcoin/debug.log
 	```
     23. Use `ctrl+c` to stop and get back to the terminal
-18. There are many other handy commands. Read about the RPC api reference [here](https://developer.bitcoin.org/reference/rpc/index.html) or get some help in the terminal running: 
+18. There are many other handy commands. Read about the RPC api reference [here](https://developer.bitcoin.org/reference/rpc/index.html){:target="_blank"} or get some help in the terminal running: 
     24. `bitcoin-cli -help` for usage of the command itself, or 
     25. `bitcoin-cli help` (without a dash) to show all the possible RPC options
 19. For example to list all the existing peers and check their nodes configurations
@@ -455,7 +453,7 @@ However, let’s use `Sparrow` in testnet mode just a little more for a couple o
 
 ---
 
-### Let's go play around with P2P markets!
+## Let's go play around with P2P markets!
 {: .no_toc }
 
 [Next Quest](/nokyc-bitcoin/){: .btn .btn-green }

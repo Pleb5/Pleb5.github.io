@@ -1,15 +1,80 @@
 @import "./color_schemes/dark";
+@import "./typography.scss";
+
+/* **** Redefine some typography variables ***** */
+// Font size
+// `-sm` suffix is the size at the small (and above) media query
+
+/* These variables don't seem to work: It gets overridden and I don't know where
+$font-size-1: 9px !default;
+$font-size-1-sm: 10px !default;
+$font-size-2: 11px !default; // h4 - uppercased!, h6 not uppercased, text-small
+$font-size-3: 12px !default; // h5
+$font-size-4: 14px !default;
+$font-size-5: 1.6em !important; // h3
+$font-size-6: 1.8em !important; // h2
+$font-size-7: 24px !default;
+$font-size-8: 2em !important; // h1
+$font-size-9: 36px !default;
+$font-size-10: 42px !default;
+$font-size-10-sm: 48px !default;
+*/
+
+ul, ol, li{
+  font-size: 1.2rem;
+}
+
+p{
+  font-size: 1.25em;
+}
 
 h1 {
-  color: #976108;
+//  color: #976108; <---- color overridden, cant change
   text-align: center;
 }
 
-p, li, ul, ol{
-  font-size: 1em;
-}
 
 .bitcoin_transactions{
   width: auto;
   max-height: 70%;
 }
+
+/* Home page */
+
+.bitcoin_plebs_title{
+  color: #E46720;
+  text-align: center;
+}
+
+.go_above_and_beyond{
+  color: #E46720;
+}
+
+.journey_to_sovereignty{
+  color: #E46720;
+}
+
+.freedom_tech{
+  color: #E46720;
+}
+
+.bonus_nostr{
+  color: #960BE3;
+}
+
+.warning_low_time_pref{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  
+  color: #960BE3;
+}
+
+.start_my_journey{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 70%;
+  padding: 10px;
+}
+
