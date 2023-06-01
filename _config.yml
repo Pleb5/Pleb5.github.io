@@ -67,7 +67,7 @@ defaults:
     values:
       image: true
 
-
-
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "/assets/img/favicon.png"
 
 
