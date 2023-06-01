@@ -127,9 +127,15 @@ Anyone serious about Bitcoin and IT security recommends a Linux operating system
 17. Introduce yourself if you will
 18. Start the nostr client on your phone. Initialize with the same private key
 19. If it went fine, shortly you can see the same profile info and messages you sent on your desktop.
-20. Note: The feature set of different nostr clients can be different depending on what and how they are implemented. Basic messaging should be available on all clients but e.g. Lightning zaps(small amounts of bitcoin sent to another user) or group chat features are not included on all clients. [More info](https://www.nostr.net/) on feature set of nostr clients
+
+> Note: The feature set of different nostr clients can be different depending on what and how they are implemented. Basic messaging should be available on all clients but e.g. Lightning zaps(small amounts of bitcoin sent to another user) or group chat features are not included on all clients. [More info](https://www.nostr.net/) on feature set of nostr clients
+
+> **Moderation of discussion: Nostr pushes many functionalities to the client side. This also means that there is no real way for anyone to moderate any discussion single-handedly.** In consequence, there is no automatic curation of people and topics that you are interested in.
+
+> You can choose to use *your own* content-filtering methods though. Some of this happens already based on following/unfollowing people(you can even ban people in clients), joining or exiting public channels("groups") and also based on what relays you are connected to(they don't store anything people send). Furthermore, your client app or even you can get your own content indexer service to get more relevant content or weed out irrelevant/annoying content.
 
 ---
+
 ## Tor
 {: .no_toc }
 The Tor browser is a powerful privacy tool to fend off snoopers trying to monitor our online activities and potentially do us harm. A bitcoin pleb cannot let this happen. Browsing anything bitcoin-related in clear-net comes with some privacy risks.
@@ -235,7 +241,7 @@ Bitcoin plebs have a wonderful training ground to hone their skills in a safe en
     ```sh
 	export PATH=”$PATH:/opt/sparrow/bin”
 	```
-5. Save the file: `ctrl + o --> enter`
+5. Save the file: `ctrl + o` --> `enter`
 6. Exit nano: `ctrl + x`
 7. Restart your computer for it to take effect
     ```sh
@@ -258,20 +264,25 @@ Bitcoin plebs have a wonderful training ground to hone their skills in a safe en
 13. Click Close
 14. In the bottom-right corner you have the `Server switch` turned on and color blue, and next to it you see a sign that you are connected through tor which greatly increases your privacy
 15. Hover over the icons with your mouse to check additional info. In Sparrow you can hover over many things and it will give you great additional insights
-16. If Sparrow loses connection for any reason and you cannot re-establish it with the bitcoinplebs node, you can try these alternative signet nodes, ALL on port `38333`
-    ```sh
+16. If Sparrow loses connection for any reason and you cannot re-establish it with the bitcoinplebs node, you can try these alternative signet nodes:  
+Port: 
+  ```sh
+    38333
+  ```  
+URL-s:  
+  ```sh
 	s7fcvn5rblem7tiquhhr7acjdhu7wsawcph7ck44uxyd6sismumemcyd.onion
 	```
-    ```sh
+  ```sh
 	6megrst422lxzsqvshkqkg6z2zhunywhyrhy3ltezaeyfspfyjdzr3qd.onion
 	```
-    ```sh
+  ```sh
 	jahtu4veqnvjldtbyxjiibdrltqiiighauai7hmvknwxhptsb4xat4qd.onion
 	```
-    ```sh
+  ```sh
 	f4kwoin7kk5a5kqpni7yqe25z66ckqu6bv37sqeluon24yne5rodzkqd.onion
 	```
-    ```sh
+  ```sh
 	nsgyo7begau4yecc46ljfecaykyzszcseapxmtu6adrfagfrrzrlngyd.onion
 	```
 

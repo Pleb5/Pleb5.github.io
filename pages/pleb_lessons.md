@@ -21,7 +21,6 @@ permalink: /pleb-lessons/
 ---
 
 ## The Linux terminal(aka. Linux command line, shell, bash)
-![nostrich cipherpunk](/assets/img/graphics/nostrich_cipherpunk.jpg)
 These names mean slightly different things and the nuances become important in certain cases. Right now it's enough to think of these as a tool set of a mechanic. They can do wonders if you want to pimp your car or have it repaired.
 
 Before you get scared off from all the FUD that terminals are surrounded by, I want to tell you that the Linux terminal is actually your friend. It will allow you to do things that would be so much harder without it. It is a quite flexible tool that is capable of doing very simple tasks and very sophisticated ones too. Using it for real projects teaches you much more about computers than reading any book or article. Do you own a wrench or a hammer? With just learning the basics of DIY you can do so much more around your house, why not do this with your devices too?
@@ -58,7 +57,7 @@ You can try and install other terminals or customize the looks and other stuff l
 
 [Here](https://www.digitalocean.com/community/tutorials/linux-commands) is an article about the most used Linux shell commands. Most of these will be used on your journey. Run through them quickly but you will be using them soon enough. [Here](https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet) is a more comprehensive cheat sheet if you ever need it. Man-pages can be weird to search and navigate but if you learn how to do it that will serve you really well too.
 
-[Back to Objective](/get-on-board/#objective-install-a-fresh-ubuntu-jammy-2204-lts){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/get-on-board/#objective-install-a-fresh-ubuntu-jammy-2204-lts){: .btn .btn-purple}
 
 ---
 
@@ -95,12 +94,12 @@ Why the name public key? Because this key is constructed in a way that if someon
 
 A key that can only lock but not unlock is very handy this way because now anyone can send me a private message without first agreeing on a shared secret. Since we don’t share the same secret in this type of communication it is also called “asymmetric encryption”.
 
-[Back to Objective](/get-on-board/#objective-join-the-bitcoin-plebs-communityprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/get-on-board/#objective-join-the-bitcoin-plebs-communityprogress-images){: .btn .btn-purple}
 
 ---
 
 ## Verifying digital information
-
+![nostrich cipherpunk](/assets/img/graphics/nostrich_cipherpunk.jpg)
 Using bitcoin is all about security and privacy. We use encryption in many different ways to protect AND verify valuable information. Alice can encrypt a message with your public key and send it to you. You can decrypt and read it but how do you know the message _actually_ came from Alice? Anyone can send you a message and claim that. You need stronger proof. This is the other great feature of public key cryptography: Digital signatures.
 
 If you know that Alice’s **_public_** key actually belongs to her then you can ask Alice to always sign her messages with her **_private_** key. This digital signature Alice uniquely produces for every message can be 100% verified that it was generated with Alice’s **private key by just knowing Alice’s public** key. 
@@ -110,6 +109,8 @@ The checking is done with a so-called “Digital Signature Algorithm”. This al
 Problem is how do you ascertain that the public key you have really belongs to Alice? You see we are back to a similar problem as before with the shared secret. We have to share some information in-person to start trusting each other.
 
 All in all, real 100% proof does not exist and the ultimate source of trust is knowing each other personally.
+
+---
 
 So, let’s say you have a great software tool to share with the world. How can people know that the software they downloaded is indeed originating from you and is not harmful?
 
@@ -129,7 +130,7 @@ You get the gist:
 
 Encryption and verification starts with you being vigilant. Everything starts with you watching out. It is not paranoia. It is a practice that becomes a part of life. A part of you. You don’t think twice checking if someone is crossing the road while you are driving. It can become that simple built-in cautiousness that you react with whenever it is about your hard-earned bitcoin.
 
-[Back to Objective](/get-on-board/#objective-download-verify-and-install-tor-browserprocess-similar-to-mullvad-browserprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/get-on-board/#objective-download-verify-and-install-tor-browserprocess-similar-to-mullvad-browserprogress-images){: .btn .btn-purple}
 
 ---
 
@@ -152,13 +153,13 @@ Therefore as long as you keep your sats safe in whatever way, then it is up to y
 
 ---
 
-### Bitcoin Private key (aka. secret key)
+## Bitcoin Private key (aka. secret key)
 {: .no_toc }
 The bitcoin private key is very similar to any other private key in cryptography. It just uses its special “cryptographic primitives” in the underlying protocol like any other cryptographic protocol. But the concept of a private-public key pair remains the same.
 
 ---
 
-### BIP39 Seed phrases
+## BIP39 Seed phrases
 {: .no_toc }
 A private key is just secret information. The same information can take many forms. Different forms of the same information are understood by people if they first agree on how they will interpret it. I can say “car” or write it down or show you a picture or try to convey it with just using my body language. You will get it because we are on the same page regarding these “rules” of communication that evolved organically by people interacting with each other.
 
@@ -174,7 +175,7 @@ This key will now hold all your bitcoin. Anytime you want to access your bitcoin
 
 ---
 
-### Private Key Backups
+## Private Key Backups
 {: .no_toc }
 Seed phrases must be backed up because that information unlocks all your bitcoin associated with a bitcoin wallet. There are many ways to do that and people always have their preferences for **storage media**. The most common ways include: 
 
@@ -191,7 +192,7 @@ On the other hand, bitcoin is very young. These standards and practices are some
 
 ---
 
-### Bitcoin Public keys and addresses
+## Bitcoin Public keys and addresses
 {: .no_toc }
 Private keys are used to unlock bitcoin. But how do you get bitcoin in the first place? People trade it with you for something else they find valuable of course! But how do they _actually_ send you bitcoin? This is where public keys come into play.
 
@@ -209,22 +210,23 @@ Unfortunately, bitcoin has some  features that are hard to grasp partly because 
 
 To sum it up, your whole bitcoin wallet is generated from just one **seed phrase** that you must always vigilantly **guard**.
 
-### Conclusion
+## Conclusion
 {: .no_toc }
 Provided that the underlying mathematics and technology holds up, which seems to be the case, bitcoin will be regarded as one of the most important tools of human history. Why? Because private property [is the foundation of flourishing civilizations](https://www.azquotes.com/author/10190-Ludwig_von_Mises/tag/private-property) and bitcoin is private property in a pure information form, therefore it is the basis of a thriving _global_ civilization based on peaceful technology instead of raw power.
 
-[Back to Objective](/the-journey-begins/#objective-create-your-first-bitcoin-walletprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/the-journey-begins/#objective-create-your-first-bitcoin-walletprogress-images){: .btn .btn-purple}
 
 ---
 
 ## Bitcoin Transactions and the UTXO model
 
-
-### Transactions
+## Transactions
 {: .no_toc }
 Bitcoin transactions are similar to traditional fiat banking transactions in that they have a payment sender and a recipient but the transaction itself is constructed and propagated through the network very differently.
 
 Also, bitcoin transactions cannot be reversed. Once a transaction has been confirmed by miners by producing a block that contains your transaction, and validated by full bitcoin nodes by validating every aspect of the blocks and transactions miners presented to the network, cash finality has been achieved and there is no going back. Time cannot be reversed. There is no authority controlling the flow of time and bitcoin reflects this reality.
+
+---
 
 A bitcoin transaction is created by first getting a recipient “bank account number” that is a bitcoin address. This is communicated not through the bitcoin network itself but through any means online or offline.
 
@@ -232,11 +234,15 @@ Once the sender gets the address she will first unlock some bitcoin with her pri
 
 The transaction is then gossiped among the nodes. At this point transactions are still unconfirmed. The place where these nodes keep unconfirmed transactions is called the **“mempool”**. All nodes have mempools, there is no one central mempool. Get used to some different terminology in bitcoin because it is a decentralized distributed network and most things cannot be just pinpointed the same way as in centralized systems.
 
+---
+
 Bitcoin miners also run bitcoin nodes and they also pick up the transactions to gather them into **blocks** and try to solve their mining puzzle based on those transactions. Once they find a solution to the puzzle, called “Proof of Work” they can broadcast their block(“the completed puzzle”) to the network for **validation**.
 
 The block validation is done by all full-fledged bitcoin nodes. They check for valid **Proof of Work** and other important consensus rules of the bitcoin protocol. If a node finds the block valid it will include it in its list of valid blocks called the “blockchain” and gossip that valid block further to all other nodes it is in contact with called “peer nodes”.
 
 This is where the recipient comes into play. If she also runs a node or connects to a trusted node, she can verify that the payment happened based on the information of that node. As soon as the payment recipient’s node receives the mined block containing the transaction of interest and validates it, it then signals to the recipient’s wallet software(Sparrow) that “hey, a transaction that your wallet is interested in has just been confirmed!” and the confirmation is displayed on your screen. 
+
+---
 
 You are happy, the sender is happy and the miner is happy too, because they got the fees from the transaction and they got the **“block subsidy”**, the amount of bitcoin that they can give themselves for this great service of doing the Proof of Work mining:
 [![Bitcoin Transactions](/assets/img/diagrams/bitcoin_transaction.drawio.png)](/assets/img/diagrams/bitcoin_transaction.drawio.png){: width: auto; max-height: 70%; target="_blank"}
@@ -249,7 +255,7 @@ You can always come back and reread or go explore more content about this theore
 
 ---
 
-### The UTXO model
+## The UTXO model
 {: .no_toc }
 Let’s get back to the scenario where you paid someone e.g. cash and provided her a bitcoin address. She paid up in bitcoin and your node confirmed the payment. That transaction actually used existing bitcoin chunks as inputs and created a new output that is yet unspent. This chunk of bitcoin sitting on that address is now called a UTXO - unspent transaction output.
 
@@ -257,15 +263,19 @@ This is done by the sender unlocking the inputs first with her cryptographic sig
 
 The new output is now tied to your address which means it is locked to your public key under the hood. This effectively transfers ownership of that chunk of bitcoin to you because you are the only one capable of unlocking that chunk now with your private key by creating a consecutive transaction where this UTXO becomes the input.
 
+---
+
 UTXOs can be thought of as banknotes because they hold an exact amount of bitcoin. This means that when you want to spend your UTXO you always unlock the whole chunk, not just a portion of it. Say you have to pay 10.000 satoshis(100.000.000 satoshis are one bitcoin and the network only understands satoshis under the hood) for a gum but you have a UTXO that is 5000 and another that is 8000. Your wallet combines these UTXOs as inputs and creates an output of 10.000 sats locking it to the merchant's address:
 
 So what happens to that 3000 extra? Well, let’s say you pay an additional 1000 in fees for the miners to incentivize them to include your transaction in their block. The remaining 2000 is what we call the **change output** and it is locked to one of your **change addresses** which is just the same as a receive address so you can later spend that too of course.
 
-### Here is a visual of the life-cycle of a UTXO:
+The fee is implied, so it does not create an additional output(we save some bytes of data this way). The miners know this from the transaction data. The input amounts of a bitcoin transaction are therefore always greater than or equal (zero fees paid) to the output amounts if we add them up. 
+
+## The life-cycle of a UTXO, created and spent("destroyed") by your seed:
 {: .no_toc }
 [![HD wallets and UTXOs](/assets/img/diagrams/hd_wallets_and_utxo_model.drawio.png)](/assets/img/diagrams/hd_wallets_and_utxo_model.drawio.png){:target="_blank"}
 
-The fee is implied, so it does not create an additional output(we save some bytes of data this way). The miners know this from the transaction data. The input amounts of a bitcoin transaction are therefore always greater than or equal (zero fees paid) to the output amounts if we add them up. 
+---
 
 What happens when you have many UTXOs? Which ones are selected for payments? This is called **coin selection** and it can be automatically carried out by your wallet or you can manually select your desired UTXOs to spend in a particular transaction. You will see when this is important later on.
 
@@ -279,7 +289,7 @@ There are other things you can adjust when you create a transaction which we wil
 
 ---
 
-### The Blockchain(a.k.a. the Timechain, a.k.a. the public ledger of bitcoin)
+## The Blockchain(a.k.a. the Timechain, a.k.a. the public ledger of bitcoin)
 {: .no_toc }
 ![bitcoin is time](/assets/img/graphics/bitcoin_is_time.jpg)
 
@@ -287,11 +297,15 @@ The blockchain has been subject to much confusion since shitcoiners have used th
 
 However, it does not tell you anything about what kind of new data should be considered valid if that new data contains conflicting records. For example, I have 1 bitcoin and want to spend it twice. I create two conflicting transactions: One saying I pay Bob 1 bitcoin and another one saying I pay Alice 1 bitcoin. I broadcast both transactions from my node. All history knows is that I have 1 bitcoin but nobody knows which of the 2 transactions I broadcast is “the truth” because it is ambiguous. This is called the “double spend problem”.
 
+---
+
 So how do we break these ties? This is where Proof of Work mining comes into play. In bitcoin the “truth” from all the possible alternatives is determined by a contest: The transaction that can “round up more votes” wins. But votes are expensive, and I mean really expensive. You have to prove with actual work i.e. expended energy that you care about this vote in the first place. 
 
 This work can be thought of as the security budget of bitcoin because this creates the incentives for the participants of the network to play the game honestly. If they really work hard and win, the price is juicy bitcoin AND a more secure network,  that is, the game becomes more valuable overall too.
 
 If they try to cheat, others kick them out of the game and the work they did goes to waste. If they somehow manage to ruin the game, bitcoin becomes worthless so why play in the first place? Otherwise honest players can still restart the game from scratch. This is real-life incentives at play.
+
+---
 
 The work is done by playing the same easy game: Solving a math problem that is known to be only solvable by blindly guessing the solution with brute force. It is almost like grinding through that ton of dirt when people mine gold.
 
@@ -303,9 +317,11 @@ The first transaction to round up more energy manages to get into a block with v
 
 Of course once the race is over, it is over for good in the case of bitcoin transactions. The winner gets into a block, that block is then cryptographically linked to the previous block and it becomes history. 
 
+---
+
 This is why the bitcoin blockchain is also called the [“timechain”](https://dergigi.com/2021/01/14/bitcoin-is-time)(watch out, it’s another rabbit hole. You have been warned), because we continuously agree on the present state of things for eternity, and you cannot go back to the past to change the flow of time.
 
-These other blockchains however contain blocks with almost infinitely lower amounts of proof-of-work energy which means they **already lost the contest, regardless of them being in a separate network**. It is like winning in soccer against your grandma and then saying: “I am the world champion!!!” because no one else cared to attend your afternoon matinee.
+Altcoins with these independent blockchains however contain blocks with almost infinitely lower amounts of proof-of-work energy which means they **already lost the contest, regardless of them being in a separate network**. It is like winning in soccer against your grandma and then saying: “I am the world champion!!!” That is because no one else cared to attend your afternoon matinee.
 
 That applies only if they contain any proof of work at all because some people thought it was a good idea to get back to politics deciding on the state of things again and implemented Proof of Stake crypto(the last time you see this word in this course) networks which is literally just simple voting without any energy expenditure.
 
@@ -313,13 +329,15 @@ Using blockchain databases can create this illusion of decentralization while it
 
 In the end people will vote with their actions and bear the consequences.
 
+---
+
 But back to Sparrow just for a moment. After your transaction is confirmed Sparrow will notify you and display the number of confirmations on your transaction.
 
 The first confirmation is when your transaction is mined and your node accepts that block as valid. Additional confirmations are counted based on how many more blocks are mined and accepted by your node based on that first confirmed block. This is just to say how much “block time” has elapsed in bitcoin land since your transaction. You might wonder, how many confirmations are considered enough?
 
-Well, with 6 confirmations we can quite confidently say that there is just no realistic scenario where an attacker would be able to build an alternative chain with enough work that would undo your transaction. It would take an exorbitant amount of hashrate to be able to pull that off. There has never been such a case in the entire history of bitcoin, as a matter of fact it hasn't come even close to that.
+Well, with **6 confirmations** we can quite confidently say that there is just no realistic scenario where an attacker would be able to build an alternative chain with enough work that would undo your transaction. It would take an exorbitant amount of hashrate to be able to pull that off. There has never been such a case in the entire history of bitcoin, as a matter of fact it hasn't come even close to that.
 
-[Back to Objective](/the-journey-begins/#objective-save-your-coins-from-the-exchangeprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/the-journey-begins/#objective-save-your-coins-from-the-exchangeprogress-images){: .btn .btn-purple}
 
 ---
 
@@ -333,7 +351,7 @@ The only way to really protect yourself against this is developing a vigilance p
 
 Also, when you are in an emotional state it is ill-advised to do anything bitcoin related. Resist the temptation. Your judgment will be clouded and you will not be able to adopt a state of vigilance and might fall into a trap. You will screw up and you will regret it.
 
-[Back to Objective](/a-fool-and-his-bitcoin/#objective-defend-against-the-dark-arts-of-phishing-and-malware){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/a-fool-and-his-bitcoin/#objective-defend-against-the-dark-arts-of-phishing-and-malware){: .btn .btn-purple}
 
 ---
 
@@ -380,14 +398,14 @@ This entails that if your encrypted wallet (if you add a wallet password in Spar
 
 Passphrases protect a regular wallet even if the physical seed phrase backup is compromised. It is therefore a second security factor on your bitcoin wallet not just on your computer but in every way.
 
-[Back to Objective](/a-fool-and-his-bitcoin/#objective-defend-against-the-bare-key-backup-problemprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/a-fool-and-his-bitcoin/#objective-defend-against-the-bare-key-backup-problemprogress-images){: .btn .btn-purple}
 
 ---
 
 ## Hardware wallets and Cold storage
 
 
-### Cold storage(Cold wallets)
+## Cold storage(Cold wallets)
 {: .no_toc }
 Every bitcoin [Hodler](https://bitcointalk.org/index.php?topic=375643.0) that has already adopted a [low time-preference](https://wiki.mises.org/wiki/Time_preference) realizes that most of her bitcoin will likely not be spent in the near-future. So if she plans to hodl for very long she might want to store the hoarded stash in a more secure way.
 
@@ -403,7 +421,7 @@ So by separating the public keys from the private keys you can safeguard your tr
 
 ---
 
-### Hardware wallets a.k.a. signers or “hardware signing devices”
+## Hardware wallets a.k.a. signers or “hardware signing devices”
 {: .no_toc }
 In order to set up a cold storage system hardware wallets are essential. They are specialized devices designed to carry out only crucial bitcoin related operations.
 
@@ -411,7 +429,7 @@ Let’s look at some problems we face with private keys on unsafe devices and ho
 
 ---
 
-### Private keys on an unsafe bloated networked device
+## Private keys on an unsafe bloated networked device
 {: .no_toc }
 **First of all, a private key that holds cold storage funds should NEVER-EVER be typed on an unsafe computer keyboard.**
 
@@ -419,7 +437,7 @@ You realize that if anyone ever types those 12 words into a general-purpose comp
 
 ---
 
-### Private key generation
+## Private key generation
 {: .no_toc }
 A question arises: If it should never get to networked computers, how do I create a private key without Sparrow? Your hardware wallet of course. The private key is born there in a safe environment and it may never leave that environment in a digital form, ever. If you use a decent hardware wallet this cannot happen accidentally but this also depends on you never leaking the private key in any other way.
 
@@ -431,7 +449,7 @@ Keys produced with weak random generators are easily brute forced by hackers eve
 
 ---
 
-### Address verification
+## Address verification
 {: .no_toc }
 You might have thought of this attack vector already: What if you are running a rogue Sparrow version and it gives you a bitcoin address that is actually not yours? In reality, Sparrow can just disregard it and generate a malicious address that you pass over to anyone trying to send you bitcoin. Another threat would be when you are the sender of payment and the address generated for the change UTXO is corrupt.
 
@@ -439,7 +457,7 @@ This is another case when hardware wallets come handy. Since there is a much low
 
 ---
 
-### Connection between Sparrow and the hardware wallet
+## Connection between Sparrow and the hardware wallet
 {: .no_toc }
 [![Initial Architecture](/assets/img/diagrams/architecture_bitcoinplebs_quest_4.drawio.png)](/assets/img/diagrams/architecture_bitcoinplebs_quest_4.drawio.png){:target="_blank"}
 
@@ -457,7 +475,7 @@ All communication between Sparrow and the hardware wallet must be done with utmo
 
 ---
 
-### Physical attacks on the hardware wallet
+## Physical attacks on the hardware wallet
 {: .no_toc }
 The other problem we have to deal with is physical access to the hardware wallet. You should obviously make sure no one can just swap out or tamper with your hardware wallet. So keep it safe.
 
@@ -470,7 +488,7 @@ There are two main ways of protecting against a situation when an attacker gets 
 
 ---
 
-### Stateless devices vs. Secure elements
+## Stateless devices vs. Secure elements
 {: .no_toc }
 Think about the consequences of using a stateless device: 
 
@@ -488,7 +506,7 @@ REMEMBER: The hardware wallet is just a tool to **use** your secret key for bitc
 
 ---
 
-### My Hardware wallet Recommendations
+## My Hardware wallet Recommendations
 {: .no_toc }
 All of these hardware wallet brands are reputable among Bitcoin Plebs and run Open Source Software which is an absolute must for any Software that you might use in Bitcoin. Go through the main features, faq and documentation of each of these options. Take notes about what you like or dislike about them on first impression. Join their Telegram channels and ask questions if you want.
 
@@ -505,7 +523,7 @@ If you are planning to use multisig it is even more advised to have multiple typ
 
 **Although any quest can be completed with the above devices, Bitcoin Plebs quests will use the SeedSigner as a reference.**
 
-[Back to Objective](/a-fool-and-his-bitcoin/#objective-start-using-a-hardware-wallet){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/a-fool-and-his-bitcoin/#objective-start-using-a-hardware-wallet){: .btn .btn-purple}
 
 ---
 
@@ -524,14 +542,14 @@ This “as long as the selection is truly random” part is crucial because it i
 
 You now realize that your passphrase is not on the same level of security as your 12 seedwords, to say the least. If your words get found you can check from the table above how much time it takes to “brute force” your passphrase. Note that anyone can download a password cracker. And if the attacker knows some information about you this becomes much easier because the brute force attack can be carried out more intelligently. How to tackle this? We must generate secrets from great sources of entropy. Then we take care of these secrets and try never to leak them to malicious people of course.
 
-[Back to Objective](/order-and-entropy/#objective-level-up-on-entropy-and-apply-changes-to-your-bitcoin-setupprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/order-and-entropy/#objective-level-up-on-entropy-and-apply-changes-to-your-bitcoin-setupprogress-images){: .btn .btn-purple}
 
 ---
 
 ## Bitcoin Plebs and Privacy
 ![anon pleb](/assets/img/graphics/anon_pleb.jpg)
 
-### General Privacy considerations
+## General Privacy considerations
 {: .no_toc }
 Privacy is discussed quite a lot these days but most people ignore the alarming amount of surveillance we are put under by governments all the time.
 
@@ -558,11 +576,11 @@ This has serious consequences:
 6. Once you have bought KYC bitcoin on a traditional exchange like Coinbase, Kraken, Binance, Swan… that record is there forever in a centralized database. They know at least how much you bought and who you are. And assume they share everything with the government. You will have to account for these in case they expect you to do so.
 7. And so you come up with all this “boating accident” type of “I lost it” or “I donated it all away” but they are not dumb. They can issue subpoenas and put you and your circles under tremendous stress
 
-### A visual of what happens to your precious private data:
+## A visual of what happens to your precious private data:
 {: .no_toc }
 [![Privacy and KYC](/assets/img/diagrams/privacy_and_kyc.drawio.png)](/assets/img/diagrams/privacy_and_kyc.drawio.png){:target="_blank"}
 
-### Gist of it: 
+## Gist of it: 
 {: .no_toc }
 
 1. You should have a substantial NoKYC bitcoin stash. NoKYC means of course that the purchase is very hard to be tied to your name. If you have NoKYC bitcoin you solve many privacy headaches at the root. Of course you can still improve on privacy even if you bought NoKYC. And you should. But you’re much better-off.
@@ -715,7 +733,7 @@ These solutions are still nascent but bitcoiners are bullish for a good reason. 
 
 Last but not least, keep **learning** about privacy and be part of a bitcoin **community**.
 
-[Back to Objective](/bitcoin-privacy/#objective-get-to-know-the-enemyprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/bitcoin-privacy/#objective-get-to-know-the-enemyprogress-images){: .btn .btn-purple}
 
 ---
 
@@ -769,7 +787,7 @@ Light clients are nodes that don’t store the whole Blockchain but can still ve
 
 Light clients are for those with limited bandwidth or storage capacity. Since the whole blockchain today doesn’t take up more than a few hundred gigabytes of data and bandwidth is not too bad in most places either, it doesn’t make all too much sense running it. I recommend running a full node since you already decided to make the effort of running a Bitcoin node.
 
-You can also "prune" your full node to store a limited size of the blockchain, the part your wallet will most likely be interested in.
+You can also "prune" your full node to store a limited size of the blockchain, the part your wallet will most likely be interested in. This way you are still fully validating your transactions but cannot serve old blocks to peers and cannot retrieve history of an old wallet because you don't have that old history of the blockchain stored.
 
 ---
 
@@ -779,7 +797,7 @@ Bitcoin Core is not just a full node taking care of peer-to-peer connections and
 
 However, bitcoin core specializes in the most crucial heavy-lifting part of bitcoin.That is why people started to develop new software on top of it where bitcoin core does not shine particularly, mainly but not limited to the “user experience” part. For average people(and I must say, most shadowy supercoders too) however, user interfaces are critical for security.
 
-[Back to Objective](/bitcoin-privacy/#objective--learn-about-bitcoin-nodes){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/bitcoin-privacy/#objective--learn-about-bitcoin-nodes){: .btn .btn-purple}
 
 ---
 
@@ -801,17 +819,32 @@ Bitcoin-cli on the other hand is a management and monitoring tool. It provides y
 {: .no_toc }
 You could run bitcoind and bitcoin-cli with configuration options from the command line but then you would have to write the same command options again and again if you ever restart the service.
 
-So we have this handy configuration file called “bitcoin.conf” to make our lives easier. Note that the command line takes precedence so anything you write in bitcoin.conf can be overwritten in the line.
+So we have this handy configuration file called “bitcoin.conf” to make our lives easier. Note that the command line takes precedence so anything you write in bitcoin.conf can be overwritten in the command line.
 
-[Back to Objective](/bitcoin-privacy/#objective-configure-and-learn-to-manage-bitcoin-coreprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/bitcoin-privacy/#objective-configure-and-learn-to-manage-bitcoin-coreprogress-images){: .btn .btn-purple}
 
 ---
 
 ## P2P Markets and NoKYC bitcoin
 
-The P2P market ecosystem is radically improving. More and more people choose this option to trade bitcoin in a permissionless way and with much greater guarantees of privacy. Now you should know some important facts and trade-offs about Peer to peer bitcoin trading:
+## Getting NoKYC sats:
+{: .no_toc }
+These are the most usual methods to get NoKYC bitcoin today:
+* P2P NoKYC trading Platforms: The most common way
+* [Pleb mining](https://bitcoinmagazine.com/business/how-to-mine-bitcoin-easily-at-home): Making a comeback nowadays, pleb mining is increasingly more popular today
+* Donations
+* Work for bitcoin
+* Face to face trades: friends, meetups or arranged online somehow(P2P platforms can include such a matching feature). Be careful with strangers. Meet in public places
+* NoKYC bitcoin ATMs(larger premiums): Use [silent.link](https://silent.link/) for phone verification and don’t use ATMs where selfie or government ID is required. Usually below a certain amount only phone verification is required. Check ATMs at [Coin ATM Radar](https://coinatmradar.com/). Data can be outdated, help the service update ATM data if you use an ATM
+* Light KYC services like [Pocket](https://pocketbitcoin.com/)
 
+The method with the most reasonable trade-offs seems to be P2P markets today. It has its own downsides but once people get familiar they tend to get quite comfortable with it.
 
+---
+
+## P2P markets
+{: .no_toc }
+The P2P market ecosystem is radically improving. More and more people choose this option to trade bitcoin in a permissionless way and with much greater guarantees of privacy. Now you should know some important facts and trade-offs about peer-to-peer bitcoin trading:
 
 * If you trade your fiat for bitcoin, you still always doxx yourself to the trading partner, however your payment provider probably does not know what this payment is about as long as you don’t doxx yourself e.g. with the payment note
 * P2P exchanges require a deeper understanding of bitcoin because NoKYC presumes more advanced users
@@ -831,55 +864,47 @@ You will be faster, smarter and stronger once you develop your practices around 
 {: .no_toc }
 There are several ways platforms conduct P2P trades with different trade-offs. Some general properties:
 
-
-
 * Usually there is an order **maker** and an order **taker**
     * **Makers** set up the main parameters of the offer and publish it on the platform. They could be bitcoin buyers(fiat sellers) or bitcoin sellers (fiat buyers). Because they have to wait for a taker to take the offer, they often pay less fees
     * **Takers** browse the orderbook of the offers and choose which suits them best. They usually pay more fees for this convenience
 * The bitcoin **seller**(either maker or taker) **deposits** the sats into an escrow which is released as soon as the fiat payment has been made and confirmed by the bitcoin seller
-* There are platforms where both **seller** and **buyer** need to put sats in **escrow** to make a precommitment to the trade. 
-    * This means that X% of the trade value in sats must be deposited **in escrow**(e.g. multisig transaction or lightning hold invoice) for the trade to begin. This is then released if no disputes arose during the trade
-    * If there is a dispute, mediation or arbitration is required between the parties. This is done by either the support people behind the platform if it is a company or volunteers if it is a more decentralized service without an organization
-    * **The escrow/bond pre-commitment further implies that you already have sats to deposit! This is why people tend to struggle getting the first truly NoKYC sats because buying P2P usually involves having NoKYC bitcoin already. Buying P2P with KYC bitcoin is not recommended! It will be easy to follow!**
-    * Getting your first NoKYC sats:
-        * [Pleb mining](https://bitcoinmagazine.com/business/how-to-mine-bitcoin-easily-at-home)
-        * Donations
-        * Work for bitcoin
-        * Face to face trades: friends, meetups or arranged online somehow. Be careful with strangers. Meet in public places
-        * NoKYC bitcoin ATMs: Use [silent.link](https://silent.link/) for phone verification and don’t use ATMs where selfie or government ID is required. Usually below a certain amount only phone verification is required. Check ATMs at [Coin ATM Radar](https://coinatmradar.com/). Data can be outdated, help the service update ATM data if you use an ATM
-        * Light KYC services like [Pocket](https://pocketbitcoin.com/)
-    * Depositing
-        * It is recommended that you use coinjoin before depositing sats into escrow regardless of how you got your first sats
-        * If you have already doxxed UTXOs, just use multiple rounds of coinjoin and you can deposit those mixed UTXOs
-        * Use privacy enhanced transactions **for the deposits** if possible
-* To sum it up look for these when you get to know a new service:
-    * Trust model: escrow/deposit and payment mechanisms
-    * Privacy considerations
-    * Open-source and verification of software if installation is required
-    * Trade limits, fee model and accepted fiat payment rails 
-    * Liquidity and usual premiums of offers on the platform
-    * Available OS-s and devices
-    * Trade process
-    * Dispute resolution and Support
-    * Onchain/Lightning capabilities
-    * Withdrawal process
+* There are platforms where both **seller** and **buyer** need to put sats in **escrow** to make a precommitment to the trade. You need to get your first NoKYC sats somewhere else to make the deposit in this case. **Buying P2P by putting KYC bitcoin in escrow is not recommended! It will be easy to follow!**
+* If there is a dispute, mediation(third party helper cannot effectively decide on the trade) or arbitration(helper can decide in favor of someone) is required between the parties. This is done by either the support people behind the platform if it is a company or volunteers if it is a more decentralized service without an organization
+
+## Making deposits
+{: .no_toc }
+* It is recommended that you use coinjoin before depositing sats into escrow regardless of how you got your first sats
+* If you have already doxxed UTXOs, just use multiple rounds of coinjoin and you can deposit those mixed UTXOs
+* Use privacy enhanced transactions for the deposits if possible
+
+## To sum it up look for these when you get to know a new service:
+{: .no_toc }
+* Trust model: escrow/deposit and payment mechanisms
+* Privacy considerations
+* Open-source and verification of software if installation is required
+* Trade limits, fee model and accepted fiat payment rails 
+* Liquidity and usual premiums of offers on the platform
+* Available OS-s and devices
+* Trade process
+* Dispute resolution and Support
+* Onchain/Lightning capabilities
+* Withdrawal process
+
+---
 
 Since there is little support for testnet versions of bitcoin applications as of yet, on platforms without a trial testnet version you are left with merely carefully reading the terms and usage descriptions, FAQs etc. to be prepared for your first trades.
 
 Here are P2P exchange platforms that I can recommend at the moment:
 
-
-
 * [Robosats](http://robosats.com/): A Lightning-based P2P exchange with strong privacy features. A great way to get Lightning liquidity. You can buy/sell up to 5 million sats. Tor browser based if you want the full privacy benefits. Still quite a new platform.
-* [HodlHodl](https://hodlhodl.com/): An established player(company) in the P2P ecosystem. depending on your account with them you can buy large amounts of bitcoin. Uses multisig 2 of 3 escrows with arbitrators of the company. You can encounter many bitcoin sellers that demand extensive KYC in a particular trade (or “Know Your Peer” in this case) to avoid fraudsters
+* [HodlHodl](https://hodlhodl.com/): An established player(company) in the P2P ecosystem. depending on your account with them you can buy large amounts of bitcoin. Uses [2 of 3 multisig escrows](https://hodlhodl.com/pages/help#title_multisig_escrow){:target="_blank"} with arbitrators of the company. You can encounter many bitcoin sellers that demand extensive KYC in a particular trade (or “Know Your Peer” in this case) to avoid fraudsters
 * [Peach](https://peachbitcoin.com/quick-start/): The benefit of this platform is that you can **buy without a deposit** transaction, meaning you can get your first sats on Peach. Premiums tend to be high. BTC sellers are makers and buyers are takers here. The flow and the app design is quite peachy. Unfortunately, it is not fully FOSS at the time of writing
-* [Bisq](https://bisq.network/): The go-to for the lovers of decentralization. No company runs Bisq but a “DAO”(decentralized autonomous organization) of contributors. This DAO is quite a shitcoin show but hey, it is a great product so let’s give them a little benefit of the doubt. \
- \
-Bisq runs its own hot SPV wallet and runs through Tor by default so you just download, verify, install, configure fiat rails and start stacking sats. It has quite decent liquidity with lower premiums than most platforms. \
- \
-It uses a 2 of 2 multisig escrow so both parties have to unlock the coins to settle the trade. There is a mediation option conducted by volunteers but at the end of the day you just have to come to terms with your counterparty. \
- \
+* [Bisq](https://bisq.network/): The go-to for the lovers of decentralization. No company runs Bisq but a “DAO”(decentralized autonomous organization) of contributors. This DAO is quite a shitcoin show but hey, it is a great product so let’s give them a little benefit of the doubt.  
+Bisq runs its own hot SPV wallet and runs through Tor by default so you just download, verify, install, configure fiat rails and start stacking sats. It has quite decent liquidity with lower premiums than most platforms.  
+It uses a 2 of 2 multisig escrow so both parties have to unlock the coins to settle the trade. There is a mediation option conducted by volunteers but at the end of the day you just have to come to terms with your counterparty.  
 Fiat accounts are trusted in Bisq through a process called “signing” where you must complete a trade with an already trusted(signed) account and wait some time in order to get your fiat account signed too. This mitigates some fiat chargeback risk. Don’t forget to withdraw funds from the hot wallet to your cold storage. You can introduce an intermediate coinjoin step in the process
+
+---
 
 You can see that the more decentralized a platform is, the more reputation algorithms come into play, sometimes also called “Web of trust”. These are methods to incentivize good behavior for everyone’s sake, however it is hard to get it right. If the platform is more centralized it tends to determine reputation more vaguely and you are more exposed to the centralized coordinator/arbitrator meaning people’s subjective whims on who can use the platform and how.
 
@@ -899,8 +924,6 @@ Here are a few general pieces of advice when you try P2P trading platforms in th
 
 To mitigate the risk of getting unbanked:
 
-
-
 * Don’t do too many extra high-value trades. Go slow.
 * Hedge against fiat shenanigans: You can use multiple fiat bank accounts. Read their Terms carefully and look for suspicious lines that might tell you about how rigorously they scrutinize “strange-looking” transactions
 * Use multiple Online Payment Providers just in case. There are notoriously bad services when it comes to canceling transactions, freezing funds etc. Look for better choices in these respects
@@ -910,7 +933,7 @@ Now you know the cold hard truth about how convenience is traded off for soverei
 
 Lastly, I would like to mention that nostr is a protocol that could help P2P markets thrive outside of these sort-of walled garden platforms I introduced. Nostr goes hand-in-hand with bitcoin and LN combining the power of the bitcoin-base layer with the nimbleness of Lightning and the censorship resistant communication of nostr. I believe that something great is going to come out of this combination and there are current efforts to make this happen. It’s gonna take time but we’ll get there.
 
-[Back to Objective](/nokyc-bitcoin/#objective-prepare-yourself-to-test-p2p-bitcoin-exchangesprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/nokyc-bitcoin/#objective-prepare-yourself-to-test-p2p-bitcoin-exchangesprogress-images){: .btn .btn-purple}
 
 ---
 
@@ -942,18 +965,16 @@ Keep low amounts of sats on hot wallets. They are not safe. This is not always e
 {: .no_toc }
 The most basic way to hold your sats. Signing with one private key that can be reconstructed from just the mnemonic words.
 
-Benefits: 
-
+## Benefits: 
+{: .no_toc }
 
 
 * Very simple to use, hard to shoot yourself in the foot
 * Basically all wallets support bip39 seed words
 * Easy to access when you really need your funds
 
-Trade-offs:
-
-
-
+## Trade-offs:
+{: .no_toc }
 * Easy to compromise by snoopers and attackers. It only takes one photo, one friend or even you under duress, and it’s toast. So it is a single point of failure when it comes to “acts of people”
 
 ---
@@ -967,19 +988,15 @@ You can spend from these types of wallets by combining two or more pieces of inf
 
 Popularized by [Coldcard](https://seedxor.com/), this setup combines two or more valid 24-word seeds into a new wallet that could be used for your safe cold storage.
 
-Benefits:
-
-
-
+## Benefits:
+{: .no_toc }
 * Coinkite being a reputable company in the bitcoin space when they put their reputation on the table recommending something, it can be trusted more
 * Ample Documentation of the method
 * Possibility of decoy wallets on all parts combining the ultimate wallet
 * Two or more factors available with this method
 
-Downsides and Trade-offs:
-
-
-
+## Downsides and Trade-offs:
+{: .no_toc }
 * Inheritance becomes slightly more complex with this setup because your heirs have to know about SeedXOR to access your funds
 * The parts have to be combined in one physical place to be able to spend. This creates a stressful situation because it is hard to verify that no keys were copied by anyone or anything up until you split the information again to safe distance
 * Not available on all types of hardware signers
@@ -992,15 +1009,13 @@ Downsides and Trade-offs:
 {: .no_toc }
 As you already learned, a bip39 passphrase is applied to your initial seed entropy (expressed in the mnemonic words) which results in a new private key. This method makes any passphrase a new valid wallet effectively. Using a BIP39 Passphrase is a popular method to protect against “single point of failure” when you only have plain seed words unlocking your bitcoin.
 
-Benefits:
-
-
-
+## Benefits:
+{: .no_toc }
 * Very easy to use, very widely supported method
 * You can reuse your seed words (and therefore your steel plates) to produce any amount of new wallets
 
-Downsides and Trade-offs:
-
+## Downsides and Trade-offs:
+{: .no_toc }
 * Can’t have more than two factors using just passphrases
 * It is harder to understand the entropy your passphrase represents so many people generate weak passphrases and operate under a false sense of safety
 * If you generate your Passphrase on a compromised computer it could be compromised too
@@ -1034,19 +1049,18 @@ It can define rules like 2 of 3 majority voting or 3 of 5. But it can also defin
 
 ALL voting sessions must start with getting the constitution document first: The Descriptor. If you don’t have it, you cannot vote. So far so good, the members gather and vote with their cryptographic signatures.
 
-Possible problems:
+---
 
-1. You have ALL members(private keys) present but you don't have the Constitution(Descriptor):
-
+## Possible problems:
+{: .no_toc }
+1. **You have ALL members(private keys) present but you don't have the Constitution(Descriptor):**  
 In this case you can easily reconstruct it with ALL the members' public keys AND if you know the Quorum threshold e.g. 2 of 3. Easily done.
-
-2. The minimum number of members(private keys) are present but the Constitution (Descriptor) is not present:
-
+2. **The minimum number of members(private keys) are present but the Constitution (Descriptor) is not present:**  
 If any member backed up the Constitution (Descriptor) that's great because you can use that to start the voting process and have a successful vote with the minimum required number of voters present. That's why you **backup the Descriptor**.
-
-3. The minimum eligible members(private keys) are present but no one has a backup of the constitution. You cannot reconstruct the original Constitution this way, only when ALL members are present. YOU LOSE YOUR SATS.
-
-4. You don't have enough members(private keys) to vote (sign). That is, you lost ALL copies of too many keys e.g. 2 of 3 and all backups of 2 keys are lost. 1 key is not enough. Bad luck, you can't vote, even if you have the Constitution(Descriptor). YOU LOSE YOUR SATS.
+3. **The minimum eligible members(private keys) are present but no one has a backup of the constitution:**  
+You cannot reconstruct the original Constitution this way, only when ALL members are present. YOU LOSE YOUR SATS.
+4. **You don't have enough members(private keys) to vote (sign):**  
+That is, you lost ALL copies of too many keys e.g. 2 of 3 and all backups of 2 keys are lost. 1 key is not enough. Bad luck, you can't vote, even if you have the Constitution(Descriptor). YOU LOSE YOUR SATS.
 
 ---
 
@@ -1054,7 +1068,7 @@ If any member backed up the Constitution (Descriptor) that's great because you c
 {: .no_toc }
 Note that if you use consensus voting you know that you must always have at least 1 backup of **ALL the private keys**. Simple game theory.
 
-1 of N is also simple to think through. Any key can spend **provided you have the Descriptor**.
+1 of N is also simple to think through. Any key can spend **provided the person has the Descriptor**.
 
 The possible headache scenarios can arise when you have "2 of 3" or "3 of 5" types of quorums(or even above) and you have a different number of copies from the private keys and the Descriptor(and perhaps the separate Xpubs). It is manageable if you think really hard about it, but arguably anything above 2 of 3 is so complex that you are better off with a simple setup that you master really well instead of a complex setup that you don’t fully understand.
 
@@ -1066,11 +1080,12 @@ It is seemingly secure because e.g. "you need 3 keys to spend out of 5, the more
 
 ## Active Threats/Attacks on multisig:
 {: .no_toc }
-Single point of failure:
+
+## Single point of failure - You don't use multisig properly:
 
 If you have enough information to spend from the multisig wallet, you can be easily pressured or robbed this way. This is the “5 dollar wrench attack”. Bad practice and defeats the purpose of multisig.
 
-Collusion:
+## Collusion:
 
 Since any combination of private keys can spend provided that the minimum threshold is met and the Descriptor is present, you are not necessarily needed to sign in non-consensus based multisig quorums. Your signatories can collude against you or an attacker can compromise private keys to gather enough information to steal your bitcoin. You can mitigate this by selecting really trustworthy people to hold key backups for you and/or using a consensus based Quorum.
 
@@ -1097,13 +1112,9 @@ Despite multisig being a great tool, it does not come without its own problems. 
 ## General Trade-offs of Multisig:
 {: .no_toc }
 * Multisig transactions stand out on the blockchain. Multisig addresses are different from singlesig and so chain analysis can track it more easily. If more and more people use multisig though, this can be mitigated
-* You have to backup all extended public keys(Xpubs) of the Quorum. The collection of extended public keys eligible for signing combined with the minimum signature threshold information is called a “Wallet Descriptor” (aka “wallet output descriptor” aka “wallet configuration file”). It is sufficiently human readable so you can go see such a file for yourself what it looks like.
-
-     \
-Interaction with a multisig wallet starts with loading the wallet descriptor(like an Xpub in the case of a Single-sig wallet), be it on Sparrow for watch-only address generation and transaction creation or loading it into a hardware signer to sign the multisig transaction(loading the descriptor in a signing device is not an absolute requirement but is good practice. Anything can be signed by your private keys, it is just nonsensical to sign things that don’t mean anything). \
- \
-The wallet descriptor is born when the multisig wallet is born. All Xpubs have to be present. If this wallet is deleted from Sparrow, you cannot watch its balance, produce new addresses and create transactions until you recover the Wallet Descriptor of the Quorum again. This is important because you will not be able to reproduce all the Xpubs without their secret keys, and you can’t have all secret keys in one location because of course that would annul the reason for multisig in the first place. If this is too confusing at this stage, just play around with multisig wallets in your Signet setup and you can revisit multisig later.
-
+* You have to backup all extended public keys(Xpubs) of the Quorum. The collection of extended public keys eligible for signing combined with the minimum signature threshold information is called a “Wallet Descriptor” (aka “wallet output descriptor” aka “wallet configuration file”).  
+It is sufficiently human readable so you can go see such a file for yourself what it looks like. Interaction with a multisig wallet starts with loading the wallet descriptor(like an Xpub in the case of a Single-sig wallet), be it on Sparrow for watch-only address generation and transaction creation or loading it into a hardware signer to sign the multisig transaction. Loading the descriptor in a signing device is not an absolute requirement but is good practice. Anything can be signed by your private keys, it is just nonsensical to sign things that don’t mean anything.  
+The wallet descriptor is born when the multisig wallet is born. All Xpubs have to be present. If this wallet is deleted from Sparrow, **you cannot watch its balance, produce new addresses and create transactions until you recover the Wallet Descriptor** of the Quorum again. This is important because you will not be able to reproduce all the Xpubs without their secret keys, and you can’t have all secret keys in one location because of course that would annul the reason for multisig in the first place. If this is too confusing at this stage, just play around with multisig wallets in your Signet setup and you can revisit multisig later.
 * Complexity can quickly overwhelm anyone and create obvious security holes. All Quorum types present unique situations with a different game theory to consider
     * Can create a false sense of security 
     * Collusion: Depending on the threshold, it can be easier to conspire and spend the bitcoin behind your back
@@ -1161,8 +1172,6 @@ This is one of my personal favorite multisig quorum types for Self Custody. At f
 The main difference is that the two secret keys are never combined in one physical medium ever because only their signatures are needed to spend.
 
 What about the general objections to multisig? 
-
-
 
 * Collusion: Since 2 of 2 requires both signatures, possibility for collusion is eliminated provided that you can take care of the key backups you hold
 * Descriptor Backup: You should still backup the wallet descriptor but it's only for convenience like backing up an Xpub of a Single-sig wallet. You know that if all copies of either key are lost it is game over. So you keep just enough copies of both keys to counteract that. You never operate under a false sense of safety
@@ -1281,8 +1290,6 @@ Also, plenty of new **products** are being developed improving convenience/secur
 {: .no_toc }
 I am pretty bullish on bitcoin Self Custody Technology getting increasingly better as we are learning the lessons from the real life experience of Plebs.
 
-Lastly, there are **companies** offering collaborative multisig custody services that make e.g. key loss less of a problem or inheritance easier. The downside is that you will be most likely doxxed to them which means doxxed to the government as well. This is very likely even if they tell you otherwise. 
+However, be wary of regulated companies in bitcoin overall. No need to demonize them but less trust is advised compared to open-source community projects. For example you bought KYC bitcoin at a bitcoin-only company(if not bitcoin-only I advise you to leave them). You are safe to try their collaborative custody service for KYC coins but keep these segregated of course.
 
-Be wary of regulated companies in bitcoin overall. No need to demonize them but less trust is advised compared to open-source community projects. For example you bought KYC bitcoin at a bitcoin-only company(if not bitcoin-only I advise you to leave them). You are safe to try their collaborative custody service for KYC coins but keep these segregated of course.
-
-[Back to Objective](/build-your-citadel/#objective-design-your-bitcoin-wallets-and-the-flow-of-your-funds){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/build-your-citadel/#objective-design-your-bitcoin-wallets-and-the-flow-of-your-funds){: .btn .btn-purple}

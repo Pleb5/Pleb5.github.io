@@ -63,12 +63,17 @@ Learn a lesson about warcraft, stratagem and tactics because you are going to ap
 So let us get down to practical business: You have learned a thing or two about bitcoin and private key management so far. Therefore you can start to lay out the designs of your Citadel:
 
 ## Your Citadel's needs
-* **Primary defense:** Security. Avoid Single Points of Failure(SPoF) due to
-    * Human error, Loss, degradation, destruction - Acts of God
-    * Physical and cyber Attacks - Acts of People
+* **Primary defense - Security**:
+    * Avoid Single Points of Failure(SPoF) due to
+      * Human error, Loss, degradation, destruction - Acts of God
+      * Physical and cyber Attacks - Acts of People
+    * Protect against collusion
+      * Multifactor spending conditions mitigate single point of failure but introduce possible unauthorized spending behind your back
+      * You need a setup where you are absolutely necessary for spending
 * **Secondary defense:** Privacy
     * Spending privately
     * Maintain discretion with regards to your exact Citadel parameters like amounts, locations, holders…
+* **Reactionary defense:** In an optimal scenario you set up your spending conditions so that you can undo an unauthorized spending. Although solutions exist to this problem today, they are not very effective and introduce more than acceptable potential footguns in my opinion. Solutions to this problem with acceptable trade-offs are still in the making in bitcoin
 * **Handle special cases** like
     * Inheritance
     * Relocation of keys/residence
