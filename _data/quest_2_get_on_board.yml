@@ -5,8 +5,12 @@
 - objective_name: 'OBJECTIVE: Install a fresh Ubuntu Jammy 22.04 LTS'
   progress_imgs: false
   progress_imgs_path: ''
-  
-- objective_name: 'OBJECTIVE: Download, verify and Install Tor browser(process similar to Mullvad browser)'
+    
+- objective_name: 'OBJECTIVE: Join the Bitcoin Plebs community'
+  progress_imgs: true
+  progress_imgs_path: '/quest_2_get_on_board/join_community/'
+
+- objective_name: 'OBJECTIVE: Download, verify and Install Tor browser'
   progress_imgs: true
   progress_imgs_path: '/quest_2_get_on_board/tor_browser/'
 

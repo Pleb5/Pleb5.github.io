@@ -6,7 +6,7 @@
   progress_imgs: true
   progress_imgs_path: '2_try_hodlhodl_testnet'
 
-- objective_name: 'OBJECTIVE: Try Try Robosats on testnet'
+- objective_name: 'OBJECTIVE: Try Robosats on testnet'
   progress_imgs: true
   progress_imgs_path: '3_try_robosats_testnet'
 
