@@ -61,6 +61,8 @@ You can try and install other terminals or customize the looks and other stuff l
 
 ---
 
+---
+
 ## Nostr(Notes and Other Stuff Transmitted by Relays)
 ![nostrich bitcoin pleb](/assets/img/graphics/nostrich_bitcoin_pleb.jpg)
 
@@ -98,6 +100,8 @@ A key that can only lock but not unlock is very handy this way because now anyon
 
 ---
 
+---
+
 ## Verifying digital information
 ![nostrich cipherpunk](/assets/img/graphics/nostrich_cipherpunk.jpg)
 Using bitcoin is all about security and privacy. We use encryption in many different ways to protect AND verify valuable information. Alice can encrypt a message with your public key and send it to you. You can decrypt and read it but how do you know the message _actually_ came from Alice? Anyone can send you a message and claim that. You need stronger proof. This is the other great feature of public key cryptography: Digital signatures.
@@ -131,6 +135,8 @@ You get the gist:
 Encryption and verification starts with you being vigilant. Everything starts with you watching out. It is not paranoia. It is a practice that becomes a part of life. A part of you. You don’t think twice checking if someone is crossing the road while you are driving. It can become that simple built-in cautiousness that you react with whenever it is about your hard-earned bitcoin.
 
 [Back to Objective]({{ site.baseurl }}/get-on-board/#objective-download-verify-and-install-tor-browserprocess-similar-to-mullvad-browserprogress-images){: .btn .btn-purple}
+
+---
 
 ---
 
@@ -215,6 +221,8 @@ To sum it up, your whole bitcoin wallet is generated from just one **seed phrase
 Provided that the underlying mathematics and technology holds up, which seems to be the case, bitcoin will be regarded as one of the most important tools of human history. Why? Because private property [is the foundation of flourishing civilizations](https://www.azquotes.com/author/10190-Ludwig_von_Mises/tag/private-property) and bitcoin is private property in a pure information form, therefore it is the basis of a thriving _global_ civilization based on peaceful technology instead of raw power.
 
 [Back to Objective]({{ site.baseurl }}/the-journey-begins/#objective-create-your-first-bitcoin-walletprogress-images){: .btn .btn-purple}
+
+---
 
 ---
 
@@ -341,6 +349,8 @@ Well, with **6 confirmations** we can quite confidently say that there is just n
 
 ---
 
+---
+
 ## Phishing
 
 [Phishing](https://en.wikipedia.org/wiki/Phishing) attacks can be carried out in many ways but the common narrative is that attackers try to present themselves to you as some kind of trusted party. The point of contact with the attacker can be sms, email, a malicious look-alike website or someone contacting you on a social platform like facebook, twitter, instagram, telegram, discord and the like.
@@ -352,6 +362,8 @@ The only way to really protect yourself against this is developing a vigilance p
 Also, when you are in an emotional state it is ill-advised to do anything bitcoin related. Resist the temptation. Your judgment will be clouded and you will not be able to adopt a state of vigilance and might fall into a trap. You will screw up and you will regret it.
 
 [Back to Objective]({{ site.baseurl }}/a-fool-and-his-bitcoin/#objective-defend-against-the-dark-arts-of-phishing-and-malware){: .btn .btn-purple}
+
+---
 
 ---
 
@@ -399,6 +411,8 @@ This entails that if your encrypted wallet (if you add a wallet password in Spar
 Passphrases protect a regular wallet even if the physical seed phrase backup is compromised. It is therefore a second security factor on your bitcoin wallet not just on your computer but in every way.
 
 [Back to Objective]({{ site.baseurl }}/a-fool-and-his-bitcoin/#objective-defend-against-the-bare-key-backup-problemprogress-images){: .btn .btn-purple}
+
+---
 
 ---
 
@@ -527,6 +541,8 @@ If you are planning to use multisig it is even more advised to have multiple typ
 
 ---
 
+---
+
 ## Entropy
 
 As it stands in 2023, this is the **usual** time for a hacker to crack passwords/passphrases:
@@ -543,6 +559,8 @@ This “as long as the selection is truly random” part is crucial because it i
 You now realize that your passphrase is not on the same level of security as your 12 seedwords, to say the least. If your words get found you can check from the table above how much time it takes to “brute force” your passphrase. Note that anyone can download a password cracker. And if the attacker knows some information about you this becomes much easier because the brute force attack can be carried out more intelligently. How to tackle this? We must generate secrets from great sources of entropy. Then we take care of these secrets and try never to leak them to malicious people of course.
 
 [Back to Objective]({{ site.baseurl }}/order-and-entropy/#objective-level-up-on-entropy-and-apply-changes-to-your-bitcoin-setupprogress-images){: .btn .btn-purple}
+
+---
 
 ---
 
@@ -737,6 +755,8 @@ Last but not least, keep **learning** about privacy and be part of a bitcoin **c
 
 ---
 
+---
+
 ## Why Run a Bitcoin Node
 
 So let’s dive in running your own Bitcoin Node. They say: Not your Node, not your data and not your rules. That’s a good saying because it’s a great summary of what is at stake here.
@@ -801,6 +821,8 @@ However, bitcoin core specializes in the most crucial heavy-lifting part of bitc
 
 ---
 
+---
+
 ## Bitcoin Core GUI
 {: .no_toc }
 The Bitcoin Core software shipped with a graphical user interface called “Bitcoin Core GUI” but you will not install that particular part of Bitcoin Core. Rather you will be using Sparrow wallet for wallet features in a safe and user-friendly way. Sparrow is astonishingly easy to use compared to the advanced features it provides. But it is nice to have something to fall back on if need be.
@@ -822,6 +844,8 @@ You could run bitcoind and bitcoin-cli with configuration options from the comma
 So we have this handy configuration file called “bitcoin.conf” to make our lives easier. Note that the command line takes precedence so anything you write in bitcoin.conf can be overwritten in the command line.
 
 [Back to Objective]({{ site.baseurl }}/bitcoin-privacy/#objective-configure-and-learn-to-manage-bitcoin-coreprogress-images){: .btn .btn-purple}
+
+---
 
 ---
 
@@ -934,6 +958,8 @@ Now you know the cold hard truth about how convenience is traded off for soverei
 Lastly, I would like to mention that nostr is a protocol that could help P2P markets thrive outside of these sort-of walled garden platforms I introduced. Nostr goes hand-in-hand with bitcoin and LN combining the power of the bitcoin-base layer with the nimbleness of Lightning and the censorship resistant communication of nostr. I believe that something great is going to come out of this combination and there are current efforts to make this happen. It’s gonna take time but we’ll get there.
 
 [Back to Objective]({{ site.baseurl }}/nokyc-bitcoin/#objective-prepare-yourself-to-test-p2p-bitcoin-exchangesprogress-images){: .btn .btn-purple}
+
+---
 
 ---
 

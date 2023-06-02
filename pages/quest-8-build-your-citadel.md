@@ -23,7 +23,7 @@ You are now on a level of security where frankly, most Bitcoiners never get to. 
 
 You know, Bitcoin is still so early you can basically buy it on a 99% discount today. Being the most valuable “crypto”(hate the term) just means that it is a big fish in a little pond.
 
-### What am I getting at though?
+## What am I getting at though?
 {: .no_toc }
 
 The attacks we have experienced against Bitcoiners either in cyber- or meat-space are nowhere near what might come in the future. E.g. have you heard of Executive Order 6102? You’re right, most nation states will hate bitcoin just as they hated Gold as a store of value safe haven. The degree to which you must be ready cannot be overstated.
@@ -54,7 +54,7 @@ Think of your Citadel literally like your safe haven fortress-like city that has
 ![captain of the citadel](/assets/img/graphics/captain_of_the_citadel.jpg)
 
 ## OBJECTIVE: Read the Art of War by Sun Tzu
-	It is free and you will benefit from it tremendously, not to say that it is an afternoon read. 
+* It is free and you will benefit from it tremendously, not to say that it is an afternoon read. 
 
 Learn a lesson about warcraft, stratagem and tactics because you are going to apply many of these principles building and maintaining your Bitcoin Citadel.
 

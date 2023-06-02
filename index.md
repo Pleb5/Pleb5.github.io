@@ -47,12 +47,16 @@ Bitcoin Plebs is a free training program designed to instill bitcoin wisdom into
  \+ Bonus: Get to know bitcoin's latest friend: nostr, the censorship-resistant communications protocol:
 </span>
 * Make new friends in the bitcoin-nostr Pleb ecosystem
-* Get help in bitcoin-nostr related issues
+* Join the Bitcoin Plebs community on nostr to learn more, share your experience and discuss interesting topics with like-minded Plebs
 
-<span class="fs-7 warning_low_time_pref">⌛ Warning! Low Time Preference Advised! ⌛</span>
+<div class="warning_low_time_pref">
+  <span class="fs-7">⌛ Warning! Low Time Preference Advised! ⌛</span>
+</div>
 
 <div class="start_my_journey">
-  <span class="fs-8">
-    <a class="btn btn_start_my_journey" href="/pledge-of-the-bitcoin-pleb/">Start My Journey</a>
+  <span class="fs-7">
+    <button type="button" name="button" class="btn_start_my_journey">
+      <a href="/pledge-of-the-bitcoin-pleb/">Start My Journey</a>
+    </button>
   </span>
 </div>

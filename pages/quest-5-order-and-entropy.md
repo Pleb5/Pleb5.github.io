@@ -17,7 +17,7 @@ permalink: /order-and-entropy/
 
 ---
 
-### You realize your housekeeper could have read your sensitive information in your paper notebook all along
+## You realize your housekeeper could have read your sensitive information in your paper notebook all along
 {: .no_toc }
 
 Since your **paper notebook** contains sensitive private information about your bitcoin-related things it is ill-advised to keep it in plain text on your desk in the long run. Also, backing up and updating hand-written text if anything changes is an arduous task.
@@ -39,7 +39,7 @@ You might also have some important **digital notes** unencrypted on your compute
 
 ---
 
-### Now take a look at your computer generated password/passphrase and compare it to the wallet Password or the BIP39 Passphrase you picked
+## Now take a look at your computer generated password/passphrase and compare it to the wallet Password or the BIP39 Passphrase you picked
 {: .no_toc }
 
 ## OBJECTIVE: Transfer bitcoin metadata to Keepass([Progress Images](/progress-order-and-entropy/){:target="_blank"})
@@ -97,7 +97,7 @@ Your first line of defense is your skills and knowledge. However, a strong commu
 
 ---
 
-### Time for your meta-data backup
+## Time for your meta-data backup
 {: .no_toc }
 
 ## OBJECTIVE: Backup the KeePass database on industrial micro sd cards
@@ -114,7 +114,7 @@ Your first line of defense is your skills and knowledge. However, a strong commu
 
 ---
 
-### Congratulations!
+## Congratulations!
 {: .no_toc }
 
 This is an important step in your journey. The meta-data you have just backed up is an important basis for designing a strong Bitcoin Self-Custody system. You can improve your setup to be ever smarter, faster and stronger. Keep those sd cards safe.

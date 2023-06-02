@@ -63,18 +63,43 @@ h1 {
 }
 
 .warning_low_time_pref{
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
   margin-top: 25px;
+  padding: 10px;
   
-  color: #960BE3;
+  color: #E46720;
 }
 
 .start_my_journey{
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
   margin-top: 25px;
-  width: 70%;
   padding: 10px;
+}
+
+.btn_start_my_journey{
+  font-weight: 500;
+  font-family: inherit;
+  font-size: inherit;
+  display: inline-block;
+  padding: 0.7em 1em;
+  margin: 0;
+  line-height: 1.5;
+  vertical-align: baseline;
+  cursor: pointer;
+  border-width: 0;
+  /* I want to modify border radius and not be overwritten */
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  appearance: none;
+  //background-color: #6D4C24;
+  background-color: $base-button-color;
+}
+
+.btn_start_my_journey:hover{
+  background-color: #2e2b33;
+}
+
+.btn_start_my_journey a{
+  //color: #E46720;
 }
 

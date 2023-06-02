@@ -17,7 +17,7 @@ permalink: /a-fool-and-his-bitcoin/
 
 ---
 
-### You spilled coffee on your paper backup! ☕
+## You spilled coffee on your paper backup! ☕
 {: .no_toc }
 
 Literally, destroy the piece of paper you wrote your words on. Don’t fake this step. Now what? Is everything lost?
@@ -38,7 +38,7 @@ Literally, destroy the piece of paper you wrote your words on. Don’t fake this
 
 ---
 
-### Your backup is lost! 😱🖐️
+## Your backup is lost! 😱🖐️
 {: .no_toc }
 
 You were sure you hid it under your mattress! How could that happen?! You can’t be sure if your backup was stolen, trashed, or just lost somehow. You don’t have time to ruminate and search for days.
@@ -86,7 +86,7 @@ Now you have a fairly robust setup that protects against accidental loss and fun
 
 ---
 
-### You fell for a clickbait email. You downloaded some strange file and now your computer seems to be infected. 📥🦠
+## You fell for a clickbait email. You downloaded some strange file and now your computer seems to be infected. 📥🦠
 {: .no_toc }
 
 The computer now is compromised meaning cyber attackers can steal your keys from your computer and log your keystrokes whenever you input your passphrase!
@@ -147,7 +147,7 @@ If you did not reinstall Ubuntu, now just simulate starting fresh by reinstallin
 5. Download files again from the [Sparrow wallet website](https://sparrowwalet.com){:target="_blank"}
 6. There is something really strange with this website, don’t you think?
 
-### You visited a copycat website to download Sparrow wallet. You almost fell for another trickster! 📥🦠 (Don’t worry this is just for simulation purposes. Or is it? ;)
+## You visited a copycat website to download Sparrow wallet. You almost fell for another trickster! 📥🦠 (Don’t worry this is just for simulation purposes. Or is it? ;)
 {: .no_toc }
 
 ---
@@ -187,7 +187,7 @@ You may find yourself spending a few hundred cuckbucks on bitcoin related stuff 
 
 ---
 
-### Your hardware wallet has arrived. Time to go Cold Storage 🧊
+## Your hardware wallet has arrived. Time to go Cold Storage 🧊
 {: .no_toc }
 
 So how can you be pretty sure this thing will not steal your bitcoin? There can be many methods devised to verify hardware wallets. The verification also depends on your type of hww and available resources.
@@ -395,10 +395,10 @@ You start to get the idea about hardware wallets. Now we can test the address ve
     5. Addresses on mainnet differ from testnet for obvious security reasons
 6. After verification you can now use the safe address and do the transfer from the faucet as usual
 
-### Don't trust networked computers from now on. Never put any crucial sensitive data in them, like your cold storage secret keys or passphrases. Only trust your verified hardware wallet
+## Don't trust networked computers from now on. Never put any crucial sensitive data in them, like your cold storage secret keys or passphrases. Only trust your verified hardware wallet
 {: .no_toc }
 
-### Secure your hardware wallet so you minimize the threat of tampering(swapping out sd cards or whole device)
+## Secure your hardware wallet so you minimize the threat of tampering(swapping out sd cards or whole device)
 {: .no_toc }
 
 Even if your computer is not to be trusted, it is also important to note that other computers are less trustworthy which means don’t even run any Wallet software like Sparrow wallet on unknown or unsafe computers.
@@ -409,7 +409,7 @@ Your bitcoin tech-architecture looks like this(`click to enlarge`):
 
 ---
 
-### Sparrow and Seedsigner released new versions. Time to update software and firmware securely 💽
+## Sparrow and Seedsigner released new versions. Time to update software and firmware securely 💽
 {: .no_toc }
 
 ## OBJECTIVE: Upgrade Sparrow and SeedSigner

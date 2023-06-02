@@ -127,13 +127,13 @@ In bitcoin they also say "trusted third parties are security holes" to emphasize
 
 ## Your Options in Self-Hosting Land
 
-### Option 1(Recommended): Go the OG way
+## Option 1(Recommended): Go the OG way
 
 The most recommended option is to set up bitcoin core manually. This is going to be a technical guide with terminal usage. Although highly recommended with great learning opportunities, you will have to demonstrate Proof of Work to complete it. By the time you get this section done, you will improve your command-line skills, get a good grasp on how Bitcoin full nodes work under the hood and most importantly you will know how to set up a bitcoin full node quickly from scratch with strong verification.
 
 Trust me you don’t want to miss out on these perks of learning the hard way and getting your hands dirty! Even if you go for prepackaged nodes later to access advanced features more easily, being able to run your own verified bitcoin core is a huge plus. And it's the cheapest solution too.
 
-### Option 2: Buy a node-in-a-box and connect to it from Desktop
+## Option 2: Buy a node-in-a-box and connect to it from Desktop
 
 This is a convenient option if you have the extra bucks (from ca. 400$ - 1000$). Consider this an investment in the security of your funds. If you plan to stack your savings in bitcoin, you will really need dedicated hardware at some point. All the following projects come packaged with extra services for your diverse needs.
 
@@ -145,7 +145,7 @@ The list of my favorite open-source node projects were selected by these criteri
 * Most ethical teams behind the project: Projects maintained by renowned open-source contributors
 * Best for learning and growing: Using the software teaches you fundamental concepts of bitcoin. Lets you grow with the software as you use it in an increasingly more sovereign way. Not just pushing buttons on a GUI
 
-#### My Recommendations:
+## My Recommendations:
 
 * [Raspiblitz](https://raspiblitz.org/){:target="_blank"}: Lightning and more. Probably the cheapest. Terminal based Cypherpunk-style usage. Highly recommended for aspiring sovereign node runners. Great support from volunteers
 * [Nodl](https://www.nodl.eu/){:target="_blank"}: Lightning and more. Sleek UI, performance hardware
@@ -165,7 +165,7 @@ However it is very handy to run a sovereign Lightning node with some funds on Li
 
 That said, most people use Lightning with custodial wallets which is acceptable if you don't put more money on the line than you are okay with losing.
 
-### Option3: DIY hardware for the tinkerers
+## Option3: DIY hardware for the tinkerers
 
 If you are a true tinkerer, I am sure you already thought of this option. With the hardest challenges you learn the most. But if you are not ready for this and push yourself too far at this point, you risk a burn-out(or your funds).
 
@@ -272,7 +272,7 @@ The binary files are already installed(copied) in place but you have to configur
 
 ---
 
-### Tor vs. VPNs
+## Tor vs. VPNs
 
 VPN services provide similar protection against attacks on privacy as Tor just with different tradeoffs. They typically offer better connectivity but are trusted counterparties who can log and sell your activities or snitch on you for the government, especially when forced to do so.
 
@@ -321,7 +321,7 @@ First of all let’s prepare to drive all traffic of Bitcoin Core through the To
 
 	#These vaules can be overwritten by command line arguments
 
-	############## bitcoind options ###################
+	###### bitcoind options ########
 
 	#Accept command line and JSON-RPC(remote) commands
 	server=1
@@ -342,7 +342,7 @@ First of all let’s prepare to drive all traffic of Bitcoin Core through the To
 	# If you have enough capacity in your home folder use that path
 	# datadir=/home/<username>/.bitcoin
 
-	############### Connection settings ###################
+	###### Connection settings ########
 
 	# User and password for authentication. Sensitive stuff!!
 	rpcuser=five
@@ -369,7 +369,7 @@ First of all let’s prepare to drive all traffic of Bitcoin Core through the To
 	dns=0
 
 
-	########## Optimizations ############
+	#### Optimizations ####
 
 	# Don't let our mempool of unconfirmed transactions grow above 300MB
 	maxmempool=300
@@ -446,7 +446,7 @@ First of all let’s prepare to drive all traffic of Bitcoin Core through the To
 
 ---
 
-### Your OG! Now your computer is running a verified, privacy-enhanced Bitcoin Full Node on Bitcoin mainnet!
+## Your OG! Now your computer is running a verified, privacy-enhanced Bitcoin Full Node on Bitcoin mainnet!
 {: .no_toc }
 
 However, let’s use `Sparrow` in testnet mode just a little more for a couple of interesting prep exercises before you get real bitcoin! In the meantime `bitcoind` will finish the block download and verification.

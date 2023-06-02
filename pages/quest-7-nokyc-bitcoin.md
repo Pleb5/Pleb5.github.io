@@ -185,7 +185,7 @@ Let’s get to serious business. This is not just pushing some buttons here and 
 
 Sparrow wallet has been connecting to the Bitcoin Plebs Signet node. To launch Sparrow in mainnet mode automatically, you need to make some adjustments in your system configuration
 
-### Warning: Don’t ever use the same seed words for your testnet wallets as your mainnet ones. Generate fresh wallets.
+## Warning: Don’t ever use the same seed words for your testnet wallets as your mainnet ones. Generate fresh wallets.
 {: .no_toc }
 
 ## OBJECTIVE: Launch Sparrow in mainnet mode([Progress Images](/progress-nokyc-bitcoin/){:target="_blank"})
@@ -266,7 +266,7 @@ That said, transacting on Lightning can be really cheap, fast and the settlement
 
 If the transaction fees rise (which is supposed to be a good thing that improves the security of bitcoin) Lightning will be essential to small bitcoin payments. I reckon you will be using Lightning in the not-so-distant-future anyway.
 
-### Your LN options to try Robosats
+## Your LN options to try Robosats
 1. Get a decent custodial but NoKYC Lightning wallet and load it up with a little amount of sats
 2. Get a decent non-custodial Lightning mobile wallet like [Phoenix](https://phoenix.acinq.co/){:target="_blank"} or [Breez](https://breez.technology/){:target="_blank"}
 3. Upgrade to a LN full node and use Lighting in a non-custodial sovereign way. You can upgrade your current machine or buy a dedicated Nodl or a Raspiblitz node
