@@ -127,6 +127,20 @@ In bitcoin they also say "trusted third parties are security holes" to emphasize
 
 ## Your Options in Self-Hosting Land
 
+## Full node options
+{: .no_toc }
+Self-hosting your node at home is a good practice in bitcoin. First you have to choose which full node solution you want to go with. Setting up your own bitcoin core full node has the most learning benefits with the least technical burden in my opinion. Node packages on the other hand come with extra features and default settings which harden the node's privacy and security. This comes at the cost of added complexity if you really want to know what's going on under the hood and verify.
+
+You can also setup your own bitcoin core node and then plan to upgrade it to a packaged node in the future. Or you can also go all in and set up everything by yourself from scratch which is a quite daunting task for most people.
+
+## Networking: Connection to your own node vs. Connection to peer nodes 
+{: .no_toc }
+You can configure your node on the machine where you run Sparrow which is the plain and simple solution but you can dedicate a machine solely to run a bitcoin node which is the most secure and efficient solution long-term. The dedicated hardware solution entails that you have to use `ssh`(secure shell) to troubleshoot and configure that dedicated machine.
+
+Controlling and querying your node(e.g. with Sparrow) from your home network is easier but there are certain cases where you might want to connect from a remote location through the internet. There are different possible solutions to do this securely and privately. While you could do this through tor, it is going to be a subpar user experience. I recommend you to look into VPN solutions like [tailscale](https://tailscale.com/) and [zerotier](https://openoms.github.io/bitcoin-tutorials/zerotier/){:target="_blank"}. This program will only show you the basics which is to run and connect to everything bitcoin-related on just one machine through. Later on you could separate the different parts and features to gain more flexibility and functionality as you are growing in skills and understanding.
+
+As to how your node connects to other "peer" nodes though, tor is going to be the go-to solution today for average users. There are other anonimity networks supported by bitcoin core like the Invisible Internet project(I2P) which are less-used than Tor(number of users greatly influences privacy gains) but they could serve as backup solutions when Tor is attacked.
+
 ## Option 1(Recommended): Go the OG way
 
 The most recommended option is to set up bitcoin core manually. This is going to be a technical guide with terminal usage. Although highly recommended with great learning opportunities, you will have to demonstrate Proof of Work to complete it. By the time you get this section done, you will improve your command-line skills, get a good grasp on how Bitcoin full nodes work under the hood and most importantly you will know how to set up a bitcoin full node quickly from scratch with strong verification.
@@ -272,17 +286,7 @@ The binary files are already installed(copied) in place but you have to configur
 
 ---
 
-## Tor vs. VPNs
-
-VPN services provide similar protection against attacks on privacy as Tor just with different tradeoffs. They typically offer better connectivity but are trusted counterparties who can log and sell your activities or snitch on you for the government, especially when forced to do so.
-
-I will not go into too much detail on VPN services but you should definitely check them out as alternatives or additional protection where Tor would be too slow e.g. on your mobile phone/watching videos and listening to podcasts…many things. They are not too hard to set up. I recommend **Mullvad or ProtonVPN** as reputed choices at the time of writing. They usually offer privacy on multiple devices for one subscription.
-
-Nevertheless, Tor still seems to be the most popular privacy choice among node runners. Note that VPN+Tor combination is not really recommended for most cases.
-
----
-
-First of all let’s prepare to drive all traffic of Bitcoin Core through the Tor network for privacy gains.
+Let’s prepare to drive all traffic of Bitcoin Core through the Tor network for privacy gains.
 
 ## OBJECTIVE: Setup a Tor proxy service([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
 
@@ -292,7 +296,7 @@ First of all let’s prepare to drive all traffic of Bitcoin Core through the To
     ```sh
     sudo apt install tor
 	```
-    4. This immediately starts tor daemon listening on port `9050` for incoming traffic
+    4. This immediately starts tor daemon listening on port `9050` for incoming traffic on localhost(your local machine, no external connections)
 
 ![tor_with_bitcoin](/assets/img/graphics/tor_with_bitcoin.jpg)
 

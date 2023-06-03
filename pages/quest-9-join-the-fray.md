@@ -25,21 +25,27 @@ Join the great bitcoin hive mind: Be in the know from trusted bitcoin voices and
 ## OBJECTIVE: People to follow
 
 Bitcoiners with great content. Follow their work and look for them on nostr, twitter and Telegram groups:
+
+The best creators related to bitcoin Self Custody
+*     [openoms](https://openoms.github.io/bitcoin-tutorials/)
+*     [BitcoinQnA](https://bitcoiner.guide/)
+*     [6102 Bitcoin](https://bitcoin-only.com/)
+*     [Matt Odell](https://citadeldispatch.com/)
+*     [Stephan Livera](https://stephanlivera.com/)
+*     [BTC Sessions](https://www.btcsessions.ca/)
+*     [Ministry of Nodes](https://www.ministryofnodes.com.au/)
+*     [Econoalchemist](https://www.econoalchemist.com/)
+*     [The Bitcoin Manual](https://thebitcoinmanual.com)
+
+Austrian economics, bitcoin philosophy and other interesting topics
 *     [Saifedean Ammous](https://saifedean.com/)
 *     [Robert Breedlove](https://whatismoneypodcast.com/)
 *     [Aleks Svetski](https://linktr.ee/svetski)
-*     [Matt Odell](https://citadeldispatch.com/)
 *     [Marty Bent](https://tftc.io/)
-*     [BTC Sessions](https://www.btcsessions.ca/)
-*     [6102 Bitcoin](https://bitcoin-only.com/)
-*     [BitcoinQnA](https://bitcoiner.guide/)
-*     [Econoalchemist](https://www.econoalchemist.com/)
-*     [Ministry of Nodes](https://www.ministryofnodes.com.au/)
-*     [Stephan Livera](https://stephanlivera.com/)
 *     [Dergigi](https://dergigi.com/)
-*     [The Bitcoin Manual](https://thebitcoinmanual.com)
 *     [Michael Saylor](https://www.michael.com/)
-* Look at people _they_ follow and start broadening your bitcoin social network
+
+Look at people _they_ follow and start broadening your bitcoin social network!
 
 ---
 
