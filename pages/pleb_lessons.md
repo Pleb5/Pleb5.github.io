@@ -110,7 +110,7 @@ If you know that Alice’s **_public_** key actually belongs to her then you can
 
 The checking is done with a so-called “Digital Signature Algorithm”. This algorithm takes a signed message(sometimes the signature is literally in the message file, sometimes it is sent as a separate file “detached” from the message) and a **_public_** key and determines if the signature was produced with the corresponding **_private_** key without any knowledge of that private key. If it checks out we can say that this message indeed came from Alice.
 
-Problem is how do you ascertain that the public key you have really belongs to Alice? You see we are back to a similar problem as before with the shared secret. We have to share some information in-person to start trusting each other.
+Problem is how do you ascertain that the public key you have really belongs to Alice? You see we are back to a similar problem as before with the shared secret. We have to share some information in-person to start trusting each other. This time it is the public key instead of the shared secret in the case of the symmetric encryption.
 
 All in all, real 100% proof does not exist and the ultimate source of trust is knowing each other personally.
 
@@ -118,7 +118,7 @@ All in all, real 100% proof does not exist and the ultimate source of trust is k
 
 So, let’s say you have a great software tool to share with the world. How can people know that the software they downloaded is indeed originating from you and is not harmful?
 
-One method would be that you publish the open-source code. Now anyone who can read that code can verify it then re-build the executable software from that inspected code on his preferred machine. But of course this is not a realistic scenario for most people.
+One method would be that you publish the source code, making it "open-source". Now anyone who can read that code can verify it then re-build the executable software from that inspected code on his preferred machine. But of course this is not a realistic scenario for most people.
 
 It is very nice though if someone publishes the source code because they put it officially out there for anyone to inspect. If there is a bug or some harmful feature it will turn out pretty fast.
 
@@ -273,7 +273,7 @@ The new output is now tied to your address which means it is locked to your publ
 
 ---
 
-UTXOs can be thought of as banknotes because they hold an exact amount of bitcoin. This means that when you want to spend your UTXO you always unlock the whole chunk, not just a portion of it. Say you have to pay 10.000 satoshis(100.000.000 satoshis are one bitcoin and the network only understands satoshis under the hood) for a gum but you have a UTXO that is 5000 and another that is 8000. Your wallet combines these UTXOs as inputs and creates an output of 10.000 sats locking it to the merchant's address:
+UTXOs can be thought of as banknotes because they hold an exact amount of bitcoin. This means that when you want to spend your UTXO you always unlock the whole chunk, not just a portion of it. Say you have to pay 10.000 satoshis(100.000.000 satoshis are one bitcoin and the network only understands satoshis under the hood) for a gum but you have a UTXO that is 5000 and another that is 8000. Your wallet combines these UTXOs as inputs and creates an output of 10.000 sats locking it to the merchant's address.
 
 So what happens to that 3000 extra? Well, let’s say you pay an additional 1000 in fees for the miners to incentivize them to include your transaction in their block. The remaining 2000 is what we call the **change output** and it is locked to one of your **change addresses** which is just the same as a receive address so you can later spend that too of course.
 
@@ -893,6 +893,7 @@ There are several ways platforms conduct P2P trades with different trade-offs. S
     * **Takers** browse the orderbook of the offers and choose which suits them best. They usually pay more fees for this convenience
 * The bitcoin **seller**(either maker or taker) **deposits** the sats into an escrow which is released as soon as the fiat payment has been made and confirmed by the bitcoin seller
 * There are platforms where both **seller** and **buyer** need to put sats in **escrow** to make a precommitment to the trade. You need to get your first NoKYC sats somewhere else to make the deposit in this case. **Buying P2P by putting KYC bitcoin in escrow is not recommended! It will be easy to follow!**
+* Bitcoin **seller** always takes more risk because fiat payments are reversible while a bitcoin transaction is practically irreversible
 * If there is a dispute, mediation(third party helper cannot effectively decide on the trade) or arbitration(helper can decide in favor of someone) is required between the parties. This is done by either the support people behind the platform if it is a company or volunteers if it is a more decentralized service without an organization
 
 ## Making deposits
@@ -920,10 +921,10 @@ Since there is little support for testnet versions of bitcoin applications as of
 
 Here are P2P exchange platforms that I can recommend at the moment:
 
-* [Robosats](http://robosats.com/): A Lightning-based P2P exchange with strong privacy features. A great way to get Lightning liquidity. You can buy/sell up to 5 million sats. Tor browser based if you want the full privacy benefits. Still quite a new platform.
-* [HodlHodl](https://hodlhodl.com/): An established player(company) in the P2P ecosystem. depending on your account with them you can buy large amounts of bitcoin. Uses [2 of 3 multisig escrows](https://hodlhodl.com/pages/help#title_multisig_escrow){:target="_blank"} with arbitrators of the company. You can encounter many bitcoin sellers that demand extensive KYC in a particular trade (or “Know Your Peer” in this case) to avoid fraudsters
+* [Robosats](http://robosats.com/): A Lightning-based P2P exchange with strong privacy features. A great way to get Lightning liquidity. Both parties have to deposit sats as a precommitment("fidelity bonds") to the trade in the form of "Lightning hold invoices". You can buy/sell up to 5 million sats. Tor browser based if you want the full privacy benefits. Still quite a new platform.
+* [HodlHodl](https://hodlhodl.com/): An established player(company) in the P2P ecosystem. No need to have sats to buy sats(buyer doesn't have to deposit into escrow). Depending on your account with them you can buy large amounts of bitcoin. Uses [2 of 3 multisig escrows](https://hodlhodl.com/pages/help#title_multisig_escrow){:target="_blank"} with arbitrators of the company. You can encounter many bitcoin sellers that demand extensive KYC in a particular trade (or “Know Your Peer” in this case) to avoid fraudsters
 * [Peach](https://peachbitcoin.com/quick-start/): The benefit of this platform is that you can **buy without a deposit** transaction, meaning you can get your first sats on Peach. Premiums tend to be high. BTC sellers are makers and buyers are takers here. The flow and the app design is quite peachy. Unfortunately, it is not fully FOSS at the time of writing
-* [Bisq](https://bisq.network/): The go-to for the lovers of decentralization. No company runs Bisq but a “DAO”(decentralized autonomous organization) of contributors. This DAO is quite a shitcoin show but hey, it is a great product so let’s give them a little benefit of the doubt.  
+* [Bisq](https://bisq.network/): The go-to for the lovers of decentralization. Both parties need to deposit a percentage of the trade value into escrow before the trade. No company runs Bisq but a “DAO”(decentralized autonomous organization) of contributors. This DAO is quite a shitcoin show but hey, it is a great product so let’s give them a little benefit of the doubt.  
 Bisq runs its own hot SPV wallet and runs through Tor by default so you just download, verify, install, configure fiat rails and start stacking sats. It has quite decent liquidity with lower premiums than most platforms.  
 It uses a 2 of 2 multisig escrow so both parties have to unlock the coins to settle the trade. There is a mediation option conducted by volunteers but at the end of the day you just have to come to terms with your counterparty.  
 Fiat accounts are trusted in Bisq through a process called “signing” where you must complete a trade with an already trusted(signed) account and wait some time in order to get your fiat account signed too. This mitigates some fiat chargeback risk. Don’t forget to withdraw funds from the hot wallet to your cold storage. You can introduce an intermediate coinjoin step in the process
@@ -1108,11 +1109,11 @@ It is seemingly secure because e.g. "you need 3 keys to spend out of 5, the more
 {: .no_toc }
 
 ## Single point of failure - You don't use multisig properly:
-
+{: .no_toc }
 If you have enough information to spend from the multisig wallet, you can be easily pressured or robbed this way. This is the “5 dollar wrench attack”. Bad practice and defeats the purpose of multisig.
 
 ## Collusion:
-
+{: .no_toc }
 Since any combination of private keys can spend provided that the minimum threshold is met and the Descriptor is present, you are not necessarily needed to sign in non-consensus based multisig quorums. Your signatories can collude against you or an attacker can compromise private keys to gather enough information to steal your bitcoin. You can mitigate this by selecting really trustworthy people to hold key backups for you and/or using a consensus based Quorum.
 
 ---

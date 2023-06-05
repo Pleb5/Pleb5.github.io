@@ -314,6 +314,7 @@ This “live operating system” method can be used to verify crucial things or 
         4. If it shows an error try to enable the webcam if it is disabled or reconnect USB
         5. Orientation doesn’t matter
         6. Try to wait for autofocus to kick in
+        7. If you struggle with the focus too much try to [adjust it](https://zpjiang.me/2020/05/28/picamera-adjust-focus/)
         7. Hold the camera(or the hardware wallet) firm. You can put your elbow on the desk to get more stability
         8. Try to establish good lighting conditions: Reduce glare by reducing brightness of the screen with the joystick down action and/or adjusting the surrounding lights
 11. Now you can see the `Signature` progress bar in Sparrow filled blue

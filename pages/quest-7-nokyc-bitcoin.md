@@ -199,7 +199,7 @@ Sparrow wallet has been connecting to the Bitcoin Plebs Signet node. To launch S
 	#export SPARROW_NETWORK=”signet”
 	```
     3. You can switch it back by uncommenting this line whenever you feel like experimenting
-    4. Or you can start Sparrow with the network argument `“signet”` or `“testnet”` to run single experiments. Since it is on `PATH` you can do it from anywhere in the command line
+    4. Or you can start Sparrow with a network option like `“Sparrow -n signet”` or `“Sparrow -n testnet”` to run single experiments. Since it is on `PATH` you can do it from anywhere in the command line
 3. Reboot the computer to take effect
 
 ---

@@ -142,13 +142,13 @@ Controlling and querying your node(e.g. with Sparrow) from your home network is 
 As to how your node connects to other "peer" nodes though, tor is going to be the go-to solution today for average users. There are other anonimity networks supported by bitcoin core like the Invisible Internet project(I2P) which are less-used than Tor(number of users greatly influences privacy gains) but they could serve as backup solutions when Tor is attacked.
 
 ## Option 1(Recommended): Go the OG way
-
+{: .no_toc }
 The most recommended option is to set up bitcoin core manually. This is going to be a technical guide with terminal usage. Although highly recommended with great learning opportunities, you will have to demonstrate Proof of Work to complete it. By the time you get this section done, you will improve your command-line skills, get a good grasp on how Bitcoin full nodes work under the hood and most importantly you will know how to set up a bitcoin full node quickly from scratch with strong verification.
 
 Trust me you don’t want to miss out on these perks of learning the hard way and getting your hands dirty! Even if you go for prepackaged nodes later to access advanced features more easily, being able to run your own verified bitcoin core is a huge plus. And it's the cheapest solution too.
 
 ## Option 2: Buy a node-in-a-box and connect to it from Desktop
-
+{: .no_toc }
 This is a convenient option if you have the extra bucks (from ca. 400$ - 1000$). Consider this an investment in the security of your funds. If you plan to stack your savings in bitcoin, you will really need dedicated hardware at some point. All the following projects come packaged with extra services for your diverse needs.
 
 Note that these node packages all build on bitcoin core as their central starting point. They just made the management of bitcoin core easier and built other nice features on it. This dedicated hardware approach can also be considered safer because of the same reason as hardware wallets. They also make it easier to use the node in a more secure and private way.
@@ -160,7 +160,7 @@ The list of my favorite open-source node projects were selected by these criteri
 * Best for learning and growing: Using the software teaches you fundamental concepts of bitcoin. Lets you grow with the software as you use it in an increasingly more sovereign way. Not just pushing buttons on a GUI
 
 ## My Recommendations:
-
+{: .no_toc }
 * [Raspiblitz](https://raspiblitz.org/){:target="_blank"}: Lightning and more. Probably the cheapest. Terminal based Cypherpunk-style usage. Highly recommended for aspiring sovereign node runners. Great support from volunteers
 * [Nodl](https://www.nodl.eu/){:target="_blank"}: Lightning and more. Sleek UI, performance hardware
 * [RoninDojo](https://ronindojo.io/index){:target="_blank"}: No Lightning but strong privacy-focus. Best with the Samourai software stack
@@ -180,7 +180,7 @@ However it is very handy to run a sovereign Lightning node with some funds on Li
 That said, most people use Lightning with custodial wallets which is acceptable if you don't put more money on the line than you are okay with losing.
 
 ## Option3: DIY hardware for the tinkerers
-
+{: .no_toc }
 If you are a true tinkerer, I am sure you already thought of this option. With the hardest challenges you learn the most. But if you are not ready for this and push yourself too far at this point, you risk a burn-out(or your funds).
 
 Know yourself, know your limits. You can start with option 1 or 2 then experiment with DIY hardware and switch as soon as you are confident enough. Having said that, all the above projects can be DIY-ed on many types of hardware. Choose your destiny and fall down the rabbit hole.
@@ -189,9 +189,12 @@ Raspberries are gonna be your most compatible choice if you want to try multiple
 
 **Raspiblitz** is my favorite in this category. Check out the [alternative platforms guide](https://github.com/rootzoll/raspiblitz/tree/dev/alternative.platforms#%EF%B8%8F-alternative-platforms-for-the-raspiblitz-%EF%B8%8F){:target="_blank"} for hardware alternatives to Raspberry.
 
-I will note again that using a Node implementation on the particular hardware that it was designed for is going to be an overall safer and better experience.
+I will note again that using a Node implementation on the particular hardware that it was designed for is going to be an overall safer and better experience. That said, a raspberry operating system is very close to Debian Linux so any project designed for primarily for raspberries should work on Debian amd64 architecture.
 
-EVENT: Signet is boring! Get me the real deal!
+---
+
+## Signet is boring! Get me the real deal!
+{: .no_toc }
 
 ## Option 1: Go the OG way
 

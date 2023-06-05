@@ -35,6 +35,7 @@ The best creators related to bitcoin Self Custody
 *     [BTC Sessions](https://www.btcsessions.ca/)
 *     [Ministry of Nodes](https://www.ministryofnodes.com.au/)
 *     [Econoalchemist](https://www.econoalchemist.com/)
+*     [Diverter](https://diverter.hostyourown.tools/)
 *     [The Bitcoin Manual](https://thebitcoinmanual.com)
 
 Austrian economics, bitcoin philosophy and other interesting topics
@@ -64,7 +65,7 @@ Look at people _they_ follow and start broadening your bitcoin social network!
     10. Svetski Wake Up Podcast
     11. Choose a topic to focus on and look for episodes across the board
 2. Join [Stacker.news](https://stacker.news/) (alby can get you a Lightning address), the future bitcoin version of reddit
-3. Load up a Lightning wallet with sats and start creating content and zapping other plebs with great content on [nostr clients](https://nostr-resources.com/#clients)
+3. Load up a Lightning wallet with sats and start creating content and zapping other plebs with great content
 
 ---
 
