@@ -809,6 +809,10 @@ Light clients are for those with limited bandwidth or storage capacity. Since th
 
 You can also "prune" your full node to store a limited size of the blockchain, the part your wallet will most likely be interested in. This way you are still fully validating your transactions but cannot serve old blocks to peers and cannot retrieve history of an old wallet because you don't have that old history of the blockchain stored.
 
+[Back to Objective]({{ site.baseurl }}/bitcoin-privacy/#objective--learn-about-bitcoin-nodes){: .btn .btn-purple}
+
+---
+
 ---
 
 ## Bitcoin Core Components
@@ -816,10 +820,6 @@ You can also "prune" your full node to store a limited size of the blockchain, t
 Bitcoin Core is not just a full node taking care of peer-to-peer connections and verifications. It is kind of a server and client packaged together in one software. Bitcoin Core alone can satisfy all the core needs of a bitcoin user.
 
 However, bitcoin core specializes in the most crucial heavy-lifting part of bitcoin.That is why people started to develop new software on top of it where bitcoin core does not shine particularly, mainly but not limited to the “user experience” part. For average people(and I must say, most shadowy supercoders too) however, user interfaces are critical for security.
-
-[Back to Objective]({{ site.baseurl }}/bitcoin-privacy/#objective--learn-about-bitcoin-nodes){: .btn .btn-purple}
-
----
 
 ---
 
@@ -874,7 +874,7 @@ The P2P market ecosystem is radically improving. More and more people choose thi
 * P2P exchanges require a deeper understanding of bitcoin because NoKYC presumes more advanced users
 * Dispute situations can arise and mediation can sometimes last days or weeks
 * You can trigger red flags in fiat banking systems, especially with frequent high-value trades. The KYC banking sector does not like random transfers to people not in your contact list. They might reject a transaction, ask for sources of income, or deny you their services and one-sidedly close your account. They might even freeze your funds in certain scenarios
-* Liquidating NoKYC bitcoin can trigger checks where the money came from therefore it riskier than KYC in this respect
+* Liquidating NoKYC bitcoin can trigger checks where the money came from therefore it is riskier than KYC in this respect
 * Tread lightly. The fiat-onramp problems are becoming very real and they increasingly try to squeeze out anything vaguely suspicious
 * These platforms mostly still have to comply with some(or most) regulations and can be stifled therefore easily by governments if they are deemed dangerous. This is why Plebs need to get ready for being unbanked or worse in some cases and this reality will be ever-more real because the banking system is shaking to its core and will try to keep people as compliant cogs in the system
 

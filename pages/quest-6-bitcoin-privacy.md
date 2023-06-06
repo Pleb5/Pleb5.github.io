@@ -177,7 +177,7 @@ Running your own bitcoin full node is a must for sovereignty. It is however a to
 
 However it is very handy to run a sovereign Lightning node with some funds on Lightning when on-chain transaction fees are getting high. High fees are good for bitcoin base-layer security and it should be the long-term trend. At that point you're going to pay a lot to open channels. The early bird catches the low-fee Lightning channels, they say. [Start here](https://www.lightningnode.info/){:target="_blank"}.
 
-That said, most people use Lightning with custodial wallets which is acceptable if you don't put more money on the line than you are okay with losing.
+That said, most people use Lightning with custodial wallets which is acceptable if you don't put too much money on the line.
 
 ## Option3: DIY hardware for the tinkerers
 {: .no_toc }
