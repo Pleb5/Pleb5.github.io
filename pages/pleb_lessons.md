@@ -396,19 +396,24 @@ Some shops I came across where bitcoiners buy stuff(NO guarantees, NOT reflinks!
 
 An analogy will be helpful here I believe:
 
-When I think about passphrases, I imagine a big castle full of rooms, almost too many to count all of them. It holds my treasure. If someone has the key to the main entrance gate of this castle, there will be a butler waiting.
+Imagine a big castle full of rooms, almost too many to count all of them. It holds your treasure. If a burglar gets the key to the main entrance gate of this castle, she will find a keyring to all rooms inside the castle.
 
-He hands him/her the keyring of all rooms. Of course this is a huge keyring but more importantly: You would be dead before you could search all rooms. It's just too much time.
+Of course this is a huge keyring but more importantly: She would be dead before she could search all rooms. It just takes too much time.
 
-But you designed this castle, so you know which rooms are filled with treasure and which are empty. So you just choose the right key and withdraw any amount anytime from one of the rooms containing value and of course those people you shared the room numbers with know it too. Maybe your trustees or heirs.
+But you designed this castle, so you know which rooms are filled with treasure and which are empty. So you just choose the right key and get any treasure anytime from one of the right rooms. Of course those people you shared the room numbers with can do this too. Maybe your trustees or heirs.
 
-You can of course forget or lose or leak it to malicious people which rooms hold treasure in which case, bye bye sats.
+Ways for your treasure to be compromised is straightforward:
+1. You lose the key to the entrance gate. You lock yourself out
+2. You lose the room information. You cannot find the right rooms anymore inside the castle
+3. You leak BOTH the key to your castle entrance AND the room info to malicious people - they gain access and steal your treasure
+
+---
 
 This means that all bip39 passphrases added to a regular wallet create new valid wallets. It is NOT an encryption password which blocks you from making sense of _binary_ data unless you know the password.
 
-This entails that if your encrypted wallet (if you add a wallet password in Sparrow) does not protect you from someone finding the physical backup and recovering that wallet in another wallet software, accessing your funds without any password.
+This entails that your encrypted wallet (if you add a wallet password in Sparrow) does not protect you from someone finding the physical backup and recovering that wallet from the seed words. He can access your funds this way without any password.
 
-Passphrases protect a regular wallet even if the physical seed phrase backup is compromised. It is therefore a second security factor on your bitcoin wallet not just on your computer but in every way.
+Passphrases protect a wallet even if the physical seed phrase backup is compromised. It is therefore a second security factor on your bitcoin wallet not just on your computer but in every way.
 
 [Back to Objective]({{ site.baseurl }}/a-fool-and-his-bitcoin/#objective-defend-against-the-bare-key-backup-problemprogress-images){: .btn .btn-purple}
 
