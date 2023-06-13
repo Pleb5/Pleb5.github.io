@@ -1081,6 +1081,8 @@ It can define rules like 2 of 3 majority voting or 3 of 5. But it can also defin
 
 ALL voting sessions must start with getting the constitution document first: The Descriptor. If you don’t have it, you cannot vote. So far so good, the members gather and vote with their cryptographic signatures.
 
+> Note: The Descriptor also registers the master fingerprints and the derivation paths of the quorum keys but you don't really have to care about these. The fingerprint is derived from the Xpub and the derivation paths must adhere to the BIP48 standard so there is no real room for error on this information.
+
 ---
 
 ## Possible problems:
