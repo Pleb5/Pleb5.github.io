@@ -89,3 +89,14 @@ Donate to worthy FOSS projects and contribute to FOSS however you can.
 
 Liked this training program? Share it with others interested in becoming a Pleb!
 
+---
+
+## Acknowledgments
+This program could not have come to life without the selfless help and guidance of fellow bitcoiners. Communities around open-source projects mentioned in this program have been vital to wrapping my head around bitcoin topics. Most notably the Sparrow, SeedSigner and Raspiblitz communities have been, and continue to be reliable sources of truth when learning about sovereign bitcoin usage. The maintainers, collaborators and support-volunteers of these projects are the cornerstones in the Citadels of so many Plebs.
+
+Special thanks to Matt Odell for sending 100% signal through the Citadel Dispatch podcast. Must-listen-to for any Pleb. Don't forget to send some love by streaming some sats.
+
+Also big thanks goes to Yegor Petrov for providing me with the cool graphics used throughout this website:
+```sh
+npub1z4m7gkva6yxgvdyclc7zp0vz4ta0s2d9jh8g83w03tp5vdf3kzdsxana6p
+```
