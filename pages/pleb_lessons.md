@@ -37,17 +37,20 @@ Read this nice introduction from the Ubuntu website and complete some exercises 
 
 Some of the terminal stuff I use very often can come handy for you too:
 
-
-
 * Copy text from terminal: `ctrl + shift + C` (right click works too)
 * Paste text into the terminal: `ctrl + shift + V`(right click works too)
 * Search the text in your terminal with the `search icon` located in the top-right corner
 * The `“Tab”` button tries to guess and complete your command. Always fervently pummel it especially when inputting file names because if it cannot complete an ambiguous command it still can give you the possible options. If it does not want to complete something it might mean you’re in the wrong directory or trying to do it the wrong way
 * Use previous/next command in history: `Up/Down arrows`
-* Clear screen: `ctrl + L`
-* Inspect most commands you don’t yet understand before blindly using it: `man <command>`
-* Use `<command> + “-help”` or without dash just “help” or `“info” + <command>` to try to get more information about it
+* Search for previously ran command by name: `ctrl + R`
+* Jump to beginning of line with `ctrl + A` and to the end of line with `ctrl + E`
+* Go forward one word with `ctrl + right arrow` and back one word with `ctrl + left arrow`
+* Delete previous word: `ctrl + W`
+* Clear screen: `ctrl + L` or running the `clear` command
+* Inspect most commands you don’t yet understand before blindly using it: `man <command>` is the most common way
+* Alternatively you can also use `<command> + “-help”` option or without dash just `<command> + “help”` or the other way round like `help <command>` or `“info” + <command>` to try to get information about command usage
 * Escape from a running process: `Ctrl + C`
+* Quit programs: Examples are pressing `q` button or typing `exit` or pressing `ctrl + X`. Always run through software manuals quickly to spare the headaches
 * Edit/View text files: `nano <filename>`
 * Use multiple tabs(top-left corner) and terminal windows for different terminal sessions. This is useful if you launched a program from one terminal session but want to do other things in parallel
 
