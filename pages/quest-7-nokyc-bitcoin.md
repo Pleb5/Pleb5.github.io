@@ -262,7 +262,7 @@ OPTIONAL: In order to try `Robosats`, a bitcoin wallet is required that is NoKYC
 
 Lightning is great because although bitcoin’s primary strength is being a store of value, it is great to showcase what it can do as a medium of exchange as well. However, Lightning is still in its infancy and there are all kinds of risks involved. Hot wallet risk, channel backups, mandatory security upgrades from time to time… it is mainly for experimentation with small amounts.
 
-That said, transacting on Lightning can be really cheap, fast and the settlement is instant. You can do many things with it that showcases the benefits of programmable money like **zapping** on nostr, **streaming** **sats** for your favorite [value for value podcast](https://value4value.info/){:target="_blank"} or just generally **pay/receive** sats **privately** and **cheaper** than a base-layer transaction.
+That said, transacting on Lightning can be really cheap, fast and the settlement is instant. You can do many things with it that showcases the benefits of programmable money like **zapping** on nostr, **streaming** **sats** for your favorite [value for value podcast](https://value4value.info/){:target="_blank"} or just generally **pay/receive** sats **privately** and in a **cheaper way** than a base-layer transaction.
 
 If the transaction fees rise (which is supposed to be a good thing that improves the security of bitcoin) Lightning will be essential to small bitcoin payments. I reckon you will be using Lightning in the not-so-distant-future anyway.
 
