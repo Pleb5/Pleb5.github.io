@@ -460,6 +460,23 @@ However, let’s use `Sparrow` in testnet mode just a little more for a couple o
 
 ---
 
+## OBJECTIVE(optional): Upgrading bitcoin core in the future
+1. Since bitcoin core should be optional to upgrade(unless a hardfork happens in bitcoin which should be extremely rare) always carefully check the release notes and feel free to discuss the changes in related groups
+2. The upgrading process is almost exactly the same as the process described above except you don't have to configure tor and bitcoind again
+3. Download the new version, verify, extract and install the new binaries
+4. Restart bitcoind and check new version:
+    1. ```sh
+       bitcoin-cli stop
+       ```
+    2. ```sh
+       bitcoind
+       ```
+    3. ```sh
+       bitcoind --version
+       ```
+
+---
+
 ## Let's go play around with P2P markets!
 {: .no_toc }
 
