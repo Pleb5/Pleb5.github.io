@@ -97,42 +97,80 @@ Anyone serious about Bitcoin and IT security recommends a Linux operating system
 ## OBJECTIVE: Join the Bitcoin Plebs community([Progress images](/progress-get-on-board/){:target="_blank"})
 1. 💡Learn about the [nostr protocol](/pleb-lessons/#nostrnotes-and-other-stuff-transmitted-by-relays) that allows you to connect to the bitcoin plebs community
 2. 💡Learn about the concept of [public key cryptography](/pleb-lessons/#public-key-cryptography)
+2. Start taking notes on anything new and noteworthy: techniques, commands, configurations, resources etc.
+    1. Open “gedit” and create a text note file “bitcoin plebs notes”
+    2. **Don't use it for private keys or passwords!**
+    3. **Don’t use Google keep or any other non-encrypted cloud-based note app for delicate information because you create a security and/or privacy risk! Keep very sensitive notes offline, encrypted and create backups from time to time. More tips on this later...**
 3. Install the **[Alby extension](https://getalby.com/#alby-extension) in your browser**
 4. Create a new Alby account. `Lightning address` too.
 5. Backup your password:
     1. In a [Password manager](https://bitwarden.com){:target="_blank"} 
-    2. You can even write it on a piece of paper. Protect against a computer breakdown
+    2. You can even write it in a paper notebook
 6. Pin the Alby extension in the browser
-7. Navigate to `“Discover”`` in Alby and find the nostr section
-8. Go to the **[Iris](https://iris.to/){:target="_blank"}** nostr client. It is a stable browser-based client
-9. Click on `“Nostr extension login”` link and connect with Alby 
-    3. This way, your nostr private key is slightly safer
-    4. Confirm Iris to read your public key
-10. Follow my account if you have any questions. Search the `nip05 identity` or my account public key(npub)
+7. Navigate to `Discover` in Alby and find the `Nostr` section. You can do the same if you click on your account in the top-right corner and select `Account settings`
+8. Generate a new nostr private key. It will automatically also generate your public key
+8. **You must keep this key as safe as possible!** Therefore write it down in your Password manager and/or your paper notebook
+8. Now all your nostr-related data is handled by Alby. Alby can handle all browser-based nostr client permissions wherever it is installed as an extension
+8. Go to the **[Coracle](https://coracle.social/){:target="_blank"}** nostr client. It is a stable browser-based client with public chat room support
+9. Log into Coracle automatically with Alby:
+    1. Click `Login`
+    3. Click `Login` again for a simple login process
+    4. Confirm in Alby to allow Coracle to read your public key
+    5. You can edit permissions and automatic actions in Alby for Coracle and other clients
+10. In Coracle, go to the `Relay` section in the left menu then go to `Browse Relays` and setup to connect at least to these relays:
+    ```sh
+    wss://relay.btcplebs.com/nostrrelay/asdf1234
+    ```
+    ```sh
+    wss://relay.damus.io
+    ```
+10. Go to the `Search` section in the left menu. Follow my account if you have any questions. Search the `nip05 identity` or my account public key(npub)
     ```sh
 	five@btcplebs.com
 	```
     ```sh
 	npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw
 	```
-11. Iris is great but it does not have group chat functionality implemented. Install [Damus](https://apps.apple.com/ca/app/damus/id1628663131){:target="_blank"}(iOS) or [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst){:target="_blank"}(Android) on your phone. They both have the group chat feature
-12. Go to the group chat section and join the **BitcoinPlebs.org** group chat. Paste this in the search bar
+11. Go to the `Chat` section in the left menu and join the **BitcoinPlebs.org** group chat:
+    1. Start typing the group name `bitoinplebs` and Coracle should find the group
+    2. Click `Join`
+    3. Now Coracle should show the group in the `Your Rooms` section
+11. Send your first message in the group: “Hello, fellow Bitcoin Plebs!”
+11. You can install [Damus](https://apps.apple.com/ca/app/damus/id1628663131){:target="_blank"}(iOS) or [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst){:target="_blank"}(Android) on your phone. They both have the group chat feature
+12. Run a nostr client on your phone:
+    1. Alby cannot handle phone apps so you will have to initialize these apps by putting your nostr private key in the smartphone
+    1. **DON'T PASTE YOUR PRIVATE KEY IN CLOUD-BASED NOTE APPS AND DON'T SEND IT VIA EMAIL OR ANY OTHER UNENCRYPTED MEANS!**
+    2. Type in character by character or send it to your device in an encrypted way, e.g. a [Signal](https://www.signal.org/download/){:target="_blank"} `Note to self` message. Signal can be installed on desktops and has a mobile app too
+12. In different clients there can be different ways to find groups. Try to find public group chats in this order:
+    1. Find it by group name: `BitcoinPlebs.org Group chat`
+    2. Find it by group hex ID:
     ```sh
-	note1k6v50jltmertwwgh8tgnw0lvnawufe8rpnp0ugy69fgpz727qk5qj74f57
-	```
-13. Open “gedit” and create a text note file “bitcoin plebs notes”
-14. Start taking notes on anything new and noteworthy: techniques, commands, resources etc.
-15. **Don’t use Google keep or any other cloud-based note app because it is a privacy risk! Keep it offline and create backups from time to time**
-16. Send your first message: “Hello, fellow Bitcoin Plebs!”
-17. Introduce yourself if you will
-18. Start the nostr client on your phone. Initialize with the same private key
+	    b69947cbebde46b739173ad1373fec9f5dc4e4e30cc2fe209a2a5011795e05a8
+	  ```
+    3. Or try the same group ID in different("bech32") form:
+    ```sh
+    note1k6v50jltmertwwgh8tgnw0lvnawufe8rpnp0ugy69fgpz727qk5qj74f57
+    ```
 19. If it went fine, shortly you can see the same profile info and messages you sent on your desktop.
+20. Not all nostr clients have group chat functionality implemented. I can recommend some decent clients with Twitter-like feed and direct messaging functionality:
+    1. [Primal](https://primal.net){:target="_blank"}: Polished web-client
+    2. [Iris](https://iris.to){:target="_blank"}: Works in Browser and on Android
+    3. [Snort](https://snort.social){:target="_blank"}: Browser-based
 
 > Note: The feature set of different nostr clients can be different depending on what and how they are implemented. Basic messaging should be available on all clients but e.g. Lightning zaps(small amounts of bitcoin sent to another user) or group chat features are not included on all clients. [More info](https://www.nostr.net/) on feature set of nostr clients
 
-> **Moderation of discussion: Nostr pushes many functionalities to the client side. This also means that there is no real way for anyone to moderate any discussion single-handedly.** In consequence, there is no automatic curation of people and topics that you are interested in.
+> **Posting**: Beware that there is no central authority on nostr to remove content from all relays. Therefore, **there is no 100% surefire way to delete content from nostr relays!**
 
-> You can choose to use *your own* content-filtering methods though. Some of this happens already based on following/unfollowing people(you can even ban people in clients), joining or exiting public channels("groups") and also based on what relays you are connected to(they don't store anything people send). Furthermore, your client app or even you can get your own content indexer service to get more relevant content or weed out irrelevant/annoying content.
+> **Data backups**: You are using multiple relays to store your data redundantly but there is no guarantee that this data will be preserved by relays forever. You should connect to at least one trustworthy relay that stores your data. Furthermore you may create data backups every now and then or even run your own relay for automatic backup purpose
+
+> **Moderation of discussion: Nostr pushes many functionalities to the client side. This also means that there is no real way for anyone to moderate any discussion single-handedly.** In consequence, there is no automatic curation of people and topics that you are interested in
+
+> You can choose to use *your own* content-filtering methods though:
+1. Some of this happens already based on what `relays` you are connected to(they don't store anything people send)
+2. `Following/unfollowing` people and #hashtags
+3. `Blocking` and/or `Reporting` people in most clients. Blocking should discard any messages sent to you from that person by the clients and reporting a person signals to your social network that you found someone abusive for some reason
+4. `Joining or leaving` public `group` chats
+5. There can be `automatic message filters` implemented in `clients`. They could be beneficial if they filter spam but this gives also way to discard things you would want to keep. Always check moderation policies of the clients you are using and opt out if you are uncomfortable with the app developer's choices. Or even better, fork their open-source projects and implement your own! ;)
 
 ---
 
