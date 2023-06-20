@@ -291,12 +291,12 @@ Bitcoin plebs have a wonderful training ground to hone their skills in a safe en
 11. In the `Server settings` connect Sparrow to the bitcoin plebs signet server through tor
     5. Select `Private Electrum` as Server Type
     6. Edit the `URL` and `Port` field, respectively:
-        ```sh
-		nvsnjmymbis5o3jnzplzzula4tkdh5ygpzoideao5jg53wigqbqpvaid.onion
-		```
-		```sh
-		50021
-		```
+    ```sh
+    nvsnjmymbis5o3jnzplzzula4tkdh5ygpzoideao5jg53wigqbqpvaid.onion
+    ```
+    ```sh
+    50021
+    ```
 12. Press the `“Test Connection”` button and follow the logs. You should arrive at a screen something like this
     8. Sparrow is now connecting to the Bitcoin Plebs signet server through tor
 13. Click Close
