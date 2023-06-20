@@ -29,6 +29,7 @@ You might also have some important **digital notes** unencrypted on your compute
 
 1. Download, verify and install [KeePassXC](https://keepassxc.org){:target="_blank"} password manager
     1. You should be able to pull it off by yourself at this point
+    2. Download and run AppImage or install with `apt` aptitude package manager according to instructions from the Download page
 2. The website has a nice getting started guide, user manual and faq section. Scroll through the [Getting Started Guide](https://keepassxc.org/docs/KeePassXC_GettingStarted){:target="_blank"}
 3. Create a test database and play around with it. You can’t break anything this way. Then dispose of it and create your serious database
 4. Create a new database. Use a strong generated password/passphrase of at least 128 bits of entropy which is the minimum security standard
