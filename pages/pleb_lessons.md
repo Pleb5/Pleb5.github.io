@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: custom_page_layout
 title: "Pleb lessons"
 permalink: /pleb-lessons/
 ---

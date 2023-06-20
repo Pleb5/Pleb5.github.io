@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: custom_page_layout
 title: "Quest 5: Order and Entropy"
 permalink: /order-and-entropy/
 ---

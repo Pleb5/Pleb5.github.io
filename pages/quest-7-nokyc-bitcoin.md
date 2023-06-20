@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: custom_page_layout
 title: "Quest 7: NoKYC Bitcoin"
 permalink: /nokyc-bitcoin/
 ---

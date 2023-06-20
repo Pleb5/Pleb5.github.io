@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: custom_page_layout
 title: "Quest 8: Build Your Citadel"
 permalink: /build-your-citadel/
 ---

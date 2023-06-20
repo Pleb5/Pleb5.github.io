@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: custom_page_layout
 title: "Quest 1: Pledge of the Bitcoin Pleb"
 permalink: /pledge-of-the-bitcoin-pleb/
 ---

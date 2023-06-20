@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: custom_page_layout
 title: "Quest 3: Not your keys, not your coins"
 permalink: /the-journey-begins/
 ---

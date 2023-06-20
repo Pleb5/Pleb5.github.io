@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: custom_page_layout
 title: "Quest 9: Join the Fray"
 permalink: /join-the-fray/
 ---

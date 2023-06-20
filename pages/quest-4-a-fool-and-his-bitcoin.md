@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: custom_page_layout
 title: "Quest 4: A fool and his bitcoin..."
 permalink: /a-fool-and-his-bitcoin/
 ---

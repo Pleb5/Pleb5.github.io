@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: custom_page_layout
 title: "Quest 6: Bitcoin Privacy"
 permalink: /bitcoin-privacy/
 ---

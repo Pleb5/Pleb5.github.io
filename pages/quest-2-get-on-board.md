@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: custom_page_layout
 title: "Quest 2: Get on board!"
 permalink: /get-on-board/
 ---
