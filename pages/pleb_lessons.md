@@ -1229,11 +1229,13 @@ You can now see how 2 of 2 multisig eliminates most of the usual downsides of mu
 {: .no_toc }
 You could combine a BIP39 Passphrase with SeedXOR and Multisig but be very careful with these convoluted setups because your heirs or even yourself could lose access to your funds.
 
-That said, many people like to use passphrases or one common passphrase for any wallet, even if it is just a multisig quorum part. You could have a strong passphrase that you dedicate to all of your wallets and keep it in your brain, making only 1-2 backups of it for inheritance's sake.
+That said, some people like to use passphrases or one common passphrase for any wallet, even if it is just a multisig quorum part. You could have a strong passphrase that you dedicate to all of your wallets and keep it in your brain, making only 1-2 backups of it for inheritance's sake.
 
 However if you keep typing that passphrase for your hot wallets many times into unsafe computers, you might leak it. Then your assumptions about your cold storage security might be overestimated.
 
-You see, there could be ramifications of many kinds when you combine techniques. There could be other examples of valid use-cases where you combine techniques discussed above. Always test it on signet before doing anything stupid.
+Another kind of interesting combination is when you have a multisig quorum with a hot key for redundancy. The hot key is hard to lose since it can be stored encrypted on your devices but to actually spend from the wallet you would need to also sign the TX with another, very secure Cold key that never touched anything other than your verified hardware signer. More redundancy with still acceptable security. Nuanced trade-offs everywhere.
+
+You see, there could be added risks and ramifications of many kinds when you combine techniques. There could be other examples of valid use-cases where you combine techniques discussed above. Always test it on signet before doing anything stupid.
 
 If you keep experimenting on your signet setup you get more confident using different types of wallets sending around testnet sats between them and closing/deleting/restoring them. This way it is less probable that you use something you haven’t mastered yet.
 
