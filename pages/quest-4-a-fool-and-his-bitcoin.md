@@ -305,18 +305,18 @@ This “live operating system” method can be used to verify crucial things or 
         1. Try to clean the camera lens with a cloth
         2. `Decrease density` of the QR in Sparrow
         3. Try to do it in better lighting conditions
+        4. If you struggle with the focus too much try to [adjust it](https://zpjiang.me/2020/05/28/picamera-adjust-focus/)
 7. Review the transaction details on SeedSigner
 8. Check addresses in Sparrow if they match
 9. `Approve PSBT`(sign): This will show the QR code containing the signed transaction data on the SeedSigner screen
 10. Scan it now with your USB web camera (or laptop webcam)
     4. Cancel the QR window in Sparrow
     5. Click `Scan QR` and scan it with the webcam. It will be harder because SeedSigner has a small screen
-        4. If it shows an error try to enable the webcam if it is disabled or reconnect USB
-        5. Orientation doesn’t matter
-        6. Try to wait for autofocus to kick in
-        7. If you struggle with the focus too much try to [adjust it](https://zpjiang.me/2020/05/28/picamera-adjust-focus/)
-        7. Hold the camera(or the hardware wallet) firm. You can put your elbow on the desk to get more stability
-        8. Try to establish good lighting conditions: Reduce glare by reducing brightness of the screen with the joystick down action and/or adjusting the surrounding lights
+        1. If it shows an error try to enable the webcam if it is disabled or reconnect USB
+        2. Orientation doesn’t matter
+        3. Try to wait for autofocus to kick in
+        4. Hold the camera(or the hardware wallet) firm. You can put your elbow on the desk to get more stability
+        5. Try to establish good lighting conditions: Reduce glare by reducing brightness of the screen with the joystick down action and/or adjusting the surrounding lights
 11. Now you can see the `Signature` progress bar in Sparrow filled blue
 12. You can `View the Final Transaction`
 13. `Broadcast Transaction`
