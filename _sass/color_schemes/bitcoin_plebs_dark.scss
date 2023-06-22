@@ -103,3 +103,8 @@ h1 {
   //color: #E46720;
 }
 
+// nostri-chat button and box in the foreground
+.svelte-f7jodf, .svelte-f7jodf::before, .svelte-f7jodf::after{
+  z-index: 100;
+}
+
