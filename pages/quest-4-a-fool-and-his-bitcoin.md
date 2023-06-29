@@ -207,11 +207,11 @@ So how can you be pretty sure this thing will not steal your bitcoin? There can 
     8. Go to the “raw” file. Copy the URL in the browser
     9. Go to terminal. Install curl package. The clean environment does not have anything installed that you already have on your normal system
     ```sh
-	sudo apt install curl
+sudo apt install curl
 	```
     11. Import the pubkey into gpg
     ```sh
-	curl <paste URL> | gpg --import
+curl <paste URL> | gpg --import
 	```
     13. Go back to SeedSigner home page and select “Download The Latest Release”
     14. Read the description carefully
@@ -220,16 +220,16 @@ So how can you be pretty sure this thing will not steal your bitcoin? There can 
     17. Download the `<release_version>.<your_pi_version>.img` file
 4. Go to the Downloads folder
     ```sh
-	cd ~/Downloads
+cd ~/Downloads
 	```
 5. Verify the `sha256` manifest file
     ```sh
-    gpg –verify <release_version>.sha256.sig
+gpg –verify <release_version>.sha256.sig
     ```
     22. Hopefully it says …Good signature…
 6. Verify that your image file’s hash fingerprint indeed matches one of the precomputed hashes in the `sha256` file
     ```sh
-	sha256sum -c <release_version>.sha256 --ignore-missing
+sha256sum -c <release_version>.sha256 --ignore-missing
 	```
     22. Should output “…OK”
     23. You can check what these manifest files look like with nano
@@ -239,17 +239,17 @@ So how can you be pretty sure this thing will not steal your bitcoin? There can 
 9. Burn the image you previously saved with Balena Etcher on a dedicated microSD card
     25. Download [Balena etcher](https://www.balena.io/etcher#download-etcher){:target="_blank"} for Linux x64 bit AppImage file
     ```sh
-	cd ~/Downloads
+cd ~/Downloads
 	```
     ```sh
-	chmod +x balenaEtcher<release_version>.AppImage
+chmod +x balenaEtcher<release_version>.AppImage
 	```
     28. It will require a package named fuse. We get it by adding the “universe” package repository to our clean system and then install the package from there
         ```sh
-		sudo add-apt-repository universe
+sudo add-apt-repository universe
 		```
         ```sh
-		sudo apt install fuse
+sudo apt install fuse
 		```
     29. Run Balena Etcher and burn the SeedSigner OS image on the dedicated microSD card
 10. **Never use that sd card for anything else and never insert it into any computer apart from your SeedSigner!**
@@ -423,7 +423,7 @@ Your bitcoin tech-architecture looks like this(`click to enlarge`):
     1. The gpg key is already imported at this point
 5. **Upgrade Sparrow** to the latest version the same way you installed it
     ```sh
-	sudo apt install ./<sparrow_release_version>.deb
+sudo apt install ./<sparrow_release_version>.deb
 	```
 **6. Upgrade SeedSigner**
     3. You can destroy your previous microSD and dedicate a brand new one for an additional safety guarantee

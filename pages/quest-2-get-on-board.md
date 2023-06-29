@@ -61,16 +61,16 @@ Anyone serious about Bitcoin and IT security recommends a Linux operating system
     1. Download the Appimage for Linux x64 from the website
     2. AppImage files are portable programs. They can be run without installation
     3. Make the file executable
-        ```sh
-		chmod +x balenaEtcher<version>.AppImage
-		```
+    ```sh
+chmod +x balenaEtcher<version>.AppImage
+    ```
     4. Run the software from command line in the Downloads directory
         ```sh
-		./balenaEtcher<version>
+./balenaEtcher<version>
 		```
     5. If you haven’t dealt with AppImage files before it will most probably complain about missing libfuse. Just install it in this case
         ```sh
-		sudo apt install fuse
+sudo apt install fuse
 		```
     6. Try to run it again
 5. Burn the image on the USB drive
@@ -119,17 +119,17 @@ Anyone serious about Bitcoin and IT security recommends a Linux operating system
     5. You can edit permissions and automatic actions in Alby for Coracle and other clients
 10. In Coracle, go to the `Relay` section in the left menu then go to `Browse Relays` and setup to connect at least to these relays:
     ```sh
-    wss://relay.btcplebs.com/nostrrelay/asdf1234
+wss://relay.btcplebs.com/nostrrelay/asdf1234
     ```
     ```sh
-    wss://relay.damus.io
+wss://relay.damus.io
     ```
 10. Go to the `Search` section in the left menu. Follow my account if you have any questions. Search the `nip05 identity` or my account public key(npub)
     ```sh
-	five@btcplebs.com
+five@btcplebs.com
 	```
     ```sh
-	npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw
+npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw
 	```
 11. Go to the `Chat` section in the left menu and join the **BitcoinPlebs.org** group chat:
     1. Start typing the group name `bitoinplebs` and Coracle should find the group
@@ -145,11 +145,11 @@ Anyone serious about Bitcoin and IT security recommends a Linux operating system
     1. Find it by group name: `BitcoinPlebs.org Group chat`
     2. Find it by group hex ID:
     ```sh
-	    b69947cbebde46b739173ad1373fec9f5dc4e4e30cc2fe209a2a5011795e05a8
+b69947cbebde46b739173ad1373fec9f5dc4e4e30cc2fe209a2a5011795e05a8
 	  ```
     3. Or try the same group ID in different("bech32") form:
     ```sh
-    note1k6v50jltmertwwgh8tgnw0lvnawufe8rpnp0ugy69fgpz727qk5qj74f57
+note1k6v50jltmertwwgh8tgnw0lvnawufe8rpnp0ugy69fgpz727qk5qj74f57
     ```
 19. If it went fine, shortly you can see the same profile info and messages you sent on your desktop.
 20. Not all nostr clients have group chat functionality implemented. I can recommend some decent clients with Twitter-like feed and direct messaging functionality:
@@ -189,34 +189,34 @@ Tor is great for looking up simple info but can be a painfully slow experience a
 5. Download the signature file as well
 7. In the terminal navigate into the download directory
 	```sh
-	cd ~/Downloads
+cd ~/Downloads
 	```
 8. Verify Tor Browser (use `man <command>` where you are unsure)
     2. You download the public key(or get it by any other means) of the developer(s) and import it in gpg
     ```sh
-	gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
+gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
 	```
     6. You verify the signature of the file against the public key
     ```sh
-	gpg --verify tor-browser-linux64-12.0.5_ALL.tar.xz.asc
+gpg --verify tor-browser-linux64-12.0.5_ALL.tar.xz.asc
 	```
     8. Note: Verification processes can vary for different software but the fundamentals remain the same
 9. Install Tor browser with the command line method [according to instructions](https://tb-manual.torproject.org/installation/){:target="_blank"}:
     8. Run the command to extract the archive
         ```sh
-		tar -xf tor-browser…. <press Tab to complete>
+tar -xf tor-browser…. <press Tab to complete>
 		```
     9. Go inside the extracted directory
         ```sh
-		cd tor-browser
+cd tor-browser
 		```
     10. Make the desktop file executable
         ```sh
-		sudo chmod +x start-tor….<press Tab>
+sudo chmod +x start-tor….<press Tab>
 		```
     11. Run Tor browser. First time run it with a command argument to register the desktop app
         ```sh
-		./start-tor-browser<press Tab> --register-app
+./start-tor-browser<press Tab> --register-app
 		```
 	12. You can now launch Tor browser using the `Super + <typing>` method
 	13. Add Tor browser to favorites
@@ -236,28 +236,28 @@ When you are doing anything bitcoin-related the most interaction is going to be 
 4. Verify the downloaded software according to [instructions](https://sparrowwallet.com/download/){:target="_blank"}:
     5. Import Craig Raw’s(developer of Sparrow wallet) public key
         ```sh
-		curl https://keybase.io/craigraw/pgp_keys.asc | gpg --import
+curl https://keybase.io/craigraw/pgp_keys.asc | gpg --import
 		```
     6. The manifest file contains the [hash fingerprints](https://en.wikipedia.org/wiki/Fingerprint_(computing)){:target="_blank"} of the different releases. If you view the file you can see the release you downloaded is also listed. If we can trust the manifest file then we can generate a fingerprint from our downloaded Sparrow file and compare that fingerprint with the one listed in the manifest file. If the fingerprint we generated matches the one listed in the manifest file then we can trust the downloaded software and go ahead with the installation 
     7. To trust the manifest file you have to check its signature against Craig’s public key
     8. Go to Downloads
         ```sh
-		cd ~/Downloads
+cd ~/Downloads
 		```
     9. Verify the manifest files signature:
         ```sh
-		gpg –verify sparrowsparrow-1.7.6-manifest.txt.asc
+gpg –verify sparrowsparrow-1.7.6-manifest.txt.asc
 		```
     10. Now verify that the manifest file contains the exact fingerprint of our release. We ignore missing releases in the list that we did not download
         ```sh
-		sha256sum -c sparrow-1.7.6-manifest.txt --ignore-missing
+sha256sum -c sparrow-1.7.6-manifest.txt --ignore-missing
 		```
     11. To sum up this kind of verification visually
 5. Now we can somewhat trust this software so let’s install it
     12. The most used packages are installed using Ubuntu’s predefined package repositories but since Sparrow is custom Software let’s install the downloaded “.deb” package manually
     13. In the directory where sparrow was downloaded run this command
         ```sh
-		sudo apt install ./sparrow_1.7.6-1_amd64.deb
+sudo apt install ./sparrow_1.7.6-1_amd64.deb
 		```
 6. Sparrow wallet is now installed but don’t launch it just yet!
 
@@ -269,21 +269,21 @@ Bitcoin plebs have a wonderful training ground to hone their skills in a safe en
 1. The easiest way to make Sparrow always launch in signet mode is to set a so-called “environment variable” which is just a fancy term for “I want this program to run with these special parameters”
 2. In the terminal edit this file that contains important things to run at startup
     ```sh
-	nano ~/.profile
+nano ~/.profile
 	```
 3. At the bottom insert this line to force Sparrow to launch in signet mode every time
     ```sh
-	export SPARROW_NETWORK=”signet”
+export SPARROW_NETWORK=”signet”
 	```
 4. Then insert another line allowing you to launch Sparrow from anywhere in the terminal not just where it is actually located `/opt/sparrow/bin`
     ```sh
-	export PATH=”$PATH:/opt/sparrow/bin”
+export PATH=”$PATH:/opt/sparrow/bin”
 	```
 5. Save the file: `ctrl + o` --> `enter`
 6. Exit nano: `ctrl + x`
 7. Restart your computer for it to take effect
     ```sh
-	reboot
+reboot
 	```
 8. Now you can launch Sparrow and add it to favorites
 9. On first launch it gives you an initial mini-tutorial. At the end you can configure your server settings
@@ -292,10 +292,10 @@ Bitcoin plebs have a wonderful training ground to hone their skills in a safe en
     5. Select `Private Electrum` as Server Type
     6. Edit the `URL` and `Port` field, respectively:
     ```sh
-    nvsnjmymbis5o3jnzplzzula4tkdh5ygpzoideao5jg53wigqbqpvaid.onion
+nvsnjmymbis5o3jnzplzzula4tkdh5ygpzoideao5jg53wigqbqpvaid.onion
     ```
     ```sh
-    50021
+50021
     ```
 12. Press the `“Test Connection”` button and follow the logs. You should arrive at a screen something like this
     8. Sparrow is now connecting to the Bitcoin Plebs signet server through tor
@@ -305,23 +305,23 @@ Bitcoin plebs have a wonderful training ground to hone their skills in a safe en
 16. If Sparrow loses connection for any reason and you cannot re-establish it with the bitcoinplebs node, you can try these alternative signet nodes:  
 Port: 
   ```sh
-    38333
+38333
   ```  
 URL-s:  
   ```sh
-	s7fcvn5rblem7tiquhhr7acjdhu7wsawcph7ck44uxyd6sismumemcyd.onion
+s7fcvn5rblem7tiquhhr7acjdhu7wsawcph7ck44uxyd6sismumemcyd.onion
 	```
   ```sh
-	6megrst422lxzsqvshkqkg6z2zhunywhyrhy3ltezaeyfspfyjdzr3qd.onion
+6megrst422lxzsqvshkqkg6z2zhunywhyrhy3ltezaeyfspfyjdzr3qd.onion
 	```
   ```sh
-	jahtu4veqnvjldtbyxjiibdrltqiiighauai7hmvknwxhptsb4xat4qd.onion
+jahtu4veqnvjldtbyxjiibdrltqiiighauai7hmvknwxhptsb4xat4qd.onion
 	```
   ```sh
-	f4kwoin7kk5a5kqpni7yqe25z66ckqu6bv37sqeluon24yne5rodzkqd.onion
+f4kwoin7kk5a5kqpni7yqe25z66ckqu6bv37sqeluon24yne5rodzkqd.onion
 	```
   ```sh
-	nsgyo7begau4yecc46ljfecaykyzszcseapxmtu6adrfagfrrzrlngyd.onion
+nsgyo7begau4yecc46ljfecaykyzszcseapxmtu6adrfagfrrzrlngyd.onion
 	```
 
 ---

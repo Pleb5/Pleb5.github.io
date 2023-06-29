@@ -36,7 +36,7 @@ Now it starts to get more serious. You will realize that security is not just ab
     6. Choose the `Send selected` option. It will take you to the `Send` tab to complete the transaction creation process
     7. Send it to this address
         ```sh
-		tb1q8660fer4ch2twd6xn58e8pau3edkgkvft9a654
+tb1q8660fer4ch2twd6xn58e8pau3edkgkvft9a654
 		```
     8. Fill in a label e.g. `Merged inputs test`
 5. Check the privacy ramifications of your transaction in Sparrow 
@@ -48,7 +48,7 @@ Now it starts to get more serious. You will realize that security is not just ab
 8. In a [signet block explorer](https://mempool.space/signet) search for the address you sent it to
     12. Click on the address I gave you and see its history
     ```sh
-	tb1q8660fer4ch2twd6xn58e8pau3edkgkvft9a654
+tb1q8660fer4ch2twd6xn58e8pau3edkgkvft9a654
 	```
     14. What you see is that everyone who completes this task sends a transaction to this fixed address. This is called address reuse. Now you can have an informed guess about some things if this was a mainnet address:
         2. A person collects money on a fixed address. This could be a donation fund or some kind of service with regular customers or allowance etc.: A sole address used as a wallet basically
@@ -59,7 +59,7 @@ Now it starts to get more serious. You will realize that security is not just ab
     15. [https://keepassxc.org/donate/](https://keepassxc.org/donate/){:target="_blank"}
     16. Scroll down. It will probably show you the donation address KeePassXC uses. Such a great password manager could use a fixed address for donations? "You gotta be kidding me, right?" No.
         ```sh
-		1P7VPcL31rFzcHKbgVoqW6VoMBRQY5UYdR
+1P7VPcL31rFzcHKbgVoqW6VoMBRQY5UYdR
 		```
     17. Many projects only provide a fixed address because it is convenient. It is very bad privacy though
     18. Use [BTCPay Server](https://btcpayserver.org/){:target="_blank"} or bip47 paynyms for more privacy when the you want to give users automatic addresses for a service or donations
@@ -242,7 +242,7 @@ If you get stuck at a certain step try to hit up the bitcoin plebs nostr group f
 10. You can close the `Disks` program
 11. You can check info about your storage devices in the terminal
     ```sh
-	lsblk
+lsblk
 	```
     2. blk stands for “block device” which is how Linux calls hard disk storage where you read and write blocks of data
     3. You can think of `<a/b/c/d>` as different storage devices
@@ -264,9 +264,9 @@ If you get stuck at a certain step try to hit up the bitcoin plebs nostr group f
     5. You can cross-check them from different sources. Nostr, twitter, keybase, github are places these people might hang around advertising their public key
     6. You see keys listed as `*.gpg`. You want to download a few of them(at least 3) and also import them: 
         ```sh
-		curl \
-		https://raw.githubusercontent.com/bitcoin-core/guix.sigs/main/builder-keys/<developer name>.gpg | \
-		gpg --import
+curl \
+https://raw.githubusercontent.com/bitcoin-core/guix.sigs/main/builder-keys/<developer name>.gpg | \
+gpg --import
 		```
         2. Substitute `<developer name>` for their real name(e.g. `Sjors`) and run this command for all developer keys you want to download
         3. Use the `up` arrow to easily bring back the previous command and edit the names
@@ -282,12 +282,12 @@ If you get stuck at a certain step try to hit up the bitcoin plebs nostr group f
     1. Navigate to your Download folder where you have the `bitcoin-24.0.1-x86_64-linux-gnu.tar.gz`(or similarly looking file but different realease version of bitcoin core), `SHA256SUMS` and `SHA256SUMS.asc` file
     2. Verify the signature hashes file against your imported public keys:
         ```sh
-		gpg --verify SHA256SUMS.asc
+gpg --verify SHA256SUMS.asc
 		```
     3. You should be able to find lines that say `Good Signature from <developer name you chose to import>`. If you can’t find any then none of the developers you imported signed that release. This can be a warning sign of possible malicious software but since not every bitcoin core developer signs every release, it could be the case that there are other trustworthy developers who signed it. Import more signatures and retry
     4. Now that we can trust the `SHA256SUMS` file, we can verify the downloaded bitcoin core linux archive file with it. That means if we create the hash of the downloaded `bitcoin-24.0.1-x86_64-linux-gnu.tar.gz` file on our machine, it should be listed in the list of precalculated release hashes in the `SHA256SUMS` file. We will ignore missing release files for different platforms:
         ```sh
-		sha256sum --check SHA256SUMS --ignore-missing
+sha256sum --check SHA256SUMS --ignore-missing
 		```
     5. Expected result: `bitcoin-24.0.1-x86_64-linux-gnu.tar.gz: OK`
 
@@ -300,12 +300,12 @@ It was somewhat arduous to verify bitcoin core(especially if you cross-checked p
 1. Navigate to the Downloads folder
 2. Unpack the linux archive file:
     ```sh
-	tar -x -f bitcoin-24.0.1-x86_64-linux-gnu.tar.gz
+tar -x -f bitcoin-24.0.1-x86_64-linux-gnu.tar.gz
 	```
 3. Copy the bitcoin core binaries(executable program files) to a place where they belong(the directory where user-downloaded software usually goes) and set their privileges:
     ```sh
-	sudo install -m 0755 -o root -g root -t \
-	/usr/local/bin bitcoin-24.0.1/bin/
+sudo install -m 0755 -o root -g root -t \
+/usr/local/bin bitcoin-24.0.1/bin/
 	```
     3. Note that we use the `install` command to merely copy the binary files to the place they belong without using the `apt` package manager. Since bitcoin core is not a `.deb` package we do things manually.
 
@@ -321,7 +321,7 @@ Let’s prepare to drive all traffic of Bitcoin Core through the Tor network for
 2. Install tor package
     1. Open a terminal and run command
     ```sh
-    sudo apt install tor
+sudo apt install tor
 	```
     4. This immediately starts tor daemon listening on port `9050` for incoming traffic on localhost(your local machine, no external connections)
 
@@ -337,14 +337,14 @@ Let’s prepare to drive all traffic of Bitcoin Core through the Tor network for
     2. If you have an external SSD just go to the root directory where it is mounted `lsblk`
 3. Create a hidden data directory for bitcoin core
     ```sh
-	mkdir .bitcoin
+mkdir .bitcoin
 	```
     ```sh
-	cd .bitcoin
+cd .bitcoin
 	```
 4. Create the configuration file in .bitcoin folder
     ```sh
-	nano bitcoin.conf
+nano bitcoin.conf
 	```
 5. Edit `bitcoin.conf` like this:
 	```sh
@@ -408,59 +408,59 @@ Let’s prepare to drive all traffic of Bitcoin Core through the Tor network for
 	```
 6. If you use an external SSD: bitcoind will look for the `.bitcoin` folder in your home folder by default but there is no such folder in your home directory, only in your SSD mount point. So in order to automatically redirect queries of that directory, create a magic portal to this directory, called a symbolic link or `symlink`. **Use your own username in the path:**
     ```sh
-	ln -s “/media/<username>/<path_to_folder>/.bitcoin” “/home/<username>/.bitcoin”
+ln -s “/media/<username>/<path_to_folder>/.bitcoin” “/home/<username>/.bitcoin”
 	```
 7. You can browse config options if you open another terminal tab and call the help command on bitcoind. You can search the output with the terminal search function
 	```sh
-	bitcoind -h
+bitcoind -h
 	```
     7. edit, save `ctrl + o` and exit `ctrl + x`
 6. If `bitcoind` is shut down (due to some error or your computer gets shut down) your node is shut down. Although you might have to sometimes restart it manually when you modify settings in `bitcoin.conf`, let’s make sure it is run on startup:
     ```sh
-	crontab -e
+crontab -e
 	```
     9. select `nano` as editor
     10. Scroll to bottom and insert this line:
         ```sh
-		@reboot sleep 30 ; bitcoind
+@reboot sleep 30 ; bitcoind
 		```
         3. This line also lets your SSD be mounted by delaying the launch of bitcoind for 30 seconds after boot. There are other more sophisticated ways to do this with `systemd` scheduler
 8. Start bitcoind by just typing the command:
 	```sh
-	bitcoind
+bitcoind
 	```
 10. It should say `“Bitcoin Core starting”`
 11. To stop it, invoke the command
     ```sh
-	bitcoin-cli stop
+bitcoin-cli stop
 	```
     14. Output: `“Bitcoin Core stopping”`
 12. If `bitcoind` is running and you try to start it, an error message will say it is already running because you’re allowed to run only one mainnet instance of bitcoind on a machine
 13. Check if `bitcoind` (or other processes) is running with the `“htop”` program
     ```sh
-	sudo apt install htop
+sudo apt install htop
 	```
     ```sh
-	htop
+htop
 	```
     17. F4 to filter: `“bitcoind”`
     18. Exit by pressing `“Esc”` then `“q”`
 14. As soon as `bitcoind` is running, it immediately starts to download and verify all the blocks right from the genesis block. This is called `“Initial Block Download”(IBD)`. This can take days in some cases through `Tor`. Be patient
 15. Check network configurations
     ```sh
-	bitcoin-cli getnetworkinfo
+bitcoin-cli getnetworkinfo
 	```
 16. You can check progress in the terminal running
     ```sh
-	bitcoin-cli getblockchaininfo
+bitcoin-cli getblockchaininfo
 	```
     21. or check the number of downloaded and verified blocks with 
         ```sh
-		bitcoin-cli getblockcount
+bitcoin-cli getblockcount
 		```
 17. Furthermore, if you dump the “debug.log” file’s output in the  terminal you can see everything bitcoind does in live action:
     ```sh
-	tail -f ~/.bitcoin/debug.log
+tail -f ~/.bitcoin/debug.log
 	```
     23. Use `ctrl+c` to stop and get back to the terminal
 18. There are many other handy commands. Read about the RPC api reference [here](https://developer.bitcoin.org/reference/rpc/index.html){:target="_blank"} or get some help in the terminal running: 
@@ -468,7 +468,7 @@ Let’s prepare to drive all traffic of Bitcoin Core through the Tor network for
     25. `bitcoin-cli help` (without a dash) to show all the possible RPC options
 19. For example to list all the existing peers and check their nodes configurations
     ```sh
-	bitcoin-cli getpeerinfo
+bitcoin-cli getpeerinfo
 	```
     27. Notice the `.onion` addresses in the `“addr”` field
 20. Use the terminal’s search function on the output text if you’re looking for something specific.

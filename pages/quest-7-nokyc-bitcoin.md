@@ -30,7 +30,7 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
     1. From menu: `Tools` --> `Restart in Testnet`
     2. From the command line. Close Sparrow then:
         ```sh
-		Sparrow -n testnet
+Sparrow -n testnet
 		```
     3. Luckily legacy testnet has a built-in public server option. Connect to that in the server preferences. Sparrow server button should be yellow now
     4. Create 2 new testnet hot wallets. No encryption password necessary for these
@@ -192,11 +192,11 @@ Sparrow wallet has been connecting to the Bitcoin Plebs Signet node. To launch S
 
 1. Edit the `“.profile”` file
     ```sh
-	nano ~/.profile
+nano ~/.profile
 	```
 2. Delete or comment out the line that you put there previously or edit to `“mainnet”` instead of `“signet”`
     ```sh
-	#export SPARROW_NETWORK=”signet”
+#export SPARROW_NETWORK=”signet”
 	```
     3. You can switch it back by uncommenting this line whenever you feel like experimenting
     4. Or you can start Sparrow with a network option like `“Sparrow -n signet”` or `“Sparrow -n testnet”` to run single experiments. Since it is on `PATH` you can do it from anywhere in the command line

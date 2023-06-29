@@ -56,7 +56,7 @@ You might also have some important **digital notes** unencrypted on your compute
     7. Check your KeePassXC database password
     8. Change Your Linux login password too if it's too weak. In terminal:
         ```sh
-		passwd
+passwd
 		```
 9. You can copy your handy digital notes in this database too
 10. Any privacy or security leak could be harmful for your bitcoin even if it is not bitcoin related at first glance. Therefore, change all your passwords to stronger, generated ones and enable two-factor authentication wherever possible
