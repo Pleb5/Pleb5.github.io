@@ -249,14 +249,22 @@ Note that this guide is a fairly minimalistic approach in order to jumpstart you
 
 ## OBJECTIVE: Let’s get serious: Buy some NoKYC bitcoin
 
-1. Make sure you have an airgapped mainnet wallet with a secure passphrase in place
+1. Make sure you have an `airgapped mainnet wallet` with a secure `passphrase` in place
 2. `Steel backup` if you have one
-3. Sparrow, Seedsigner switched to `mainnet` mode
+3. Sparrow switched to `mainnet` mode
+3. Seedsigner switched to `mainnet` mode, `Persistent settings` set to `Disabled`
+    1. If you reboot SeedSigner it would switch back to testnet if you forgot to disable persistent settings. This could cause confusion when trying to sign mainnet transactions. Always check these settings carefully and sanity check what you are doing: e.g. testnet addresses usually begin with `tb1` while mainnet native segqit with `bc1`
+4. Buy some NoKYC bitoin on `HodlHodl`
+    1. You can watch [this video](https://www.youtube.com/watch?v=FmyYxrZM3Ms&ab_channel=BTCSessions){:target="_blank"} about HodlHodl from the one and only BTC Sessions as extra preparation
 4. Buy some NoKYC bitcoin on `Peach`
-    1. This is great if you don’t have NoKYC sats to pledge for escrow on other platforms
     2. You can coinjoin funds after each buy if you know [how to do it](https://sparrowwallet.com/docs/mixing-whirlpool.html)(not part of this program). It will be more private
-5. Use the sats you bought to buy some more NoKYC bitcoin on `HodlHodl` and `Bisq`
-    3. Watch [this video](https://www.youtube.com/watch?v=FmyYxrZM3Ms&ab_channel=BTCSessions){:target="_blank"} about HodlHodl and [this one](https://www.youtube.com/watch?v=4LyEKA5Iq9I&t=819s&ab_channel=BTCSessions){:target="_blank"} about Bisq from the one and only BTC Sessions
+5. Use the sats you bought to buy some more NoKYC bitcoin on `Bisq`
+    1. You can watch [this video](https://www.youtube.com/watch?v=4LyEKA5Iq9I&t=819s&ab_channel=BTCSessions){:target="_blank"} about Bisq from BTC Sessions
+    2. Never deposit **KYC** bitcoin into a bisq trade because the UTXO gets mixed up with the NoKYC UTXO that your partner will sell you!
+    3. Always coinjoin KYC coins before doing anything with them and **NEVER** keep unmixed KYC UTXOs with NoKYC UTXOs in the same wallet!(Remember, Segregation)
+6. The NoKYC sats bought on P2P marketplaces is already quite private but you can coinjoin the sats you just bought of course to sever the identity link from your peers as well
+7. You should send bitcoin you bought to your prepared cold wallet. Some platforms already asked you to provide an address to send the sats to but e.g. bisq deposits the bitcoin you bought in its own hot wallet so it will warn you that although you custody the bitcoin already, you should withdraw it to a safer cold wallet
+8. Understand your trade on the blockchain: track every step of the trades you just made on `mempool.space` in `Tor browser`. Helps to really understand what just happened
 
 OPTIONAL: In order to try `Robosats`, a bitcoin wallet is required that is NoKYC and has Lightning capabilities. Lightning is not a focus of this training program so feel free to skip this part if you want to learn more and start your Lightning journey with a sovereign node setup.
 
