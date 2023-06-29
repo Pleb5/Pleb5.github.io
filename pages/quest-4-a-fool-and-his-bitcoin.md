@@ -253,6 +253,7 @@ So how can you be pretty sure this thing will not steal your bitcoin? There can 
 		```
     29. Run Balena Etcher and burn the SeedSigner OS image on the dedicated microSD card
 10. **Never use that sd card for anything else and never insert it into any computer apart from your SeedSigner!**
+10. **Never leave SeedSigner powered on! Always cut it from power after sessions! Serious risk!**
 11. **Never let others tamper with it and don’t leave it where others might touch it. Your funds are at risk!**
     30. An evil maid or an advanced attacker could swap your sd card for another tainted one
     31. You can mark the microSD with a permanent marker
