@@ -299,6 +299,31 @@ If the transaction fees rise (which is supposed to be a good thing that improves
 
 ---
 
+## AI and bitcoin self-custody
+
+There are very helpful communities dedicated to bitcoin and open-source software. These come handy when you cannot deal with a technical hurdle, would like to discuss an interesting topic or share your knowledge and experience on something. I can see however that depending on the group, somewhere around 75% of people ask the same trivial questions for which the answer can be easily found on the internet.
+
+This is sad because the time of the volunteer supporters of bitcoin and FOSS projects is quite precious. We should respect each other's time or a culture is going to develop where people more in the know will get frustrated and eventually burned out resulting in hostile behavior towards newbies.
+
+It is getting increasingly easier to find a solution or at least a starting point when dealing with technical issues without the need of human interaction. Moreover, when you have a relatively unbiased opinion about how something should be done then you can use that to verify what someone has told you. You still have to master the basics to be able to make an educated decision but if you use ever smarter tools to assist you with your decisions, you can get vastly improved results.
+
+Getting to the point, Google and other search engines are great but AI will be the next step in the evolution of learning and searching for information. The amount of time, money and headache that you can save by using AI will pay off handsomely, not to mention there are free options to choose from.
+
+For now the most usable and accessible AI I can recommend to use as your technical enhancement or aid in self-custody is ChatGPT by OpenAI.
+
+## OBJECTIVE: Start using ChatGPT from OpenAI to enhance your learning and computer skills
+1. Create an account on [OpenAI](https://chat.openai.com/auth/login){:target="_blank"}(clearnet link!). Make sure to do this with privacy in mind:
+    1. Use a VPN service on the machine where you intend to create the account or use the service
+    2. Use a dedicated privacy-preserving email address like Protonmail
+    2. At the time being there is sms-based phone verification involved in the account creation process. Circumvent it with services like **textverified**, **silent.link**, **sms4sats** or **lnvpn**. Make sure to pay for these services with bitcoin(where there is option to pay with fiat) with a privacy enhanced transaction
+    3. For now there is a free plan that you can use when server traffic load is low
+2. Do not doxx yourself or any delicate information that is tightly related to your bitcoin setup while using the service
+3. It will be most useful with well-established areas of knowledge like Linux. Try to ask something from the AI like "Tell me how to use Ubuntu in a secure and private way"
+4. You can now verify anything in this program more easily, improve on your present setup and gain more knowledge. Don't trust, verify.
+
+---
+
+
 ## Congratulations!
 {: .no_toc }
 
