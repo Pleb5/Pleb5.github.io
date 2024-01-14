@@ -119,7 +119,13 @@ sudo apt install fuse
     5. You can edit permissions and automatic actions in Alby for Coracle and other clients
 10. In Coracle, go to the `Relay` section in the left menu then go to `Browse Relays` and setup to connect at least to these relays:
     ```sh
-wss://relay.btcplebs.com/nostrrelay/asdf1234
+wss://bitcoiner.social
+    ```
+    ```sh
+wss://nos.lol
+    ```
+    ```sh
+wss://relay.snort.social
     ```
     ```sh
 wss://relay.damus.io
