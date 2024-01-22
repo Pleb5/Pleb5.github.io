@@ -383,7 +383,7 @@ Now that you verified your hardware wallet sufficiently you can start migrating 
 
 You start to get the idea about hardware wallets. Now we can test the address verification function. Best way to do this is stacking some more sats! :)
 
-## OBJECTIVE: “Buy” some more bitcoin from the [signet faucet](https://signetfaucet.com){:target="_blank"}([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+## OBJECTIVE: “Buy” some more bitcoin from the [signet faucet](https://faucet.mutinynet.com/){:target="_blank"}([Progress Images](/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 
 1. Generate a new receiving address in your watch-only wallet `Receive` tab in Sparrow
     1. Check the icon about address reuse

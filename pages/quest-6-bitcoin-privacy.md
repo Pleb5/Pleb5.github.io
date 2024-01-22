@@ -32,7 +32,7 @@ Now it starts to get more serious. You will realize that security is not just ab
     3. The [history of bitcoin](https://oxt.me/history){:target="_blank"} is a very interesting section too
 4. Create a transaction where you merge multiple UTXOs into one UTXO
     4. Select multiple UTXOs in your wallet on the `UTXOs` tab, with left mouse click while holding `ctrl` button
-    5. If you don’t have multiple UTXOs get some from a [faucet](https://signetfaucet.com){:target="_blank"} or perform a self-spend
+    5. If you don’t have multiple UTXOs get some from Mutinynet [faucet](https://faucet.mutinynet.com/){:target="_blank"} or perform a self-spend
     6. Choose the `Send selected` option. It will take you to the `Send` tab to complete the transaction creation process
     7. Send it to this address
         ```sh
@@ -45,7 +45,7 @@ tb1q8660fer4ch2twd6xn58e8pau3edkgkvft9a654
     11. Sparrow will tell you how you could improve the privacy of the transaction, if it is possible in the first place. Limiting factors would sometimes need you to ask for a different address type or do other things you might not be willing to do just for more privacy. But it is nice to know nonetheless
 6. You can see that there are buttons next to the Analysis to select either fee efficiency or privacy when Sparrow constructs a transaction. This is not always available because sometimes Sparrow can’t optimize for privacy for external reasons(mainly address types and coin control reasons: you chose specific UTXOs to spend)
 7. Complete the transaction
-8. In a [signet block explorer](https://mempool.space/signet) search for the address you sent it to
+8. In Mutinynet [signet block explorer](https://mutinynet.com/) search for the address you sent it to
     12. Click on the address I gave you and see its history
     ```sh
 tb1q8660fer4ch2twd6xn58e8pau3edkgkvft9a654

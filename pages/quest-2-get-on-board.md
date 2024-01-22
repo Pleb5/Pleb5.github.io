@@ -298,37 +298,25 @@ reboot
     5. Select `Private Electrum` as Server Type
     6. Edit the `URL` and `Port` field, respectively:
     ```sh
-nvsnjmymbis5o3jnzplzzula4tkdh5ygpzoideao5jg53wigqbqpvaid.onion
+45.79.52.207
     ```
     ```sh
-50021
+50001
     ```
 12. Press the `“Test Connection”` button and follow the logs. You should arrive at a screen something like this
     8. Sparrow is now connecting to the Bitcoin Plebs signet server through tor
 13. Click Close
 14. In the bottom-right corner you have the `Server switch` turned on and color blue, and next to it you see a sign that you are connected through tor which greatly increases your privacy
 15. Hover over the icons with your mouse to check additional info. In Sparrow you can hover over many things and it will give you great additional insights
-16. If Sparrow loses connection for any reason and you cannot re-establish it with the bitcoinplebs node, you can try these alternative signet nodes:  
-Port: 
-  ```sh
-38333
-  ```  
-URL-s:  
-  ```sh
-s7fcvn5rblem7tiquhhr7acjdhu7wsawcph7ck44uxyd6sismumemcyd.onion
-	```
-  ```sh
-6megrst422lxzsqvshkqkg6z2zhunywhyrhy3ltezaeyfspfyjdzr3qd.onion
-	```
-  ```sh
-jahtu4veqnvjldtbyxjiibdrltqiiighauai7hmvknwxhptsb4xat4qd.onion
-	```
-  ```sh
-f4kwoin7kk5a5kqpni7yqe25z66ckqu6bv37sqeluon24yne5rodzkqd.onion
-	```
-  ```sh
-nsgyo7begau4yecc46ljfecaykyzszcseapxmtu6adrfagfrrzrlngyd.onion
-	```
+16. If Sparrow loses connection for any reason and you cannot re-establish it, you can try this alternative node:  
+    * Onion URL:  
+    ```sh
+    e2zh2kfz7zhov4ruas52iyghw6uxgi6dy22rzlnnmao4hmxcvxfiq6ad.onion
+    ```
+    * Port: 
+    ```sh
+    50001
+    ```  
 
 ---
 

@@ -122,7 +122,7 @@ This is an important step in your journey. The meta-data you have just backed up
 
 ## OBJECTIVE: Run a few experiments in your Signet learning environment
 
-1. Create different types of wallets and fund them with testcoins from faucets or your existing wallets
+1. Create different types of wallets and fund them with testcoins from the [faucet](https://faucet.mutinynet.com/) or your existing wallets
 2. Pass around some testcoins between your wallets
 3. Explore more settings in Sparrow and read its [faq](https://sparrowwallet.com/docs/faq.html){:target="_blank"} and [documentation](https://sparrowwallet.com/docs/){:target="_blank"} for more practical Bitcoin knowledge
 4. Take notes on your findings/best practices and handy commands/options or solutions to common issues in your KeePass database. Back it up from time to time

@@ -54,12 +54,12 @@ Your exchange is on the brink of collapse. The yield generator algorithms sadly 
 3. Get a new receiving address in Sparrow wallet
 4. Add a label as the purpose of this transaction
     1. It only appears to you. You can write something like “from: exchange. purpose: not your keys not your coins
-5. "Withdraw from exchange”: Use signet faucet website [like this](https://signetfaucet.com/){:target="_blank"}
+5. "Withdraw from exchange”: Use the Mutinynet signet [faucet website](https://faucet.mutinynet.com/)
     2. Paste your receiving address into the faucet website
     3. Use maximum amount
     4. Complete the captcha and press `Send`
 6. After a short while Sparrow notifies you about the Transaction. Check it on the `Transactions` tab
-7. Check your transaction how it appears on the Blockchain, Bitcoin’s public ledger: Use [this](https://mempool.space/signet){:target="_blank"} (signet) block explorer!
+7. Check your transaction how it appears on the Blockchain, Bitcoin’s public ledger: Use [this](https://mutinynet.com/){:target="_blank"} (signet) block explorer!
     5. In the `Transactions tab` if you hover over the `Date column` there appears a magnifying glass icon to inspect the transaction. Click that
     6. Copy the Txid
     7. In the block explorer search bar, paste your Txid
