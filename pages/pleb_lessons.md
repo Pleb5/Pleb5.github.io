@@ -19,6 +19,21 @@ permalink: /pleb-lessons/
 
 
 ---
+---
+
+## Pleb Lessons Videos
+You can checkout my concise explainer video clips on various bitcoin topics:
+* [Electronic Peer to Peer Money](https://v.nostr.build/ZmRQ.mp4): Bitcoin monetary history
+* [Digital Property](https://v.nostr.build/rewd.mp4): How private keys are used in bitcoin ownership 
+* [Bitcoin Notes](https://v.nostr.build/meYk.mp4): Basics of the UTXO model
+* [Bitcoin Wallets](https://v.nostr.build/lyrw.mp4): How UTXO-s are gathered into a bitcoin wallet using the Seed Phrase
+* [Hackers and Scammers](https://v.nostr.build/4YW4.mp4): How to protect your coins against cyber criminals
+* [Physical Attackers](https://v.nostr.build/ZPj9.mp4): How to prepare for physical attackers with passphrased wallets and multisig
+* [Bitcoin Privacy](https://v.nostr.build/JyDM.mp4): Basics of Privacy in bitcoin
+* [Free and Open Source Software](https://v.nostr.build/a2KZ.mp4): How FOSS is important for all bitcoiners
+
+---
+---
 
 ## The Linux terminal(aka. Linux command line, shell, bash)
 These names mean slightly different things and the nuances become important in certain cases. Right now it's enough to think of these as a tool set of a mechanic. They can do wonders if you want to pimp your car or have it repaired.
@@ -731,15 +746,19 @@ This multisig escrow transaction effectively opens a payment channel between the
 
 Payments work very differently on Lightning. You basically send a Lightning invoice as the receiver of the payment and pay the exact amount **without any change** as the sender, routed through Lightning nodes. Fees are paid by the payment amount not by storage space taken up.
 
-Payments on the Lightning network is considered generally more private than on-chain transactions. **Receiving** payments however is considered less private than sending because the invoices contain data about your Lightning node.
+Payments on the Lightning network are considered generally more private than on-chain transactions. **Receiving** payments however is considered less private than sending because the invoices contain data about your Lightning node.
 
-This is only true however if you run your own Lightning node. Anyone can run their own node on Lightning just as in bitcoin, it is just way more effort and carries more risk. However if you are up to it you should definitely try running your own Lightning node.
+### Sovereign vs. Custodial LN
+This is only true however if you run your own Lightning node. Anyone can run their own node on Lightning just as in bitcoin, it is just way more effort and carries more risk. However if you are up to it you should definitely try running your own Lightning node. If you want to run a sovereign node at home but be able to pay with your mobile phone through that node, you can look into node remote control apps such as [Zeus](https://zeusln.com/) or [Bitbanana](https://bitbanana.app/).
 
-Most bitcoiners rather use a **custodial** (hopefully NoKYC) **Lightning** wallet today to make fast and cheap payments with minimal hassle.
+Sadly, most bitcoiners still rather use a **custodial** (hopefully NoKYC) **Lightning** wallet today to make fast and cheap payments with minimal hassle.
 
 This means of course that these **companies can rug you** though. Don’t put funds on Lightning that would hurt you too much if you lost it (true for your own Lightning node as well IMHO). The other risk is that these companies can be suddenly pressured by governments to introduce KYC measures to future AND existing clients. This means that you are not getting your funds out there without giving them your personal information. This is called shotgun KYC.
 
 You can trade off custodial risk for convenience and cost-effectiveness with little amounts. That does not mean however, that **you** don’t **need** to make an **on-chain transaction** to put your funds on Lightning in the first place. Furthermore, make sure **NOT to doxx yourself to the custodial provider**. They tend to ask for email address and you can write a payment note for every transaction which are danger zones for privacy. In the end the only real way to preserve privacy is running your own node with privacy-hardening measures. Proof of Work.
+
+### The middle ground: The LSP model
+Wallets using the Lightning Service Providers model make an interesting trade-off by remaining self-custodial but you have to place some trust in your LSP not to rug your funds in a channel under certain circumstances. Privacy is also somewhat worse than running a fully sovereign Lightning node but definitely better than a custodial wallet. [Mutiny](https://www.mutinywallet.com/), [Phoenix](https://phoenix.acinq.co/), [Blixt](https://blixtwallet.github.io/), [Breez](https://breez.technology/) and [Zeus](https://zeusln.com/) are popular choices among bitcoiners for a good reason. 
 
 ---
 
@@ -815,7 +834,11 @@ Light clients are nodes that don’t store the whole Blockchain but can still ve
 
 Light clients are for those with limited bandwidth or storage capacity. Since the whole blockchain today doesn’t take up more than a few hundred gigabytes of data and bandwidth is not too bad in most places either, it doesn’t make all too much sense running it. I recommend running a full node since you already decided to make the effort of running a Bitcoin node.
 
+### Pruning
 You can also "prune" your full node to store a limited size of the blockchain, the part your wallet will most likely be interested in. This way you are still fully validating your transactions but cannot serve old blocks to peers and cannot retrieve history of an old wallet because you don't have that old history of the blockchain stored.
+
+### New Technologies on the horizon
+It is an important effort in bitcoin to make node-runners life increasingly simpler. There are always new interesting technologies with new trade-off balances. Such examples are [ZeroSync](https://zerosync.org/) and [Utreexo](https://bitcoinops.org/en/topics/utreexo/). Check them out if interested.
 
 [Back to Objective]({{ site.baseurl }}/bitcoin-privacy/#objective--learn-about-bitcoin-nodes){: .btn .btn-purple}
 
@@ -1282,7 +1305,7 @@ The minimal distance between the factors should be considered your bottleneck. A
 {: .no_toc }
 Signing can be done all on you own or involving your trustees. If you have a “signatory”, a trustee that understands bitcoin, then you can establish a signing protocol with them. The protocol can be very simple like "I will call you at least a week before the transaction" or very sophisticated like asking for IDs, showing in public places, having to answer specific questions and so on.
 
-This can be helpful to secure crucial transactions. Your trustee can knows you and might observe that something is off with you. For example she picks up on an SOS signal from you calling for help according to your unique established protocol. Or just observes that you did not initiate the transaction according to protocol. In these cases the trustee can call the police and/or refuse to help with the signature process.
+This can be helpful to secure crucial transactions. Your trustee knows you and might observe that something is off with you. For example she picks up on an SOS signal from you calling for help according to your unique established protocol. Or just observes that you did not initiate the transaction according to protocol. In these cases the trustee can call the police and/or refuse to help with the signature process.
 
 ## Signing with single-sig
 {: .no_toc }
