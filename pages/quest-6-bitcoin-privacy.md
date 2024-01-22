@@ -54,7 +54,7 @@ tb1q8660fer4ch2twd6xn58e8pau3edkgkvft9a654
         2. A person collects money on a fixed address. This could be a donation fund or some kind of service with regular customers or allowance etc.: A sole address used as a wallet basically
         3. You still might find out interesting things about this signet address e.g.:
         4. How many people completed this task
-        5. Looking at transaction dates and correlating this info with messages in the group further gives you info on the growth rate of the group and potentially also some info about group members
+        5. Looking at transaction dates and correlating this info with nostr notes further gives you info on the growth rate of the group and potentially also some info about group members
 9. Now open up a Tor browser and go to this site:
     15. [https://keepassxc.org/donate/](https://keepassxc.org/donate/){:target="_blank"}
     16. Scroll down. It will probably show you the donation address KeePassXC uses. Such a great password manager could use a fixed address for donations? "You gotta be kidding me, right?" No.
@@ -104,7 +104,7 @@ This is where your external information comes in. You know more about your trans
     14. Delete the watch-only wallet from Sparrow
     15. Restore from the Keepass database(`Advanced` --> Select attachment --> `Save`) and reload it in Sparrow
     16. Find your precious labels recovered
-6. Share the experience with friends and the group!
+6. Share the experience with friends and on nostr!
 
 ---
 
@@ -202,7 +202,7 @@ Take notes in your KeePass database to save handy info you learn here!
 
 This is going to be the most technical part of the whole chapter. Don’t worry though, every step is well-explained. For additional learning you can take your time and research each concept or command in the guide. Command manuals can be browsed using **man \<command>** in the terminal. 
 
-If you get stuck at a certain step try to hit up the bitcoin plebs nostr group for help. Remember to beware shady direct messages.
+If you get stuck at a certain step try to hit up the nostr community for help. Remember to beware shady direct messages.
 
 ## OBJECTIVE(optional): Prepare the external 1TB SSD([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
 

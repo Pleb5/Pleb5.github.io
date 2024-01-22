@@ -111,7 +111,7 @@ sudo apt install fuse
 8. Generate a new nostr private key. It will automatically also generate your public key
 8. **You must keep this key as safe as possible!** Therefore write it down in your Password manager and/or your paper notebook
 8. Now all your nostr-related data is handled by Alby. Alby can handle all browser-based nostr client permissions wherever it is installed as an extension
-8. Go to the **[Coracle](https://coracle.social/){:target="_blank"}** nostr client. It is a stable browser-based client with public chat room support
+8. Go to the **[Coracle](https://coracle.social/){:target="_blank"}** (or your favorite) nostr client. It is a stable browser-based client with great features
 9. Log into Coracle automatically with Alby:
     1. Click `Login`
     3. Click `Login` again for a simple login process
@@ -123,6 +123,9 @@ wss://bitcoiner.social
     ```
     ```sh
 wss://nos.lol
+    ```
+    ```sh
+wss://relay.nostr.band
     ```
     ```sh
 wss://relay.snort.social
@@ -137,33 +140,28 @@ five@btcplebs.com
     ```sh
 npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw
 	```
-11. Go to the `Chat` section in the left menu and join the **BitcoinPlebs.org** group chat:
-    1. Start typing the group name `bitoinplebs` and Coracle should find the group
-    2. Click `Join`
-    3. Now Coracle should show the group in the `Your Rooms` section
-11. Send your first message in the group: “Hello, fellow Bitcoin Plebs!”
-11. You can install [Damus](https://apps.apple.com/ca/app/damus/id1628663131){:target="_blank"}(iOS) or [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst){:target="_blank"}(Android) on your phone. They both have the group chat feature
+11. Share your experience about this program on nostr:
+    1. Follow the hashtag `#bitcoinplebsorg`
+    1. Create a note in Coracle (or your favorite nostr client)
+    2. Use the hashtag `#bitcoinplebsorg` in your note
+    3. Now others who follow this hashtag can see your notes and start a conversation! 
+11. You can also use the `nostri-chat widget` located in right corner of the web page to post directly to nostr with the right hashtag added automatically!
+11. Send your first nostr note: 
+    ```
+    “Hello, fellow Bitcoin Plebs! #bitcoinplebsorg”
+    ```
+11. You can install [Damus](https://apps.apple.com/ca/app/damus/id1628663131){:target="_blank"}(iOS) or [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst){:target="_blank"}(Android) on your phone 
 12. Run a nostr client on your phone:
     1. Alby cannot handle phone apps so you will have to initialize these apps by putting your nostr private key in the smartphone
     1. **DON'T PASTE YOUR PRIVATE KEY IN CLOUD-BASED NOTE APPS AND DON'T SEND IT VIA EMAIL OR ANY OTHER UNENCRYPTED MEANS!**
     2. Type in character by character or send it to your device in an encrypted way, e.g. a [Signal](https://www.signal.org/download/){:target="_blank"} `Note to self` message. Signal can be installed on desktops and has a mobile app too
-12. In different clients there can be different ways to find groups. Try to find public group chats in this order:
-    1. Find it by group name: `BitcoinPlebs.org Group chat`
-    2. Find it by group hex ID:
-    ```sh
-b69947cbebde46b739173ad1373fec9f5dc4e4e30cc2fe209a2a5011795e05a8
-	  ```
-    3. Or try the same group ID in different("bech32") form:
-    ```sh
-note1k6v50jltmertwwgh8tgnw0lvnawufe8rpnp0ugy69fgpz727qk5qj74f57
-    ```
 19. If it went fine, shortly you can see the same profile info and messages you sent on your desktop.
-20. Not all nostr clients have group chat functionality implemented. I can recommend some decent clients with Twitter-like feed and direct messaging functionality:
+20. Other Nostr clients with microblogging features:
     1. [Primal](https://primal.net){:target="_blank"}: Polished web-client
     2. [Iris](https://iris.to){:target="_blank"}: Works in Browser and on Android
     3. [Snort](https://snort.social){:target="_blank"}: Browser-based
 
-> Note: The feature set of different nostr clients can be different depending on what and how they are implemented. Basic messaging should be available on all clients but e.g. Lightning zaps(small amounts of bitcoin sent to another user) or group chat features are not included on all clients. [More info](https://www.nostr.net/) on feature set of nostr clients
+> Note: The feature set of different nostr clients can be different depending on what and how they are implemented. Basic messaging should be available on all clients but e.g. Lightning zaps(small amounts of bitcoin sent to another user) are not included on all clients. [More info](https://www.nostr.net/) on feature set of nostr clients
 
 > **Posting**: Beware that there is no central authority on nostr to remove content from all relays. Therefore, **there is no 100% surefire way to delete content from nostr relays!**
 

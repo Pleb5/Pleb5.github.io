@@ -277,7 +277,7 @@ So if you wanted to visualize the bitcoin network, what you would see is nodes c
 
 This was just a birds-eye view of what happens when you transact. But to really grasp all this, you still need to understand some of these steps a little bit more in detail. Don’t worry, as soon as you use all these software tools the different concepts will gradually start to make sense. 
 
-You can always come back and reread or go explore more content about this theoretical stuff but what actually matters is using the tools. Try and test everything and formulate your own questions. Feel free to drop them in the group. Interact with bitcoin and plebs as much as you can.
+You can always come back and reread or go explore more content about this theoretical stuff but what actually matters is using the tools. Try and test everything and formulate your own questions. Feel free to post them on nostr. Interact with bitcoin and plebs as much as you can.
 
 ---
 

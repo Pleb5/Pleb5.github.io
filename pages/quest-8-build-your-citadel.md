@@ -176,7 +176,7 @@ You can see your wallet setup and flow of your funds layed out in front of you. 
     19. You can implement a protocol with them about what to do in certain situations.
         2. How you would normally ask for the info they hold and what to do if you seem to be under duress or anything is off with you
 18. Meet your trustees and have a conversation. Share the instructions with them. Emphasize that they are no “single points of failure”. They hold important information but they are not holding your life savings. It is just additional insurance
-19. Develop drills for your heirs and trustees to learn to use your stack and understand bitcoin. Get creative. Share them in the group!
+19. Develop drills for your heirs and trustees to learn to use your stack and understand bitcoin. Get creative. Share them on nostr!
 20. Optional: Lay out a plan for upgrade in the future
     20. What upsides the upgrade will bring
     21. When and how you will upgrade it

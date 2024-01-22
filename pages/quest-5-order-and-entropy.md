@@ -126,7 +126,7 @@ This is an important step in your journey. The meta-data you have just backed up
 2. Pass around some testcoins between your wallets
 3. Explore more settings in Sparrow and read its [faq](https://sparrowwallet.com/docs/faq.html){:target="_blank"} and [documentation](https://sparrowwallet.com/docs/){:target="_blank"} for more practical Bitcoin knowledge
 4. Take notes on your findings/best practices and handy commands/options or solutions to common issues in your KeePass database. Back it up from time to time
-5. Share your experience and ask anything in the group of course!
+5. Share your experience and ask anything on nostr of course!
 
 ---
 
