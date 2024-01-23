@@ -265,7 +265,7 @@ sudo apt install ./sparrow_1.7.6-1_amd64.deb
 		```
 6. Sparrow wallet is now installed but don’t launch it just yet!
 
-Bitcoin plebs have a wonderful training ground to hone their skills in a safe environment. It is called bitcoin testnet. These are bitcoin networks that function almost the same as the “mainnet” - i.e. real-money version, just they are for testing, learning and experimenting with fake-bitcoin. There are multiple testnets for different purposes. The one you will use is quite new and it’s called “Signet”.
+Bitcoin plebs have a wonderful training ground to hone their skills in a safe environment. It is called bitcoin testnet. These are bitcoin networks that function almost the same as the “mainnet” - i.e. real-money version, just they are for testing, learning and experimenting with fake-bitcoin. There are multiple testnets for different purposes. The one you will use is quite new and it’s called “Signet”. This special Signet called "Mutinynet" produces blocks every 30seconds instead of the 10min usual block time. This makes it better for learning purposes.
 
 ---
 
@@ -292,7 +292,7 @@ reboot
 8. Now you can launch Sparrow and add it to favorites
 9. On first launch it gives you an initial mini-tutorial. At the end you can configure your server settings
 10. This setting is also available from File menu
-11. In the `Server settings` connect Sparrow to the bitcoin plebs signet server through tor
+11. In the `Server settings` connect Sparrow to the Mutinynet signet server
     5. Select `Private Electrum` as Server Type
     6. Edit the `URL` and `Port` field, respectively:
     ```sh
@@ -301,10 +301,9 @@ reboot
     ```sh
 50001
     ```
-12. Press the `“Test Connection”` button and follow the logs. You should arrive at a screen something like this
-    8. Sparrow is now connecting to the Bitcoin Plebs signet server through tor
-13. Click Close
-14. In the bottom-right corner you have the `Server switch` turned on and color blue, and next to it you see a sign that you are connected through tor which greatly increases your privacy
+12. Press the `“Test Connection”` button and follow the logs
+13. After the connection was established, click `Close`
+14. In the bottom-right corner you have the `Server switch` turned on and color blue 
 15. Hover over the icons with your mouse to check additional info. In Sparrow you can hover over many things and it will give you great additional insights
 16. If Sparrow loses connection for any reason and you cannot re-establish it, you can try this alternative node:  
     * Onion URL:  
