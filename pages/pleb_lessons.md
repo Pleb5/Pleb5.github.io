@@ -31,6 +31,9 @@ You can checkout my concise explainer video clips on various bitcoin topics:
 * [Physical Attackers](https://v.nostr.build/ZPj9.mp4): How to prepare for physical attackers with passphrased wallets and multisig
 * [Bitcoin Privacy](https://v.nostr.build/JyDM.mp4): Basics of Privacy in bitcoin
 * [Free and Open Source Software](https://v.nostr.build/a2KZ.mp4): How FOSS is important for all bitcoiners
+* [Hardware Wallet Security](https://v.nostr.build/nlB3.mp4): How to choose, buy and verify hardware wallets
+* [Bitcoin Nodes](https://v.nostr.build/G3EA.mp4): Why and how to run a bitcoin node
+
 
 ---
 ---
