@@ -34,6 +34,8 @@ You can checkout my concise explainer video clips on various bitcoin topics:
 * [Secure Seed Generation](https://v.nostr.build/5B2y.mp4): How FOSS is important for all bitcoiners
 * [Hardware Wallet Security](https://v.nostr.build/nlB3.mp4): How to choose, buy and verify hardware wallets
 * [Bitcoin Nodes](https://v.nostr.build/G3EA.mp4): Why and how to run a bitcoin node
+* [Peer-to-Peer Exchanges](https://v.nostr.build/lB6G.mp4): How to buy bitcoin on Peer-to-Peer exchange platforms
+* [Multisig Wallets](https://v.nostr.build/GeeXk.mp4): How to create and maintain a multisig wallet with a case study for 2 of 3 quorum
 
 
 ---
