@@ -1,0 +1,87 @@
+# Translation strings for the site
+# Add your Hungarian translations here
+
+# Site metadata
+site_title:
+  en: "Bitcoin Plebs"
+  hu: "Bitcoin Plebek"
+
+site_description:
+  en: "A zero-to-hero bitcoin pleb training program on bitcoin testnet"
+  hu: "Nullától hősig bitcoin pleb képzési program a bitcoin testneten"
+
+# Navigation and UI elements
+language_selector:
+  en: "Language"
+  hu: "Nyelv"
+
+select_language:
+  en: "Select Language"
+  hu: "Nyelv kiválasztása"
+
+# Common buttons and links
+start_my_journey:
+  en: "Start My Journey"
+  hu: "Kezdem az Utamat"
+
+completed:
+  en: "Completed"
+  hu: "Befejezve"
+
+home:
+  en: "Home"
+  hu: "Kezdőlap"
+
+# Page titles
+quest_1_title:
+  en: "Quest 1: Pledge of the Bitcoin Pleb"
+  hu: "1. Küldetés: A Bitcoin Pleb Esküje"
+
+# Common content sections
+disclaimers:
+  en: "Disclaimers"
+  hu: "Jogi nyilatkozatok"
+
+objective:
+  en: "OBJECTIVE"
+  hu: "CÉL"
+
+# Footer links
+github_link:
+  en: "Bitcoin Plebs on GitHub"
+  hu: "Bitcoin Plebek a GitHub-on"
+
+# Search
+search_placeholder:
+  en: "Search..."
+  hu: "Keresés..."
+
+search_label:
+  en: "Search"
+  hu: "Keresés"
+
+# 404 page
+page_not_found:
+  en: "Page not found"
+  hu: "Az oldal nem található"
+
+# Common phrases
+go_above_and_beyond:
+  en: "Go above and beyond to become a real Bitcoin Pleb"
+  hu: "Menj túl és tovább, hogy igazi Bitcoin Pleb legyél"
+
+journey_to_sovereignty:
+  en: "Start your journey to Sovereignty:"
+  hu: "Kezdd el az utadat a Szuverenitás felé:"
+
+freedom_tech:
+  en: "Master the bitcoin freedom-tech ecosystem:"
+  hu: "Sajátítsd el a bitcoin szabadság-tech ökoszisztémát:"
+
+bonus_nostr:
+  en: "+ Bonus: Get to know bitcoin's latest friend: nostr, the censorship-resistant communications protocol:"
+  hu: "+ Bónusz: Ismerd meg a bitcoin legújabb barátját: a nostr-t, a cenzúra-ellenálló kommunikációs protokollt:"
+
+warning_low_time_pref:
+  en: "⌛ Warning! Low Time Preference Advised! ⌛"
+  hu: "⌛ Figyelem! Alacsony Időpreferencia Javasolt! ⌛"

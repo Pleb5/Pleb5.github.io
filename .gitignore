@@ -11,3 +11,11 @@ vendor/
 
 # Ignore backup files created by text editors
 *~
+
+# Nix
+result
+result-*
+
+# OS Files
+.DS_Store
+Thumbs.db

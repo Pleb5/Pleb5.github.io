@@ -1,0 +1,15 @@
+---
+layout: default
+title: 404 - Page not found
+permalink: /404.html
+---
+
+<script>
+// Redirect to language-specific 404 page based on URL
+const path = window.location.pathname;
+if (path.startsWith('/hu/')) {
+  window.location.href = '/hu/404/';
+} else {
+  window.location.href = '/en/404/';
+}
+</script>
