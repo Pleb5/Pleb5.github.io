@@ -1,26 +1,35 @@
 # List available recipes
 default:
     @just --list
+    @echo ""
+    @echo "⚠️  IMPORTANT: If you're getting Ruby version errors, run 'nix develop' first!"
+    @echo "   The project uses Ruby 3.1 for compatibility, but your system has Ruby 3.3"
 
 # Install dependencies
 install:
-    bundle install
+    bundle install --path vendor/bundle
 
 # Start the development server
 serve:
-    bundle exec jekyll serve --livereload
+    ./jekyll-wrapper.sh serve --livereload
 
 # Build the site for production
 build:
-    bundle exec jekyll build
+    ./jekyll-wrapper.sh build
 
 # Clean the built site
 clean:
-    bundle exec jekyll clean
+    ./jekyll-wrapper.sh clean
 
 # Update dependencies
 update:
     bundle update
+
+# Fix Ruby compatibility issues and reinstall
+fix-ruby:
+    rm -rf vendor/bundle
+    rm -f Gemfile.lock
+    bundle install --path vendor/bundle
 
 # Check for broken links (requires html-proofer gem)
 check-links:

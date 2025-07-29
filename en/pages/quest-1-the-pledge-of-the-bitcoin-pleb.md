@@ -1,8 +1,7 @@
 ---
 layout: custom_page_layout
 title: "Quest 1: Pledge of the Bitcoin Pleb"
-permalink: /en/pledge-of-the-bitcoin-pleb/
-lang: en
+permalink: /pledge-of-the-bitcoin-pleb/
 ---
 # Quest 1: Pledge of the Bitcoin Pleb
 

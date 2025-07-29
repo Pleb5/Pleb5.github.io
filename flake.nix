@@ -18,16 +18,16 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
         
-        # Ruby with bundler and other necessary gems
-        rubyEnv = pkgs.ruby_3_2.withPackages (ps: with ps; [
-          bundler
-        ]);
+        # Ruby environment - we'll use ruby and bundler separately
+        # Using Ruby 3.1 for better compatibility with Jekyll 4.3 and its dependencies
+        rubyEnv = pkgs.ruby_3_1;
       in
       {
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [
             # Ruby environment
             rubyEnv
+            bundler
             
             # Build dependencies for native gems
             pkg-config
