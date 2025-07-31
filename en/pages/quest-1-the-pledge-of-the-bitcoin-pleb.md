@@ -3,8 +3,8 @@ layout: custom_page_layout
 title: "Quest 1: Pledge of the Bitcoin Pleb"
 permalink: /en/pledge-of-the-bitcoin-pleb/
 ---
-# Quest 1: Pledge of the Bitcoin Pleb
 
+# Quest 1: Pledge of the Bitcoin Pleb
 
 You decide to go down the rabbit hole of Bitcoin Self-Custody. You want the freedom and sovereignty that comes with it instead of the fractional-reserve IOU that people mistake for money. Or you just heard of the previous crypto exchange debacle and don’t want to lose your hard-earned bitcoin. Whatever the case, you want to be in control.
 
@@ -23,13 +23,14 @@ This training program is for those who strive to be Bitcoin Pleb sovereign indiv
 
 ---
 
-## OBJECTIVE: Complete the [Pledge of the Bitcoin Pleb] assignment(hybrid pdf download)
+## OBJECTIVE: Complete the [Pledge of the Bitcoin Pleb] assignment (hybrid pdf download)
 * It will make you think about whether this is really for you
 * It is not a hand-in assignment
 * You can edit the hybrid pdf in libreoffice if you like
 * Changed your mind? No problem at all. Come back later when you feel like you're truly ready for it
 
 **Congratulations if you finished it!**
+
 In my estimation you are in that 10-20% cohort of people who cared to complete this exercise. If you really put effort in it you now have a 10-20X more chance to become a Bitcoin Pleb.
 
 Anyone is only responsible for themselves in Bitcoin. Therefore, individual work is a must. But you will not be alone on your path to sovereignty. The Bitcoin Plebs Community is there for us to help each other out, share experiences and discuss ideas.
