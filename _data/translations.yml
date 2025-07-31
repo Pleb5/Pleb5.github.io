@@ -4,11 +4,11 @@
 # Site metadata
 site_title:
   en: "Bitcoin Plebs"
-  hu: "Bitcoin Plebek"
+  hu: "Bitcoin pleb"
 
 site_description:
   en: "A zero-to-hero bitcoin pleb training program on bitcoin testnet"
-  hu: "Nullától hősig bitcoin pleb képzési program a bitcoin testneten"
+  hu: "Nulláról hősre bitcoin pleb képzési program a bitcoin testneten"
 
 # Navigation and UI elements
 language_selector:
@@ -17,16 +17,16 @@ language_selector:
 
 select_language:
   en: "Select Language"
-  hu: "Nyelv kiválasztása"
+  hu: "Nyelv választás"
 
 # Common buttons and links
 start_my_journey:
   en: "Start My Journey"
-  hu: "Kezdem az Utamat"
+  hu: "Útra kelek"
 
 completed:
   en: "Completed"
-  hu: "Befejezve"
+  hu: "Teljesítve"
 
 home:
   en: "Home"
@@ -35,7 +35,7 @@ home:
 # Page titles
 quest_1_title:
   en: "Quest 1: Pledge of the Bitcoin Pleb"
-  hu: "1. Küldetés: A Bitcoin Pleb Esküje"
+  hu: "1. küldetés: Bitcoin pleb fogadalom"
 
 # Common content sections
 disclaimers:
@@ -49,7 +49,7 @@ objective:
 # Footer links
 github_link:
   en: "Bitcoin Plebs on GitHub"
-  hu: "Bitcoin Plebek a GitHub-on"
+  hu: "Bitcoin pleb a GitHub-on"
 
 # Search
 search_placeholder:
@@ -68,20 +68,20 @@ page_not_found:
 # Common phrases
 go_above_and_beyond:
   en: "Go above and beyond to become a real Bitcoin Pleb"
-  hu: "Menj túl és tovább, hogy igazi Bitcoin Pleb legyél"
+  hu: "Lépj a következő szintre, hogy igazi Bitcoin pleb váljon belőled!"
 
 journey_to_sovereignty:
   en: "Start your journey to Sovereignty:"
-  hu: "Kezdd el az utadat a Szuverenitás felé:"
+  hu: "Lépj a szuverenitás útjára!"
 
 freedom_tech:
   en: "Master the bitcoin freedom-tech ecosystem:"
-  hu: "Sajátítsd el a bitcoin szabadság-tech ökoszisztémát:"
+  hu: "Válj a bitcoin szabadság-technológiák mesterévé!"
 
 bonus_nostr:
   en: "+ Bonus: Get to know bitcoin's latest friend: nostr, the censorship-resistant communications protocol:"
-  hu: "+ Bónusz: Ismerd meg a bitcoin legújabb barátját: a nostr-t, a cenzúra-ellenálló kommunikációs protokollt:"
+  hu: "+ Bónusz: Fedezd fel a bitcoin legújabb barátját, a nostr-t, a cenzúraálló kommunikációs protokollt!"
 
 warning_low_time_pref:
   en: "⌛ Warning! Low Time Preference Advised! ⌛"
-  hu: "⌛ Figyelem! Alacsony Időpreferencia Javasolt! ⌛"
+  hu: "⌛ Figyelem! Alacsony időpreferencia ajánlott! ⌛"
