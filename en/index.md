@@ -46,9 +46,11 @@ Bitcoin Plebs is a free training program designed to instill bitcoin wisdom into
 
 ---
 
+{::nomarkdown}
 <span class="fs-7 bonus_nostr">
  {{ t.bonus_nostr[page.lang] }}
 </span>
+{:/nomarkdown}
 * Make new friends in the bitcoin-nostr Pleb ecosystem
 * Join the Bitcoin Plebs community on nostr to learn more, share your experience and discuss interesting topics with like-minded Plebs
 
