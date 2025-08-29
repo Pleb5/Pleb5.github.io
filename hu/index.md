@@ -8,7 +8,7 @@ lang: hu
 
 <div class="bitcoin_plebs_title">
   <span class="fs-9">
-    Bitcoin Plebek: Beavatási Szertartás
+    Bitcoin pleb: Beavatás
   </span>
 </div>
 ![bitcoin_pleb](/assets/img/graphics/bitcoin_pleb.jpg)
@@ -17,40 +17,43 @@ lang: hu
   {{ t.go_above_and_beyond[page.lang] }}
 </span>
 
-[HUNGARIAN TRANSLATION PLACEHOLDER: You have seen the light: You understand why bitcoin is the best money for humanity but you want to own and use it as Satoshi and the cypherpunks intended. This program is for you then.]
+Megláttad a fényt: megértetted, hogy miért a bitcoin az emberiség legjobb pénze, és szeretnéd úgy birtokolni és használni, ahogy azt Satoshi és a cypherpunkok megálmodták. Ez a program neked szól.
 
-[HUNGARIAN TRANSLATION PLACEHOLDER: Bitcoin Plebs is a free training program designed to instill bitcoin wisdom into average bitcoiners and arm them with essential skills and knowledge.]
+A Bitcoin pleb egy ingyenes képzési program, amelynek célja, hogy átadja a bitcoin bölcsességét a hétköznapi bitcoinereknek, valamint felvértezze őket az alapvető készségekkel és tudással.
 
 ---
 
 <span class="fs-7 journey_to_sovereignty">
   {{ t.journey_to_sovereignty[page.lang] }}
 </span>
-- [HUNGARIAN TRANSLATION PLACEHOLDER: Understand topics of Self-Custody through self-paced assignments safely on **Bitcoin Testnet**]
-- [HUNGARIAN TRANSLATION PLACEHOLDER: Design your own full-blown **Bitcoin Citadel** from buying to spending]
-- [HUNGARIAN TRANSLATION PLACEHOLDER: Complete challenges that help you **overcome** bitcoin self-custody **FUD**]
-- [HUNGARIAN TRANSLATION PLACEHOLDER: Learn the **Pleb way** instead of blindly copy-pasting commands from the internet]
-- [HUNGARIAN TRANSLATION PLACEHOLDER: Embrace the **open-source ethos** to achieve true freedom in the 21st century]
+- Ismerd meg az öngondoskodás (self-custody) témáit biztonságos, önálló feladatokon keresztül a **Bitcoin Testnet** hálózatán!
+- Tervezd meg saját, teljeskörű **Bitcoin citadelládat** a vásárlástól a költésig!
+- Teljesíts olyan kihívásokat, amelyek segítenek **legyőzni** a bitcoin öngondoskodással kapcsolatos félelmeidet, bizonytalanságaidat és kétségeidet (**FUD**)!
+- Sajátítsd el a **pleb készségeket** ahelyett, hogy a netről vakon másolnál parancsokat!
+- Éld meg a **nyílt forráskód szellemiségét**, és vívj ki valódi szabadságot a 21. században!
 
 ---
 
 <span class="fs-7 freedom_tech">
   {{ t.freedom_tech[page.lang] }}
 </span>
-- [HUNGARIAN TRANSLATION PLACEHOLDER: Manage your wallets with **Sparrow wallet**, the best-in-class FOSS bitcoin wallet]
-- [HUNGARIAN TRANSLATION PLACEHOLDER: Master **SeedSigner**, the rockstar of hardware wallets]
-- [HUNGARIAN TRANSLATION PLACEHOLDER: Learn to run your own verified **Bitcoin Core** node]
-- [HUNGARIAN TRANSLATION PLACEHOLDER: Learn to buy, hold and use bitcoin securely and privately]
+- Kezeld tárcáidat a **Sparrow Wallet**-tel, a legjobb nyílt forráskódú (FOSS) bitcoin tárcával!
+- Sajátítsd el a **SeedSigner**, a hardver tárcák rocksztárjának használatát!
+- Tanuld meg, hogyan futtass saját, hitelesített **Bitcoin Core** csomópontot (node)!
+- Ismerd meg, hogyan vásárolj, tarts és használj bitcoint biztonságosan és privát módon!
+
 
 ![pleb_with_freedom_tech](/assets/img/graphics/pleb_with_freedom_tech.jpg)
 
 ---
 
+{::nomarkdown}
 <span class="fs-7 bonus_nostr">
- {{ t.bonus_nostr[page.lang] }}
+  {{ t.bonus_nostr[page.lang] }}
 </span>
-* [HUNGARIAN TRANSLATION PLACEHOLDER: Make new friends in the bitcoin-nostr Pleb ecosystem]
-* [HUNGARIAN TRANSLATION PLACEHOLDER: Join the Bitcoin Plebs community on nostr to learn more, share your experience and discuss interesting topics with like-minded Plebs]
+{:/nomarkdown}
+- Építs kapcsolatokat a bitcoin-nostr pleb közösségben!
+- Csatlakozz a Bitcoin pleb közösséghez a nostr-on, hogy még többet tanulj, megoszd tapasztalataidat, és érdekes témákról beszélgess hasonló gondolkodású plebekkel!
 
 <div class="warning_low_time_pref">
   <span class="fs-7">{{ t.warning_low_time_pref[page.lang] }}</span>
