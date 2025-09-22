@@ -1,28 +1,8 @@
 ---
 layout: page
 ---
-{% include language-switcher.html %}
-<!-- This widget works to post in the global feed with a tag -->
-<script
-src="https://nostri.chat/public/bundle.js"
-data-chat-type="GLOBAL"
-data-chat-tags="bitcoinplebsorg"
-data-relays="wss://relay.damus.io,wss://nos.lol, wss://relay.snort.social,wss://bitcoiner.social,wss://nos.lol,wss://relay.nostr.band"
->
-</script>
-
-
-<!-- This will appear in Amethyst on the Messages tab in the "New Requests" section -->
-
-<!-- <script -->
-<!-- src="https://nostri.chat/public/bundle.js" -->
-<!-- data-chat-type="DM" -->
-<!-- data-website-owner-pubkey="d04ecf33a303a59852fdb681ed8b412201ba85d8d2199aec73cb62681d62aa90" -->
-<!-- data-relays="wss://relay.damus.io,wss://nos.lol, wss://relay.snort.social,wss://bitcoiner.social" -->
-<!-- ></script> -->
-
-
-<link rel="stylesheet" href="https://nostri.chat/public/bundle.css">
-
+{% if page.name == 'index.md' %}
+  {% include language-switcher.html %}
+{% endif %}
 
 {{ content }}
