@@ -37,7 +37,7 @@ Anyone is only responsible for themselves in Bitcoin. Therefore, individual work
 
 Advice: Take some time between objectives to reflect. Take notes and absorb what just happened. Search for more content about it. Try to contest what I tell you, even. The more you play with it, the deeper your knowledge will penetrate. This is not a sprint, it is a marathon. A journey.
 
-[Completed](/get-on-board/){: .btn .btn-green }
+[Completed](/en/get-on-board/){: .btn .btn-green }
 
 
 [Pledge of the Bitcoin Pleb]: /assets/pdf/pledge_of_the_bitcoin_pleb.pdf
