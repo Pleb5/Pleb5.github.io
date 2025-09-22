@@ -1,4 +1,13 @@
-{% assign current_lang = page.lang | default: site.default_language %}
+{% assign current_lang = page.lang %}
+{% if current_lang == nil %}
+  {% if page.url contains '/en/' %}
+    {% assign current_lang = 'en' %}
+  {% elsif page.url contains '/hu/' %}
+    {% assign current_lang = 'hu' %}
+  {% else %}
+    {% assign current_lang = site.default_language %}
+  {% endif %}
+{% endif %}
 {% assign translations = site.data.translations %}
 
 <div class="language-switcher">
@@ -56,14 +65,27 @@ function changeLanguage(lang) {
 
 <style>
 .language-switcher {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  z-index: 1000;
-  background: var(--color-background, #fff);
-  padding: 0.5rem;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+/* When in navigation sidebar */
+.nav-language-switcher {
+  padding: 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid var(--color-border, #e1e4e8);
+}
+
+.nav-language-switcher .language-switcher {
+  display: block;
+  margin-left: 0;
+}
+
+/* When in header, align properly with search and aux links */
+.main-header .language-switcher {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 1rem;
 }
 
 .language-switcher label {
@@ -80,25 +102,28 @@ function changeLanguage(lang) {
   color: var(--color-foreground, #333);
   font-size: 0.875rem;
   cursor: pointer;
+  width: 100%;
+  max-width: 200px;
 }
 
 /* Dark theme support */
-[data-theme="dark"] .language-switcher {
-  background: #2f3136;
-}
-
-[data-theme="dark"] .language-switcher select {
+[data-theme="dark"] .language-switcher select,
+.dark-mode .language-switcher select {
   background-color: #2f3136;
   color: #e3e5e8;
   border-color: #40444b;
 }
 
+[data-theme="dark"] .nav-language-switcher,
+.dark-mode .nav-language-switcher {
+  border-top-color: #40444b;
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
-  .language-switcher {
-    position: relative;
-    margin: 1rem 0;
-    display: inline-block;
+  .main-header .language-switcher {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 }
 </style>

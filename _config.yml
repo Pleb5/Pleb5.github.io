@@ -52,7 +52,7 @@ aux_links:
     - "https://github.com/Pleb5/Pleb5.github.io"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 
 # Heading anchor links appear on hover over h1-h6 tags in page content
@@ -76,5 +76,11 @@ defaults:
 
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/assets/img/favicon.png"
+
+# Footer configuration - use custom footer content
+footer_content: '<a href="https://github.com/Pleb5/Pleb5.github.io" target="_blank" rel="noopener noreferrer">Bitcoin Plebs on GitHub</a>'
+
+# Additional custom footer can be added via this file
+footer: "footer_custom.html"
 
 
