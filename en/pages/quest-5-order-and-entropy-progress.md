@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /progress-order-and-entropy/
+permalink: en/progress-order-and-entropy/
 ---
 
 # Progress Images for Quest 5: Order and Entropy 

@@ -1,7 +1,7 @@
 ---
-layout: custom_page_layout
+
 title: "Quest 8: Build Your Citadel"
-permalink: /build-your-citadel/
+permalink: en/build-your-citadel/
 ---
 
 # Quest 8: Bedrocks of a Legacy: Build your Bitcoin Citadel
@@ -100,7 +100,7 @@ From the Principles you wrote down, you can now get down to the nitty-gritty pra
 
 ## OBJECTIVE: Design your bitcoin wallets and the flow of your funds
 
-1. 💡 Learn a deeper lesson about wallet types and the [Game Theory of Self-Custody](/pleb-lessons/#the-game-theory-of-self-custody)
+1. 💡 Learn a deeper lesson about wallet types and the [Game Theory of Self-Custody](/en/pleb-lessons/#the-game-theory-of-self-custody)
 2. List your fiat revenue sources
     1. Some people have multiple fiat accounts just because many times your bank censors “suspicious” transactions when you are buying NoKYC bitcoin
 3. List your fiat wallets
@@ -197,4 +197,4 @@ Share your experience with this journey and of course…keep learning because th
 
 There are so many interesting and useful rabbit holes to explore in the land of bitcoin self custody and freedom-tech. The amount of time spent on these topics will get you abundant returns in many areas of life.
 
-[Final Quest](/join-the-fray/){: .btn .btn-green }
+[Final Quest](/en/join-the-fray/){: .btn .btn-green }

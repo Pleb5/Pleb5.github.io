@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.default_language }}">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {% assign current_lang = page.lang | default: site.default_language %}
-  {% assign translations = site.data.translations %}
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ translations.site_title[current_lang] | default: site.title }}</title>
-  <meta name="description" content="{{ translations.site_description[current_lang] | default: site.description }}">
-</head>
-<body>
-  {{ content }}
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% assign current_lang = page.lang | default: site.default_language %}
+        {% assign translations = site.data.translations %}
+        <title>
+            {% if page.title %}{{ page.title }} | {% endif %}
+            {{ translations.site_title[current_lang] | default: site.title }}
+        </title>
+        <meta 
+            name="description"
+            content="{{ translations.site_description[current_lang] | default: site.description }}">
+    </head>
+    <body>
+        {{ content }}
+    </body>
 </html>

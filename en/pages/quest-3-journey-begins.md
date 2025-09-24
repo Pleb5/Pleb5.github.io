@@ -1,7 +1,7 @@
 ---
-layout: custom_page_layout
+
 title: "Quest 3: Not your keys, not your coins"
-permalink: /the-journey-begins/
+permalink: en/the-journey-begins/
 ---
 
 # Quest 3: Not your keys, not your coins
@@ -25,8 +25,8 @@ Feel free to not just complete the exercises but also try out other exciting thi
 
 **You really need to take ownership of your coins or they will be frozen for eternity!**
 
-## OBJECTIVE: Create your first Bitcoin wallet!([Progress Images](/progress-the-journey-begins/){:target="_blank"})
-1. 💡Learn about [Bitcoin ownership basics](/pleb-lessons/#bitcoin-ownership)
+## OBJECTIVE: Create your first Bitcoin wallet!([Progress Images](/en/progress-the-journey-begins/){:target="_blank"})
+1. 💡Learn about [Bitcoin ownership basics](/en/pleb-lessons/#bitcoin-ownership)
 2. Create your first Bitcoin Wallet. `Go to File` --> `New Wallet`
 3. Give it a name like “myfirstwallet”
 4. Use the preset options: Single sig, Native Segwit
@@ -48,8 +48,8 @@ Your exchange is on the brink of collapse. The yield generator algorithms sadly 
 
 ---
 
-## OBJECTIVE: Save your coins from the exchange([Progress Images](/progress-the-journey-begins/){:target="_blank"})
-1. 💡Learn about the [Bitcoin Transactions and the UTXO model](/pleb-lessons/#bitcoin-transactions-and-the-utxo-model)
+## OBJECTIVE: Save your coins from the exchange([Progress Images](/en/progress-the-journey-begins/){:target="_blank"})
+1. 💡Learn about the [Bitcoin Transactions and the UTXO model](/en/pleb-lessons/#bitcoin-transactions-and-the-utxo-model)
 2. Go to the `Receive` tab in Sparrow
 3. Get a new receiving address in Sparrow wallet
 4. Add a label as the purpose of this transaction
@@ -74,4 +74,4 @@ Your exchange is on the brink of collapse. The yield generator algorithms sadly 
 ## You're safe. For now...
 {: .no_toc }
 
-[Next Quest](/a-fool-and-his-bitcoin/){: .btn .btn-green }
+[Next Quest](/en/a-fool-and-his-bitcoin/){: .btn .btn-green }
