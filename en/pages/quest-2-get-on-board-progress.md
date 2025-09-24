@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /progress-get-on-board/
+permalink: en/progress-get-on-board/
 ---
 
 # Progress Images for Quest 2: Get on board!

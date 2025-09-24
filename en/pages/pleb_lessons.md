@@ -1,5 +1,5 @@
 ---
-layout: custom_page_layout
+
 title: "Pleb lessons"
 permalink: /en/pleb-lessons/
 ---
@@ -81,7 +81,7 @@ You can try and install other terminals or customize the looks and other stuff l
 
 [Here](https://www.digitalocean.com/community/tutorials/linux-commands) is an article about the most used Linux shell commands. Most of these will be used on your journey. Run through them quickly but you will be using them soon enough. [Here](https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet) is a more comprehensive cheat sheet if you ever need it. Man-pages can be weird to search and navigate but if you learn how to do it that will serve you really well too.
 
-[Back to Objective]({{ site.baseurl }}/get-on-board/#objective-install-a-fresh-ubuntu-jammy-2204-lts){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/get-on-board/#objective-install-a-fresh-ubuntu-jammy-2204-lts){: .btn .btn-purple}
 
 ---
 ---
@@ -121,7 +121,7 @@ Why the name public key? Because this key is constructed in a way that if someon
 
 A key that can only lock but not unlock is very handy this way because now anyone can send me a private message without first agreeing on a shared secret. Since we don’t share the same secret in this type of communication it is also called “asymmetric encryption”.
 
-[Back to Objective]({{ site.baseurl }}/get-on-board/#objective-join-the-bitcoin-plebs-communityprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/get-on-board/#objective-join-the-bitcoin-plebs-communityprogress-images){: .btn .btn-purple}
 
 ---
 ---
@@ -160,7 +160,7 @@ You get the gist:
 
 Encryption and verification starts with you being vigilant. Everything starts with you watching out. It is not paranoia. It is a practice that becomes a part of life. A part of you. You don’t think twice checking if someone is crossing the road while you are driving. It can become that simple built-in cautiousness that you react with whenever it is about your hard-earned bitcoin.
 
-[Back to Objective]({{ site.baseurl }}/get-on-board/#objective-download-verify-and-install-tor-browserprocess-similar-to-mullvad-browserprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/get-on-board/#objective-download-verify-and-install-tor-browserprocess-similar-to-mullvad-browserprogress-images){: .btn .btn-purple}
 
 ---
 ---
@@ -249,7 +249,7 @@ To sum it up, your whole bitcoin wallet is generated from just one **seed phrase
 
 Provided that the underlying mathematics and technology holds up, which seems to be the case, bitcoin will be regarded as one of the most important tools of human history. Why? Because private property [is the foundation of flourishing civilizations](https://www.azquotes.com/author/10190-Ludwig_von_Mises/tag/private-property) and bitcoin is private property in a pure information form, therefore it is the basis of a thriving _global_ civilization based on peaceful technology instead of raw power.
 
-[Back to Objective]({{ site.baseurl }}/the-journey-begins/#objective-create-your-first-bitcoin-walletprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/the-journey-begins/#objective-create-your-first-bitcoin-walletprogress-images){: .btn .btn-purple}
 
 ---
 ---
@@ -379,7 +379,7 @@ The first confirmation is when your transaction is mined and your node accepts t
 
 Well, with **6 confirmations** we can quite confidently say that there is just no realistic scenario where an attacker would be able to build an alternative chain with enough work that would undo your transaction. It would take an exorbitant amount of hashrate to be able to pull that off. There has never been such a case in the entire history of bitcoin, as a matter of fact it hasn't come even close to that.
 
-[Back to Objective]({{ site.baseurl }}/the-journey-begins/#objective-save-your-coins-from-the-exchangeprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/the-journey-begins/#objective-save-your-coins-from-the-exchangeprogress-images){: .btn .btn-purple}
 
 ---
 ---
@@ -394,7 +394,7 @@ The only way to really protect yourself against this is developing a vigilance p
 
 Also, when you are in an emotional state it is ill-advised to do anything bitcoin related. Resist the temptation. Your judgment will be clouded and you will not be able to adopt a state of vigilance and might fall into a trap. You will screw up and you will regret it.
 
-[Back to Objective]({{ site.baseurl }}/a-fool-and-his-bitcoin/#objective-defend-against-the-dark-arts-of-phishing-and-malware){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/a-fool-and-his-bitcoin/#objective-defend-against-the-dark-arts-of-phishing-and-malware){: .btn .btn-purple}
 
 ---
 ---
@@ -404,7 +404,7 @@ Also, when you are in an emotional state it is ill-advised to do anything bitcoi
 1. Don’t use Google when browsing for Bitcoin-related purchases! Use [Tor browser](https://www.torproject.org/) or reputable VPN services like [MULLVAD](https://mullvad.net/en/) to protect your personal information like your IP address!
 2. If you are buying from a well-known brand, buy things directly from their website. Many malicious copycat websites exist for popular Bitcoin related products. Not to mention the higher possibility of tampering when it is not shipped from as close to the source as possible.
 3. Check https (lock icon 🔒) connection always, sanity check the GUI and language of the website
-4. Buy with Bitcoin if possible. Spending bitcoin privately is not a trivial task. See the [bitcoin privacy section](/pleb-lessons/#bitcoin-plebs-and-privacy) for more info. If you buy with fiat at least the payment provider and your government will be able to connect the dots.
+4. Buy with Bitcoin if possible. Spending bitcoin privately is not a trivial task. See the [bitcoin privacy section](/en/pleb-lessons/#bitcoin-plebs-and-privacy) for more info. If you buy with fiat at least the payment provider and your government will be able to connect the dots.
 5. Consider using a burner email address. Free email like gmail is not good for privacy. They read all your emails
 6. Consider using a NoKYC phone nr. Visit [silent.link](http://silentlnit5ryavvfz5vw7s4qg62jujd666lnc4tg2chj64zuwuqtvqd.onion/) website in a Tor browser for more info. You can buy a phone number to receive calls and sms (no outgoing calls for privacy) and you can buy mobile data as well. It is a very rare service so they might run out of numbers from time to time
 7. Don’t use your home address! Have it delivered to a PO box or an office.
@@ -448,7 +448,7 @@ This entails that your encrypted wallet (if you add a wallet password in Sparrow
 
 Passphrases protect a wallet even if the physical seed phrase backup is compromised. It is therefore a second security factor on your bitcoin wallet not just on your computer but in every way.
 
-[Back to Objective]({{ site.baseurl }}/a-fool-and-his-bitcoin/#objective-defend-against-the-bare-key-backup-problemprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/a-fool-and-his-bitcoin/#objective-defend-against-the-bare-key-backup-problemprogress-images){: .btn .btn-purple}
 
 ---
 ---
@@ -576,7 +576,7 @@ If you are planning to use multisig it is even more advised to have multiple typ
 
 **Although any quest can be completed with the above devices, Bitcoin Plebs quests will use the SeedSigner as a reference.**
 
-[Back to Objective]({{ site.baseurl }}/a-fool-and-his-bitcoin/#objective-start-using-a-hardware-wallet){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/a-fool-and-his-bitcoin/#objective-start-using-a-hardware-wallet){: .btn .btn-purple}
 
 ---
 ---
@@ -596,7 +596,7 @@ This “as long as the selection is truly random” part is crucial because it i
 
 You now realize that your passphrase is not on the same level of security as your 12 seedwords, to say the least. If your words get found you can check from the table above how much time it takes to “brute force” your passphrase. Note that anyone can download a password cracker. And if the attacker knows some information about you this becomes much easier because the brute force attack can be carried out more intelligently. How to tackle this? We must generate secrets from great sources of entropy. Then we take care of these secrets and try never to leak them to malicious people of course.
 
-[Back to Objective]({{ site.baseurl }}/order-and-entropy/#objective-level-up-on-entropy-and-apply-changes-to-your-bitcoin-setupprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/order-and-entropy/#objective-level-up-on-entropy-and-apply-changes-to-your-bitcoin-setupprogress-images){: .btn .btn-purple}
 
 ---
 ---
@@ -806,7 +806,7 @@ These solutions are still nascent but bitcoiners are bullish for a good reason. 
 
 Last but not least, keep **learning** about privacy and be part of a bitcoin **community**.
 
-[Back to Objective]({{ site.baseurl }}/bitcoin-privacy/#objective-get-to-know-the-enemyprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/bitcoin-privacy/#objective-get-to-know-the-enemyprogress-images){: .btn .btn-purple}
 
 ---
 ---
@@ -871,7 +871,7 @@ You can also "prune" your full node to store a limited size of the blockchain, t
 
 It is an important effort in bitcoin to make node-runners life increasingly simpler. There are always new interesting technologies with new trade-off balances. Such examples are [ZeroSync](https://zerosync.org/) and [Utreexo](https://bitcoinops.org/en/topics/utreexo/). Check them out if interested.
 
-[Back to Objective]({{ site.baseurl }}/bitcoin-privacy/#objective--learn-about-bitcoin-nodes){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/bitcoin-privacy/#objective--learn-about-bitcoin-nodes){: .btn .btn-purple}
 
 ---
 ---
@@ -907,7 +907,7 @@ You could run bitcoind and bitcoin-cli with configuration options from the comma
 
 So we have this handy configuration file called “bitcoin.conf” to make our lives easier. Note that the command line takes precedence so anything you write in bitcoin.conf can be overwritten in the command line.
 
-[Back to Objective]({{ site.baseurl }}/bitcoin-privacy/#objective-configure-and-learn-to-manage-bitcoin-coreprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/bitcoin-privacy/#objective-configure-and-learn-to-manage-bitcoin-coreprogress-images){: .btn .btn-purple}
 
 ---
 ---
@@ -1034,7 +1034,7 @@ Now you know the cold hard truth about how convenience is traded off for soverei
 
 Lastly, I would like to mention that nostr is a protocol that could help P2P markets thrive outside of these sort-of walled garden platforms I introduced. Nostr goes hand-in-hand with bitcoin and LN combining the power of the bitcoin-base layer with the nimbleness of Lightning and the censorship resistant communication of nostr. I believe that something great is going to come out of this combination and there are current efforts to make this happen. It’s gonna take time but we’ll get there.
 
-[Back to Objective]({{ site.baseurl }}/nokyc-bitcoin/#objective-prepare-yourself-to-test-p2p-bitcoin-exchangesprogress-images){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/nokyc-bitcoin/#objective-prepare-yourself-to-test-p2p-bitcoin-exchangesprogress-images){: .btn .btn-purple}
 
 ---
 ---
@@ -1453,4 +1453,4 @@ I am pretty bullish on bitcoin Self-Custody Technology getting increasingly bett
 
 However, be wary of regulated companies in bitcoin overall. No need to demonize them but less trust is advised compared to open-source community projects. For example you bought KYC bitcoin at a bitcoin-only company (if not bitcoin-only I advise you to leave them). You are safe to try their collaborative custody service for KYC coins but keep these segregated of course.
 
-[Back to Objective]({{ site.baseurl }}/build-your-citadel/#objective-design-your-bitcoin-wallets-and-the-flow-of-your-funds){: .btn .btn-purple}
+[Back to Objective]({{ site.baseurl }}/en/build-your-citadel/#objective-design-your-bitcoin-wallets-and-the-flow-of-your-funds){: .btn .btn-purple}

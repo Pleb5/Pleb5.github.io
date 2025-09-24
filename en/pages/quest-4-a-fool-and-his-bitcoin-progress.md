@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /progress-a-fool-and-his-bitcoin/
+permalink: en/progress-a-fool-and-his-bitcoin/
 ---
 
 # Progress Images for Quest 4: A fool and his bitcoin are soon parted 

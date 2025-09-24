@@ -1,7 +1,7 @@
 ---
-layout: custom_page_layout
+
 title: "Quest 7: NoKYC Bitcoin"
-permalink: /nokyc-bitcoin/
+permalink: en/nokyc-bitcoin/
 ---
 
 # Quest 7: The Real Deal: Get some real NoKYC bitcoin
@@ -23,9 +23,9 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
 
 ---
 
-## OBJECTIVE: Prepare yourself to test P2P bitcoin exchanges([Progress Images](/progress-nokyc-bitcoin/){:target="_blank"})
+## OBJECTIVE: Prepare yourself to test P2P bitcoin exchanges([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
 
-1. 💡 Learn about the [P2P market ecosystem and how to get NoKYC bitcoin](/pleb-lessons/#p2p-markets-and-nokyc-bitcoin)
+1. 💡 Learn about the [P2P market ecosystem and how to get NoKYC bitcoin](/en/pleb-lessons/#p2p-markets-and-nokyc-bitcoin)
 2. Reboot Sparrow in legacy-testnet mode
     1. From menu: `Tools` --> `Restart in Testnet`
     2. From the command line. Close Sparrow then:
@@ -40,7 +40,7 @@ Sparrow -n testnet
 
 ---
 
-## OBJECTIVE: Try HodlHodl on testnet([Progress Images](/progress-nokyc-bitcoin/){:target="_blank"})
+## OBJECTIVE: Try HodlHodl on testnet([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
 
 1. Go to HodlHodl [testnet version](https://hhtestnet.com/){:target="_blank"}
 2. Create 2 testnet accounts. You will need 2 test email addresses
@@ -97,7 +97,7 @@ Sparrow -n testnet
 
 **Warning: This exercise has not been thoroughly tested to work 100% because it builds on tools that are not always reliable.**
 
-## OBJECTIVE: Try Robosats on testnet([Progress Images](/progress-nokyc-bitcoin/){:target="_blank"})
+## OBJECTIVE: Try Robosats on testnet([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
 
 1. First you need a testnet Lightning wallet
     1. Go to this custodial testnet [Lightning site](https://htlc.me/){:target="_blank"}
@@ -188,7 +188,7 @@ Sparrow wallet has been connecting to the Bitcoin Plebs Signet node. To launch S
 ## Warning: Don’t ever use the same seed words for your testnet wallets as your mainnet ones. Generate fresh wallets.
 {: .no_toc }
 
-## OBJECTIVE: Launch Sparrow in mainnet mode([Progress Images](/progress-nokyc-bitcoin/){:target="_blank"})
+## OBJECTIVE: Launch Sparrow in mainnet mode([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
 
 1. Edit the `“.profile”` file
     ```sh
@@ -204,7 +204,7 @@ nano ~/.profile
 
 ---
 
-## OBJECTIVE: Connect Sparrow to Bitcoin Core([Progress Images](/progress-nokyc-bitcoin/){:target="_blank"})
+## OBJECTIVE: Connect Sparrow to Bitcoin Core([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
 
 
 1. Check with `htop` that your node restarted after reboot
@@ -329,4 +329,4 @@ For now the most usable and accessible AI I can recommend to use as your technic
 
 You completed all the challenges so far on your path to become a Bitcoin Pleb! Now that you have mastered all these tools it is time to graduate!
 
-[Next Quest](/build-your-citadel/){: .btn .btn-green }
+[Next Quest](/en/build-your-citadel/){: .btn .btn-green }

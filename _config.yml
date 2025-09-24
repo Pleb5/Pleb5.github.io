@@ -47,12 +47,12 @@ search:
 
 
 # Aux links for the upper right navigation
-aux_links:
-  "Bitcoin Plebs on GitHub":
-    - "https://github.com/Pleb5/Pleb5.github.io"
-
+# aux_links:
+#   "Bitcoin Plebs on GitHub":
+#     - "https://github.com/Pleb5/Pleb5.github.io"
+#
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: true
+# aux_links_new_tab: true
 
 
 # Heading anchor links appear on hover over h1-h6 tags in page content

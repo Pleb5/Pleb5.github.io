@@ -1,7 +1,3 @@
-{%- comment -%}
-  Custom navigation that filters pages by language
-  Detect language from page URL if page.lang is not set
-{%- endcomment -%}
 
 {%- assign current_lang = page.lang -%}
 {%- if current_lang == nil -%}
@@ -15,7 +11,7 @@
 {%- endif -%}
 
 {%- comment -%}
-  Filter pages based on URL path to only include those in the current language folder
+Filter pages by current language
 {%- endcomment -%}
 {%- assign lang_pages = "" | split: "" -%}
 {%- for p in include.pages -%}
@@ -28,9 +24,6 @@
       {%- assign lang_pages = lang_pages | push: p -%}
     {%- endif -%}
   {%- else -%}
-    {%- comment -%}
-      For pages without explicit language in URL (root pages), include them for default language
-    {%- endcomment -%}
     {%- unless p.url contains '/en/' or p.url contains '/hu/' -%}
       {%- if current_lang == site.default_language -%}
         {%- assign lang_pages = lang_pages | push: p -%}
@@ -40,172 +33,59 @@
 {%- endfor -%}
 
 {%- comment -%}
-  The rest is the same as the original nav.html, but using lang_pages instead of include.pages
+  Get all pages with titles, excluding those marked as nav_exclude
 {%- endcomment -%}
+{%- assign nav_pages = lang_pages
+      | where_exp: "item", "item.title != nil"
+      | where_exp: "item", "item.nav_exclude != true" -%}
 
-{%- assign title_pages = lang_pages
-      | where_exp: "item", "item.title != nil" -%}
+{%- comment -%}
+  Separate home pages from other pages
+{%- endcomment -%}
+{%- assign home_pages = nav_pages
+      | where_exp: "item", "item.url contains 'index.html' or item.url == '/en/' or item.url == '/hu/' or item.url == '/'" -%}
+{%- assign other_pages = nav_pages
+      | where_exp: "item", "item.url != '/en/index.html' and item.url != '/hu/index.html' and item.url != '/en/' and item.url != '/hu/' and item.url != '/'" -%}
 
-{%- unless title_pages == empty -%}
-  {%- assign unsorted_pages = title_pages
-        | where_exp: "item", "item.parent == nil" 
-        | where_exp: "item", "item.nav_exclude == true" -%}
-  {%- assign title_pages_size = title_pages.size -%}
-  {%- assign unsorted_pages_percent = unsorted_pages.size
-        | times: 100 | divided_by: title_pages_size -%}
-  {%- if unsorted_pages_percent > 50 -%}
-    {%- assign sorted_pages = "" | split: "" -%}
-    {%- for item in title_pages -%}
-      {%- if item.nav_exclude != true or item.parent -%}
-        {%- assign sorted_pages = sorted_pages | push: item -%}
-      {%- endif -%}
-    {%- endfor -%}
-    {%- assign title_pages = sorted_pages -%}
-  {%- endif -%}
-{%- endunless -%}
+{%- comment -%}
+  Sort pages by nav_order (if specified) then by title
+{%- endcomment -%}
+{%- assign sorted_pages = "" | split: "" -%}
 
-{%- assign nav_order_pages = title_pages
-      | where_exp: "item", "item.nav_order != nil" -%}
-{%- assign title_order_pages = title_pages
-      | where_exp: "item", "item.nav_order == nil" -%}
-
-{%- assign nav_number_pages = "" | split: "" -%}
-{%- assign nav_string_pages = "" | split: "" -%}
-{%- assign nav_order_groups = nav_order_pages
-      | group_by_exp: "item", "item.nav_order | jsonify | slice: 0" -%}
-{%- for group in nav_order_groups -%}
-  {%- if group.name == '"' -%}
-    {%- assign nav_string_pages = group.items -%}
-  {%- else -%}
-    {%- assign nav_number_pages = nav_number_pages | concat: group.items -%}
-  {%- endif -%}
+{%- for home_page in home_pages -%}
+  {%- assign sorted_pages = sorted_pages | push: home_page -%}
 {%- endfor -%}
 
-{%- unless nav_number_pages == empty -%}
-  {%- assign nav_number_pages = nav_number_pages | sort: "nav_order" -%}
-{%- endunless -%}
+{%- comment -%}
+  Sort other pages by nav_order, then by title
+{%- endcomment -%}
+{%- assign pages_with_order = other_pages | where_exp: "item", "item.nav_order != nil" | sort: "nav_order" -%}
+{%- assign pages_without_order = other_pages | where_exp: "item", "item.nav_order == nil" -%}
 
-{%- unless nav_string_pages == empty -%}
-  {%- if site.nav_sort == 'case_insensitive' -%}
-    {%- assign nav_string_pages = nav_string_pages | sort_natural: "nav_order" -%}
-  {%- else -%}
-    {%- assign nav_string_pages = nav_string_pages | sort: "nav_order" -%}
-  {%- endif -%}
-{%- endunless -%}
+{%- if site.nav_sort == 'case_insensitive' -%}
+  {%- assign pages_without_order = pages_without_order | sort_natural: "title" -%}
+{%- else -%}
+  {%- assign pages_without_order = pages_without_order | sort: "title" -%}
+{%- endif -%}
 
-{%- assign title_number_pages = "" | split: "" -%}
-{%- assign title_string_pages = "" | split: "" -%}
-{%- assign title_order_groups = title_order_pages
-      | group_by_exp: "item", "item.title | jsonify | slice: 0" -%}
-{%- for group in title_order_groups -%}
-  {%- if group.name == '"' -%}
-    {%- assign title_string_pages = group.items -%}
-  {%- else -%}
-    {%- assign title_number_pages = title_number_pages | concat: group.items -%}
-  {%- endif -%}
-{%- endfor -%}
+{%- assign sorted_pages = sorted_pages | concat: pages_with_order | concat: pages_without_order -%}
 
-{%- unless title_number_pages == empty -%}
-  {%- assign title_number_pages = title_number_pages | sort: "title" -%}
-{%- endunless -%}
-
-{%- unless title_string_pages == empty -%}
-  {%- if site.nav_sort == 'case_insensitive' -%}
-    {%- assign title_string_pages = title_string_pages | sort_natural: "title" -%}
-  {%- else -%}
-    {%- assign title_string_pages = title_string_pages | sort: "title" -%}
-  {%- endif -%}
-{%- endunless -%}
-
-{%- assign pages_list = nav_number_pages | concat: nav_string_pages
-      | concat: title_number_pages | concat: title_string_pages -%}
-
-{%- assign first_level_pages = pages_list
-      | where_exp: "item", "item.parent == nil" -%}
-{%- assign second_level_pages = pages_list
-      | where_exp: "item", "item.parent != nil"
-      | where_exp: "item", "item.grand_parent == nil" -%}
-{%- assign third_level_pages = pages_list
-      | where_exp: "item", "item.grand_parent != nil" -%}
-
+{%- comment -%}
+  Simple navigation list - no nesting, just a flat list of all pages
+{%- endcomment -%}
 <ul class="nav-list">
-{%- for node in first_level_pages -%}
-    {%- unless node.nav_exclude -%}
-      <li class="nav-list-item{% if page.collection == include.key and page.url == node.url or page.grand_parent == node.title or page.parent == node.title and page.grand_parent == nil %} active{% endif %}">
-        {%- if node.has_children -%}
-          <a href="#" class="nav-list-expander" aria-label="toggle links in {{ node.title }} category">
-            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
-          </a>
-        {%- endif -%}
-        <a href="{{ node.url | relative_url }}" class="nav-list-link{% if page.url == node.url %} active{% endif %}">{{ node.title }}</a>
-        {%- if node.has_children -%}
-          {%- assign children_list = second_level_pages
-                | where: "parent", node.title -%}
-          {%- if node.child_nav_order == 'desc' or node.child_nav_order == 'reversed' -%}
-            {%- assign children_list = children_list | reverse -%}
-          {%- endif -%}
-          <ul class="nav-list">
-          {%- for child in children_list -%}
-            {%- unless child.nav_exclude -%}
-            <li class="nav-list-item {% if page.url == child.url or page.parent == child.title %} active{% endif %}">
-              {%- if child.has_children -%}
-                <a href="#" class="nav-list-expander" aria-label="toggle links in {{ child.title }} category">
-                  <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
-                </a>
-              {%- endif -%}
-              <a href="{{ child.url | relative_url }}" class="nav-list-link{% if page.url == child.url %} active{% endif %}">{{ child.title }}</a>
-              {%- if child.has_children -%}
-                {%- assign grand_children_list = third_level_pages
-                      | where: "parent", child.title
-                      | where: "grand_parent", node.title -%}
-                {%- if child.child_nav_order == 'desc' or child.child_nav_order == 'reversed' -%}
-                  {%- assign grand_children_list = grand_children_list | reverse -%}
-                {%- endif -%}
-                <ul class="nav-list">
-                {%- for grand_child in grand_children_list -%}
-                  {%- unless grand_child.nav_exclude -%}
-                  <li class="nav-list-item {% if page.url == grand_child.url %} active{% endif %}">
-                    <a href="{{ grand_child.url | relative_url }}" class="nav-list-link{% if page.url == grand_child.url %} active{% endif %}">{{ grand_child.title }}</a>
-                  </li>
-                  {%- endunless -%}
-                {%- endfor -%}
-                </ul>
-              {%- endif -%}
-            </li>
-            {%- endunless -%}
-          {%- endfor -%}
-          </ul>
-        {%- endif -%}
-      </li>
+{%- for nav_page in sorted_pages -%}
+    {%- unless nav_page.path contains "404" or nav_page.path contains "progress" -%}
+    <li class="nav-list-item{% if page.url == nav_page.url %} active{% endif %}">
+        <a 
+            href="{{ nav_page.url | relative_url }}" 
+            class="nav-list-link{% if page.url == nav_page.url %} active{% endif %}">
+            {{ nav_page.title }}
+        </a>
+    </li>
     {%- endunless -%}
 {%- endfor -%}
 </ul>
-
-{%- if page.collection == include.key -%}
-  {%- for node in first_level_pages -%}
-      {%- if page.grand_parent == node.title or page.parent == node.title and page.grand_parent == nil -%}
-        {%- assign first_level_url = node.url | relative_url -%}
-      {%- endif -%}
-      {%- if node.has_children -%}
-        {%- assign children_list = second_level_pages | where: "parent", node.title -%}
-        {%- for child in children_list -%}
-          {%- if child.has_children -%}
-            {%- if page.url == child.url or page.parent == child.title and page.grand_parent == child.parent -%}
-              {%- assign second_level_url = child.url | relative_url -%}
-            {%- endif -%}
-          {%- endif -%}
-        {%- endfor -%}
-      {%- endif -%}
-  {%- endfor -%}
-  {%- if page.has_children == true and page.has_toc != false -%}
-    {%- assign toc_list = pages_list
-          | where: "parent", page.title
-          | where_exp: "item", "item.grand_parent == page.parent" -%}
-    {%- if page.child_nav_order == 'desc' or page.child_nav_order == 'reversed' -%}
-      {%- assign toc_list = toc_list | reverse -%}
-    {%- endif -%}
-  {%- endif -%}
-{%- endif -%}
 
 {%- comment -%}
   Add language switcher at the bottom of navigation

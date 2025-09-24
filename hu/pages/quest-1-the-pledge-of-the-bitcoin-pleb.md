@@ -1,5 +1,4 @@
 ---
-layout: custom_page_layout
 title: "1. küldetés: Bitcoin pleb fogadalom"
 permalink: /hu/pledge-of-the-bitcoin-pleb/
 lang: hu

@@ -1,7 +1,7 @@
 ---
-layout: custom_page_layout
+
 title: "Quest 6: Bitcoin Privacy"
-permalink: /bitcoin-privacy/
+permalink: /en/bitcoin-privacy/
 ---
 
 # Quest 6: The first line of defense: Bitcoin Privacy
@@ -22,9 +22,9 @@ Now it starts to get more serious. You will realize that security is not just ab
 ## In essence: Privacy
 {: .no_toc }
 
-## OBJECTIVE: Get to know the enemy([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Get to know the enemy([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
-1. 💡Learn a lesson about [Bitcoin Plebs and Privacy](/pleb-lessons/#bitcoin-plebs-and-privacy)
+1. 💡Learn a lesson about [Bitcoin Plebs and Privacy](/en/pleb-lessons/#bitcoin-plebs-and-privacy)
 2. Use the Tor Browser to go to the chain analysis research site [OXT](oxt.me){:target="_blank"}
     1. This site has been developed by privacy advocates to raise awareness and help others use bitcoin privately. It is a free-to-use chain-analysis tool with a bunch of other useful information on the bitcoin base-layer
 3. Browse the site and play around with it
@@ -81,7 +81,7 @@ This is where your external information comes in. You know more about your trans
 
 ---
 
-## OBJECTIVE: Start practicing coin control([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Start practicing coin control([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
 1. Make a few transactions and label them. Make it as if they belonged to both usual transactions and unusual ones:
     1. Use different wallets, address types, amounts… Devise interesting life-like scenarios. Imitate KYC bitcoin purchases too for the sake of having some doxxed UTXOs to practice with
@@ -110,7 +110,7 @@ This is where your external information comes in. You know more about your trans
 
 So far Sparrow has been connecting to the Bitcoin Plebs dedicated learning Node running on testnet. This is great for learning and experimenting but it is time you switched to the real stuff and started to take your finances into your own hands.
 
-## OBJECTIVE: 💡 [Learn about bitcoin nodes](/pleb-lessons/#why-run-a-bitcoin-node)
+## OBJECTIVE: 💡 [Learn about bitcoin nodes](/en/pleb-lessons/#why-run-a-bitcoin-node)
 
 While it is very bad practice to leak your financial data to third parties by using other's nodes, you can still go back and use this test setup any time. It is not leaking real financial information.
 
@@ -204,7 +204,7 @@ This is going to be the most technical part of the whole chapter. Don’t worry 
 
 If you get stuck at a certain step try to hit up the nostr community for help. Remember to beware shady direct messages.
 
-## OBJECTIVE(optional): Prepare the external 1TB SSD([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE(optional): Prepare the external 1TB SSD([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
 1. Put the disk in the case and plug in your computer
 2. Launch `Disks` program
@@ -228,7 +228,7 @@ lsblk
 
 ---
 
-## OBJECTIVE: Download bitcoin core and prepare for verification([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Download bitcoin core and prepare for verification([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
 1. Go to the bitcoin core [webpage](https://bitcoincore.org){:target="_blank"}. Go to the “Download” section
 2. Download the latest version(24.0.1 at the time of writing) with the necessary files for verification:
@@ -252,7 +252,7 @@ gpg --import
 
 ---
 
-## OBJECTIVE: Verify Bitcoin Core([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Verify Bitcoin Core([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
 1. Now you can really verify bitcoin core against these imported keys:
     1. Navigate to your Download folder where you have the `bitcoin-24.0.1-x86_64-linux-gnu.tar.gz`(or similarly looking file but different realease version of bitcoin core), `SHA256SUMS` and `SHA256SUMS.asc` file
@@ -271,7 +271,7 @@ It was somewhat arduous to verify bitcoin core(especially if you cross-checked p
 
 ---
 
-## OBJECTIVE: Install Bitcoin Core([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Install Bitcoin Core([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
 1. Navigate to the Downloads folder
 2. Unpack the linux archive file:
@@ -291,7 +291,7 @@ The binary files are already installed(copied) in place but you have to configur
 
 Let’s prepare to drive all traffic of Bitcoin Core through the Tor network for privacy gains.
 
-## OBJECTIVE: Setup a Tor proxy service([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Setup a Tor proxy service([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
 1. Check out this explainer [youtube video](https://youtu.be/QRYzre4bf7I){:target="_blank"} about how Tor works and how [Tor onion services](https://youtu.be/QRYzre4bf7I){:target="_blank"} work(clearnet links)
 2. Install tor package
@@ -305,9 +305,9 @@ sudo apt install tor
 
 ---
 
-## OBJECTIVE: Configure and learn to manage Bitcoin Core([Progress Images](/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Configure and learn to manage Bitcoin Core([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
-1. 💡 Learn about the components of [Bitcoin Core](/pleb-lessons/#bitcoin-core-components)
+1. 💡 Learn about the components of [Bitcoin Core](/en/pleb-lessons/#bitcoin-core-components)
 2. Navigate to the directory where you will store the blockchain
     1. If you don’t use an external SSD it should be in the home folder
     2. If you have an external SSD just go to the root directory where it is mounted `lsblk`
@@ -480,4 +480,4 @@ However, let’s use `Sparrow` in testnet mode just a little more for a couple o
 ## Let's go play around with P2P markets!
 {: .no_toc }
 
-[Next Quest](/nokyc-bitcoin/){: .btn .btn-green }
+[Next Quest](/en/nokyc-bitcoin/){: .btn .btn-green }

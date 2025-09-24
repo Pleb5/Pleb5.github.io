@@ -47,7 +47,7 @@ Each page should have:
 English version:
 ```yaml
 ---
-layout: custom_page_layout
+
 title: "Page Title"
 permalink: /en/page-name/
 lang: en
@@ -57,7 +57,7 @@ lang: en
 Hungarian version:
 ```yaml
 ---
-layout: custom_page_layout
+
 title: "Oldal Címe"
 permalink: /hu/page-name/
 lang: hu
