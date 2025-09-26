@@ -1,17 +1,17 @@
 ---
 
-title: "Pleb lessons"
-permalink: /en/pleb-lessons/
+title: "Pleb leckék"
+permalink: /hu/pleb-lessons/
 ---
 
-# Pleb lessons
+# Pleb leckék
 {: .no_toc }
 
 ![anonymous_pleb](/assets/img/graphics/anonymous_pleb.jpg)
 
 ---
 
-## Table of contents
+## Tartalomjegyzék
 {: .no_toc }
 
 1. TOC
@@ -20,68 +20,68 @@ permalink: /en/pleb-lessons/
 ---
 ---
 
-## Pleb Lessons Videos
+## Pleb videó leckék (angol nyelven)
 
-You can checkout my concise explainer video clips on various bitcoin topics:
-* [Electronic Peer to Peer Money](https://v.nostr.build/ZmRQ.mp4): Bitcoin monetary history
-* [Digital Property](https://v.nostr.build/rewd.mp4): How private keys are used in bitcoin ownership 
-* [Bitcoin Notes](https://v.nostr.build/meYk.mp4): Basics of the UTXO model
-* [Bitcoin Wallets](https://v.nostr.build/lyrw.mp4): How UTXO-s are gathered into a bitcoin wallet using the Seed Phrase
-* [Hackers and Scammers](https://v.nostr.build/4YW4.mp4): How to protect your coins against cyber criminals
-* [Physical Attackers](https://v.nostr.build/ZPj9.mp4): How to prepare for physical attackers with passphrased wallets and multisig
-* [Bitcoin Privacy](https://v.nostr.build/JyDM.mp4): Basics of Privacy in bitcoin
-* [Free and Open Source Software](https://v.nostr.build/a2KZ.mp4): How FOSS is important for all bitcoiners
-* [Secure Seed Generation](https://v.nostr.build/5B2y.mp4): Why secure seeds matter and how to create them safely
-* [Hardware Wallet Security](https://v.nostr.build/nlB3.mp4): How to choose, buy and verify hardware wallets
-* [Bitcoin Nodes](https://v.nostr.build/G3EA.mp4): Why and how to run a bitcoin node
-* [Peer-to-Peer Exchanges](https://v.nostr.build/lB6G.mp4): How to buy bitcoin on Peer-to-Peer exchange platforms
-* [Multisig Wallets](https://v.nostr.build/GeeXk.mp4): How to create and maintain a multisig wallet with a case study for 2 of 3 quorum
+Tekintsd meg lényegretörő oktatóvideóimat különböző bitcoin témákban (angol nyelven):
+* [Electronic Peer to Peer Money:](https://v.nostr.build/ZmRQ.mp4) A bitcoin monetáris története
+* [Digital Property:](https://v.nostr.build/rewd.mp4) Hogyan használjuk a privát kulcsokat a bitcoin birtoklás során?
+* [Bitcoin Notes:](https://v.nostr.build/meYk.mp4) Az UTXO modell alapjai
+* [Bitcoin Wallets:](https://v.nostr.build/lyrw.mp4) Hogyan gyűjtik az UTXO-kat egy bitcoin tárcába a seed-phrase használatával?
+* [Hackers and Scammers:](https://v.nostr.build/4YW4.mp4) Hogyan védd meg érméidet a kiberbűnözőktől?
+* [Physical Attackers:](https://v.nostr.build/ZPj9.mp4) Hogyan készülj fel fizikai támadók ellen jelszóval védett tárcákkal és multisiggel?
+* [Bitcoin Privacy:](https://v.nostr.build/JyDM.mp4) A bitcoin adatvédelmének alapjai
+* [Free and Open Source Software:](https://v.nostr.build/a2KZ.mp4) Miért fontos a nyílt forráskódú szoftver minden bitcoiner számára?
+* [Secure Seed Generation:](https://v.nostr.build/5B2y.mp4) A biztonságos seed-phrase jelentősége és létrehozási gyakorlata
+* [Hardware Wallet Security:](https://v.nostr.build/nlB3.mp4) Hogyan válassz, vásárolj és ellenőrizz hardver tárcákat?
+* [Bitcoin Nodes:](https://v.nostr.build/G3EA.mp4) Miért és hogyan futtass bitcoin csomópontot?
+* [Peer-to-Peer Exchanges:](https://v.nostr.build/lB6G.mp4) Hogyan vásárolj bitcoint peer-to-peer tőzsdei platformokon?
+* [Multisig Wallets:](https://v.nostr.build/GeeXk.mp4) Hogyan hozz létre és használj multisig tárcát?
 
 ---
 ---
 
-## The Linux terminal (aka. Linux command line, shell, bash)
+## A Linux terminál (más néven Linux parancssor, shell, bash)
 
-These names mean slightly different things and the nuances become important in certain cases. Right now it's enough to think of these as a tool set of a mechanic. They can do wonders if you want to pimp your car or have it repaired.
+Ezek a nevek kissé különböző dolgokat jelentenek, és bizonyos esetekben a különbségek fontosak. Egyelőre elég, ha egy szerelő szerszámkészleteként gondolsz rájuk. Csodákra képesek, ha fel szeretnéd tuningolni az autód, vagy meg kell javítanod azt.
 
-Before you get scared off from all the FUD that terminals are surrounded by, I want to tell you that the Linux terminal is actually your friend. It will allow you to do things that would be so much harder without it. It is a quite flexible tool that is capable of doing very simple tasks and very sophisticated ones too. Using it for real projects teaches you much more about computers than reading any book or article. Do you own a wrench or a hammer? With just learning the basics of DIY you can do so much more around your house, why not do this with your devices too?
+Mielőtt megijednél a terminálokat övező mindennemű félelemtől és bizonytalanságtól, szeretném elmondani, hogy a Linux terminál valójában a barátod. Olyan dolgokat tesz lehetővé, amelyek nélküle sokkal nehezebbek lennének. Ez egy rendkívül rugalmas eszköz, amely képes nagyon egyszerű és nagyon bonyolult feladatok elvégzésére is. Valódi projektekben való használata sokkal többet tanít a számítógépekről, mint bármely könyv vagy cikk olvasása. Van otthon csavarkulcsod vagy kalapácsod? A barkácsolás alapjainak elsajátításával sokkal többet tehetsz a házad körül, miért ne tennéd ugyanezt az eszközeiddel is?
 
-The only real threat is when you have absolutely no idea what you are doing because you haven’t learned enough to use your computer with self-confidence. It does not take years to do that. It is like learning to drive responsibly. It is a process and if you take the time to look into things just enough, you will be stunned by what you can do with your machine. Just take it step by step and put in the effort.
+Az egyetlen valódi veszély akkor áll fenn, ha fogalmad sincs, mit csinálsz, mert nem tanultál eleget ahhoz, hogy magabiztosan használd a számítógépedet. Ehhez nem kell évekig tanulni. Olyan, mint felelősségteljesen vezetni tanulni. Ez egy folyamat, és ha szánsz rá időt, hogy éppen eleget megismerj, meg fogsz döbbenni, mire képes a géped. Csak lépésről lépésre haladj, és tegyél bele erőfeszítést!
 
-Luckily, Ubuntu is a Linux distribution that is especially user-friendly but still with acceptable security guarantees. The bitcoin plebs training program does not rely on heavy terminal usage, however you will thank your future self if you learn about it just enough to know at least what is going on.
+Szerencsére az Ubuntu egy különösen felhasználóbarát Linux-disztribúció, amely megfelelő biztonsági garanciákat is nyújt. A bitcoin plebs képzési program nem támaszkodik intenzív terminálhasználatra, de hálás leszel a jövőbeli önmagadnak, ha eleget tanulsz róla ahhoz, hogy legalább tudd, mi történik.
 
-To be able to understand your computer better is crucial if you want to store and move bitcoin in a trust-minimized fashion. Imagine if you had to get the help of a random technician when you are trying to access your life savings. Would you be comfortable in that situation? That is the stress you are now eliminating. Even if you still need help you will be trained enough not to be scammed and be able to sanity-check most things. This is the purpose of this program.
+A számítógéped jobb megértése kulcsfontosságú, ha bizalomminimalizált módon szeretnéd tárolni és mozgatni a bitcoint. Képzeld el, hogy egy vadidegen szerelő segítségét kell kérned, amikor az életmegtakarításaidhoz próbálsz hozzáférni! Jól éreznéd magad ebben a helyzetben? Ezt a stresszt most megszüntetheted. Még ha segítségre is van szükséged, elég képzett leszel ahhoz, hogy ne tudjanak átverni, és képes legyél ellenőrizni a legtöbb dolgot. Ez ennek a programnak a célja.
 
-**Never copy-paste shell commands blindly! If you don’t understand what the command does, check it before hitting enter. You can wreck your whole system and lose your bitcoin by carelessly running commands you don't understand!**
+**Sose másolj parancsokat gondolkodás nélkül! Ha nem érted, mit csinál egy parancs, ellenőrizd, mielőtt Entert nyomnál! Gondatlanul futtatott, meg nem értett parancsokkal tönkreteheted az egész rendszert, és elveszítheted a bitcoinodat!**
 
-Read this nice introduction from the Ubuntu website and complete some exercises in it to get started.
+Olvasd el ezt az Ubuntu honlapjáról származó remek bevezetőt, és kezdésként végezz el belőle néhány gyakorlatot!
 
-Some of the terminal stuff I use very often can come handy for you too:
+Néhány gyakran használt terminálfunkció neked is jól jöhet:
 
-* Copy text from terminal: `Ctrl + shift + C` (right click works too)
-* Paste text into the terminal: `Ctrl + shift + V` (right click works too)
-* Search the text in your terminal with the `search icon` located in the top-right corner
-* The `“Tab”` button tries to guess and complete your command. Always fervently pummel it especially when inputting file names because if it cannot complete an ambiguous command it still can give you the possible options. If it does not want to complete something it might mean you’re in the wrong directory or trying to do it the wrong way
-* Use previous/next command in history: `up/down arrows`
-* Search for previously ran command by name: `Ctrl + R`
-* Jump to beginning of line with `Ctrl + A` and to the end of line with `Ctrl + E`
-* Go forward one word with `Ctrl + right arrow` and back one word with `Ctrl + left arrow`
-* Delete previous word: `Ctrl + W`
-* Clear screen: `Ctrl + L` or running the `clear` command
-* Inspect most commands you don’t yet understand before blindly using it: `man <command>` is the most common way
-* Alternatively you can also use `<command> + “-help”` option or without dash just `<command> + “help”` or the other way round like `help <command>` or `“info” + <command>` to try to get information about command usage
-* Escape from a running process: `Ctrl + C`
-* Quit programs: Examples are pressing `Q` button or typing `exit` or pressing `Ctrl + X`. Always run through software manuals quickly to spare the headaches
-* Edit/View text files: `nano <filename>`
-* Use multiple tabs (top-left corner) and terminal windows for different terminal sessions. This is useful if you launched a program from one terminal session but want to do other things in parallel
+* Szöveg másolása a terminálból: `Ctrl + Shift + C` (a jobb klikk is működik)
+* Szöveg beilleszése a terminálba: `Ctrl + Shift + V` (a jobb klikk is működik)
+* Szöveg keresése a terminálban a jobb felső sarokban található `kereső ikonnal`
+* A `„Tab”` billentyű megpróbálja kitalálni és kiegészíteni a parancsodat. Mindig nyomkodd lelkesen, különösen fájlnevek beírásakor, mert ha nem tud kiegészíteni egy többértelmű parancsot, akkor is megmutatja a lehetséges opciókat! Ha nem hajlandó kiegészíteni valamit, az azt jelentheti, hogy rossz könyvtárban vagy, vagy nem a megfelelő módon próbálod.
+* Előző/következő parancs használata az előzményekben: `fel/le nyilak`
+* Korábban futtatott parancs keresése név alapján: `Ctrl + R`
+* Ugrás a sor elejére: `Ctrl + A`, a sor végére: `Ctrl + E`
+* Egy szóval előre lépés: `Ctrl + jobbra nyíl`, egy szóval hátra: `Ctrl + balra nyíl`
+* Előző szó törlése: `Ctrl + W`
+* Képernyő törlése: `Ctrl + L` vagy a `clear` parancs futtatása
+* Ismeretlen parancsok ellenőrzése vakon használat előtt: a `man <command>` a leggyakoribb mód.
+* Alternatívaként használhatod a `<command> + „-help”` opciót, vagy kötőjel nélkül `<command> + „help”`, esetleg fordítva `help <command>` vagy `„info” + <command>`, hogy információt kapj a parancs használatáról.
+* Kilépés egy futó folyamatból: `Ctrl + C`
+* Programok bezárása: Például a `Q` billentyű megnyomása, az `exit` begépelése vagy a `Ctrl + X` használata. Mindig fuss át gyorsan a szoftver dokumentációján, hogy elkerüld a fejfájást!
+* Szövegfájlok szerkesztése/megtekintése: `nano <filename>`
+* Használj több fület (bal felső sarokban) és terminálablakot különböző terminálmunkamenetekhez! Ez hasznos, ha egy programot elindítottál egy terminálmunkamenetből, de közben mást is szeretnél csinálni.
 
-Just click through some menu items and buttons to get familiar
+Csak kattints végig néhány menüponton és billentyűn, hogy megismerkedj velük!
 
-You can try and install other terminals or customize the looks and other stuff later if you want
+Később kipróbálhatsz és telepíthetsz más terminálokat, vagy testreszabhatod a megjelenést és más dolgokat, ha szeretnéd.
 
-[Here](https://www.digitalocean.com/community/tutorials/linux-commands) is an article about the most used Linux shell commands. Most of these will be used on your journey. Run through them quickly but you will be using them soon enough. [Here](https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet) is a more comprehensive cheat sheet if you ever need it. Man-pages can be weird to search and navigate but if you learn how to do it that will serve you really well too.
+[Itt](https://www.digitalocean.com/community/tutorials/linux-commands) egy cikk a leggyakrabban használt Linux shell parancsokról. Ezek nagy részét használni fogod az utad során. Fuss át rajtuk gyorsan, de hamarosan úgyis alkalmazni fogod őket! [Itt](https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet) egy átfogóbb segédlet, ha valaha szükséged lenne rá. A man-oldalak keresése és navigálása furcsa lehet, de ha megtanulod, hogyan kell, az nagyon hasznos lesz.
 
-[Back to Objective]({{ site.baseurl }}/en/get-on-board/#objective-install-a-fresh-ubuntu-jammy-2204-lts){: .btn .btn-purple}
+[Vissza a célkitűzéshez]({{ site.baseurl }}/hu/get-on-board/#cél-ubuntu-jammy-2204-lts-telepítése){: .btn .btn-purple}
 
 ---
 ---
@@ -90,296 +90,296 @@ You can try and install other terminals or customize the looks and other stuff l
 
 ![nostrich bitcoin pleb](/assets/img/graphics/nostrich_bitcoin_pleb.jpg)
 
-The bitcoin plebs community exists on nostr. Nostr is a decentralized, censorship-resistant messaging _protocol_ built for freedom-lovers like bitcoiners.
+A bitcoin plebs közösség a Nostr platformon létezik. A Nostr egy decentralizált, cenzúraálló üzenetküldő _protokoll_, amelyet a szabadságkedvelők, például a bitcoinerek számára terveztek.
 
-Nostr is not an app. It is an open protocol like Bitcoin which is implemented as very simple message relays as dumb servers and clients in the form of mobile apps and desktop software.
+A Nostr nem egy alkalmazás. Ez egy nyílt protokoll, akárcsak a Bitcoin, amelyet nagyon egyszerű üzenettovábbító relay-ekként és kliensekként valósítanak meg ostoba szerverek és mobilalkalmazások vagy asztali szoftverek formájában.
 
-User data cannot be captured on nostr because it is inherently tied to private keys held by the individual users of the protocol. They can backup their data any way they want and switch to another relay or client in an instant.
+A felhasználói adatok nem rögzíthetők a Nostr-n, mert azok elválaszthatatlanul a protokoll egyéni felhasználói által birtokolt privát kulcsokhoz kötődnek. A felhasználók bármilyen módon menthetik adataikat, és pillanatok alatt válthatnak másik relay-re vagy kliensre.
 
-Since nostr can handle almost any kind of message it is suitable for plenty of use-cases where peer-to-peer, censorship-resistant communication is sought-after. Social media, messaging apps, news, peer-to-peer markets, even payments can be made through nostr.
+Mivel a Nostr szinte bármilyen típusú üzenetet képes kezelni, számos olyan használati esetre alkalmas, ahol peer-to-peer, cenzúraálló kommunikációra van szükség. Közösségi média, üzenetküldő alkalmazások, hírek, peer-to-peer piacok, sőt még fizetések is lebonyolíthatók a Nostr-n keresztül.
 
-It is a new way of communicating anything on the internet instead of tweaking knobs on the same flawed foundation. The common data structure allows for a global cooperation of clients and servers while they are competing for users with better experiences instead of selling them out for companies and governments.
+Ez egy új módja annak, hogy bármit kommunikáljunk az interneten, ahelyett, hogy ugyanazon hibás alapokon finomhangolnánk. A közös adatstruktúra lehetővé teszi a kliensek és szerverek globális együttműködését, miközben a jobb felhasználói élményért versenyeznek, ahelyett, hogy cégeknek és kormányoknak adnák el a felhasználókat.
 
-Service providers who adopt the protocol are not “middle men” subject to political whims, instead they are incentivized to actually serve their customers the best way they can.
+A protokollt alkalmazó szolgáltatók nem „közvetítők”, akik politikai szeszélyeknek vannak kitéve, ehelyett arra ösztönzik őket, hogy a lehető legjobban szolgálják ki ügyfeleiket.
 
-The protocol-based approach implies that although there are many different clients on different platforms, the underlying protocol rules allow for people to communicate quite seamlessly on all of them. This is all still very new but you are going to get the hang of it pretty fast and trust me, it will allow for tremendous benefits for the Bitcoin Pleb!
+A protokoll alapú megközelítés azt jelenti, hogy bár számos különböző kliens létezik különböző platformokon, az alapul szolgáló protokoll szabályai lehetővé teszik, hogy az emberek meglehetősen zökkenőmentesen kommunikáljanak mindegyiken. Még mindig nagyon új, de hamar rá fogsz érezni, és hidd el, óriási előnyöket fog nyújtani a Bitcoin Pleb számára!
 
-More on nostr [here](https://nostr-resources.com/) and about the protocol itself [here](https://github.com/nostr-protocol/nips/blob/master/README.md)
-
----
----
-
-## Public key cryptography
-
-Encryption is the tool people use to control ownership of data in the information realm. If I own a secret that no one else knows, I can use techniques to hide my information based on that secret and reveal it the way I want. This secret I hold is called my secret key or private key.
-
-If I wanted to communicate information to someone privately then the recipient has to know how to decrypt my encrypted information. This has been done using shared secrets for many years. We somehow exchange the same secret key which will serve as the key to the meaning of our communication from now on. The problem is that this method implies that we could establish a safe channel of communication (e.g. meet in person) to exchange the shared secret key in the first place. This solution alone therefore cannot scale well.
-
-Public key cryptography solves this problem by introducing a new encryption method. We both generate our own unique secret keys AND a new so-called public key is also generated **using the private key**, so it is forever tied to that private key.
-
-Why the name public key? Because this key is constructed in a way that if someone encrypts a message with a public key, that message can only be decrypted by its associated secret/private key. Since the public key cannot decrypt messages, only encrypt, this can be published in the open because I am the only one capable of decrypting any of those messages as only I hold the secret key.
-
-A key that can only lock but not unlock is very handy this way because now anyone can send me a private message without first agreeing on a shared secret. Since we don’t share the same secret in this type of communication it is also called “asymmetric encryption”.
-
-[Back to Objective]({{ site.baseurl }}/en/get-on-board/#objective-join-the-bitcoin-plebs-communityprogress-images){: .btn .btn-purple}
+További információ a Nostr-ról [itt](https://nostr-resources.com/), és magáról a protokollról [itt](https://github.com/nostr-protocol/nips/blob/master/README.md).
 
 ---
 ---
 
-## Verifying digital information
+## Nyilvános kulcsú kriptográfia
+
+A titkosítás az az eszköz, amelyet az emberek az információk birtoklásának ellenőrzésére használnak a digitális térben. Ha birtoklok egy titkot, amit senki más nem ismer, különböző technikákkal elrejthetem az információimat ezen titok alapján, és úgy fedhetem fel, ahogyan én akarom. Ezt a titkomat titkos kulcsnak vagy privát kulcsnak (private key) nevezik.
+
+Ha privát módon szeretnék információt továbbítani valakinek, akkor a címzettnek tudnia kell, hogyan dekódolja a titkosított információmat. Ezt sok éven át megosztott titkokkal oldották meg. Valamilyen módon kicseréljük ugyanazt a titkos kulcsot, amely ezentúl a kommunikációnk jelentésének kulcsaként szolgál. A probléma az, hogy ez a módszer feltételezi, hogy eleve létre tudunk hozni egy biztonságos kommunikációs csatornát (például személyesen találkozunk), hogy kicseréljük a megosztott titkos kulcsot. Ez a megoldás önmagában tehát nem skálázható jól.
+
+A nyilvános kulcsú kriptográfia (public key cryptography) ezt a problémát egy új titkosítási módszer bevezetésével oldja meg. Mindketten létrehozzuk a saját egyedi titkos kulcsunkat, ÉS egy új, úgynevezett nyilvános kulcs (public key) is generálódik **a privát kulcs felhasználásával**, így az örökre ehhez a privát kulcshoz kötődik.
+
+Miért hívják nyilvános kulcsnak? Mert ez a kulcs úgy van kialakítva, hogy ha valaki egy üzenetet titkosít egy nyilvános kulccsal, az az üzenet csak a hozzá tartozó titkos/privát kulccsal dekódolható. Mivel a nyilvános kulcs nem képes üzeneteket dekódolni, csak titkosítani, nyugodtan közzétehető, mert csak én vagyok képes dekódolni az ezekkel titkosított üzeneteket, hiszen csak nálam van a titkos kulcs.
+
+Egy olyan kulcs, amely csak zárni tud, de kinyitni nem, nagyon hasznos, mert így bárki küldhet nekem privát üzenetet anélkül, hogy előbb meg kellene egyeznünk egy megosztott titkos kulcsban. Mivel ebben a kommunikációs típusban nem ugyanazt a titkot osztjuk meg, ezt „aszimmetrikus titkosításnak” (asymmetric encryption) is nevezik.
+
+[Vissza a célkitűzéshez]({{ site.baseurl }}/hu/get-on-board/#cél-csatlakozás-a-bitcoin-pleb-közösséghez-folyamatábrázoló-képek){: .btn .btn-purple}
+
+---
+---
+
+## Digitális információk ellenőrzése
 
 ![nostrich cipherpunk](/assets/img/graphics/nostrich_cipherpunk.jpg)
 
-Using bitcoin is all about security and privacy. We use encryption in many different ways to protect AND verify valuable information. Alice can encrypt a message with your public key and send it to you. You can decrypt and read it but how do you know the message _actually_ came from Alice? Anyone can send you a message and claim that. You need stronger proof. This is the other great feature of public key cryptography: Digital signatures.
+A bitcoin használata a biztonságról és az adatvédelemről szól. A titkosítást (encryption) számos módon használjuk értékes információk védelmére ÉS ellenőrzésére. Alíz titkosíthat egy üzenetet a te nyilvános kulcsoddal (public key), és elküldheti neked. Te dekódolhatod és elolvashatod, de honnan tudod, hogy az üzenet _valóban_ Alíztól származik? Bárki küldhet neked üzenetet, azt állítva, hogy ő Alíz. Erősebb bizonyítékra van szükséged. Itt jön be a képbe a nyilvános kulcsú kriptográfia másik nagyszerű funkciója: a digitális aláírások (digital signatures).
 
-If you know that Alice’s **_public_** key actually belongs to her then you can ask Alice to always sign her messages with her **_private_** key. This digital signature Alice uniquely produces for every message can be 100% verified that it was generated with Alice’s **private key by just knowing Alice’s public key.** 
+Ha tudod, hogy Alíz **_nyilvános_** kulcsa valóban az övé, akkor megkérheted Alízt, hogy mindig írja alá az üzeneteit a **_privát_** kulcsával (private key). Ez a digitális aláírás, amelyet Alíz minden üzenethez egyedileg készít, 100%-ban ellenőrizhető, hogy Alíz **privát kulcsával készült, pusztán Alíz nyilvános kulcsának ismeretében.**
 
-The checking is done with a so-called “Digital Signature Algorithm”. This algorithm takes a signed message (sometimes the signature is literally in the message file, sometimes it is sent as a separate file “detached” from the message) and a **_public_** key and determines if the signature was produced with the corresponding **_private_** key without any knowledge of that private key. If it checks out we can say that this message indeed came from Alice.
+Az ellenőrzést egy úgynevezett „Digitális aláírás algoritmus” (Digital Signature Algorithm) végzi. Ez az algoritmus fogad egy aláírt üzenetet (néha az aláírás szó szerint az üzenetfájlban van, néha külön fájlként küldik, „leválasztva” az üzenetről), valamint egy **_nyilvános_** kulcsot, és megállapítja, hogy az aláírást a hozzá tartozó **_privát_** kulccsal készítették-e, anélkül, hogy bármit tudna a privát kulcsról. Ha az ellenőrzés sikeres, kijelenthetjük, hogy az üzenet valóban Alíztól származik.
 
-Problem is how do you ascertain that the public key you have really belongs to Alice? You see we are back to a similar problem as before with the shared secret. We have to share some information in-person to start trusting each other. This time it is the public key instead of the shared secret in the case of the symmetric encryption.
+A probléma az, hogy honnan tudod biztosan, hogy a birtokodban lévő nyilvános kulcs valóban Alízé? Látod, visszajutottunk egy hasonló problémához, mint korábban a megosztott titok esetében. Valamilyen információt személyesen kell megosztanunk ahhoz, hogy elkezdjünk bízni egymásban. Ezúttal a nyilvános kulcsot kell megosztani a szimmetrikus titkosítás (symmetric encryption) megosztott titka helyett.
 
-All in all, real 100% proof does not exist and the ultimate source of trust is knowing each other personally.
-
----
-
-So, let’s say you have a great software tool to share with the world. How can people know that the software they downloaded is indeed originating from you and is not harmful?
-
-One method would be that you publish the source code, making it "open-source". Now anyone who can read that code can verify it then re-build the executable software from that inspected code on his preferred machine. But of course this is not a realistic scenario for most people.
-
-It is very nice though if someone publishes the source code because they put it officially out there for anyone to inspect. If there is a bug or some harmful feature it will turn out pretty fast.
-
-Question is whether the already built (binary/executable) software that is listed somewhere with the link to the source code was _actually_ built from that source code.
-
-Another method would be checking digital signatures. So in bitcoin anytime you want to use some software you better verify its digital signature if you don’t want to be a victim of a nasty hacker.
-
-Of course this ideally would require meeting the creator of that software in-person, verify that she is not an impersonator, ask for her public key, check that she did not make a mistake, take it home and then verify anything coming from her with that verified public key. 
-
-Verification of this degree is very hard (although some would say easier than learning to code), nonetheless we can take measures to be more certain about a public key using multiple sources, cross-checking with multiple people or not visiting sketchy websites and not running commands we don’t understand. 
-
-You get the gist:
-
-Encryption and verification starts with you being vigilant. Everything starts with you watching out. It is not paranoia. It is a practice that becomes a part of life. A part of you. You don’t think twice checking if someone is crossing the road while you are driving. It can become that simple built-in cautiousness that you react with whenever it is about your hard-earned bitcoin.
-
-[Back to Objective]({{ site.baseurl }}/en/get-on-board/#objective-download-verify-and-install-tor-browserprocess-similar-to-mullvad-browserprogress-images){: .btn .btn-purple}
+Összességében a 100%-os bizonyíték nem létezik, és a végső bizalom forrása az, hogy személyesen ismerjük egymást.
 
 ---
+
+Tegyük fel, hogy van egy nagyszerű szoftvereszközöd, amelyet meg akarsz osztani a világgal. Honnan tudhatják az emberek, hogy a letöltött szoftver valóban tőled származik, és nem káros?
+
+Az egyik módszer az, hogy közzéteszed a forráskódot, így az „nyílt forráskódú” (open-source) lesz. Most bárki, aki tudja olvasni a kódot, ellenőrizheti azt, majd újjáépítheti a futtatható szoftvert az ellenőrzött kódból egy saját maga által választott gépen. De persze ez a legtöbb ember számára nem reális forgatókönyv.
+
+Ugyanakkor nagyon jó, ha valaki közzéteszi a forráskódot, mert ezzel hivatalosan elérhetővé teszi azt bárki számára ellenőrzésre. Ha van benne hiba vagy valamilyen káros funkció, az gyorsan kiderül.
+
+A kérdés az, hogy a már elkészített (bináris/futtatható) szoftver, amely valahol fel van tüntetve a forráskódra mutató linkkel, _valóban_ abból a forráskódból készült-e.
+
+Egy másik módszer a digitális aláírások ellenőrzése. Tehát a bitcoin esetében, amikor szoftvert használsz, jobb, ha ellenőrzöd annak digitális aláírását, ha nem akarsz egy alattomos hacker áldozatává válni.
+
+Ideális esetben ez azt jelentené, hogy személyesen találkozol a szoftver készítőjével, ellenőrzöd, hogy nem csalóról van-e szó, elkérheted az ő nyilvános kulcsát, megbizonyosodsz róla, hogy nem hibázott, hazaviszed, majd ezzel az ellenőrzött nyilvános kulccsal ellenőrzöl mindent, ami tőle származik.
+
+Az ilyen szintű ellenőrzés nagyon nehéz (bár egyesek szerint könnyebb, mint kódolni megtanulni), ennek ellenére tehetünk lépéseket, hogy biztosabbak legyünk egy nyilvános kulcsban: több forrásból való keresztellenőrzés, több emberrel való egyeztetés, kétes weboldalak elkerülése, és olyan parancsok futtatásának mellőzése, amelyeket nem értünk.
+
+Érted a lényeget:
+
+A titkosítás és az ellenőrzés azzal kezdődik, hogy éber vagy. Minden azzal kezdődik, hogy figyelsz. Ez nem paranoia. Ez egy gyakorlat, amely az életed részévé válik. A részeddé válik. Vezetés közben sem gondolod át kétszer, hogy ellenőrizd, valaki átkel-e az úton. Ilyen egyszerű, beépített óvatossággá válhat, amellyel reagálsz, valahányszor a nehezen megkeresett bitcoinodról van szó.
+
+[Vissza a célkitűzéshez]({{ site.baseurl }}/hu/get-on-board/#cél-tor-böngésző-letöltése-ellenőrzése-és-telepítése-mullvad-böngésző-esetén-hasonló-folyamatábrázoló-képek){: .btn .btn-purple}
+
+---
 ---
 
-## Bitcoin Ownership
+## Bitcoin birtoklás
 
 ![bitcoin key](/assets/img/graphics/bitcoin_key.jpg)
 
-Bitcoin is money in digital form. It grants individuals exclusive property rights by default - meaning you don’t need permission to hold bitcoin and transact with it and you are not required to have the government administer your name in its records of property owners.
+A bitcoin digitális formában létező pénz. Alapértelmezés szerint kizárólagos tulajdonjogokat biztosít az egyének számára – vagyis nem kell engedélyt kérned ahhoz, hogy bitcoint tarts vagy tranzakciót bonyolíts vele, és nem szükséges, hogy a kormány nyilvántartsa a nevedet a tulajdonosok nyilvántartásában.
 
-But it is also different from traditional cash because nobody can print more bitcoin arbitrarily, diluting your fiat cash and stealing your purchasing power. It is therefore also inviolable private property. Checking the supply of bitcoin by yourself to verify that no arbitrary inflation was introduced is really easy.
+Ugyanakkor különbözik a hagyományos készpénztől, mert senki sem nyomtathat önkényesen több bitcoint, hígítva a fiat pénzedet és ellopva a vásárlóerődet. Ezért a bitcoin sérthetetlen magántulajdon is. A bitcoin kínálatának ellenőrzése, hogy biztosítsd, nem vezettek be önkényes inflációt, igazán egyszerű.
 
-It is also different from gold because verifying the authenticity of bitcoin and moving it is very simple and cheap compared to gold because bitcoin is digital and gold is physical.
+A bitcoin az aranytól is különbözik, mert a bitcoin hitelességének ellenőrzése és mozgatása nagyon egyszerű és olcsó az aranyhoz képest, mivel a bitcoin digitális, míg az arany fizikai.
 
-Bitcoin is similar to traditional paper cash and gold in that they all are “bearer assets” - meaning you control it until it gets transferred to another party by any means violent or non-violent. 
+A bitcoin hasonlít a hagyományos papírpénzhez és az aranyhoz abban, hogy ezek mindegyike „bemutatóra szóló eszköz” (bearer asset) – vagyis addig a tiéd, amíg valamilyen úton-módon, akár erővel, akár önként át nem adod másnak.
 
-After that point the other party will control it. This is about possession, referring to the kind of ownership granted by nature rather than any entity. 
+Ezt követően a másik fél fogja irányítani. Ez a birtoklásról szól, arra a fajta tulajdonjogra utalva, amelyet a természet biztosít, nem pedig valamilyen entitás.
 
-“Self-Custody” just seems to point to the fact that people tend to not take the responsibility to control their own money anymore which is sad. Bitcoin (and governments with property violation via inflation) will change that with strong incentives to take the management of your funds into your own hands in a sovereign way.
+Az „önrendelkezés” (self-custody) gyakorlata kiemeli azt a problémát, hogy a társadalom tagjai egyre kevésbé vállalják fel pénzügyi eszközeik közvetlen felügyeletének felelősségét. A bitcoin (és az inflációval tulajdonjogot sértő kormányok) erős ösztönzőkkel fogja ezt megváltoztatni, hogy szuverén módon vedd kezedbe a pénzed kezelését.
 
-Therefore as long as you keep your sats safe in whatever way, then it is up to you when you want to part with it in a voluntary transaction. In bitcoin the basis of possession is not the physical units/tokens like gold coins, bars and banknotes but it is based on **private keys.**
+Ezért, amíg biztonságban tartod a satoshi-jaidat bármilyen módon, addig rajtad múlik, mikor akarsz önkéntes tranzakcióval megválni tőlük. A bitcoinban a birtoklás alapja nem fizikai egységek/tokenek, mint az aranyérmék, rudak vagy bankjegyek, hanem a **privát kulcsokon** (private keys) alapul.
 
 ---
 
-## Bitcoin Private key (aka. secret key)
+## A bitcoin privát kulcs (avagy titkos kulcs)
 {: .no_toc }
 
-The bitcoin private key is very similar to any other private key in cryptography. It just uses its special “cryptographic primitives” in the underlying protocol like any other cryptographic protocol. But the concept of a private-public key pair remains the same.
+A bitcoin privát kulcs (private key) nagyon hasonló bármely más kriptográfiai privát kulcshoz. Csupán a saját speciális „kriptográfiai alapműveleteit” használja az alapul szolgáló protokollban, ahogy bármely más kriptográfiai protokoll. A privát-nyilvános kulcspár koncepciója azonban ugyanaz marad.
 
 ---
 
-## BIP39 Seed phrases
+## BIP39 seed-phrase
 {: .no_toc }
 
-A private key is just secret information. The same information can take many forms. Different forms of the same information are understood by people if they first agree on how they will interpret it. I can say “car” or write it down or show you a picture or try to convey it with just using my body language. You will get it because we are on the same page regarding these “rules” of communication that evolved organically by people interacting with each other.
+A privát kulcs csupán titkos információ. Ugyanez az információ többféle formában is megjelenhet. Az információ különböző formáit az emberek akkor értik, ha előbb megegyeznek arról, hogyan értelmezik azt. Mondhatom, hogy „autó”, leírhatom, mutathatok róla képet, vagy megpróbálhatom csak testbeszéddel kifejezni. Te megérted, mert ugyanazokat a kommunikációs „szabályokat” követjük, amelyek az emberek közötti természetes interakciók során alakultak ki.
 
-When it comes to bitcoin, the first obvious form is binary information. But we need another,  more human-digestible form which is easy to memorize and write down of course. That is natural language. Furthermore if we want something that is understood by everyone and every machine, we cannot use arbitrary words. We design a ruleset, a standard around these “bitcoin private key words”. This is the goal of BIP39.
+A bitcoin esetében az első kézenfekvő forma a bináris információ. De szükségünk van egy másik, emberbarátabb formára, amelyet könnyű megjegyezni és leírni. Ez a természetes nyelv. Továbbá ha azt szeretnénk, hogy mindenki és minden gép megértse, nem használhatunk önkényes szavakat. Ezért egy szabályrendszert, egy szabványt tervezünk a „bitcoin privát kulcs szavai” köré. Ez a BIP39 célja.
 
-The “Bitcoin Improvement Proposals” are the standards evolving around the bitcoin protocol. Satoshi started bitcoin and people now try to improve it with consensus mechanisms like the [BIP Process](https://river.com/learn/what-is-a-bitcoin-improvement-proposal-bip/). One of these “bips” is [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), arguably the most important BIP for holders of bitcoin.
+A „Bitcoin fejlesztési javaslatok” (Bitcoin Improvement Proposals) a bitcoin protokoll köré épülő szabványok. Satoshi elindította a bitcoint, és az emberek olyan konszenzusmechanizmusokkal próbálják fejleszteni, mint a [BIP folyamat](https://river.com/learn/what-is-a-bitcoin-improvement-proposal-bip/). Ezen „bip-ek” egyike a [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), vitathatatlanul a legfontosabb BIP a bitcoin tulajdonosok számára.
 
-A BIP39 seed phrase also known as “seed words” or “mnemonic code/words/sentence” is a way to represent the private key information in words instead of bits and bytes. These words are from a list of 2048 words. If we represent our private key information as words from this list, bitcoin wallet software will understand it so the whole network will understand it.
+A BIP39 seed-phrase, más néven „mag szavak” vagy „mnemonikus kód/szavak/mondat”, egy olyan módja a privát kulcs információinak megjelenítésére, amely szavakat használ bitek és bájtok helyett. Ezek a szavak egy 2048 szóból álló listáról származnak. Ha a privát kulcs információit ebből a listából származó szavakkal jelenítjük meg, a bitcoin tárca szoftverek megértik azt, így az egész hálózat is megérti.
 
-This seed phrase is going to be fed into a standard algorithm which converts these words into bits and does some voodoo-hoodoo magic (standards-based, don’t worry) to create our **master (extended) private key, also known as xpriv. The seed therefore is not the same as a private key but it precedes the private key.**
+Ez a seed-phrase egy szabványos algoritmusba kerül, amely ezeket a szavakat bitekké alakítja, és némi szabványos „varázslatot” (ne aggódj, szabványokon alapul) végez, hogy létrehozza a **mester (kiterjesztett) privát kulcsot, más néven xpriv-et. A seed tehát nem azonos a privát kulccsal, hanem az, amiből a privát kulcs származik.**
 
-This key will now hold all your bitcoin. Anytime you want to access your bitcoin you just use those “magic” words (haha). It is basically supported by any bitcoin wallet today. So far so good. But this does not tell you anything about how to keep those words safe from people or disasters.
+Ez a kulcs mostantól az összes bitcoinod felett rendelkezik. Amikor csak hozzá akarsz férni a bitcoinodhoz, csak használd ezeket a „varázsszavakat” (hihi)! Gyakorlatilag minden mai bitcoin tárca támogatja ezt. A továbbiakban megvizsgáljuk, hogyan óvhatjuk meg ezeket a szavakat illetéktelen személyektől illetve katasztrófáktól.
 
 ---
 
-## Private Key Backups
+## Privát kulcs biztonsági mentések
 {: .no_toc }
 
-Seed phrases must be backed up because that information unlocks all your bitcoin associated with a bitcoin wallet. There are many ways to do that and people always have their preferences for **storage media**. The most common ways include: 
+A seed-phrase-ekről biztonsági mentést kell készíteni, mert ez az információ hozzáférést biztosít az adott bitcoin tárcához kapcsolódó összes bitcoinhoz. A biztonsági mentés készítésének számos módja létezik, és mindenki a saját igényei szerint választhatja meg a számára legjobb tárolási módot. A leggyakoribb megoldások a következők:
 
-* “Brain wallets”: just memorization of the words
-* “Paper wallets”: writing them down on paper and potentially also laminating them
-* Steel plates: a very common way to protect from degradation, fire, water and almost anything that could destroy the information
-* Digital backups: you can of course store the information on any digital device just beware that most computers are not safe from hackers and they tend to break after some time
+* „Agy-tárcák” (brain wallets): a szavak egyszerű memorizálása.
+* „Papír-tárcák” (paper wallets): a szavak leírása papírra, akár laminálva is.
+* Acéllemezek: népszerű megoldás, amely véd a károsodástól, tűztől, víztől és szinte minden olyan dologtól, ami megsemmisítheti az információt.
+* Digitális mentések: természetesen tárolhatod az információt digitális eszközökön is, de légy óvatos, mert a legtöbb számítógép nem védett a hackerek ellen, és idővel el is romolhatnak.
 
-As you see these different storage media imply their own unique advantages and disadvantages. People have to weigh their situation to choose solutions that fit their unique needs. Nevertheless Bitcoiners like tried-and-tested standards and best practices developed around those standards. People who want to custody their coins securely will adopt these standards and best practices.
+Mint látható, ezek a tárolási módok egyedi előnyökkel és hátrányokkal járnak. Mindenkinek a saját helyzetét mérlegelve kell olyan megoldást választania, amely a legjobban megfelel az igényeinek. A bitcoinerek azonban szeretik a kipróbált és bevált szabványokat, valamint az ezekre épülő legjobb gyakorlatokat. Aki biztonságosan szeretné megőrizni a bitcoinjait, az átveszi ezeket a szabványokat és gyakorlatokat.
 
-On the other hand, bitcoin is very young. These standards and practices are somewhat still in the making so to speak and bitcoin private key management is therefore a topic of contention. You will be given a lot of options throughout your journey. When you think about your options and digest these topics you will learn a lot about bitcoin. But it can be confusing at times.
+Ugyanakkor a bitcoin még fiatal. Ezek a szabványok és gyakorlatok még alakulóban vannak, így a privát kulcsok kezelése vitatott téma. Menetközben számtalan lehetőséggel találkozhatsz. Miközben átgondolod ezeket a lehetőségeket és foglalkozol a témával, rengeteget tanulhatsz a bitcoinról, ugyanakkor ez időnként zavarba ejtő is lehet.
 
 ---
 
-## Bitcoin Public keys and addresses
+## Bitcoin nyilvános kulcsok és címek
 {: .no_toc }
 
-Private keys are used to unlock bitcoin. But how do you get bitcoin in the first place? People trade it with you for something else they find valuable of course! But how do they _actually_ send you bitcoin? This is where public keys come into play.
+A privát kulcsok (private key) arra szolgálnak, hogy hozzáférj a bitcoinodhoz. De hogyan jutsz bitcoinhoz egyáltalán? Természetesen úgy, hogy másokkal értékes dolgokért cserébe kereskedsz! Na de _gyakrolatilag_ hogyan küldenek neked bitcoint? Itt jönnek a képbe a nyilvános kulcsok (public keys).
 
-Your public key is used in a bitcoin transaction like a fiat bank account number that you provide for anyone who wants to send you sats. Your public key is used to create a so-called **“bitcoin address”** which is basically just another layer of techno-voodoo partly to be more readable (like bip39 words instead of binary private keys) and robust for passing around in digital form (data integrity) but also to provide some privacy and security benefits. The addresses are constructed so that the “modern” public keys behind them are not revealed until you spend the bitcoin.
+A nyilvános kulcsodat egy bitcoin tranzakcióban úgy használod, mint egy hagyományos bankszámlaszámot, amelyet megadsz annak, aki satoshikat akar küldeni neked. A nyilvános kulcsból egy úgynevezett **“bitcoin címet”** hoznak létre, ami lényegében egy újabb rétege a technikai varázslatnak (techno-voodoo). Ez részben olvashatóbbá teszi a címet (mint a BIP39 szavak használata a bináris privát kulcsok helyett), valamint alkalmasabbá teszi a sérülésmentes digitális továbbításra, de emellett némi adatvédelmet és biztonsági előnyöket is nyújt. A címeket úgy alakítják ki, hogy a mögöttük álló „modern” nyilvános kulcsok csak akkor kerüljenek felfedésre, amikor elköltöd a bitcoint.
 
-While **address formats** define what these addresses should look like (e.g. bech32), **address types** indicate exactly how bitcoin should be "locked" to the public key. For a user of bitcoin address types are far more important of course. The "native segwit" address type is the most common nowadays. Wallets will offer this type by default at creation.
+Míg a **címformátumok** meghatározzák, hogyan nézzenek ki ezek a címek (pl. bech32), a **címtípusok** azt jelzik, hogy pontosan hogyan „zárolják” a bitcoint a nyilvános kulcshoz. A bitcoin használói számára a címtípusok természetesen sokkal fontosabbak. A „native segwit” címtípus manapság a leggyakoribb, és a tárcák alapértelmezés szerint ezt kínálják létrehozáskor.
 
-In “TradFi” you have one bank account or maybe several. In bitcoin every single bitcoin address can be handled as a bank account. We don’t do that though because in bitcoin **privacy** is very important and we don’t want to reveal to everyone how much we have and what we do with our money. Especially when the safety of those funds depends solely on us. 
+A hagyományos pénzügyekben („TradFi”) egy vagy néhány bankszámlád van. A bitcoinban minden egyes bitcoin cím külön bankszámlaként kezelhető. Mi viszont nem így csináljuk, mert a bitcoinban az **adatvédelem (privacy)** nagyon fontos, és nem akarjuk, hogy mindenki lássa, mennyi pénzünk van, és mit csinálunk vele. Különösen akkor, ha bitcoinunk biztonsága csak rajtunk áll.
 
-Therefore we generate new addresses from the same **master (extended) public key, also known as Xpub,** for each transaction.
+Ezért minden egyes tranzakcióhoz új címet generálunk ugyanabból a **mester (kiterjesztett) nyilvános kulcsból (master (extended) public key), más néven Xpub-ból.**
 
-FYI under the hood every time a new transaction is created, a new “slave” (or child) private-public keypair is created and a new address is derived in turn. This is why the technical term for these modern type of wallets is "hierarchical deterministic wallets". The derivation path of HD wallets shows which addresses can be used by your wallet. This is necessary because you could define many types of wallets with just one master key-pair and all these wallets use different address domains out of the huge range of possible addresses that you could derive from your master key-pair.
+Hasznos tudnod, hogy a háttérben minden új tranzakció során egy új „alárendelt” (vagy gyermek) privát-nyilvános kulcspár készül, és ebből származik egy új cím. Ezért hívják az ilyen típusú modern tárcákat „hierarchikus determinisztikus tárcáknak”. A HD tárcák származtatási útvonala (derivation path) mutatja meg, mely címeket használhatja a tárcád. Ez azért szükséges, mert egyetlen mester kulcspárból sokféle tárca hozható létre, és ezek a tárcák különböző címterületeket használnak a mester kulcspárból levezethető rengeteg lehetséges cím közül.
 
-Unfortunately, bitcoin has some  features that are hard to grasp partly because it is so hard to improve a decentralized protocol in the open with no one in charge, and also on the fly with people having their money at stake. There are some "working but ugly" solutions in bitcoin that had to be implemented in a weird way because of these hurdles to protocol change. This is great however if you want to be pretty sure that your funds remain safe whatever new changes are introduced to bitcoin. So don't worry if some things are hard to make sense of at this point. Most of these nuances you will not even need to understand to use bitcoin securely. It is nice nonetheless to at least be aware of these terms if you encounter them in discussions.
+Sajnos a bitcoinnak vannak olyan jellemzői, amelyeket nehéz megérteni, részben azért, mert egy decentralizált protokollt nyíltan, vezető nélkül fejleszteni, ráadásul menet közben, amikor emberek pénze forog kockán, nem egyszerű. Emiatt a bitcoinban vannak „működő, de csúnya” megoldások, amelyeket furcsa módon kellett megvalósítani a protokoll változtatásának akadályai miatt. Ugyanakkor ez nagyszerű, ha biztos akarsz lenni abban, hogy a bitcoinod akkor is biztonságban lesz, ha valamilyen új változtatásokat vezetnek be. Szóval ne aggódj, ha most még nem minden érthető! A legtöbb ilyen részletet nem is kell megértened ahhoz, hogy biztonságosan használd a bitcoint. Mindazonáltal jó, ha legalább tisztában vagy ezekkel a kifejezésekkel, ha találkoznál velük beszélgetések során.
 
-To sum it up, your whole bitcoin wallet is generated from just one **seed phrase** that you must always vigilantly **guard**.
+Összefoglalva: az egész bitcoin tárcád egyetlen **seed-phrase-ből** generálódik, amit mindig éberen kell **őrizned**.
 
-## Conclusion
+## Következtetés
 {: .no_toc }
 
-Provided that the underlying mathematics and technology holds up, which seems to be the case, bitcoin will be regarded as one of the most important tools of human history. Why? Because private property [is the foundation of flourishing civilizations](https://www.azquotes.com/author/10190-Ludwig_von_Mises/tag/private-property) and bitcoin is private property in a pure information form, therefore it is the basis of a thriving _global_ civilization based on peaceful technology instead of raw power.
+Feltéve, hogy az alapjául szolgáló matematika és technológia helytáll, - ami úgy tűnik, hogy így van - a bitcoin az emberi történelem egyik legfontosabb eszközeként lesz számon tartva. Miért? Mert a magántulajdon [a virágzó civilizációk alapja](https://www.azquotes.com/author/10190-Ludwig_von_Mises/tag/private-property), és a bitcoin tiszta információs formában testesíti meg a magántulajdont. Így egy olyan _globális_ civilizáció alapját képezi, mely a nyers erő helyett békés technológiára épülve bontakozik ki.
 
-[Back to Objective]({{ site.baseurl }}/en/the-journey-begins/#objective-create-your-first-bitcoin-walletprogress-images){: .btn .btn-purple}
+[Vissza a célkitűzéshez]({{ site.baseurl }}/hu/the-journey-begins/#cél-hozd-létre-első-bitcoin-tárcádat-folyamatábrázoló-képek){: .btn .btn-purple}
 
 ---
 ---
 
-## Bitcoin Transactions and the UTXO model
+## Bitcoin tranzakciók és az UTXO Modell
 
-## Transactions
+## Tranzakciók
 {: .no_toc }
 
-Bitcoin transactions are similar to traditional fiat banking transactions in that they have a payment sender and a recipient but the transaction itself is constructed and propagated through the network very differently.
+A bitcoin tranzakciók abban hasonlítanak a hagyományos fiat banki tranzakciókhoz, hogy van egy fizetést küldő és egy fogadó fél, azonban magának a tranzakciónak a felépítése és a hálózaton keresztül történő terjesztése egészen másképp történik.
 
-Also, bitcoin transactions cannot be reversed. Once a transaction has been confirmed by miners by producing a block that contains your transaction, and validated by full bitcoin nodes by validating every aspect of the blocks and transactions miners presented to the network, cash finality has been achieved and there is no going back. Time cannot be reversed. There is no authority controlling the flow of time and Bitcoin reflects this reality.
-
----
-
-A bitcoin transaction is created by first getting a recipient “bank account number” that is a bitcoin address. This is communicated not through the Bitcoin network itself but through any means online or offline.
-
-Once the sender gets the address she will first unlock some bitcoin with her private key. She unlocks enough bitcoin to meet the sum to be paid plus the transaction fee. The fee can be any amount but if it is too low the transaction will be slow or might not even go through. She then broadcasts that transaction to the network of bitcoin nodes all running the bitcoin open-source software.
-
-The transaction is then gossiped among the nodes. At this point transactions are still unconfirmed. The place where these nodes keep unconfirmed transactions is called the **“mempool”**. All nodes have mempools, there is no one central mempool. Get used to some different terminology in bitcoin because it is a decentralized distributed network and most things cannot be just pinpointed the same way as in centralized systems.
+Továbbá a bitcoin tranzakciók nem visszafordíthatók. Miután egy tranzakciót a bányászok megerősítettek egy olyan blokk létrehozásával, amely tartalmazza a tranzakciót, és a bitcoin csomópontok (node-ok) érvényesítették a bányászok által a hálózatnak bemutatott blokkok és tranzakciók minden aspektusát, a készpénzszerű tranzakció véglegessége megvalósul, és nincs visszaút. Az idő nem fordítható vissza. Nincs olyan hatóság, amely az idő múlását irányítaná, és a Bitcoin ezt a valóságot tükrözi.
 
 ---
 
-Bitcoin miners also run bitcoin nodes and they also pick up the transactions to gather them into **blocks** and try to solve their mining puzzle based on those transactions. Once they find a solution to the puzzle, called “Proof of Work” they can broadcast their block (“the completed puzzle”) to the network for **validation**.
+Bitcoin tranzakció létrehozásához először meg kell szerezni a fogadó fél „bankszámlaszámát”, vagyis egy bitcoin címet. Ezt nem a Bitcoin hálózaton keresztül kommunikálják, hanem bármilyen online vagy offline módon.
 
-The block validation is done by all full-fledged bitcoin nodes. They check for valid **Proof of Work** and other important consensus rules of the bitcoin protocol. If a node finds the block valid it will include it in its list of valid blocks called the “blockchain” and gossip that valid block further to all other nodes it is in contact with called “peer nodes”.
+Miután a küldő megkapta a címet, először feloldja a szükséges mennyiségű bitcoint a saját privát kulcsával. Annyi bitcoint old fel, amennyi a fizetendő összeghez és a tranzakciós díjhoz szükséges. A díj bármekkora lehet, de ha túl alacsony, a tranzakció lassú lesz, vagy akár el sem jut a hálózatig. Ezt követően a küldő a tranzakciót közzéteszi a bitcoin csomópontok hálózatában, amelyek mind a bitcoin nyílt forráskódú szoftverét futtatják.
 
-This is where the recipient comes into play. If she also runs a node or connects to a trusted node, she can verify that the payment happened based on the information of that node. As soon as the payment recipient’s node receives the mined block containing the transaction of interest and validates it, it then signals to the recipient’s wallet software (Sparrow) that “hey, a transaction that your wallet is interested in has just been confirmed!” and the confirmation is displayed on your screen. 
-
----
-
-You are happy, the sender is happy and the miner is happy too, because they got the fees from the transaction and they got the **“block subsidy”**, the amount of bitcoin that they can give themselves for this great service of doing the Proof of Work mining:
-[![Bitcoin Transactions](/assets/img/diagrams/bitcoin_transaction.drawio.png)](/assets/img/diagrams/bitcoin_transaction.drawio.png){: width: auto; max-height: 70%; target="_blank"}
-
-So if you wanted to visualize the bitcoin network, what you would see is nodes connecting to each other and tossing around unconfirmed transactions and mined blocks. Your wallet is “just” a tool to help interact with this network according to your needs.
-
-This was just a birds-eye view of what happens when you transact. But to really grasp all this, you still need to understand some of these steps a little bit more in detail. Don’t worry, as soon as you use all these software tools the different concepts will gradually start to make sense. 
-
-You can always come back and reread or go explore more content about this theoretical stuff but what actually matters is using the tools. Try and test everything and formulate your own questions. Feel free to post them on nostr. Interact with bitcoin and plebs as much as you can.
+A tranzakció ezután a csomópontok között terjed, mintegy „pletykaként”. Ebben a szakaszban a tranzakciók még nem megerősítettek. Az a hely, ahol ezek a csomópontok a nem megerősített tranzakciókat tárolják, az úgynevezett **„mempool”**. Minden csomópont rendelkezik saját mempool-lal, tehát nincs egyetlen központi mempool. Szokj hozzá a bitcoin eltérő terminológiájához, mert ez egy decentralizált, elosztott hálózat, ahol a legtöbb dolgot nem lehet ugyanúgy meghatározni, mint a központosított rendszerekben!
 
 ---
 
-## The UTXO model
+A bitcoin bányászok szintén futtatnak bitcoin csomópontokat, és ők is összegyűjtik a tranzakciókat, hogy azokat **blokkokba** rendezzék, majd megpróbálják megoldani a bányászati rejtvényt ezek alapján a tranzakciók alapján. Amint megtalálják a rejtvény megoldását, amelyet „munkabizonyítéknak” (proof-of-work) neveznek, közzéteszik a blokkot („a megoldott rejtvényt”) a hálózatban **érvényesítésre**.
+
+A blokk érvényesítését minden teljes értékű bitcoin csomópont végzi. Ezek ellenőrzik a érvényes **munkabizonyítékot** és a bitcoin protokoll egyéb fontos konszenzus szabályait. Ha egy csomópont érvényesnek találja a blokkot, felveszi azt az érvényes blokkok listájára, amelyet „blokkláncnak” (blockchain) neveznek, és tovább terjeszti ezt az érvényes blokkot minden olyan másik csomópontnak, amellyel kapcsolatban áll, az úgynevezett „társ csomópontoknak” (peer node).
+
+Itt lép be a képbe a fogadó fél. Ha ő is futtat egy csomópontot, vagy csatlakozik egy megbízható csomóponthoz, ellenőrizheti, hogy a fizetés megtörtént-e az adott csomópont információi alapján. Amint a fogadó fél csomópontja megkapja a bányászott blokkot, amely tartalmazza az őt érdeklő tranzakciót, és érvényesíti azt, jelez a fogadó fél tárcaszoftverének (például a Sparrow-nak), hogy „hé, egy tranzakció, amely a tárcádat érdekli, most lett megerősítve!” Ezután a megerősítés megjelenik a képernyőn.
+
+---
+
+Örül a küldő, örül a fogadó, és a bányász is örül, mert megkapta a tranzakciós díjakat, valamint a **„blokk-támogatást”**, vagyis azt a bitcoin mennyiséget, amelyet a proof-of-work bányászat nagyszerű szolgálatáért önmagának adhat:
+[![Bitcoin Tranzakciók](/assets/img/diagrams/bitcoin_transaction.drawio.png)](/assets/img/diagrams/bitcoin_transaction.drawio.png){: width: auto; max-height: 70%; target="_blank"}
+
+Tehát, ha el akarnád képzelni a bitcoin hálózatot, azt látnád, hogy csomópontok kapcsolódnak egymáshoz, és megerősítetlen tranzakciókat valamint bányászott blokkokat dobálnak egymásnak. A tárcád „csupán” egy eszköz, amely segít, hogy a saját igényeid szerint lépj kapcsolatba ezzel a hálózattal.
+
+Ez csak egy madártávlatú áttekintés volt arról, mi történik egy tranzakció során. Ahhoz azonban, hogy igazán megértsd mindezt, még egy kicsit részletesebben meg kell ismerned néhány lépést. Ne aggódj, amint elkezded használni ezeket a szoftveres eszközöket, a különböző fogalmak fokozatosan értelmet nyernek!
+
+Bármikor visszatérhetsz és újraolvashatod ezt, vagy felfedezhetsz további elméleti tartalmakat, de ami igazán számít, az az eszközök használata. Próbálj ki és tesztelj mindent, és fogalmazd meg a saját kérdéseidet! Nyugodtan tedd fel őket a nostr-n! Lépj kapcsolatba a bitcoinnal és a közösséggel, amennyit csak tudsz!
+
+---
+
+## Az UTXO modell
 {: .no_toc }
 
-Let’s get back to the scenario where you paid someone e.g. cash and provided her a bitcoin address. She paid up in bitcoin and your node confirmed the payment. That transaction actually used existing bitcoin chunks as inputs and created a new output that is yet unspent. This chunk of bitcoin sitting on that address is now called a UTXO - unspent transaction output.
+Térjünk vissza arra a helyzetre, amikor például készpénzzel fizettél valakinek, és megadtál neki egy bitcoin címet! Ő bitcoinban fizetett, és a csomópontod megerősítette a fizetést. Ez a tranzakció valójában meglévő bitcoin darabkákat használt fel bemenetként, és létrehozott egy új, még el nem költött kimenetet. Ezt a bitcoin darabkát, amely most azon a címen található, UTXO-nak hívják (unspent transaction output) – el nem költött tranzakciós kimenet.
 
-This is done by the sender unlocking the inputs first with her cryptographic signature using her private key. So a bitcoin wallet will ask the sender first to sign the transaction before it can be broadcast to the network.
+Ezt úgy éri el a küldő, hogy először a saját titkos kulcsával és kriptográfiai aláírásával feloldja a bemeneteket. Tehát egy bitcoin tárca először arra kéri a küldőt, hogy írja alá a tranzakciót, mielőtt az továbbítható lenne a hálózatra.
 
-The new output is now tied to your address which means it is locked to your public key under the hood. This effectively transfers ownership of that chunk of bitcoin to you because you are the only one capable of unlocking that chunk now with your private key by creating a consecutive transaction where this UTXO becomes the input.
-
----
-
-UTXOs can be thought of as banknotes because they hold an exact amount of bitcoin. This means that when you want to spend your UTXO you always unlock the whole chunk, not just a portion of it. Say you have to pay 10.000 satoshis (100.000.000 satoshis are one bitcoin and the network only understands satoshis under the hood) for a gum but you have a UTXO that is 5000 and another that is 8000. Your wallet combines these UTXOs as inputs and creates an output of 10.000 sats locking it to the merchant's address.
-
-So what happens to that 3000 extra? Well, let’s say you pay an additional 1000 in fees for the miners to incentivize them to include your transaction in their block. The remaining 2000 is what we call the **change output** and it is locked to one of your **change addresses** which is just the same as a receive address so you can later spend that too of course.
-
-The fee is implied, so it does not create an additional output (we save some bytes of data this way). The miners know this from the transaction data. The input amounts of a bitcoin transaction are therefore always greater than or equal (zero fees paid) to the output amounts if we add them up. 
+Az új kimenet most a te címedhez van kötve, ami azt jelenti, hogy a háttérben a te nyilvános kulcsodhoz van zárolva. Ez gyakorlatilag átruházza rád annak a bitcoin darabkának a tulajdonjogát, mert most már csak te vagy képes feloldani azt a darabkát a titkos kulcsoddal, egy következő tranzakció létrehozásával, ahol ez az UTXO lesz a bemenet.
 
 ---
 
-## The life-cycle of a UTXO, created and spent ("destroyed") by your seed
+Az UTXO-kat úgy képzelheted el, mint a bankjegyeket, mert pontos bitcoin összeget tartalmaznak. Ez azt jelenti, hogy amikor el akarod költeni egy UTXO-dat, mindig az egész darabot oldod fel, nem csak annak egy részét. Tegyük fel, hogy 10 000 satoshit (100 000 000 satoshi egy bitcoin, és a hálózat a háttérben csak satoshit értelmez) kell fizetned egy rágógumiért, de van egy 5000 satoshis és egy másik 8000 satoshis UTXO-d! A tárcád kombinálja ezeket az UTXO-kat bemenetként, és létrehoz egy 10 000 satoshis kimenetet, amelyet a kereskedő címéhez zárol.
+
+Mi történik a fennmaradó 3000 satoshival? Nos, tegyük fel, hogy további 1000 satoshit fizetsz díjként a bányászoknak, hogy ösztönözd őket, hogy vegyék fel a tranzakciódat a blokkjukba! A maradék 2000 satoshi az, amit **visszajáró kimenetnek** nevezünk, és ez egy **visszajáró címhez** van zárolva, ami ugyanolyan, mint egy fogadó cím, így később természetesen ezt is elköltheted.
+
+A díj implicit, tehát nem hoz létre külön kimenetet (így némi adatmennyiséget spórolunk). A bányászok ezt a tranzakció adataiból tudják. Egy bitcoin tranzakció bemeneteinek összege ezért mindig nagyobb vagy - nulla díj esetén - egyenlő, mint a kimenetek összege.
+
+---
+
+## Egy UTXO életciklusa, létrehozása és elköltése („megsemmisítése”) a te seed-ed által
 {: .no_toc }
 
-[![HD wallets and UTXOs](/assets/img/diagrams/hd_wallets_and_utxo_model.drawio.png)](/assets/img/diagrams/hd_wallets_and_utxo_model.drawio.png){:target="_blank"}
+[![HD tárcák és UTXO-k](/assets/img/diagrams/hd_wallets_and_utxo_model.drawio.png)](/assets/img/diagrams/hd_wallets_and_utxo_model.drawio.png){:target="_blank"}
 
 ---
 
-What happens when you have many UTXOs? Which ones are selected for payments? This is called **coin selection** and it can be automatically carried out by your wallet or you can manually select your desired UTXOs to spend in a particular transaction. You will see when this is important later on.
+Mi történik, ha sok UTXO-d van? Melyikeket választod ki a fizetésekhez? Ezt **érme választásnak** nevezik, és a tárcád automatikusan elvégezheti, vagy te magad is manuálisan kiválaszthatod, hogy melyik UTXO-kat szeretnéd elkölteni egy adott tranzakcióban. Később látni fogod, hogy ez miért fontos.
 
-All this transaction creation process I just described is facilitated by your wallet software (Sparrow in this case) but it requires some decisions made by you. You control of course the address where you want to send the bitcoin but you can control the UTXOs that you want to spend and the fee too.
+A tranzakció létrehozásának most leírt teljes folyamatát a tárcaszoftvered (ebben az esetben a Sparrow) könnyíti meg, de néhány döntést neked kell meghoznod. Természetesen te határozod meg azt a címet, ahová a bitcoint küldeni szeretnéd, de te dönthetsz az elkölteni kívánt UTXO-król és a díjról is.
 
-How do you know what fee is enough? The most important basic fact about fees in bitcoin is that they are not based on the amount of bitcoin that is paid but the space your transaction data takes up in the block, the "block space". This comes down mostly to how many "banknotes" you use for payment (inputs) and how many recipients there are in this payment (outputs).
+Honnan tudod, hogy mekkora díj elegendő? A bitcoin díjak legfontosabb alapvetése, hogy nem a kifizetett bitcoin összegen alapulnak, hanem azon, hogy a tranzakciós adataid mennyi helyet foglalnak el a blokkban, vagyis a „blokk térben”. Ez leginkább attól függ, hogy hány „bankjegyet” használsz a fizetéshez (bemenetek), és hány címzett van az adott fizetésben (kimenetek).
 
-Your node sees the information how much others are paying and how long it takes for transactions with different fee amounts to confirm. This info gets fed into your wallet which gives you an initial fee landscape that will help you determine how much you should pay. If you are willing to wait more you can set it low or if it is urgent you can set it higher than the average recent fee rates.
+A csomópontod látja, hogy mások mennyit fizetnek, és mennyi időbe telik a különböző díjösszegű tranzakciók megerősítése. Ez az infó a tárcádba kerül, egy kezdeti díjtérképet nyújtva számodra az általad fizetendő díj mértékének kiválasztásához. Ha hajlandó vagy többet várni, választhatsz alacsony díjat, ha pedig sürgős, beállíthatsz az átlagos legutóbbi díjaknál magasabbat.
 
-There are other things you can adjust when you create a transaction which we will talk about later but these are the basics you should know.
+Egy tranzakció létrehozásakor egyéb dolgokat is beállíthatsz. Ezekről később ejtünk szót. Most a szükséges alapokat fektettük le.
 
 ---
 
-## The Blockchain (a.k.a. the Timechain, a.k.a. the public ledger of Bitcoin)
+## A Blokklánc (más néven Időlánc, avagy a Bitcoin nyilvános főkönyve)
 {: .no_toc }
 
-![bitcoin is time](/assets/img/graphics/bitcoin_is_time.jpg)
+![A bitcoin idő](/assets/img/graphics/bitcoin_is_time.jpg)
 
-The blockchain has been subject to much confusion since shitcoiners have used this term to imply decentralization whereas the blockchain is just a way to store data. It is literally just a database solution which organizes data into blocks (chunks) of a particular size and links these blocks cryptographically after one another creating a chain. It is used in bitcoin to detect if someone changed historical data that has already been recorded.
+A blokklánc fogalma sok félreértést szült, mivel a shitcoinerek ezt a kifejezést gyakran a decentralizáció szinonimájaként használták, holott a blokklánc csupán egy adat tárolási mód. Egyszerűen egy adatbázis-megoldás, amely az adatokat meghatározott méretű blokkokba rendezi, és ezeket a blokkokat kriptográfiai úton láncolja egymás után, létrehozva egy láncot. A bitcoinban annak észlelésére szolgál, ha valaki megpróbálná megváltoztatni a már rögzített történelmi adatokat.
 
-However, it does not tell you anything about what kind of new data should be considered valid if that new data contains conflicting records. For example, I have 1 bitcoin and want to spend it twice. I create two conflicting transactions: One saying I pay Bob 1 bitcoin and another one saying I pay Alice 1 bitcoin. I broadcast both transactions from my node. All history knows is that I have 1 bitcoin but nobody knows which of the 2 transactions I broadcast is “the truth” because it is ambiguous. This is called the “double spend problem”.
-
----
-
-So how do we break these ties? This is where Proof of Work mining comes into play. In bitcoin the “truth” from all the possible alternatives is determined by a contest: The transaction that can “round up more votes” wins. But votes are expensive, and I mean really expensive. You have to prove with actual work i.e. expended energy that you care about this vote in the first place. 
-
-This work can be thought of as the security budget of bitcoin because this creates the incentives for the participants of the network to play the game honestly. If they really work hard and win, the price is juicy bitcoin AND a more secure network, that is, the game becomes more valuable overall too.
-
-If they try to cheat, others kick them out of the game and the work they did goes to waste. If they somehow manage to ruin the game, bitcoin becomes worthless so why play in the first place? Otherwise honest players can still restart the game from scratch. This is real-life incentives at play.
+Ugyanakkor a blokklánc nem árul el semmit arról, hogy milyen új adatokat kell érvényesnek tekinteni, ha azok ellentmondó rekordokat tartalmaznak. Például, ha van 1 bitcoinom, és kétszer akarom elkölteni, létrehozhatok két egymásnak ellentmondó tranzakciót: az egyikben azt állítom, hogy 1 bitcoint küldök Bencének, a másikban pedig azt, hogy 1 bitcoint küldök Alíznak. Mindkét tranzakciót közzéteszem a csomópontomról. A történelmi adatok csak annyit tudnak, hogy van 1 bitcoinom, de senki sem tudja, hogy a két közzétett tranzakció közül melyik „az igazság”, mert ez nem egyértelmű. Ezt nevezik a „kettős költés problémájának”.
 
 ---
 
-The work is done by playing the same easy game: Solving a math problem that is known to be only solvable by blindly guessing the solution with brute force. It is almost like grinding through that ton of dirt when people mine gold.
+Hogyan oldjuk fel ezeket az ellentmondásokat? Itt lép be a képbe a proof-of-work bányászat. A bitcoinban az „igazságot” az összes lehetséges alternatíva közül egy versennyel döntik el: az a tranzakció győz, amely „több szavazatot tud összegyűjteni”. De a szavazatok drágák, méghozzá nagyon drágák. Valódi munkával, vagyis elhasznált energiával kell bizonyítanod, hogy valóban kiállsz egy adott szavazat mellett.
 
-The difference is that this guessing game can be done by anyone, anywhere on earth because it only requires electricity and electricity is a secondary energy source meaning any energy can be converted into electrical energy. 
+Ez a munka a bitcoin biztonsági alapjának tekinthető, mert arra ösztönzi a hálózat résztvevőit, hogy becsületesen játsszák a játékot. Ha igazán keményen dolgoznak és nyernek, a jutalom zamatos bitcoin nyeremény ÉS egy biztonságosabb hálózat, s ezáltan a játék még értékesebbé válik.
 
-You just grab the transaction data you gathered from peer nodes and generate fixed length random numbers ([sha256 hashes](https://en.wikipedia.org/wiki/SHA-2)) from it until you find a "winner hash". It will be a random number that is in a very narrow range compared to the possible range of numbers.
-
-The first transaction to round up more energy manages to get into a block with valid Proof of Work and wins the race, becoming the ultimate truth in bitcoin. Transactions in this regard are like politicians trying to round up more energy for themselves all over the globe to win the popularity contest. This is just a more peaceful, ethical and less wasteful conflict resolution than destroying the world with wars.
-
-Of course once the race is over, it is over for good in the case of bitcoin transactions. The winner gets into a block, that block is then cryptographically linked to the previous block and it becomes history. 
+Ha megpróbálnak csalni, a többiek kiejtik őket a játékból, és a munkájuk kárba vész. Ha valahogy sikerülne tönkretenniük a játékot, a bitcoin értéktelenné válna, tehát értelmetlen lenne ilyen céllal játszani? A becsületes játékosok pedig amúgy is újraindíthatnák a játékot a legelejéről. Ezek valódi, kézzelfogható ösztönzők működés közben.
 
 ---
 
-This is why the bitcoin blockchain is also called the [“timechain”](https://dergigi.com/2021/01/14/bitcoin-is-time) (watch out, it’s another rabbit hole. You have been warned), because we continuously agree on the present state of things for eternity, and you cannot go back to the past to change the flow of time.
+A munkát egy egyszerű játékként végzik: egy olyan matematikai probléma megoldása által, amelyről tudjuk, hogy csak vakon, nyers erővel, találgatással lehet megoldani. Ez szinte olyan, mintha egy tonna földet megmozgatnál aranybányászat közben.
 
-Altcoins with these independent blockchains however contain blocks with almost infinitely lower amounts of proof-of-work energy which means they **already lost the contest, regardless of them being in a separate network**. It is like winning in soccer against your grandma and then saying: “I am the world champion!!!” That is because no one else cared to attend your afternoon matinee.
+A különbség az, hogy ezt a találgatós játékot bárki, bárhol a világon játszhatja, mert csak áram kell hozzá, az áram pedig másodlagos energiaforrás, vagyis bármilyen energia átalakítható elektromos energiává.
 
-That applies only if they contain any proof of work at all because some people thought it was a good idea to get back to politics deciding on the state of things again and implemented Proof of Stake crypto (the last time you see this word in this course) networks which is literally just simple voting without any energy expenditure.
+Csak fogod a tranzakciós adatokat, amelyeket a társ csomópontoktól (peer node) gyűjtöttél, és fix hosszúságú véletlenszerű számokat, [sha256 hash-eket](https://en.wikipedia.org/wiki/SHA-2) generálsz belőlük, amíg meg nem találod a „győztes hash-t”. Ez egy olyan véletlenszám lesz, amely egy nagyon szűk tartományban van a lehetséges számok tartományához képest.
 
-Using blockchain databases can create this illusion of decentralization while it is only used to secure against tampering **after** the double-spend problem has been dealt with. They conflate a tamper-proof database solution (how the data we agreed on can be protected) with Proof of Work conflict resolution (how we agreed on the data in the first place).
+Az a tranzakció, amelyik először gyűjt össze több energiát, bekerül egy érvényes proof-of-workkel rendelkező blokkba, és megnyeri a versenyt, így válik a bitcoin végső igazságává. Ebben az értelemben a tranzakciók olyanok, mint a politikusok, akik világszerte több energiát próbálnak mozgósítani, hogy megnyerjék a népszerűségi versenyt. Ez egy békésebb, etikusabb és kevésbé pazarló konfliktusmegoldás, mint háborúkkal tönkretenni a világot.
 
-In the end people will vote with their actions and bear the consequences.
+Amint a verseny véget ér, a bitcoin tranzakciók esetében végleg lezárul. A győztes bekerül egy blokkba, az a blokk kriptográfiai úton kapcsolódik az előzőhöz, és beíródik a történelembe.
 
 ---
 
-But back to Sparrow just for a moment. After your transaction is confirmed Sparrow will notify you and display the number of confirmations on your transaction.
+Ezért nevezik a bitcoin blokkláncát [„időláncnak”](https://dergigi.com/2021/01/14/bitcoin-is-time) is (de vigyázz, figyelmeztetlek, hogy ez egy újabb nyúlüreg), mert folyamatosan egyetértünk a dolgok jelenlegi állapotáról az örökkévalóságig, és nem mehetsz vissza a múltba, hogy megváltoztasd az idő folyását.
 
-The first confirmation is when your transaction is mined and your node accepts that block as valid. Additional confirmations are counted based on how many more blocks are mined and accepted by your node based on that first confirmed block. This is just to say how much “block time” has elapsed in bitcoin land since your transaction. You might wonder, how many confirmations are considered enough?
+Ugyanakkor az altcoinok, amelyek saját, független blokkláncokkal rendelkeznek, olyan blokkokat tartalmaznak, amelyek szinte végtelenül kevesebb proof-of-work energiával rendelkeznek, ami azt jelenti, hogy **már eleve elvesztették a versenyt, függetlenül attól, hogy külön hálózatban működnek**. Ez olyan, mintha a nagymamáddal fociznál, megnyernéd a meccset, majd kikiáltanád, hogy „Én vagyok a világbajnok!”. Csak mert senki más nem vett részt a délutáni matinéban.
 
-Well, with **6 confirmations** we can quite confidently say that there is just no realistic scenario where an attacker would be able to build an alternative chain with enough work that would undo your transaction. It would take an exorbitant amount of hashrate to be able to pull that off. There has never been such a case in the entire history of bitcoin, as a matter of fact it hasn't come even close to that.
+Ez csak akkor igaz, ha egyáltalán tartalmaznak proof-of-worköt, mert néhányan úgy gondolták, jó ötlet visszahozni a politikát a dolgok eldöntésébe, és bevezették a proof-of-stake kripto (utoljára látod ezt a szót ebben a kurzusban) hálózatokat, amelyek végtelenül egyszerű szavazást jelentenek mindennemű energiafelhasználás nélkül.
 
-[Back to Objective]({{ site.baseurl }}/en/the-journey-begins/#objective-save-your-coins-from-the-exchangeprogress-images){: .btn .btn-purple}
+A blokklánc adatbázisok alkalmazása keltheti a decentralizáció illúzióját, miközben a blokklánc csupán arra szolgál, hogy megvédje az adatokat a manipulációtól **miután** a kettős költés problémája meg lett oldva. Összekeverik a manipuláció ellen védett adatbázis-megoldást (hogyan védjük meg az általunk elfogadott adatokat) a proof-of-work konfliktusmegoldással (hogyan egyeztünk meg eleve az adatokról).
+
+Végül az emberek a tetteikkel szavaznak, és viselik a következményeket.
+
+---
+
+De térjünk vissza egy pillanatra a Sparrow-ra! Miután a tranzakciód megerősítést nyer, a Sparrow értesít erről, és megjeleníti a tranzakciódhoz tartozó megerősítések számát.
+
+Az első megerősítés akkor történik, amikor a tranzakciódat kibányásszák, és a csomópontod érvényesnek fogadja el azt a blokkot. További megerősítéseket aszerint számolnak, hogy hány további blokkot bányásznak ki és fogad el a csomópontod az első megerősített blokkot követően. Ez egyszerűen azt mutatja, hogy mennyi „blokkidő” telt el a bitcoin világában a tranzakciód óta. Eltöprenghetsz: vajon hány megerősítés számít elegendőnek?
+
+Nos, **6 megerősítéssel** már nyugodtan kijelenthetjük, hogy nincs olyan reális forgatókönyv, amelyben egy támadó képes lenne annyi munkával alternatív láncot építeni, hogy visszavonja a tranzakciódat. Ehhez elképesztő mennyiségű hashrate-re lenne szükség. A bitcoin teljes történelmében soha nem fordult elő ilyen eset, sőt, még csak közelében sem voltunk ilyennek.
+
+[Vissza a célkitűzéshez]({{ site.baseurl }}/hu/the-journey-begins/#cél-menekítsd-az-érméidet-a-tőzsdéről-folyamatábrázoló-képek){: .btn .btn-purple}
 
 ---
 ---
