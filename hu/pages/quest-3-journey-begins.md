@@ -25,7 +25,7 @@ Nyugodtan ne csak a gyakorlatokat végezd el, hanem akár próbálj ki más izga
 
 **Tényleg át kell venned az érméid felett az irányítást, különben örökre befagyasztják őket!**
 
-## Cél: Hozd létre első Bitcoin tárcádat! ([folyamatábrázoló képek](/en/progress-the-journey-begins/){:target="_blank"})
+## Cél: Hozd létre első Bitcoin tárcádat! ([folyamatábrázoló képek](/hu/progress-the-journey-begins/){:target="_blank"})
 1. 💡 Ismerd meg a [Bitcoin birtoklás alapjait](/hu/pleb-lessons/#bitcoin-birtoklás)!
 2. Hozd létre első Bitcoin tárcádat! `File` menü --> `New Wallet`
 3. Adj neki egy nevet, például „elsotarcam”!
@@ -49,7 +49,7 @@ A tőzsdéd az összeomlás szélén áll. Sajna a hozamgeneráló algoritmusok 
 
 ---
 
-## Cél: Menekítsd az érméidet a tőzsdéről! ([folyamatábrázoló képek](/en/progress-the-journey-begins/){:target="_blank"})
+## Cél: Menekítsd az érméidet a tőzsdéről! ([folyamatábrázoló képek](/hu/progress-the-journey-begins/){:target="_blank"})
 1. 💡 Ismerd meg a [Bitcoin tranzakciók és az UTXO modell alapjait](/hu/pleb-lessons/#bitcoin-tranzakciók-és-az-utxo-modell)!
 2. Menj a Sparrow-ban a "fogadás" fülre: `Receive`
 3. Szerezz egy új fogadó címet a Sparrow tárcában: `Address`
