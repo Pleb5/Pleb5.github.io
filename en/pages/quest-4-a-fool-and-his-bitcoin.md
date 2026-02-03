@@ -22,11 +22,11 @@ permalink: en/a-fool-and-his-bitcoin/
 
 Literally, destroy the piece of paper you wrote your words on. Don’t fake this step. Now what? Is everything lost?
 
-## OBJECTIVE: Saving the day([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+## OBJECTIVE: Saving the day ([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 
 1. Understand the implications of losing a backup: Those 12 words **ARE your bitcoin!** Is there a way to save the coins, or is it forever stuck in an unspendable state on the blockchain?
 2. Wait, you just generated the words on Sparrow… So, maybe it is saved on the machine as well in binary form?
-3. In Sparrow go to `Settings` --> `View Seed`
+3. In Sparrow go to `Settings` --> `View Seed…`
 4. Look, there it is!
 5. Now create 2 backups instead of one and put them to different places
     1. Paper lamination adds some protection to paper
@@ -43,7 +43,7 @@ Literally, destroy the piece of paper you wrote your words on. Don’t fake this
 
 You were sure you hid it under your mattress! How could that happen?! You can’t be sure if your backup was stolen, trashed, or just lost somehow. You don’t have time to ruminate and search for days.
 
-## OBJECTIVE: Sweep funds to safety([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+## OBJECTIVE: Sweep funds to safety ([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 1. Create a new wallet
 2. Back it up, test recovery
 3. Transfer all funds to that ASAP!
@@ -55,8 +55,8 @@ You were sure you hid it under your mattress! How could that happen?! You can’
     6. `Finalize Transaction for Signing`
     7. `Sign`
     8. `Broadcast Transaction`
-4. Go to your new wallet’s `Transactions` tab and see how the rescue transaction appears first unconfirmed(node learns about your transaction of interest) and then confirmations start to accumulate
-5. Once your funds are safe, meaning the transaction has at least 6 confirmations(It could take an hour), delete the older wallet from Sparrow
+4. Go to your new wallet’s `Transactions` tab and see how the rescue transaction appears first unconfirmed (node learns about your transaction of interest) and then confirmations start to accumulate
+5. Once your funds are safe, meaning the transaction has at least 6 confirmations (It could take an hour), delete the older wallet from Sparrow
 6. Also destroy the 2 backups associated with that old wallet because your transaction history is still tied to it
 
 ---
@@ -65,7 +65,7 @@ You were sure you hid it under your mattress! How could that happen?! You can’
 
 There is a way to defend against people finding your key backups. You can create a so-called **“passphrased wallet”** which requires your passphrase **in addition** to your seed words to access the funds.
 
-## OBJECTIVE: Defend against the bare key-backup problem([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+## OBJECTIVE: Defend against the bare key-backup problem ([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 1. 💡Learn about [passphrased wallets](/en/pleb-lessons/#bip39-passphrased-wallets)
 2. Create a new wallet but this time, use the bip39 passphrase feature in Sparrow
     1. No password needed yet
@@ -91,7 +91,7 @@ Now you have a fairly robust setup that protects against accidental loss and fun
 
 The computer now is compromised meaning cyber attackers can steal your keys from your computer and log your keystrokes whenever you input your passphrase!
 
-## OBJECTIVE: Save funds once again([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+## OBJECTIVE: Save funds once again ([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 1. You don’t have time to fix the infected machine yet
 2. Get another safe desktop computer or a safe mobile phone
 3. Get a copy of the secret key and the passphrase backups
@@ -103,11 +103,11 @@ The computer now is compromised meaning cyber attackers can steal your keys from
     4. Samourai will always by default ask for a passphrase when you create a wallet and use it as an encryption password as well for automatic backups
 6. Sweep your funds to the newly created wallet
 
-Now your funds are safe but as long as the wallet file is on the infected machine, at least your bitcoin transaction history can still be stolen by the attacker(if there wasn’t any other sensitive data on the computer).
+Now your funds are safe but as long as the wallet file is on the infected machine, at least your bitcoin transaction history can still be stolen by the attacker (if there wasn’t any other sensitive data on the computer).
 
 ---
 
-## OBJECTIVE: Destroy your wallet on the unsafe computer and wipe the operating system to start fresh([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+## OBJECTIVE: Destroy your wallet on the unsafe computer and wipe the operating system to start fresh ([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 1. You could **just** **delete** wallets from sparrow as an easy but not very secure deletion method
 2. The better way is to find the location where sparrow stores your wallet data and **erase** it **with** the `shred` **command**
     1. In the directory where the wallet is stored run this command in the terminal. Sparrow uses a hidden directory to store wallets
@@ -171,7 +171,7 @@ You now see the problem with storing secrets on general purpose computers connec
 1. 💡 Learn about [hardware wallets and cold storage](/en/pleb-lessons/#hardware-wallets-and-cold-storage)
 3. Order a hardware wallet. Good choices:
     1. **You can order prebuilt versions of SeedSigner as well as Specter! See recommended shops in “Advice for ordering bitcoin related things” section**
-    2. [SeedSigner](https://seedsigner.com/hardware/){:target="_blank"}(tutorials will rely on this device!)
+    2. [SeedSigner](https://seedsigner.com/hardware/){:target="_blank"} (tutorials will rely on this device!)
         1. The “open pill” design with the standard raspberry camera (instead of zero cam) was the best experience for me
     3. [SpecterDIY](https://specter.solutions/hardware/){:target="_blank"}
     4. [Coldcard](https://coldcard.com/){:target="_blank"}
@@ -192,9 +192,9 @@ You may find yourself spending a few hundred cuckbucks on bitcoin related stuff 
 
 So how can you be pretty sure this thing will not steal your bitcoin? There can be many methods devised to verify hardware wallets. The verification also depends on your type of hww and available resources.
 
-## OBJECTIVE: Download, verify and burn the SeedSigner image on a microSD card([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+## OBJECTIVE: Download, verify and burn the SeedSigner image on a microSD card ([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 1. Alternative guide on SeedSigner [github page](https://github.com/seedsigner#software-installation){:target="_blank"}
-1. Boot into Ubuntu Live(safe clean environment for critical tasks)
+1. Boot into Ubuntu Live (safe clean environment for critical tasks)
     1. Get your Ubuntu installation USB stick
     2. Insert it into your computer and reboot
     3. You might have to change the boot order in the BIOS settings to boot from the USB stick
@@ -207,11 +207,11 @@ So how can you be pretty sure this thing will not steal your bitcoin? There can 
     8. Go to the “raw” file. Copy the URL in the browser
     9. Go to terminal. Install curl package. The clean environment does not have anything installed that you already have on your normal system
     ```sh
-sudo apt install curl
+    sudo apt install curl
 	```
     11. Import the pubkey into gpg
     ```sh
-curl <paste URL> | gpg --import
+    curl <paste URL> | gpg --import
 	```
     13. Go back to SeedSigner home page and select “Download The Latest Release”
     14. Read the description carefully
@@ -220,16 +220,16 @@ curl <paste URL> | gpg --import
     17. Download the `<release_version>.<your_pi_version>.img` file
 4. Go to the Downloads folder
     ```sh
-cd ~/Downloads
+    cd ~/Downloads
 	```
 5. Verify the `sha256` manifest file
     ```sh
-gpg –verify <release_version>.sha256.sig
+    gpg –verify <release_version>.sha256.sig
     ```
     22. Hopefully it says …Good signature…
 6. Verify that your image file’s hash fingerprint indeed matches one of the precomputed hashes in the `sha256` file
     ```sh
-sha256sum -c <release_version>.sha256 --ignore-missing
+    sha256sum -c <release_version>.sha256 --ignore-missing
 	```
     22. Should output “…OK”
     23. You can check what these manifest files look like with nano
@@ -239,17 +239,17 @@ sha256sum -c <release_version>.sha256 --ignore-missing
 9. Burn the image you previously saved with Balena Etcher on a dedicated microSD card
     25. Download [Balena etcher](https://www.balena.io/etcher#download-etcher){:target="_blank"} for Linux x64 bit AppImage file
     ```sh
-cd ~/Downloads
+    cd ~/Downloads
 	```
     ```sh
-chmod +x balenaEtcher<release_version>.AppImage
+    chmod +x balenaEtcher<release_version>.AppImage
 	```
     28. It will require a package named fuse. We get it by adding the “universe” package repository to our clean system and then install the package from there
         ```sh
-sudo add-apt-repository universe
+        sudo add-apt-repository universe
 		```
         ```sh
-sudo apt install fuse
+        sudo apt install fuse
 		```
     29. Run Balena Etcher and burn the SeedSigner OS image on the dedicated microSD card
 10. **Never use that sd card for anything else and never insert it into any computer apart from your SeedSigner!**
@@ -266,7 +266,7 @@ This “live operating system” method can be used to verify crucial things or 
 
 ---
 
-## OBJECTIVE: Verify your hardware wallet([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+## OBJECTIVE: Verify your hardware wallet ([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 1. If you get a device from one of the reputed vendors then it will arrive in a tamper-evident bag. Check it carefully and follow vendor instructions!
 2. Create a new `dummy wallet` in Sparrow with no funds and no history
     1. 12 words
@@ -293,7 +293,7 @@ This “live operating system” method can be used to verify crucial things or 
 
 ---
 
-## OBJECTIVE: Verify spending with the hardware wallet([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+## OBJECTIVE: Verify spending with the hardware wallet ([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 1. Send a small amount of testcoins to this dummy wallet from your main wallet
     1. 15.000 sats is enough
 2. Now send it back using Sparrow AND Seedsigner to sign the transaction
@@ -316,7 +316,7 @@ This “live operating system” method can be used to verify crucial things or 
         1. If it shows an error try to enable the webcam if it is disabled or reconnect USB
         2. Orientation doesn’t matter
         3. Try to wait for autofocus to kick in
-        4. Hold the camera(or the hardware wallet) firm. You can put your elbow on the desk to get more stability
+        4. Hold the camera (or the hardware wallet) firm. You can put your elbow on the desk to get more stability
         5. Try to establish good lighting conditions: Reduce glare by reducing brightness of the screen with the joystick down action and/or adjusting the surrounding lights
 11. Now you can see the `Signature` progress bar in Sparrow filled blue
 12. You can `View the Final Transaction`
@@ -344,7 +344,7 @@ Now that you verified your hardware wallet sufficiently you can start migrating 
 
 ---
 
-## OBJECTIVE: Import the public key/Xpub from SeedSigner into Sparrow wallet([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+## OBJECTIVE: Import the public key/Xpub from SeedSigner into Sparrow wallet ([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 
 1. In Sparrow Go to `File` --> `New wallet` --> Name it
 2. Select `Airgapped Hardware Wallet`
@@ -383,7 +383,7 @@ Now that you verified your hardware wallet sufficiently you can start migrating 
 
 You start to get the idea about hardware wallets. Now we can test the address verification function. Best way to do this is stacking some more sats! :)
 
-## OBJECTIVE: “Buy” some more bitcoin from the [signet faucet](https://faucet.mutinynet.com/){:target="_blank"}([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
+## OBJECTIVE: “Buy” some more bitcoin from the [signet faucet](https://faucet.mutinynet.com/){:target="_blank"} ([Progress Images](/en/progress-a-fool-and-his-bitcoin/){:target="_blank"})
 
 1. Generate a new receiving address in your watch-only wallet `Receive` tab in Sparrow
     1. Check the icon about address reuse
@@ -400,12 +400,12 @@ You start to get the idea about hardware wallets. Now we can test the address ve
 ## Don't trust networked computers from now on. Never put any crucial sensitive data in them, like your cold storage secret keys or passphrases. Only trust your verified hardware wallet
 {: .no_toc }
 
-## Secure your hardware wallet so you minimize the threat of tampering(swapping out sd cards or whole device)
+## Secure your hardware wallet so you minimize the threat of tampering (swapping out sd cards or whole device)
 {: .no_toc }
 
 Even if your computer is not to be trusted, it is also important to note that other computers are less trustworthy which means don’t even run any Wallet software like Sparrow wallet on unknown or unsafe computers.
 
-Your bitcoin tech-architecture looks like this(`click to enlarge`):
+Your bitcoin tech-architecture looks like this (click to enlarge):
 
 [![Initial Architecture](/assets/img/diagrams/architecture_bitcoinplebs_quest_4.drawio.png)](/assets/img/diagrams/architecture_bitcoinplebs_quest_4.drawio.png){:target="_blank"}
 
@@ -422,12 +422,12 @@ Your bitcoin tech-architecture looks like this(`click to enlarge`):
 4. Verify Sparrow according to [previous instructions](/en/get-on-board/#objective-start-using-sparrow-wallet)
     1. The gpg key is already imported at this point
 5. **Upgrade Sparrow** to the latest version the same way you installed it
-    ```sh
-sudo apt install ./<sparrow_release_version>.deb
-	```
-**6. Upgrade SeedSigner**
+```sh
+    sudo apt install ./<sparrow_release_version>.deb
+```
+6. **Upgrade SeedSigner**
     3. You can destroy your previous microSD and dedicate a brand new one for an additional safety guarantee
-    4. Boot your computer into Ubuntu live again and complete the [steps described before](a-fool-and-his-bitcoin/#objective-download-verify-and-burn-the-seedsigner-image-on-a-microsd-card-alternative-guide-on-seedsigner-github-page)
+    4. Boot your computer into Ubuntu live again and complete the [steps described before](/en/a-fool-and-his-bitcoin/#objective-download-verify-and-burn-the-seedsigner-image-on-a-microsd-card-progress-images)
         1. You will not have the gpg key imported on the clean Ubuntu live system, so you do everything from scratch
 
 ---

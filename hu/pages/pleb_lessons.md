@@ -384,76 +384,76 @@ Nos, **6 megerősítéssel** már nyugodtan kijelenthetjük, hogy nincs olyan re
 ---
 ---
 
-## Phishing
+## Adathalászat
 
-[Phishing](https://en.wikipedia.org/wiki/Phishing) attacks can be carried out in many ways but the common narrative is that attackers try to present themselves to you as some kind of trusted party. The point of contact with the attacker can be sms, email, a malicious look-alike website or someone contacting you on a social platform like facebook, twitter, instagram, telegram, discord and the like.
+Az [adathalászat](https://hu.wikipedia.org/wiki/Adathal%C3%A1szat) sokféle módon megtörténhet, de a közös forgatókönyv az, hogy a támadók valamilyen megbízható félként próbálnak bemutatkozni neked. A támadóval való kapcsolatfelvétel történhet SMS-en, emailen, egy rosszindulatú és megtévesztően hasonló weboldalon keresztül, vagy valaki megkereshet egy közösségi platformon, mint például a Facebook, Twitter, Instagram, Telegram, Discord és hasonlók.
 
-It is the most successful type of cyber crime because it does not try to break the security of computer systems but phishing relies on establishing trust with the unknowing victim and then tricking her into giving up sensitive data freely.
+Ez a legsikeresebb kiberbűnözési forma, mert az adathalászat nem a számítógépes rendszerek biztonságának feltörésére törekszik, hanem azok alapul, hogy bizalmat épít ki a gyanútlan áldozattal, majd ráveszi, hogy önként adja ki érzékeny adatait.
 
-The only way to really protect yourself against this is developing a vigilance practice by adopting strong habits of all kinds of verification methods. It all starts with learning because if you are ignorant, you will get into a situation where you just don’t know what to do and you start panicking. Then you try to search for information and you bump into a scam website or try to contact expert help but you end up giving leads to your bitcoin or your identity.
+Az egyetlen módja annak, hogy valóban megvédd magad, az egy figyelmes hozzáállás kialakítása, erős ellenőrzési szokások bevezetésével. Minden a tanulással kezdődik, mert ha nem vagy tájékozott, olyan helyzetbe kerülhetsz, ahol nem tudod, mit tegyél, és pánikba eshetsz. Aztán információt keresve egy csaló weboldalra bukkanhatsz, vagy szakértői segítséget próbálhatsz kérni, de végül a bitcoinod vagy a személyazonosságod adatait adhatod ki.
 
-Also, when you are in an emotional state it is ill-advised to do anything bitcoin related. Resist the temptation. Your judgment will be clouded and you will not be able to adopt a state of vigilance and might fall into a trap. You will screw up and you will regret it.
+Továbbá amikor érzelmi állapotban vagy, nem tanácsos semmilyen bitcoinnal kapcsolatos műveletet végezni. Állj ellen a kísértésnek! Az ítélőképességed elhomályosul, nem tudsz figyelmes állapotot fenntartani, és csapdába eshetsz. Elszúrod, és meg fogod bánni.
 
-[Back to Objective]({{ site.baseurl }}/en/a-fool-and-his-bitcoin/#objective-defend-against-the-dark-arts-of-phishing-and-malware){: .btn .btn-purple}
+[Vissza a célkitűzéshez]({{ site.baseurl }}/hu/a-fool-and-his-bitcoin/#cél-az-adathalászat-és-a-kártevők-sötét-művészete-elleni-védekezés){: .btn .btn-purple}
 
 ---
 ---
 
-## Ordering Bitcoin-related things online
+## Bitcoinnal kapcsolatos online vásárlás
 
-1. Don’t use Google when browsing for Bitcoin-related purchases! Use [Tor browser](https://www.torproject.org/) or reputable VPN services like [MULLVAD](https://mullvad.net/en/) to protect your personal information like your IP address!
-2. If you are buying from a well-known brand, buy things directly from their website. Many malicious copycat websites exist for popular Bitcoin related products. Not to mention the higher possibility of tampering when it is not shipped from as close to the source as possible.
-3. Check https (lock icon 🔒) connection always, sanity check the GUI and language of the website
-4. Buy with Bitcoin if possible. Spending bitcoin privately is not a trivial task. See the [bitcoin privacy section](/en/pleb-lessons/#bitcoin-plebs-and-privacy) for more info. If you buy with fiat at least the payment provider and your government will be able to connect the dots.
-5. Consider using a burner email address. Free email like gmail is not good for privacy. They read all your emails
-6. Consider using a NoKYC phone nr. Visit [silent.link](http://silentlnit5ryavvfz5vw7s4qg62jujd666lnc4tg2chj64zuwuqtvqd.onion/) website in a Tor browser for more info. You can buy a phone number to receive calls and sms (no outgoing calls for privacy) and you can buy mobile data as well. It is a very rare service so they might run out of numbers from time to time
-7. Don’t use your home address! Have it delivered to a PO box or an office.
-8. Exceptions can be made when it is a general purpose hardware you are buying from a well-known store like Amazon.
+1. Ne használj Google-t, amikor Bitcoinnal kapcsolatos vásárlások ügyében böngészel! Használj [Tor browsert](https://www.torproject.org/) vagy megbízható VPN-szolgáltatásokat, például a [MULLVAD](https://mullvad.net/) oldalt, hogy megvédd személyes adataidat, például az IP-címedet!
+2. Ha ismert márkától vásárolsz, közvetlenül a honlapjukról rendeld meg a terméket! Számos rosszindulatú utánzó honlap létezik népszerű Bitcoinnal kapcsolatos termékekhez. Ráadásul nagyobb a manipuláció esélye, ha a termék nem a lehető legközvetlenebb forrásból érkezik.
+3. Mindig ellenőrizd a https kapcsolatot (lakat ikon 🔒), és vizsgáld meg a honlap felületét és nyelvezetét!
+4. Ha lehetséges, fizess bitcoinnal! A bitcoin privát módon való használata nem egyszerű feladat. További információért lásd a [bitcoin adatvédelem részt](/hu/pleb-lessons/#bitcoin-plebs-and-privacy)! Ha fiat valutával vásárolsz, minimum a fizetési szolgáltató és a kormányod képes összekötni a pontokat.
+5. Fontold meg egy eldobható email-cím alkalmazását! Az olyan ingyenes email-szolgáltatások, mint a Gmail adatvédelmi szempontból nem jók, mivel minden emailedet elolvassák.
+6. Fontold meg egy NoKYC telefonszám használatát! További információért látogasd meg a [silent.link](http://silentlnit5ryavvfz5vw7s4qg62jujd666lnc4tg2chj64zuwuqtvqd.onion/) honlapot Tor böngészőn keresztül! Vásárolhatsz telefonszámot hívások és SMS-ek fogadására (kimenő hívások nélkül az adatvédelem érdekében), valamint mobilnet adatkeretet is vehetsz. Ez egy ritka szolgáltatás, így időnként kifogyhatnak a számokból.
+7. Ne használd az otthoni címedet! Kérj kézbesítést postafiókra vagy irodába!
+8. Kivételt tehetsz, ha általános célú hardvert vásárolsz ismert boltból, például az Amazonról.
 
-Some shops I came across where bitcoiners buy stuff (NO guarantees, NOT reflinks!)
+Néhány üzlet, ahol bitcoinerek vásárolnak (NINCS garancia, NEM ajánlói linkek!):
 1. [GoBrrr](https://www.gobrrr.me/)
 2. [Fulmo](https://shop.fulmo.org/)
 3. [Diynodes](https://diynodes.com/)
 4. [Ronin shop](https://ronindojo.io/)
 5. [Nodl shop](https://www.nodl.eu/products/)
 6. [Vulcan21](https://vulcan21.com/)
-7. [BTC Hardware Solutions](https://btc-hardware-solutions.square.site/) (USA only)
-8. [Lightning in a box](https://lightninginabox.co/product/raspiblitz-raspberry-pi-lightning-node/) (USA only)
+7. [BTC Hardware Solutions](https://btc-hardware-solutions.square.site/) (csak USA)
+8. [Lightning in a box](https://lightninginabox.co/product/raspiblitz-raspberry-pi-lightning-node/) (csak USA)
 9. [Coinkite](https://coinkite.com/)
 10. [Foundation devices](https://foundationdevices.com/)
 
 ---
 ---
 
-## BIP39 Passphrased Wallets
+## BIP39 jelkódos tárcák
 
-An analogy will be helpful here I believe:
+Egy analógia segíthet a megértésben:
 
-Imagine a big castle full of rooms, almost too many to count all of them. It holds your treasure. If a burglar gets the key to the main entrance gate of this castle, she will find a keyring to all rooms inside the castle.
+Képzelj el egy hatalmas kastélyt, tele szobákkal, szinte megszámlálhatatlanul sok van belőlük. Ebben a kastélyban van elrejtve a kincsed. Ha egy betörő megszerezné a főbejárat kulcsát, megtalálná a kastély összes szobájának a kulcsát.
 
-Of course this is a huge keyring but more importantly: She would be dead before she could search all rooms. It just takes too much time.
+Persze ez egy hatalmas kulcscsomó, de ami ennél is fontosabb: a betörőnek nem érné meg minden szobát átkutatni, mert túl sok időbe telne.
 
-But you designed this castle, so you know which rooms are filled with treasure and which are empty. So you just choose the right key and get any treasure anytime from one of the right rooms. Of course those people you shared the room numbers with can do this too. Maybe your trustees or heirs.
+Azonban te tervezted a kastélyt, így pontosan tudod, melyik szobákban van kincs, és melyek üresek. Csak kiválasztod a megfelelő kulcsot, és bármikor kiveheted a kincset a megfelelő szobákból. Természetesen azok, akikkel megosztottad a szobák számát, szintén meg tudják tenni ugyanezt. Ők a te megbízottjaid vagy örököseid.
 
-Ways for your treasure to be compromised is straightforward:
-1. You lose the key to the entrance gate. You lock yourself out
-2. You lose the room information. You cannot find the right rooms anymore inside the castle
-3. You leak BOTH the key to your castle entrance AND the room info to malicious people - they gain access and steal your treasure
-
----
-
-This means that all bip39 passphrases added to a regular wallet create new valid wallets. It is NOT an encryption password which blocks you from making sense of _binary_ data unless you know the password.
-
-This entails that your encrypted wallet (if you add a wallet password in Sparrow) does not protect you from someone finding the physical backup and recovering that wallet from the seed words. He can access your funds this way without any password.
-
-Passphrases protect a wallet even if the physical seed phrase backup is compromised. It is therefore a second security factor on your bitcoin wallet not just on your computer but in every way.
-
-[Back to Objective]({{ site.baseurl }}/en/a-fool-and-his-bitcoin/#objective-defend-against-the-bare-key-backup-problemprogress-images){: .btn .btn-purple}
+A kincsed veszélyeztetésének módjai egyértelműek:
+1. Elveszíted a főbejárat kulcsát. Ezzel kizárod magad.
+2. Elveszíted a szobák információit. Többé nem találod meg a megfelelő szobákat a kastélyon belül.
+3. Kiszivárogtatod MIND a főbejárat kulcsát, MIND a szoba információkat rosszindulatú embereknek – ők így hozzáférnek és ellopják a kincsedet.
 
 ---
+
+Ez azt jelenti, hogy minden BIP39 jelkód, amit egy normál tárcához adsz, új, érvényes tárcákat hoz létre. Ez NEM egy titkosítási jelszó, amely megakadályozná, hogy a _bináris_ adatok értelmet nyerjenek, ha nem tudod a jelszót.
+
+Ez azt eredményezi, hogy a titkosított tárcád (ha beállítasz egy tárca jelszót a Sparrow-ban) nem véd meg attól, hogy valaki megtalálja a fizikai biztonsági mentést, és a seed-phrase-ből visszaállítsa a tárcát. Így jelszó nélkül is hozzáférhet a satjaidhoz.
+
+A jelkód (passphrase) azonban megvédi a tárcát, még ha a seed-phrase fizikai biztonsági mentése kompromittálódik is. Ezért a jelkód egy második biztonsági tényező a bitcoin tárcádon, nem csupán a számítógépeden, hanem minden szempontból.
+
+[Vissza a célkitűzéshez]({{ site.baseurl }}/hu/a-fool-and-his-bitcoin/#cél-a-szimpla-biztonsági-mentés-problémájának-kivédése-folyamatábrázoló-képek){: .btn .btn-purple}
+
+---
 ---
 
-## Hardware wallets and Cold storage
+## Hardver tárcák és hidegtárolás
 
 ## Cold storage (Cold wallets)
 {: .no_toc }
@@ -576,7 +576,7 @@ If you are planning to use multisig it is even more advised to have multiple typ
 
 **Although any quest can be completed with the above devices, Bitcoin Plebs quests will use the SeedSigner as a reference.**
 
-[Back to Objective]({{ site.baseurl }}/en/a-fool-and-his-bitcoin/#objective-start-using-a-hardware-wallet){: .btn .btn-purple}
+[Vissza a célkitűzéshez]({{ site.baseurl }}/hu/a-fool-and-his-bitcoin/#cél-hardver-tárca-használatának-elkezdése){: .btn .btn-purple}
 
 ---
 ---

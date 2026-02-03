@@ -222,7 +222,7 @@ A Tor kiváló egyszerű információk keresésére, de fájdalmasan lassú élm
     5. Most már elindíthatod a Tor böngészőt a `Super + <gépelés>` módszerrel.
     6. Add hozzá a Tor böngészőt a kedvencekhez!
 
-Amikor bitcoinnal kapcsolatos tevékenységeket végzel, a legtöbb interakció a bitcoin tárca szoftvereddel lesz. Ez az agy, amely koordinálja a pénzed kezeléséért és nyomon követéséért tett erőfeszítéseidet. Napjaink egyik legnépszerűbb tárcája a Sparrow Wallet. Könnyű használatot tesz lehetővé, miközben fejlett funkciókat valósít meg. A bitcoin tanulása a Sparrow Wallet-tel kezdődik szerintem. Kezdjük hát használni!
+Amikor bitcoinnal kapcsolatos tevékenységeket végzel, a legtöbb interakció a bitcoin-tárca szoftvereddel lesz. Ez az agy, amely koordinálja a pénzed kezeléséért és nyomon követéséért tett erőfeszítéseidet. Napjaink egyik legnépszerűbb tárcája a Sparrow Wallet. Könnyű használatot tesz lehetővé, miközben fejlett funkciókat valósít meg. A bitcoin tanulása a Sparrow Wallet-tel kezdődik szerintem. Kezdjük hát használni!
 
 ---
 
