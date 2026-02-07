@@ -50,7 +50,7 @@ Bárki, aki komolyan foglalkozik a Bitcoinnal és az IT-biztonsággal, Linux ope
 ---
 
 ## CÉL: Ubuntu Jammy 22.04 LTS telepítése
-1. 💡 [Linux terminál](/hu/pleb-lessons/#the-linux-terminal-aka-linux-command-line-shell-bash)ról való tanulás.
+1. 💡 [Linux terminál](/hu/pleb-lessons/#a-linux-terminál-más-néven-linux-parancssor-shell-bash)ról való tanulás.
 2. Ha elakadsz, [az Ubuntu honlapján is találsz egy útmutatót](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview){:target="_blank"} (képekkel).
 3. Az útmutatóban szereplő parancsok nem mindig pontosak, mert a programverziók és a fájlnevek változhatnak. A `<hegyes szögletes zárójelben>` lévő szöveget a saját verziódra kell cserélned. Használj gyakran `tabulátor-kiegészítést` a kevesebb gépelés és a helyes parancsok használata érdekében!
 4. Töltsd le az [asztali képfájlt](https://www.releases.ubuntu.com/jammy/){:target="_blank"} a jelenleg futtatott operációs rendszeredtől függetlenül!
@@ -91,9 +91,9 @@ Bárki, aki komolyan foglalkozik a Bitcoinnal és az IT-biztonsággal, Linux ope
 
 ---
 
-## CÉL: Csatlakozás a Bitcoin pleb közösséghez ([folyamatábrázoló képek](/progress-get-on-board/){:target="_blank"})
+## CÉL: Csatlakozás a Bitcoin pleb közösséghez ([folyamatábrázoló képek](/hu/progress-get-on-board/){:target="_blank"})
 1. 💡 Tanulj a [nostr protokollról](/hu/pleb-lessons/#nostr-notes-and-other-stuff-transmitted-by-relays)!
-2. 💡 Tanulj a [nyilvános kulcsú titkosításról](/hu/pleb-lessons/#public-key-cryptography)!
+2. 💡 Tanulj a [nyilvános kulcsú kriptográfiáról](/hu/pleb-lessons/#nyilvános-kulcsú-kriptográfia)!
 3. Kezdj el jegyzeteket készíteni minden új és figyelemre méltó dologról: technikák, parancsok, konfigurációk, források stb.!
     1. Nyisd meg a `gedit` szövegszerkesztőt, és hozz létre egy `bitcoin pleb jegyzet` nevű szövegfájlt!
     2. **Ne használd privát kulcsok vagy jelszavak tárolására!**
@@ -181,8 +181,8 @@ A Tor böngésző erős adatvédelmet biztosító eszköz, amely megóvja online
 
 A Tor kiváló egyszerű információk keresésére, de fájdalmasan lassú élmény lehet, és az idő a legszűkösebb erőforrás. Ehelyett használhatod a Firefoxot vagy a [Mullvad böngészőt](https://mullvad.net/en/browser){:target="_blank"} párosítva a [Proton](https://protonvpn.com/){:target="_blank"}- vagy [Mullvad](https://mullvad.net/en){:target="_blank"} VPN szolgáltatásáv asztali gépen. A VPN nagyszerű, de válassz körültekintően, mert sok szolgáltatás csalás, és miközben megbízol bennük, hogy nem naplózzák az tevékenységeidet, a kormány kérésére bármikor elkezdhetik ezt tenni előzetes figyelmeztetés nélkül.
 
-## CÉL: Tor böngésző letöltése, ellenőrzése és telepítése (Mullvad böngésző esetén hasonló) ([folyamatábrázoló képek](/progress-get-on-board/){:target="_blank"})
-1. 💡 Tanulj a [digitális információk ellenőrzéséről](/hu/pleb-lessons/#verifying-digital-information)!
+## CÉL: Tor böngésző letöltése, ellenőrzése és telepítése (Mullvad böngésző esetén hasonló) ([folyamatábrázoló képek](/hu/progress-get-on-board/){:target="_blank"})
+1. 💡 Tanulj a [digitális információk ellenőrzéséről](/hu/pleb-lessons/#digitális-információk-ellenőrzése)!
 2. Az Ubuntud egy hasznos eszközzel érkezik, amelyet titkosításra és ellenőrzésre használhatsz: a GPG (Gnu Privacy Guard, amely az OpenPGP szabványt valósítja meg). Nyiss egy terminált a használatához!
     1. `Super` + kezdd el begépelni a „terminál” szót (add hozzá a kedvencekhez jobb klikkel)!
 3. Látogass el a [Tor projekt honlapjára](https://www.torproject.org/){:target="_blank"}! Ez egy egyszerű https weboldal legyen (ellenőrizd a kis lakat ikont a címsorban)!
@@ -222,11 +222,11 @@ A Tor kiváló egyszerű információk keresésére, de fájdalmasan lassú élm
     5. Most már elindíthatod a Tor böngészőt a `Super + <gépelés>` módszerrel.
     6. Add hozzá a Tor böngészőt a kedvencekhez!
 
-Amikor bitcoinnal kapcsolatos tevékenységeket végzel, a legtöbb interakció a bitcoin tárca szoftvereddel lesz. Ez az agy, amely koordinálja a pénzed kezeléséért és nyomon követéséért tett erőfeszítéseidet. Napjaink egyik legnépszerűbb tárcája a Sparrow Wallet. Könnyű használatot tesz lehetővé, miközben fejlett funkciókat valósít meg. A bitcoin tanulása a Sparrow Wallet-tel kezdődik szerintem. Kezdjük hát használni!
+Amikor bitcoinnal kapcsolatos tevékenységeket végzel, a legtöbb interakció a bitcoin-tárca szoftvereddel lesz. Ez az agy, amely koordinálja a pénzed kezeléséért és nyomon követéséért tett erőfeszítéseidet. Napjaink egyik legnépszerűbb tárcája a Sparrow Wallet. Könnyű használatot tesz lehetővé, miközben fejlett funkciókat valósít meg. A bitcoin tanulása a Sparrow Wallet-tel kezdődik szerintem. Kezdjük hát használni!
 
 ---
 
-## CÉL: Sparrow Wallet használatbavétele ([folyamatábrázoló képek](/progress-get-on-board/){:target="_blank"})
+## CÉL: Sparrow Wallet használatbavétele ([folyamatábrázoló képek](/hu/progress-get-on-board/){:target="_blank"})
 1. Nyisd meg a Firefox böngészőt, és navigálj a [Sparrow Wallet honlapjára](https://sparrowwallet.com/){:target="_blank"} (clearnet link)!
     * Tor böngészőben a letöltés nagyon lassú, de megpróbálhatod.
 2. Menj a Letöltés részre, és navigálj a 1.7.6 verzióhoz a [korábbi kiadásokban](https://github.com/sparrowwallet/sparrow/releases/tag/1.7.6){:target="_blank"} (ehhez a kurzushoz ismerten működő verzió)!
@@ -266,7 +266,7 @@ A bitcoin plebeknek csodálatos gyakorlóterepük van készségeik biztonságos 
 
 ---
 
-## CÉL: Sparrow signet módra való konfigurálása ([folyamatábrázoló képek](/progress-get-on-board/){:target="_blank"})
+## CÉL: Sparrow signet módra való konfigurálása ([folyamatábrázoló képek](/hu/progress-get-on-board/){:target="_blank"})
 1. A legegyszerűbb módja annak, hogy a Sparrow mindig signet módban induljon, az egy úgynevezett „környezeti változó” beállítása, ami csak egy divatos kifejezés arra, hogy „ilyen speciális paraméterekkel szeretném futtatni ezt a programot”.
 2. A terminálban szerkeszd ezt a fájlt, amely fontos dolgokat tartalmaz az indításhoz:
     ```sh

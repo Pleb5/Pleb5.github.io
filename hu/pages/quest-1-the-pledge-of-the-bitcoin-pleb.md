@@ -25,7 +25,7 @@ Ez a képzési program azoknak szól, akik Bitcoin plebként szuverén egyénekk
 
 ---
 
-## CÉL: Teljesítsd a [Bitcoin pleb fogadalom] küldetését (hibrid PDF letöltés)!
+## CÉL: A [Bitcoin pleb fogadalom] küldetésének teljesítése (hibrid PDF letöltés)
 * Elgondolkodtat arról, hogy ez valóban neked való-e.
 * Ez nem egy beadandó feladat.
 * A hibrid pdf-et szerkesztheted LibreOffice-ban, ha szeretnéd.
