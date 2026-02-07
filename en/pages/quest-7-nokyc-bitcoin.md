@@ -1,7 +1,8 @@
 ---
 
 title: "Quest 7: NoKYC Bitcoin"
-permalink: en/nokyc-bitcoin/
+permalink: /en/nokyc-bitcoin/
+lang: en
 ---
 
 # Quest 7: The Real Deal: Get some real NoKYC bitcoin

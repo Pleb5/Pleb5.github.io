@@ -9,57 +9,51 @@
   {% endif %}
 {% endif %}
 {% assign translations = site.data.translations %}
+{% assign language_label = translations.language_selector[current_lang] | default: "Language" %}
+{% assign base_path = page.url | default: '/' %}
+{% if base_path == '/index.html' %}
+  {% assign base_path = '/' %}
+{% endif %}
+{% if base_path contains '/en/' %}
+  {% assign base_path = base_path | remove_first: '/en' %}
+{% elsif base_path contains '/hu/' %}
+  {% assign base_path = base_path | remove_first: '/hu' %}
+{% elsif base_path == '/en' or base_path == '/hu' %}
+  {% assign base_path = '/' %}
+{% endif %}
+{% if base_path == '' %}
+  {% assign base_path = '/' %}
+{% endif %}
+{% assign switcher_id = 'language-select-' | append: current_lang | append: '-' | append: page.url | slugify %}
 
 <div class="language-switcher">
-  <label for="language-select">{{ translations.language_selector[current_lang] }}:</label>
-  <select id="language-select">
+  <label for="{{ switcher_id }}">{{ language_label }}:</label>
+  <select id="{{ switcher_id }}" class="language-select" onchange="if (this.value) window.location.href = this.value;">
     {% for lang in site.languages %}
-      <option value="{{ lang }}" {% if lang == current_lang %}selected{% endif %}>
+      {% assign lang_root = '/' | append: lang | append: '/' %}
+      {% if base_path == '/' %}
+        {% assign candidate_url = lang_root %}
+      {% else %}
+        {% assign candidate_url = '/' | append: lang | append: base_path %}
+      {% endif %}
+      {% assign matches = site.pages | where: "url", candidate_url %}
+      {% assign target_url = lang_root %}
+      {% if matches and matches.size > 0 %}
+        {% assign target_url = candidate_url %}
+      {% endif %}
+      <option value="{{ target_url | relative_url }}" {% if lang == current_lang %}selected{% endif %}>
         {% case lang %}
           {% when 'en' %}
             English
           {% when 'hu' %}
             Magyar
+          {% else %}
+            {{ lang | upcase }}
         {% endcase %}
       </option>
     {% endfor %}
   </select>
 </div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const select = document.getElementById("language-select");
-  if (select) {
-    select.addEventListener("change", function(e) {
-      changeLanguage(e.target.value);
-    });
-  }
-});
-
-function changeLanguage(lang) {
-    const currentPath = window.location.pathname;
-    const currentLang = '{{ current_lang }}';
-
-    let newPath = currentPath;
-
-    if (currentPath.startsWith('/' + currentLang + '/')) {
-        newPath = currentPath.substring(currentLang.length + 1); 
-    } else if (currentPath === '/' + currentLang 
-            || currentPath === '/' + currentLang + '/'
-    ) {
-        newPath = '/';
-    }
-
-    if (newPath === '/' || newPath === '') {
-        newPath = '/' + lang + '/';
-    } else {
-        newPath = '/' + lang + newPath;
-    }
-
-    console.log("Redirecting from", currentPath, "to", newPath);
-    window.location.href = newPath;
-}
-</script>
 
 <style>
 .language-switcher {

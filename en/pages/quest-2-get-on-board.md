@@ -1,6 +1,7 @@
 ---
 title: "Quest 2: Get on board!"
 permalink: /en/get-on-board/
+lang: en
 ---
 
 # Quest 2: Get on board!

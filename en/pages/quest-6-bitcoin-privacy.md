@@ -2,6 +2,7 @@
 
 title: "Quest 6: Bitcoin Privacy"
 permalink: /en/bitcoin-privacy/
+lang: en
 ---
 
 # Quest 6: The first line of defense: Bitcoin Privacy

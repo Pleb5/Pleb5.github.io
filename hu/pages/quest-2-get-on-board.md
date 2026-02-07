@@ -2,6 +2,7 @@
 layout: custom_page_layout
 title: "2. küldetés: Fedélzetre!"
 permalink: /hu/get-on-board/
+lang: hu
 ---
 
 # 2. küldetés: Fedélzetre!

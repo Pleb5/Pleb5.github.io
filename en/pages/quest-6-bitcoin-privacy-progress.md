@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: en/progress-bitcoin-privacy/
+permalink: /en/progress-bitcoin-privacy/
+lang: en
 ---
 
 # Progress Images for Quest 6: The first line of defense: Bitcoin Privacy

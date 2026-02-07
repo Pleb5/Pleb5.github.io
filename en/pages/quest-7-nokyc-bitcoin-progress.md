@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: en/progress-nokyc-bitcoin/
+permalink: /en/progress-nokyc-bitcoin/
+lang: en
 ---
 
 # Progress Images for Quest 7: The Real Deal: Get some real NoKYC bitcoin

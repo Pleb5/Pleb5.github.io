@@ -2,6 +2,7 @@
 
 title: "Pleb lessons"
 permalink: /en/pleb-lessons/
+lang: en
 ---
 
 # Pleb lessons

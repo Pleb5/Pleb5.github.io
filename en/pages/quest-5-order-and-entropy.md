@@ -1,7 +1,8 @@
 ---
 
 title: "Quest 5: Order and Entropy"
-permalink: en/order-and-entropy/
+permalink: /en/order-and-entropy/
+lang: en
 ---
 
 # Quest 5: Order and Entropy

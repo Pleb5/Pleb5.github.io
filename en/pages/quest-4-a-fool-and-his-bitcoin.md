@@ -1,7 +1,8 @@
 ---
 
 title: "Quest 4: A fool and his bitcoin..."
-permalink: en/a-fool-and-his-bitcoin/
+permalink: /en/a-fool-and-his-bitcoin/
+lang: en
 ---
 
 # Quest 4: A fool and his bitcoin are soon parted

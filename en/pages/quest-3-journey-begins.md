@@ -1,7 +1,8 @@
 ---
 
 title: "Quest 3: Not your keys, not your coins"
-permalink: en/the-journey-begins/
+permalink: /en/the-journey-begins/
+lang: en
 ---
 
 # Quest 3: Not your keys, not your coins

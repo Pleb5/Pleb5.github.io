@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: en/progress-the-journey-begins/
+permalink: /en/progress-the-journey-begins/
+lang: en
 ---
 
 # Progress Images for Quest 3: Not your keys, not your coins

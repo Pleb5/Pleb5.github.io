@@ -1,7 +1,8 @@
 ---
 
 title: "Quest 8: Build Your Citadel"
-permalink: en/build-your-citadel/
+permalink: /en/build-your-citadel/
+lang: en
 ---
 
 # Quest 8: Bedrocks of a Legacy: Build your Bitcoin Citadel

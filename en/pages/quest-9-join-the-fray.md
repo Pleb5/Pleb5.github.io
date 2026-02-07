@@ -1,7 +1,8 @@
 ---
 
 title: "Quest 9: Join the Fray"
-permalink: en/join-the-fray/
+permalink: /en/join-the-fray/
+lang: en
 ---
 
 # Quest 9: Join the Fray for Freedom: Your Bitcoin-future needs You
