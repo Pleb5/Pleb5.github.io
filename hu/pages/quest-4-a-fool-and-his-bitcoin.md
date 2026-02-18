@@ -168,7 +168,7 @@ Most már értheted, mi a probléma azzal, ha titkos adatokat tárolsz internetr
 ---
 
 ## CÉL: Hardver tárca használatának elkezdése
-1. 💡 Ismerd meg a [hardver tárcák és hidegtárolás](/hu/pleb-lessons/#hardver-tárcák-és-hidegtárolás) működését!
+1. 💡 Ismerd meg a [hardver tárcák és hideg tárolás](/hu/pleb-lessons/#hardver-tárcák-és-hideg-tárolás) működését!
 2. Rendelj egy hardver tárcát! Jó választások:
     1. **Előre gyártott SeedSigner és Specter verziókat is rendelhetsz! Nézd meg az ajánlott boltokat a „Bitcoinnal kapcsolatos dolgok online vásárlásával kapcsolatos tanácsok” részben!**
     2. [SeedSigner](https://seedsigner.com/hardware/){:target="_blank"} (az útmutatók erre az eszközre épülnek)

@@ -44,7 +44,7 @@ Tekintsd meg lényegretörő oktatóvideóimat különböző bitcoin témákban 
 
 Ezek a nevek kissé különböző dolgokat jelentenek, és bizonyos esetekben a különbségek fontosak. Egyelőre elég, ha egy szerelő szerszámkészleteként gondolsz rájuk. Csodákra képesek, ha fel szeretnéd tuningolni az autód, vagy meg kell javítanod azt.
 
-Mielőtt megijednél a terminálokat övező mindennemű félelemtől és bizonytalanságtól, szeretném elmondani, hogy a Linux terminál valójában a barátod. Olyan dolgokat tesz lehetővé, amelyek nélküle sokkal nehezebbek lennének. Ez egy rendkívül rugalmas eszköz, amely képes nagyon egyszerű és nagyon bonyolult feladatok elvégzésére is. Valódi projektekben való használata sokkal többet tanít a számítógépekről, mint bármely könyv vagy cikk olvasása. Van otthon csavarkulcsod vagy kalapácsod? A barkácsolás alapjainak elsajátításával sokkal többet tehetsz a házad körül, miért ne tennéd ugyanezt az eszközeiddel is?
+Mielőtt megijednél a terminálokat övező egész FUD-tól (félelemkeltéstől és bizonytalanságtól), szeretném elmondani, hogy a Linux terminál valójában a barátod. Olyan dolgokat tesz lehetővé, amelyek nélküle sokkal nehezebbek lennének. Ez egy rendkívül rugalmas eszköz, amely képes nagyon egyszerű és nagyon bonyolult feladatok elvégzésére is. Valódi projektekben való használata sokkal többet tanít a számítógépekről, mint bármely könyv vagy cikk olvasása. Van otthon csavarkulcsod vagy kalapácsod? A barkácsolás alapjainak elsajátításával sokkal többet tehetsz a házad körül, miért ne tennéd ugyanezt az eszközeiddel is?
 
 Az egyetlen valódi veszély akkor áll fenn, ha fogalmad sincs, mit csinálsz, mert nem tanultál eleget ahhoz, hogy magabiztosan használd a számítógépedet. Ehhez nem kell évekig tanulni. Olyan, mint felelősségteljesen vezetni tanulni. Ez egy folyamat, és ha szánsz rá időt, hogy éppen eleget megismerj, meg fogsz döbbenni, mire képes a géped. Csak lépésről lépésre haladj, és tegyél bele erőfeszítést!
 
@@ -92,15 +92,15 @@ Később kipróbálhatsz és telepíthetsz más terminálokat, vagy testreszabha
 
 A bitcoin plebs közösség a Nostr platformon létezik. A Nostr egy decentralizált, cenzúraálló üzenetküldő _protokoll_, amelyet a szabadságkedvelők, például a bitcoinerek számára terveztek.
 
-A Nostr nem egy alkalmazás. Ez egy nyílt protokoll, akárcsak a Bitcoin, amelyet nagyon egyszerű üzenettovábbító relay-ekként és kliensekként valósítanak meg ostoba szerverek és mobilalkalmazások vagy asztali szoftverek formájában.
+A Nostr nem egy alkalmazás. Ez egy nyílt protokoll, akárcsak a Bitcoin, amelyet nagyon egyszerű üzenettovábbító relay-ekként és kliensekként valósítanak meg minimális funkcionalitású szerverek és mobilalkalmazások vagy asztali szoftverek formájában.
 
 A felhasználói adatok nem rögzíthetők a Nostr-n, mert azok elválaszthatatlanul a protokoll egyéni felhasználói által birtokolt privát kulcsokhoz kötődnek. A felhasználók bármilyen módon menthetik adataikat, és pillanatok alatt válthatnak másik relay-re vagy kliensre.
 
 Mivel a Nostr szinte bármilyen típusú üzenetet képes kezelni, számos olyan használati esetre alkalmas, ahol peer-to-peer, cenzúraálló kommunikációra van szükség. Közösségi média, üzenetküldő alkalmazások, hírek, peer-to-peer piacok, sőt még fizetések is lebonyolíthatók a Nostr-n keresztül.
 
-Ez egy új módja annak, hogy bármit kommunikáljunk az interneten, ahelyett, hogy ugyanazon hibás alapokon finomhangolnánk. A közös adatstruktúra lehetővé teszi a kliensek és szerverek globális együttműködését, miközben a jobb felhasználói élményért versenyeznek, ahelyett, hogy cégeknek és kormányoknak adnák el a felhasználókat.
+Ez egy új módja annak, hogy bármit kommunikáljunk az interneten, ahelyett, hogy ugyanazon a hibás alapon csavargatnánk a gombokat. A közös adatstruktúra lehetővé teszi a kliensek és szerverek globális együttműködését, miközben a jobb felhasználói élményért versenyeznek, ahelyett, hogy cégeknek és kormányoknak adnák el a felhasználókat.
 
-A protokollt alkalmazó szolgáltatók nem „közvetítők”, akik politikai szeszélyeknek vannak kitéve, ehelyett arra ösztönzik őket, hogy a lehető legjobban szolgálják ki ügyfeleiket.
+A protokollt alkalmazó szolgáltatók nem politikai szeszélyektől függő közvetítők, hanem arra ösztönzöttek, hogy a lehető legjobban szolgálják ki ügyfeleiket.
 
 A protokoll alapú megközelítés azt jelenti, hogy bár számos különböző kliens létezik különböző platformokon, az alapul szolgáló protokoll szabályai lehetővé teszik, hogy az emberek meglehetősen zökkenőmentesen kommunikáljanak mindegyiken. Még mindig nagyon új, de hamar rá fogsz érezni, és hidd el, óriási előnyöket fog nyújtani a Bitcoin Pleb számára!
 
@@ -197,7 +197,7 @@ A bitcoin privát kulcs (private key) nagyon hasonló bármely más kriptográfi
 
 A privát kulcs csupán titkos információ. Ugyanez az információ többféle formában is megjelenhet. Az információ különböző formáit az emberek akkor értik, ha előbb megegyeznek arról, hogyan értelmezik azt. Mondhatom, hogy „autó”, leírhatom, mutathatok róla képet, vagy megpróbálhatom csak testbeszéddel kifejezni. Te megérted, mert ugyanazokat a kommunikációs „szabályokat” követjük, amelyek az emberek közötti természetes interakciók során alakultak ki.
 
-A bitcoin esetében az első kézenfekvő forma a bináris információ. De szükségünk van egy másik, emberbarátabb formára, amelyet könnyű megjegyezni és leírni. Ez a természetes nyelv. Továbbá ha azt szeretnénk, hogy mindenki és minden gép megértse, nem használhatunk önkényes szavakat. Ezért egy szabályrendszert, egy szabványt tervezünk a „bitcoin privát kulcs szavai” köré. Ez a BIP39 célja.
+A bitcoin esetében az első kézenfekvő forma a bináris információ. De szükségünk van egy másik, emberbarátabb formára, amelyet könnyű megjegyezni és leírni. Ez a természetes nyelv. Továbbá ha azt szeretnénk, hogy mindenki és minden gép megértse, nem használhatunk önkényes szavakat. Ezért egy szabályrendszert, egy szabványt tervezünk a privát kulcsot reprezentáló szavak köré. Ez a BIP39 célja.
 
 A „Bitcoin fejlesztési javaslatok” (Bitcoin Improvement Proposals) a bitcoin protokoll köré épülő szabványok. Satoshi elindította a bitcoint, és az emberek olyan konszenzusmechanizmusokkal próbálják fejleszteni, mint a [BIP folyamat](https://river.com/learn/what-is-a-bitcoin-improvement-proposal-bip/). Ezen „bip-ek” egyike a [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), vitathatatlanul a legfontosabb BIP a bitcoin tulajdonosok számára.
 
@@ -205,7 +205,7 @@ A BIP39 seed-phrase, más néven „mag szavak” vagy „mnemonikus kód/szavak
 
 Ez a seed-phrase egy szabványos algoritmusba kerül, amely ezeket a szavakat bitekké alakítja, és némi szabványos „varázslatot” (ne aggódj, szabványokon alapul) végez, hogy létrehozza a **mester (kiterjesztett) privát kulcsot, más néven xpriv-et. A seed tehát nem azonos a privát kulccsal, hanem az, amiből a privát kulcs származik.**
 
-Ez a kulcs mostantól az összes bitcoinod felett rendelkezik. Amikor csak hozzá akarsz férni a bitcoinodhoz, csak használd ezeket a „varázsszavakat” (hihi)! Gyakorlatilag minden mai bitcoin tárca támogatja ezt. A továbbiakban megvizsgáljuk, hogyan óvhatjuk meg ezeket a szavakat illetéktelen személyektől illetve katasztrófáktól.
+Ez a kulcs mostantól az összes bitcoinod felett rendelkezik. Amikor csak hozzá akarsz férni a bitcoinodhoz, csak használd ezeket a „varázsszavakat” (haha)! Gyakorlatilag minden mai bitcoin tárca támogatja ezt. A továbbiakban megvizsgáljuk, hogyan óvhatjuk meg ezeket a szavakat illetéktelen személyektől illetve katasztrófáktól.
 
 ---
 
@@ -228,7 +228,7 @@ Ugyanakkor a bitcoin még fiatal. Ezek a szabványok és gyakorlatok még alakul
 ## Bitcoin nyilvános kulcsok és címek
 {: .no_toc }
 
-A privát kulcsok (private key) arra szolgálnak, hogy hozzáférj a bitcoinodhoz. De hogyan jutsz bitcoinhoz egyáltalán? Természetesen úgy, hogy másokkal értékes dolgokért cserébe kereskedsz! Na de _gyakrolatilag_ hogyan küldenek neked bitcoint? Itt jönnek a képbe a nyilvános kulcsok (public keys).
+A privát kulcsok (private key) arra szolgálnak, hogy hozzáférj a bitcoinodhoz. De hogyan jutsz bitcoinhoz egyáltalán? Természetesen úgy, hogy másokkal értékes dolgokért cserébe kereskedsz! Na de _gyakorlatilag_ hogyan küldenek neked bitcoint? Itt jönnek a képbe a nyilvános kulcsok (public keys).
 
 A nyilvános kulcsodat egy bitcoin tranzakcióban úgy használod, mint egy hagyományos bankszámlaszámot, amelyet megadsz annak, aki satoshikat akar küldeni neked. A nyilvános kulcsból egy úgynevezett **“bitcoin címet”** hoznak létre, ami lényegében egy újabb rétege a technikai varázslatnak (techno-voodoo). Ez részben olvashatóbbá teszi a címet (mint a BIP39 szavak használata a bináris privát kulcsok helyett), valamint alkalmasabbá teszi a sérülésmentes digitális továbbításra, de emellett némi adatvédelmet és biztonsági előnyöket is nyújt. A címeket úgy alakítják ki, hogy a mögöttük álló „modern” nyilvános kulcsok csak akkor kerüljenek felfedésre, amikor elköltöd a bitcoint.
 
@@ -318,7 +318,7 @@ A díj implicit, tehát nem hoz létre külön kimenetet (így némi adatmennyis
 
 ---
 
-Mi történik, ha sok UTXO-d van? Melyikeket választod ki a fizetésekhez? Ezt **érme választásnak** nevezik, és a tárcád automatikusan elvégezheti, vagy te magad is manuálisan kiválaszthatod, hogy melyik UTXO-kat szeretnéd elkölteni egy adott tranzakcióban. Később látni fogod, hogy ez miért fontos.
+Mi történik, ha sok UTXO-d van? Melyikeket választod ki a fizetésekhez? Ezt **érmekiválasztásnak (coin selection)** nevezik, és a tárcád automatikusan elvégezheti, vagy te magad is manuálisan kiválaszthatod, hogy melyik UTXO-kat szeretnéd elkölteni egy adott tranzakcióban. Később látni fogod, hogy ez miért fontos.
 
 A tranzakció létrehozásának most leírt teljes folyamatát a tárcaszoftvered (ebben az esetben a Sparrow) könnyíti meg, de néhány döntést neked kell meghoznod. Természetesen te határozod meg azt a címet, ahová a bitcoint küldeni szeretnéd, de te dönthetsz az elkölteni kívánt UTXO-król és a díjról is.
 
@@ -343,7 +343,7 @@ Ugyanakkor a blokklánc nem árul el semmit arról, hogy milyen új adatokat kel
 
 Hogyan oldjuk fel ezeket az ellentmondásokat? Itt lép be a képbe a proof-of-work bányászat. A bitcoinban az „igazságot” az összes lehetséges alternatíva közül egy versennyel döntik el: az a tranzakció győz, amely „több szavazatot tud összegyűjteni”. De a szavazatok drágák, méghozzá nagyon drágák. Valódi munkával, vagyis elhasznált energiával kell bizonyítanod, hogy valóban kiállsz egy adott szavazat mellett.
 
-Ez a munka a bitcoin biztonsági alapjának tekinthető, mert arra ösztönzi a hálózat résztvevőit, hogy becsületesen játsszák a játékot. Ha igazán keményen dolgoznak és nyernek, a jutalom zamatos bitcoin nyeremény ÉS egy biztonságosabb hálózat, s ezáltan a játék még értékesebbé válik.
+Ez a munka a bitcoin biztonsági alapjának tekinthető, mert arra ösztönzi a hálózat résztvevőit, hogy becsületesen játsszák a játékot. Ha igazán keményen dolgoznak és nyernek, a jutalom zamatos bitcoin nyeremény ÉS egy biztonságosabb hálózat, s ezáltal a játék még értékesebbé válik.
 
 Ha megpróbálnak csalni, a többiek kiejtik őket a játékból, és a munkájuk kárba vész. Ha valahogy sikerülne tönkretenniük a játékot, a bitcoin értéktelenné válna, tehát értelmetlen lenne ilyen céllal játszani? A becsületes játékosok pedig amúgy is újraindíthatnák a játékot a legelejéről. Ezek valódi, kézzelfogható ösztönzők működés közben.
 
@@ -453,150 +453,150 @@ A jelkód (passphrase) azonban megvédi a tárcát, még ha a seed-phrase fizika
 ---
 ---
 
-## Hardver tárcák és hidegtárolás
+## Hardver tárcák és hideg tárolás
 
-## Cold storage (Cold wallets)
+## Hideg tárolás (hideg tárcák)
 {: .no_toc }
 
-Every bitcoin [Hodler](https://bitcointalk.org/index.php?topic=375643.0) that has already adopted a [low time-preference](https://wiki.mises.org/wiki/Time_preference) realizes that most of her bitcoin will likely not be spent in the near-future. So if she plans to hodl for very long she might want to store the hoarded stash in a more secure way.
+Minden bitcoin [hodler](https://bitcointalk.org/index.php?topic=375643.0) – aki már átvette az [alacsony időpreferenciát](https://wiki.mises.org/wiki/Time_preference) – rájön, hogy bitcoinjainak nagy részét valószínűleg nem fogja elkölteni a közeljövőben. Tehát ha nagyon hosszú távra tervez hodl-olni, akkor érdemes a felhalmozott kincsét biztonságosabb módon tárolnia.
 
-By cold storage solutions or cold wallets we mean wallets that are really hard to spend from. The funds are practically frozen and it is deliberately very hard to get access to them. This is done by adding barriers to spending. The opposite is a “hot wallet” where the private key is on a networked device. This is more convenient but it is not considered cold storage even in an encrypted form.
+Hideg tárolási megoldások vagy hideg tárcák alatt olyan tárcákat értünk, amelyekből rendkívül nehéz költeni. Az eszközök gyakorlatilag be vannak fagyasztva, és szándékosan nagyon nehéz hozzájuk férni. Ezt költési akadályok beépítésével érjük el. Ennek az ellentéte a „forró tárca”, ahol a privát kulcs egy hálózathoz csatlakoztatott eszközön van. Ez kényelmesebb, de még titkosított formában sem tekinthető hideg tárolásnak.
 
-One of these ways is bip39 passphrases but there is another method many bitcoiners like to use: **multisig wallets**. It is a wallet type where you designate multiple possible private keys out of which you require a minimum number of keys that sign a transaction. We will discuss this type of wallet later. For now you are going to stick to your **Single-sig** wallet with additional bip39 passphrase protection. In the end it is all about making it harder to spend by introducing multiple factors or "locks" that have to be unlocked to spend from the wallet.
+Az egyik ilyen módszer a BIP39 jelkód, de van egy másik módszer is, amit sok bitcoiner szeret használni: **többaláírásos tárcák (multisig)**. Ez egy olyan tárcatípus, ahol több lehetséges privát kulcsot jelölsz ki, amelyek közül minimum számú kulcs szükséges egy tranzakció aláírásához. Ezt a tárcatípust később fogjuk tárgyalni. Most egyelőre az **egyaláírásos (single-sig)** tárcánál maradunk, BIP39 jelkód védelemmel kiegészítve. Végső soron arról van szó, hogy nehezebbé tesszük a költést több tényező vagy „zár” bevezetésével, amelyeket fel kell oldani ahhoz, hogy a tárcából költeni tudjunk.
 
-So we freeze our bitcoin. Does this mean you can’t check your wallet balance or can’t receive funds on that wallet now?
+Tehát befagyasztjuk a bitcoinunkat. Vajon ez azt jelenti, hogy nem tudsz utánanézni a tárca egyenlegednek, vagy nem tudsz erre a tárcára fogadni eszközöket?
 
-If you only “bury” the factors for spending (private keys and bip39 passphrases) the **public key/Xpub** of that wallet can still be online in a wallet software like Sparrow that connects to your node and generates new unused addresses for receiving and shows your balance of course.
+Ha csak „elásod” a költési tényezőket (privát kulcsok és BIP39 jelkódok), akkor a tárca **nyilvános kulcsa/Xpub-ja** továbbra is online lehet egy olyan tárcaszoftverben, mint a Sparrow, amely csatlakozik a csomópontodhoz és új, nem használt címeket generál fogadásra, és természetesen megmutatja az egyenlegedet is.
 
-So by separating the public keys from the private keys you can safeguard your treasure while having a convenient way to monitor it. Nice, huh?
+Tehát azáltal, hogy a nyilvános kulcsokat szétválasztod a privát kulcsoktól, egyszerre nyílik mód kincseid védelmezésére és kényelmes szemmel tartására. Szép, mi?
 
 ---
 
-## Hardware wallets a.k.a. signers or “hardware signing devices”
+## Hardver tárcák más néven aláíró eszközök vagy „hardveres aláíró eszközök”
 {: .no_toc }
 
-In order to set up a cold storage system hardware wallets are essential. They are specialized devices designed to carry out only crucial bitcoin related operations.
+A hideg tárolási rendszer felállításához a hardver tárcák elengedhetetlenek. Ezek specializált eszközök, amelyeket kifejezetten csak a létfontosságú bitcoin műveletekhez terveztek.
 
-Let’s look at some problems we face with private keys on unsafe devices and how hardware wallets mitigate these.
+Nézzünk meg néhány problémát, amelyekkel nem biztonságos eszközökön szembesülünk privát kulcsok kezelésekor! Utána pedig megnézzük, hogyan orvosolják ezeket a hardver tárcák.
 
 ---
 
-## Private keys on an unsafe bloated networked device
+## Privát kulcsok egy nem biztonságos, hálózatra kötött eszközön
 {: .no_toc }
 
-**First of all, a private key that holds cold storage funds should NEVER-EVER be typed on an unsafe computer keyboard.**
+**Mindenekelőtt egy hideg tárca privát kulcsát SOHA-DE-SOHA nem szabad beírni egy nem biztonságos számítógép billentyűzetén.**
 
-You realize that if anyone ever types those 12 words into a general-purpose computer or takes a photo of the backup or says them out loud while there might be a microphone around, IT IS FINISHED. The security of that secret is now compromised.
+Ha bárki valaha is beírja a 12 szót egy általános célú számítógépbe, vagy fényképet készít a biztonsági mentésről, vagy kimondja hangosan, miközben mikrofon lehet a közelben, ANNAK VÉGE. A titok biztonsága ezzel sérült.
 
 ---
 
-## Private key generation
+## Privát kulcs generálás
 {: .no_toc }
 
-A question arises: If it should never get to networked computers, how do I create a private key without Sparrow? Your hardware wallet of course. The private key is born there in a safe environment and it may never leave that environment in a digital form, ever. If you use a decent hardware wallet this cannot happen accidentally but this also depends on you never leaking the private key in any other way.
+Felmerül egy kérdés: Ha a privát kulcs soha nem kerülhet hálózatra kötött számítógépre, hogyan hozzam azt létre Sparrow nélkül? Természetesen a hardver tárcáddal! A privát kulcs ott születik, biztonságos környezetben, és soha nem hagyhatja el digitális formában azt a környezetet. Ha tisztességes hardver tárcát használsz, ez nem történhet meg véletlenül, de ez azon is múlik, hogy te soha nem szivárogtatod ki a privát kulcsot semmilyen más módon.
 
-Another aspect of key generation that we haven’t talked about so far is **initial/seed entropy** of the private key. Let’s not get into the weeds just yet, it is enough to say that entropy is the level of randomness. We want to maximize this randomness so we don’t rely merely on the device but capture physical randomness from our environment.
+A kulcsgenerálás másik aspektusa, amiről eddig nem beszéltünk, a privát kulcs **kezdeti/seed entrópiája**. Ne menjünk bele túlságosan a részletekbe, elég annyit mondani, hogy az entrópia a véletlenszerűség szintje. Maximalizálni akarjuk ezt a véletlenszerűséget, hogy ne csak az eszközre hagyatkozzunk, hanem fizikai véletlenszerűséget is befogadjunk a környezetünkből.
 
-This is done by throwing dice or tossing coins in most cases but e.g. SeedSigner also has this nice feature of taking entropy from the device camera by taking a picture of our environment and feeding that into the key generation algorithm.
+Ezt a legtöbb esetben dobókocka dobással vagy pénzfeldobással tesszük, de például a SeedSigner-nek van egy nagyszerű funkciója is, ami az eszköz kamerájából veszi az entrópiát: készítesz egy fényképet a környezetedről, és ezt táplálja be a kulcsgenerálási algoritmusba.
 
-Keys produced with weak random generators are easily brute forced by hackers even without your device and you would be surprised how many times weak random number generation has been exploited so far. Don’t take this lightly.
+A gyenge véletlenszám-generátorokkal előállított kulcsokat a hackerek könnyen feltörik nyers erővel, még az eszközöd nélkül is, és meglepődnél, hányszor használták már ki eddig a gyenge véletlenszám-generálást. Ne vedd ezt félvállról!
 
 ---
 
-## Address verification
+## Cím ellenőrzés
 {: .no_toc }
 
-You might have thought of this attack vector already: What if you are running a rogue Sparrow version and it gives you a bitcoin address that is actually not yours? In reality, Sparrow can just disregard it and generate a malicious address that you pass over to anyone trying to send you bitcoin. Another threat would be when you are the sender of payment and the address generated for the change UTXO is corrupt.
+Lehet, hogy már gondoltál erre a támadási vektorra: Mi van, ha rosszindulatú Sparrow verziót futtatsz, és olyan bitcoin címet ad neked, ami valójában nem a tiéd? A valóságban a Sparrow egyszerűen figyelmen kívül hagyhatja és rosszindulatú címet generálhat, amit átadsz bárkinek, aki bitcoint próbál küldeni neked. Egy másik fenyegetés az, amikor te vagy a fizetés küldője, és a visszajáró UTXO-hoz generált cím kompromittált.
 
-This is another case when hardware wallets come handy. Since there is a much lower chance of your hardware wallet being compromised, you should always double-check an address Sparrow generates for you, especially when it is about a substantial sum.
+Ez egy másik olyan eset, amikor a hardver tárcák jól jönnek. Mivel sokkal kisebb az esélye annak, hogy a hardver tárcád kompromittálódik, mindig ellenőrizd kétszer a Sparrow által generált címet, különösen, ha jelentős összegről van szó!
 
 ---
 
-## Connection between Sparrow and the hardware wallet
+## Kapcsolat a Sparrow és a hardver tárca között
 {: .no_toc }
 
 [![Initial Architecture](/assets/img/diagrams/architecture_bitcoinplebs_quest_4.drawio.png)](/assets/img/diagrams/architecture_bitcoinplebs_quest_4.drawio.png){:target="_blank"}
 
-So your private key has been generated on this specialized device. Is your hardware wallet now isolated forever from Sparrow? Of course not because:
+Tehát a privát kulcsod ezen a specializált eszközön lett generálva. Vajon a hardver tárcád mindörökre el van szigetelve a Sparrow-tól? Természetesen nem, mivel:
 
-* Sparrow needs to know about your public key to generate bitcoin addresses and watch your balance. So you have to import it in Sparrow somehow
-* Your transactions are created by Sparrow with help from your node and they need to be **signed** somehow with the private key. So Sparrow constructs the transaction, sends this transaction data (PSBT - Partially Signed Bitcoin Transaction) to the hardware wallet for signing and then it has to be communicated back to Sparrow for broadcasting the signed transaction to the network.
-* Addresses have to be communicated to the hardware wallet from Sparrow to be able to verify them
+* A Sparrow-nak tudnia kell a nyilvános kulcsodról ahhoz, hogy bitcoin címeket generáljon és figyelje az egyenlegedet. Tehát valahogyan importálnod kell a Sparrow-ba.
+* A tranzakcióidat a Sparrow hozza létre a csomópontod segítségével, és valahogyan **alá kell írni** őket a privát kulccsal. Tehát a Sparrow megalkotja a tranzakciót, elküldi ezt a tranzakcióadatot (PSBT – Részlegesen Aláírt Bitcoin Tranzakció) a hardver tárcához aláírásra, majd vissza kell kommunikálni a Sparrow-nak az aláírt tranzakció hálózatra való továbbításához.
+* A címeket kommunikálni kell a hardver tárcához a Sparrow-tól, hogy ellenőrizni lehessen őket.
 
-So what you do is create another type of wallet in Sparrow that specifically serves these separated functions. Wallets of this kind with only limited functionality have different names. **“Watch-only”** wallet is when only the public key is online so we can only watch the balance and the history, and of course generate new receive addresses from the Xpub. **“Air-gapped”** wallets refers to the special case when the unsafe networked computer(running Sparrow) is not just separated but there is **never a cabled connection** between it and the hardware wallet.
+Tehát amit csinálsz, az az, hogy létrehozol egy másik típusú tárcát a Sparrow-ban, amely kifejezetten ezeket a szétválasztott funkciókat szolgálja. Az ilyen korlátozott funkcionalitású tárcáknak különböző nevei vannak. **“Watch-only” („csak-megfigyelő”)** tárca, amikor csak a nyilvános kulcs van online, így csak az egyenleget és az előzményeket tudjuk nézni, és természetesen új fogadó címeket generálni az Xpub-ból. **“Air-gapped” („légréses”)** tárcák arra a különleges esetre utalnak, amikor a nem biztonságos, hálózatra kötött számítógép (amelyen a Sparrow fut) nemcsak el van választva, hanem **soha nincs kábeles kapcsolat** közte és a hardver tárca között.
 
-This separation of course introduces some additional steps in the wallet management procedures but it is not that big of a deal.
+Ez az elválasztás természetesen néhány további lépést vezet be a tárcakezelési eljárásokba, de ez nem nagy ügy.
 
-All communication between Sparrow and the hardware wallet must be done with utmost concern for security. Therefore I don’t recommend hardware wallets that connect through USB cables (Ledger, Trezor) because they can not be considered air-gapped solutions. Don’t use them for cold storage. Most secure way is considered to be QR-code based communication or using microSD cards. [NFC](https://en.wikipedia.org/wiki/Near-field_communication) is another popular one but the convenience clearly comes at the cost of reduced security.
-
----
-
-## Physical attacks on the hardware wallet
-{: .no_toc }
-
-The other problem we have to deal with is physical access to the hardware wallet. You should obviously make sure no one can just swap out or tamper with your hardware wallet. So keep it safe.
-
-There are two main ways of protecting against a situation when an attacker gets hold of the device:
-
-1. There is a so-called Secure Element built in the hardware wallet which holds your key in a … well, quite secure way. It provides protection against an attacker trying to extract your key. They will probably not succeed unless they have government-level resources. You access the device with a pin or other usual login methods. Coldcard and Foundation Passport default to using a secure element when you create or recover a secret key
-2. There is no secure element but the device forgets any keys you loaded into it after usage and power-off of the device. These are called stateless or forgetful hardware wallets. Seedsigner and Specter DIY are examples making use of this. Keys are loaded into RAM volatile memory which is instantly wiped after a power cut
+A Sparrow és a hardver tárca közötti minden kommunikációt a legnagyobb biztonsági körültekintéssel kell végezni. Ezért nem ajánlom az USB-kábelen keresztül csatlakozó hardver tárcákat (Ledger, Trezor), mert nem tekinthetők légréses megoldásoknak. Ne használd őket hideg tárolásra! A legbiztonságosabbnak a QR-kód alapú kommunikáció vagy microSD kártyák használata tekinthető. Az [NFC](https://en.wikipedia.org/wiki/Near-field_communication) egy másik népszerű lehetőség, de a kényelem egyértelműen a csökkent biztonság árán jár.
 
 ---
 
-## Stateless devices vs. Secure elements
+## Fizikai támadások a hardver tárcán
 {: .no_toc }
 
-Think about the consequences of using a stateless device: 
+A másik probléma, amivel meg kell birkóznunk, a hardver tárcához való fizikai hozzáférés. Nyilvánvalóan gondoskodnod kell arról, hogy senki ne tudja csak úgy kicserélni vagy megváltoztatni a hardver tárcádat. Tehát tartsd biztonságban!
 
-* For the inconvenience of having to recover (reload) your wallet every time you want to use the hardware wallet, you get rid of a whole bunch of threats. This is called a security-convenience trade-off. You’ll notice that in bitcoin there are many dilemmas like that requiring careful thinking about the different trade-offs.
-* Another consequence is that you now have to rely on your key backups and passphrases even more. As you should. People use hardware wallets as private key backups way too much. They think it is safe and sound but then devices inevitably break. Oops
-* Another consequence is that stateless devices don’t have to go a long way to develop these secure elements because they can just use the tried and tested RAM memory and so other off-the-shelf components like the RaspberryPi zero in the case of the Seedsigner or the ESP32 developer board of Specter DIY
-* Therefore these can be cheaper and more accessible anywhere in the world, with the added privacy benefit of general purpose hardware
-* There is a threat called “supply-chain attack” where the vendor or one of its hardware components are compromised and you get a backdoored device. While this seems less probable, general purpose hardware protects better against this
-* Although the secure element method of reputable vendors has not yet been broken as far as I know, it is quite early to cast judgment on this topic. Companies can be easy targets of governments and hackers even if the company has a good reason not to rug you
-* Seedsigner and Specter DIY are open-source community projects and these tend to outlast centralized companies. But I certainly don’t want to FUD Coldcard and Foundation since they manufacture great products in my opinion. Just be aware of the risks, always
+Két fő módja van annak, hogy védekezzünk egy olyan helyzetben, amikor a támadó hozzájuthat az eszközhöz:
 
-REMEMBER: The hardware wallet is just a tool to **use** your secret key for bitcoin operations! It is **not to be trusted as a key backup**! Devices ALWAYS and inevitably break. Do yourself a favor and backup properly or bear the consequences.
+1. Van egy úgynevezett Secure Element (biztonsági chip) beépítve a hardver tárcába, amely a kulcsodat… nos, elég biztonságos módon tartja. Védelmet nyújt a támadó ellen, aki megpróbálja kinyerni a kulcsodat. Valószínűleg nem fog sikerülni neki, hacsak nem rendelkezik kormányszintű erőforrásokkal. Az eszközhöz PIN-kóddal vagy más szokásos bejelentkezési módszerekkel férsz hozzá. A Coldcard és a Foundation Passport alapértelmezetten biztonsági chipet használ, amikor titkos kulcsot hozol létre vagy állítasz vissza.
+2. Nincs biztonsági chip, de az eszköz elfelejti a beléje töltött kulcsokat használat és az eszköz kikapcsolása után. Ezeket stateless (állapot nélküli) vagy feledékeny hardver tárcáknak hívják. A SeedSigner és a Specter DIY jó példák ennek alkalmazására. A kulcsok RAM illékony memóriába töltődnek, amely azonnal törlődik az eszköz kikapcsolásakor.
 
 ---
 
-## My Hardware wallet Recommendations
+## Állapot nélküli eszközök vs. biztonsági chipek
 {: .no_toc }
 
-All of these hardware wallet brands are reputable among Bitcoin Plebs and run Open Source Software which is an absolute must for any Software that you might use in Bitcoin. Go through the main features, faq and documentation of each of these options. Take notes about what you like or dislike about them on first impression. Join their Telegram channels and ask questions if you want.
+Gondolj az állapot nélküli eszköz használatának következményeire:
 
-* **[Seedsigner](https://seedsigner.com/)** Superstrong security, minimalistic features and great UI. The cheapest as well and the easiest to get your hands on most probably. Since it is basically a modded general-purpose single board computer (Raspberry Pi presently but more in the works), it is less conspicuous when you buy one for Bitcoin purposes. No unnecessary bells and whistles, just pure Pleb Power. However, it can be hard to deal with diy software and hardware without a dedicated professional support. This why all these community projects have their online support groups
-* **[SpecterDIY](https://docs.specter.solutions/diy/)** is the ancestor of Seedsigner with the same goals of being widely accessible and community driven. This one has a touch display and it also relies on QR codes for communication. More expensive parts than SeedSigner
-* **[Coldcard](https://coldcard.com/docs/coldcard-mk4)** is a safe choice. It is the market leader in 2023. A feature-rich, professional device from dedicated bitcoiners
-* **[Foundation Passport](https://docs.foundationdevices.com/passport)** is another very popular choice with a great team behind it
+* Annak kellemetlenségéért cserébe, hogy minden alkalommal helyre kell állítanod (újratöltened) a tárcádat, amikor használni akarod a hardver tárcát, megszabadulsz egy csomó fenyegetéstől. Ezt hívják a biztonság és a kényelem közötti választásnak. Észre fogod venni, hogy a Bitcoinban sok ilyen dilemma van, amelyek gondos mérlegelést igényelnek.
+* Egy másik következmény az, hogy most még jobban kell hagyatkoznod a kulcs biztonsági mentéseidre és jelkódjaidra. Ahogy kellene is. Néhányan túl sokat használják a hardver tárcákat privát kulcs biztonsági mentésként. Azt gondolják, biztonságos, aztán amikor az eszköz elkerülhetetlenül tönkremegy, akkor hoppá van.
+* Egy másik következmény az, hogy az állapot nélküli eszközöknek nem kell hosszú utat bejárniuk ezeknek a biztonsági chipeknek a kifejlesztésében, mert egyszerűen használhatják a kipróbált és tesztelt RAM memóriát, és így más, készen kapható alkatrészeket is, mint a Raspberry Pi Zero a SeedSigner esetében vagy az ESP32 fejlesztői kártya a Specter DIY esetében.
+* Ezért ezek olcsóbbak és bárhol a világon könnyebben beszerezhetőek – ráadásul az általános célú hardver kevésbé feltűnő, ami adatvédelmi szempontból is előny.
+* Van egy úgynevezett ellátásilánc-támadás (supply chain attack), ahol a gyártó vagy az egyik hardverkomponens kompromittálódik, és egy hátsó ajtót rejtő eszközt kapsz. Bár ez kevésbé valószínű, az általános célú hardver jobban véd ez ellen.
+* Bár a jó hírű gyártók biztonsági chipjeit még nem törték fel, amennyire tudom, még korai ítélkezni ebben a kérdésben. A cégek könnyen célpontjaivá válhatnak kormányoknak és hackereknek, még akkor is, ha a cégnek semmi oka nincs átverni téged.
+* A SeedSigner és a Specter DIY nyílt forráskódú közösségi projektek, és ezek általában túlélik a centralizált cégeket. De egyáltalán nem akarom elbizonytalanítani a Coldcard és a Foundation felhasználóit, mivel véleményem szerint nagyszerű termékeket gyártanak. Csak legyél tisztában a kockázatokkal, mindig!
 
-You can also buy multiple hardware wallets if you have more money. Strengthens verification and backup devices can come handy just in case.
+NE FELEDD: A hardver tárca csak egy eszköz a titkos kulcsod bitcoin műveletekhez való **használatához**! **Ne tekintsd a kulcsaid biztonsági mentésének!** Az eszközök MINDIG és elkerülhetetlenül tönkremennek. Tegyél magadnak egy szívességet és készíts megfelelő biztonsági mentést, vagy viseld a következményeket!
 
-If you are planning to use multisig it is even more advised to have multiple types of hardware wallets.
+---
 
-**Although any quest can be completed with the above devices, Bitcoin Plebs quests will use the SeedSigner as a reference.**
+## A hardver tárca ajánlásaim
+{: .no_toc }
+
+Mindezek a hardver tárca márkák jó hírűek a Bitcoin Plebs körében, és nyílt forráskódú szoftvert futtatnak, ami abszolút követelmény minden olyan szoftver esetében, amit a Bitcoinban használhatsz. Nézd át az egyes opciók főbb jellemzőit, gyakori kérdéseit és dokumentációját! Készíts jegyzeteket arról, mi tetszik vagy nem tetszik bennük első benyomásra! Csatlakozz a Telegram csatornáikhoz és igény esetén tegyél fel kérdéseket!
+
+* **[SeedSigner](https://seedsigner.com/)** Rendkívül erős biztonság, minimalista funkciók és nagyszerű felhasználói felület. A legolcsóbb is, és valószínűleg a legkönnyebb beszerezni. Mivel alapvetően egy átalakított általános célú egykártyás számítógép (jelenleg Raspberry Pi, de több is folyamatban van), kevésbé feltűnő, amikor Bitcoin célokra vásárolsz egyet. Nincsenek felesleges funkciók, csak tiszta Pleb Erő. Azonban nehéz lehet megbirkózni a házilag összerakott  szoftverrel és hardverrel dedikált szakmai támogatás nélkül. Ezért van mindezeknek a közösségi projekteknek online támogatási csoportjuk.
+* **[SpecterDIY](https://docs.specter.solutions/diy/)** a SeedSigner őse, ugyanazokkal a célokkal: széles körű hozzáférhetőség és közösségi vezéreltség. Ennek érintőképernyője van, és szintén QR-kódokra támaszkodik a kommunikációban. Drágább alkatrészek, mint a SeedSigner.
+* **[Coldcard](https://coldcard.com/docs/coldcard-mk4)** megbízható választás. 2023-ban ez a piacvezető. Funkciókban gazdag, professzionális eszköz elkötelezett bitcoinerektől.
+* **[Foundation Passport](https://docs.foundationdevices.com/passport)** egy másik nagyon népszerű választás egy nagyszerű csapattal a háttérben.
+
+Több hardver tárcát is vásárolhatsz, ha több pénzed van. Több eszközzel jobban tudsz keresztellenőrizni, és a biztonsági mentési eszközök jól jöhetnek, ha szükség lesz rájuk.
+
+Ha többaláírásos tárcát tervezel használni, még inkább tanácsos többféle hardver tárcával rendelkezni.
+
+**Bár bármelyik küldetés teljesíthető a fenti eszközökkel, a Bitcoin Plebs küldetések a SeedSigner-t használják referenciaként.**
 
 [Vissza a célkitűzéshez]({{ site.baseurl }}/hu/a-fool-and-his-bitcoin/#cél-hardver-tárca-használatának-elkezdése){: .btn .btn-purple}
 
 ---
 ---
 
-## Entropy
+## Entrópia
 
-As it stands in 2023, this is the **usual** time for a hacker to crack passwords/passphrases:
-[![brute force password cracking](/assets/img/brute_force_password_cracking.png)](/assets/img/brute_force_password_cracking.png){:target="_blank"}
+A 2023-as állapot szerint ennyi idő kell **jellemzően** egy hackernek jelszavak/jelkódok feltöréséhez:
+[![nyers erős jelszófeltörés](/assets/img/brute_force_password_cracking.png)](/assets/img/brute_force_password_cracking.png){:target="_blank"}
 
-The 12 words you wrote down are from the bip39 list of 2048 possible mnemonic words, as mentioned before. This represents at least 128 bits of entropy(+4 bits checksum) for a 12-word secret, **as long as this was truly randomly-generated data**. Capturing real-life physical entropy from our environment is crucial therefore.
+Az általad leírt 12 szó a BIP39 lista 2048 lehetséges mnemonikus szavából származik, ahogy korábban említettük. Ez legalább 128 bit entrópiát képvisel (+4 bit ellenőrző összeg) egy 12 szavas titok esetén, **feltéve, hogy valóban véletlenszerűen generált adatokról van szó**. Ezért kulcsfontosságú, hogy valós fizikai entrópiát fogjunk be a környezetünkből.
 
-Little math helping to understand how entropy calculation works:
+Egy kis matek, hogy megértsük, hogyan működik az entrópia számítás:
 
-2048^12^ = 12 words randomly selected from a 2048 pool so that every word is put back into the pool after drawing. This is greater than 2^128^, the equivalent of e.g. 128 unbiased coin tosses.
+2048^12^ = 12 szó véletlenszerűen kiválasztva egy 2048-as halmazból úgy, hogy minden szó visszakerül a halmazba a húzás után. Ez nagyobb, mint 2^128^, ami például 128 torzítatlan pénzfeldobásnak felel meg.
 
-This “as long as the selection is truly random” part is crucial because it is very easy for even computer software and hardware to screw up randomness. This means that the possible space where my secret can hide is huge but I use only a very small space of that in reality. Like hide and seek in a huge castle, but only in the throne room. Sadly, this can be sometimes exploited. Again, capturing and mixing our own entropy is important.
+Ez a „feltéve, hogy a kiválasztás valóban véletlenszerű" kitétel azért kulcsfontosságú, mert még a számítógépes szoftverek és hardverek is könnyen elronthatják a véletlenszerűséget. Ez azt jelenti, hogy a lehetséges tér, ahol a titkom rejtőzhet, hatalmas, de a valóságban csak egy nagyon kis részét használom. Mintha bújócskáznál egy hatalmas kastélyban, de csak a trónteremben bújnál el. Sajnos ezt néha ki is lehet használni. Ismétlem: a saját entrópiánk befogása és bekeverése fontos.
 
-You now realize that your passphrase is not on the same level of security as your 12 seedwords, to say the least. If your words get found you can check from the table above how much time it takes to “brute force” your passphrase. Note that anyone can download a password cracker. And if the attacker knows some information about you this becomes much easier because the brute force attack can be carried out more intelligently. How to tackle this? We must generate secrets from great sources of entropy. Then we take care of these secrets and try never to leak them to malicious people of course.
+Mostanra felismerheted, hogy a jelkódod – finoman szólva – nem nyújt ugyanolyan szintű biztonságot, mint a 12 seed szavad. Ha a szavaidat megtalálják, a fenti táblázatból megnézheted, mennyi időbe telik a jelkódod „nyers erővel" (brute force) való feltörése. Ne feledd, bárki letölthet egy jelszófeltörő programot! És ha a támadó tud rólad néhány információt, ez sokkal könnyebbé válik, mert a nyers erős támadás célzottabban végezhető el. Hogyan kezeljük ezt? A titkainkat kiváló entrópiaforrásokból kell generálnunk. Aztán persze vigyázunk ezekre a titkokra, és megpróbáljuk soha nem kiszivárogtatni rosszindulatú embereknek.
 
-[Back to Objective]({{ site.baseurl }}/en/order-and-entropy/#objective-level-up-on-entropy-and-apply-changes-to-your-bitcoin-setupprogress-images){: .btn .btn-purple}
+[Vissza a célkitűzéshez]({{ site.baseurl }}/hu/order-and-entropy/#cél-szintlépés-az-entrópia-terén-és-a-változtatások-alkalmazása-a-bitcoin-rendszeredben-folyamatábrázoló-képek){: .btn .btn-purple}
 
 ---
 ---

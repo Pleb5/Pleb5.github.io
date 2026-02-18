@@ -26,7 +26,7 @@ Since your **paper notebook** contains sensitive private information about your 
 You might also have some important **digital notes** unencrypted on your computer, and also some important details about your bitcoin citadel(self-custody system) only **in your head**. It is better to store and manage all this intelligence in one safe place. You have to switch to offline digital encrypted passwords and notes. An open-source popular choice is **KeePassXC**(formerly KeePass):
 ![Isolation of metadata](/assets/img/diagrams/isolation_of_citadel_metadata.drawio.png){:target="_blank"}
 
-## OBJECTIVE: Start using KeePassXC([Progress Images](/en/progress-order-and-entropy/){:target="_blank"})
+## OBJECTIVE: Start using KeePassXC ([Progress Images](/en/progress-order-and-entropy/){:target="_blank"})
 
 1. Download, verify and install [KeePassXC](https://keepassxc.org){:target="_blank"} password manager
     1. You should be able to pull it off by yourself at this point
@@ -44,7 +44,7 @@ You might also have some important **digital notes** unencrypted on your compute
 ## Now take a look at your computer generated password/passphrase and compare it to the wallet Password or the BIP39 Passphrase you picked
 {: .no_toc }
 
-## OBJECTIVE: Transfer bitcoin metadata to Keepass([Progress Images](/en/progress-order-and-entropy/){:target="_blank"})
+## OBJECTIVE: Transfer bitcoin metadata to Keepass ([Progress Images](/en/progress-order-and-entropy/){:target="_blank"})
 
 1. Since it is a bitcoin testnet wallet, you can safely put your BIP39 Passphrase and Wallet Password into the KeePassXC Password generator and check the entropy of these
 2. **You may realize that these are way too weak. This is a lesson that humans are not good at generating randomness! More on the implications later…**
@@ -57,7 +57,7 @@ You might also have some important **digital notes** unencrypted on your compute
     7. Check your KeePassXC database password
     8. Change Your Linux login password too if it's too weak. In terminal:
         ```sh
-passwd
+        passwd
 		```
 9. You can copy your handy digital notes in this database too
 10. Any privacy or security leak could be harmful for your bitcoin even if it is not bitcoin related at first glance. Therefore, change all your passwords to stronger, generated ones and enable two-factor authentication wherever possible
@@ -82,7 +82,7 @@ Your first line of defense is your skills and knowledge. However, a strong commu
 
 ---
 
-## OBJECTIVE: Level up on entropy and apply changes to your bitcoin setup([Progress Images](/en/progress-order-and-entropy/){:target="_blank"})
+## OBJECTIVE: Level up on entropy and apply changes to your bitcoin setup ([Progress Images](/en/progress-order-and-entropy/){:target="_blank"})
 
 1. 💡 Learn about [entropy and its importance in bitcoin](/en/pleb-lessons/#entropy)
 2. Generate a stronger bip39 passphrase on KeePassXC

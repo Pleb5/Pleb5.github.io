@@ -55,8 +55,8 @@ A tőzsdéd az összeomlás szélén áll. Sajna a hozamgeneráló algoritmusok 
 3. Szerezz egy új fogadó címet a Sparrow tárcában: `Address`
 4. Adj hozzá egy címkét a tranzakció céljának megjelölésére: `Label`
     1. Ez csak neked látható. Írhatsz például ilyet: „forrás: tőzsde, cél: nem a te kulcsod, nem a te érméd”
-5. „Kiutalás a tőzsdéről”: Használd a Mutinynet signet [faucet (csaptelep) honlapot](https://faucet.mutinynet.com/)!
-    2. Másold be a fogadó címedet a faucet (csaptelep) honlapra!
+5. „Kiutalás a tőzsdéről”: Használd a Mutinynet signet [faucet honlapot](https://faucet.mutinynet.com/)!
+    2. Másold be a fogadó címedet a faucet honlapra!
     3. Használd a maximális összeget!
     4. Nyomd meg a `Make it rain` gombot!
 6. Rövid idő elteltével a Sparrow értesít a tranzakcióról. Ellenőrizd a `Transactions` fülön!
