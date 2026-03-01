@@ -22,52 +22,51 @@ Now it starts to get more serious. You will realize that security is not just ab
 ## In essence: Privacy
 {: .no_toc }
 
-## OBJECTIVE: Get to know the enemy([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Get to know the enemy ([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
 1. 💡Learn a lesson about [Bitcoin Plebs and Privacy](/en/pleb-lessons/#bitcoin-plebs-and-privacy)
-2. Use the Tor Browser to go to the chain analysis research site [OXT](oxt.me){:target="_blank"}
-    1. This site has been developed by privacy advocates to raise awareness and help others use bitcoin privately. It is a free-to-use chain-analysis tool with a bunch of other useful information on the bitcoin base-layer
+2. Use the Tor Browser to go to the [mempool.space](https://mempool.space){:target="_blank"} blockchain explorer
+    1. This is an open-source tool maintained by the bitcoin community that lets you browse transactions, addresses and blocks. You can even self-host it on your own node!
+    2. **Note:** The previously recommended chain analysis tool OXT (oxt.me) has been unavailable since the Samourai Wallet seizure in 2024. This is a good reminder of why you should not rely solely on centralized services.
 3. Browse the site and play around with it
-    2. The [wallet clustering](https://oxt.me/directory){:target="_blank"} of different big fishes is interesting
-    3. The [history of bitcoin](https://oxt.me/history){:target="_blank"} is a very interesting section too
+    2. Search for well-known addresses and check out their transaction history and graph visualization!
 4. Create a transaction where you merge multiple UTXOs into one UTXO
-    4. Select multiple UTXOs in your wallet on the `UTXOs` tab, with left mouse click while holding `ctrl` button
-    5. If you don’t have multiple UTXOs get some from Mutinynet [faucet](https://faucet.mutinynet.com/){:target="_blank"} or perform a self-spend
+    4. Select multiple UTXOs in your wallet on the `UTXOs` tab, with left mouse click while holding `Ctrl` button
+    5. If you don't have multiple UTXOs get some from Mutinynet [faucet](https://faucet.mutinynet.com/){:target="_blank"} or perform a self-spend
     6. Choose the `Send selected` option. It will take you to the `Send` tab to complete the transaction creation process
     7. Send it to this address
         ```sh
-tb1q8660fer4ch2twd6xn58e8pau3edkgkvft9a654
+        tb1q8660fer4ch2twd6xn58e8pau3edkgkvft9a654
 		```
     8. Fill in a label e.g. `Merged inputs test`
 5. Check the privacy ramifications of your transaction in Sparrow 
     9. Sparrow will show you the transaction graph. It shows that two of your UTXOs are the inputs merged into one output and some fee
-    10. At the bottom of the page you can see an `“i”` info icon with `“Analysis”` written on it. Hover over it to see the message
+    10. At the bottom of the page you can see an `"i"` info icon with `"Analysis"` written on it. Hover over it to see the message
     11. Sparrow will tell you how you could improve the privacy of the transaction, if it is possible in the first place. Limiting factors would sometimes need you to ask for a different address type or do other things you might not be willing to do just for more privacy. But it is nice to know nonetheless
-6. You can see that there are buttons next to the Analysis to select either fee efficiency or privacy when Sparrow constructs a transaction. This is not always available because sometimes Sparrow can’t optimize for privacy for external reasons(mainly address types and coin control reasons: you chose specific UTXOs to spend)
+6. You can see that there are buttons next to the Analysis to select either fee efficiency or privacy when Sparrow constructs a transaction. This is not always available because sometimes Sparrow can't optimize for privacy for external reasons (mainly address types and coin control reasons: you chose specific UTXOs to spend)
 7. Complete the transaction
 8. In Mutinynet [signet block explorer](https://mutinynet.com/) search for the address you sent it to
     12. Click on the address I gave you and see its history
     ```sh
-tb1q8660fer4ch2twd6xn58e8pau3edkgkvft9a654
+    tb1q8660fer4ch2twd6xn58e8pau3edkgkvft9a654
 	```
     14. What you see is that everyone who completes this task sends a transaction to this fixed address. This is called address reuse. Now you can have an informed guess about some things if this was a mainnet address:
         2. A person collects money on a fixed address. This could be a donation fund or some kind of service with regular customers or allowance etc.: A sole address used as a wallet basically
         3. You still might find out interesting things about this signet address e.g.:
-        4. How many people completed this task
-        5. Looking at transaction dates and correlating this info with nostr notes further gives you info on the growth rate of the group and potentially also some info about group members
+            1. How many people completed this task
+            2. Looking at transaction dates and correlating this info with nostr notes further gives you info on the growth rate of the group and potentially also some info about group members
 9. Now open up a Tor browser and go to this site:
     15. [https://keepassxc.org/donate/](https://keepassxc.org/donate/){:target="_blank"}
     16. Scroll down. It will probably show you the donation address KeePassXC uses. Such a great password manager could use a fixed address for donations? "You gotta be kidding me, right?" No.
         ```sh
-1P7VPcL31rFzcHKbgVoqW6VoMBRQY5UYdR
+        1P7VPcL31rFzcHKbgVoqW6VoMBRQY5UYdR
 		```
     17. Many projects only provide a fixed address because it is convenient. It is very bad privacy though
     18. Use [BTCPay Server](https://btcpayserver.org/){:target="_blank"} or bip47 paynyms for more privacy when the you want to give users automatic addresses for a service or donations
     19. Search that address in mempool.space switching to mainnet. You will see all the incoming bitcoin in the past, current balance and if you scroll down you can browse recent and past transaction activity. The address is highlighted in all transaction graphs.
-    20. Now you could try to track down donors’ addresses or see how KeePassXC uses their donation fund and try to find out more about their developers/contributors addresses
-    21. You could try to look into this in OXT as well. Since this is a chain analysis tool it will give you additional details e.g. time pattern analysis of the transactions to this address
-    22. **Chain analysis has to have a starting point.** This is a bitcoin address that they know more external info about. It has to be a strong assumption about the true identity behind that address
-    23. Then it can try to follow this UTXO through the transaction graph and make guesses about what exactly happened in each followup transaction. This, correlated with even more external info can reveal a whole lot about the identities of everyone involved with that address
+    20. Now you could try to track down donors' addresses or see how KeePassXC uses their donation fund and try to find out more about their developers/contributors addresses
+    21. **Chain analysis has to have a starting point.** This is a bitcoin address that they know more external info about. It has to be a strong assumption about the true identity behind that address
+    22. Then it can try to follow this UTXO through the transaction graph and make guesses about what exactly happened in each followup transaction. This, correlated with even more external info can reveal a whole lot about the identities of everyone involved with that address
 
 Most of the time you can use the privacy option in Sparrow if the receive address type matches yours and you don’t force Sparrow to use your specific UTXOs as inputs. You just go to the “Send” tab and put in the desired amount of sats and the receive address.
 
@@ -81,7 +80,7 @@ This is where your external information comes in. You know more about your trans
 
 ---
 
-## OBJECTIVE: Start practicing coin control([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Start practicing coin control ([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
 1. Make a few transactions and label them. Make it as if they belonged to both usual transactions and unusual ones:
     1. Use different wallets, address types, amounts… Devise interesting life-like scenarios. Imitate KYC bitcoin purchases too for the sake of having some doxxed UTXOs to practice with
@@ -96,13 +95,13 @@ This is where your external information comes in. You know more about your trans
     8. Transactions with good privacy practices
     9. Transactions with potentially doxxing bad privacy practices
 4. Analyze the privacy implications of these followup transactions based on heuristics you learned about. Be the evil chain analysis company. Use a blockchain explorer and add any other external data you would be using to doxx yourself
-5. Export your wallet history and **labels** by generating a Sparrow wallet export file(this feature is based on a BIP so other wallets will implement it in time to be compatible) 
+5. Export your wallet history and **labels** by generating a Sparrow wallet export file (this feature is based on a BIP so other wallets will implement it in time to be compatible) 
     10. Select the wallet to be exported on the wallets tab
-    11. `File` --> `Export` --> Select sparrow --> Save file
+    11. `File` --> `Export` --> Select Sparrow --> Save file
     12. The export will use your wallet encryption password to store it safely
-    13. Save the export in your Keepass Database(`Advanced` --> `Add` in the Attachments section)
+    13. Save the export in your KeePass Database (`Advanced` --> `Add` in the Attachments section)
     14. Delete the watch-only wallet from Sparrow
-    15. Restore from the Keepass database(`Advanced` --> Select attachment --> `Save`) and reload it in Sparrow
+    15. Restore from the KeePass database (`Advanced` --> Select attachment --> `Save`) and reload it in Sparrow
     16. Find your precious labels recovered
 6. Share the experience with friends and on nostr!
 
@@ -135,13 +134,13 @@ You can also setup your own bitcoin core node and then plan to upgrade it to a p
 
 ## Networking: Connection to your own node vs. Connection to peer nodes 
 {: .no_toc }
-You can configure your node on the machine where you run Sparrow which is the plain and simple solution but you can dedicate a machine solely to run a bitcoin node which is the most secure and efficient solution long-term. The dedicated hardware solution entails that you have to use `ssh`(secure shell) to troubleshoot and configure that dedicated machine.
+You can configure your node on the machine where you run Sparrow which is the plain and simple solution but you can dedicate a machine solely to run a bitcoin node which is the most secure and efficient solution long-term. The dedicated hardware solution entails that you have to use `ssh` (secure shell) to troubleshoot and configure that dedicated machine.
 
-Controlling and querying your node(e.g. with Sparrow) from your home network is easier but there are certain cases where you might want to connect from a remote location through the internet. There are different possible solutions to do this securely and privately. While you could do this through tor, it is going to be a subpar user experience. I recommend you to look into VPN solutions like [tailscale](https://tailscale.com/) and [zerotier](https://openoms.github.io/bitcoin-tutorials/zerotier/){:target="_blank"}. This program will only show you the basics which is to run and connect to everything bitcoin-related on just one machine through. Later on you could separate the different parts and features to gain more flexibility and functionality as you are growing in skills and understanding.
+Controlling and querying your node (e.g. with Sparrow) from your home network is easier but there are certain cases where you might want to connect from a remote location through the internet. There are different possible solutions to do this securely and privately. While you could do this through tor, it is going to be a subpar user experience. I recommend you to look into VPN solutions like [tailscale](https://tailscale.com/) and [zerotier](https://openoms.github.io/bitcoin-tutorials/zerotier/){:target="_blank"}. This program will only show you the basics which is to run and connect to everything bitcoin-related on just one machine through. Later on you could separate the different parts and features to gain more flexibility and functionality as you are growing in skills and understanding.
 
-As to how your node connects to other "peer" nodes though, tor is going to be the go-to solution today for average users. There are other anonimity networks supported by bitcoin core like the Invisible Internet project(I2P) which are less-used than Tor(number of users greatly influences privacy gains) but they could serve as backup solutions when Tor is attacked.
+As to how your node connects to other "peer" nodes though, tor is going to be the go-to solution today for average users. There are other anonimity networks supported by bitcoin core like the Invisible Internet project (I2P) which are less-used than Tor (number of users greatly influences privacy gains) but they could serve as backup solutions when Tor is attacked.
 
-## Option 1(Recommended): Go the OG way
+## Option 1 (Recommended): Go the OG way
 {: .no_toc }
 The most recommended option is to set up bitcoin core manually. This is going to be a technical guide with terminal usage. Although highly recommended with great learning opportunities, you will have to demonstrate Proof of Work to complete it. By the time you get this section done, you will improve your command-line skills, get a good grasp on how Bitcoin full nodes work under the hood and most importantly you will know how to set up a bitcoin full node quickly from scratch with strong verification.
 
@@ -161,11 +160,11 @@ The list of my favorite open-source node projects were selected by these criteri
 
 ## My Recommendations:
 {: .no_toc }
-* [Raspiblitz](https://raspiblitz.org/){:target="_blank"}: Lightning and more. Probably the cheapest. Terminal based Cypherpunk-style usage. Highly recommended for aspiring sovereign node runners. Great support from volunteers
-* [Nodl](https://www.nodl.eu/){:target="_blank"}: Lightning and more. Sleek UI, performance hardware
-* [RoninDojo](https://ronindojo.io/index){:target="_blank"}: No Lightning but strong privacy-focus. Best with the Samourai software stack
+* [Raspiblitz](https://raspiblitz.org/){:target="_blank"}: Lightning and more. Probably the cheapest. Terminal based Cypherpunk-style usage. Highly recommended for aspiring sovereign node runners. Great support from volunteers.
+* [Nodl](https://www.nodl.eu/){:target="_blank"}: Lightning and more. Sleek UI, performance hardware.
+* [RoninDojo](https://ronindojo.io/){:target="_blank"}: No Lightning but strong privacy-focus. Originally built on the Samourai software stack, but has been continuing development independently since the Samourai Wallet seizure in 2024. Follow the project for its current status.
 
-Note that most of the node projects can be ported to Ubuntu(and some other distros) by burning the appropriate OS image or running them in virtual machines. Look for guides if interested.
+Note that most of the node projects can be ported to Ubuntu (and some other distros) by burning the appropriate OS image or running them in virtual machines. Look for guides if interested.
 
 These solutions however can leave you with less maintained, less tested configurations and require more skill to set up and operate. The advantage is that you don’t have to buy additional hardware.
 
@@ -181,7 +180,7 @@ That said, most people use Lightning with custodial wallets which is acceptable 
 
 ## Option3: DIY hardware for the tinkerers
 {: .no_toc }
-If you are a true tinkerer, I am sure you already thought of this option. With the hardest challenges you learn the most. But if you are not ready for this and push yourself too far at this point, you risk a burn-out(or your funds).
+If you are a true tinkerer, I am sure you already thought of this option. With the hardest challenges you learn the most. But if you are not ready for this and push yourself too far at this point, you risk a burn-out (or your funds).
 
 Know yourself, know your limits. You can start with option 1 or 2 then experiment with DIY hardware and switch as soon as you are confident enough. Having said that, all the above projects can be DIY-ed on many types of hardware. Choose your destiny and fall down the rabbit hole.
 
@@ -204,13 +203,13 @@ This is going to be the most technical part of the whole chapter. Don’t worry 
 
 If you get stuck at a certain step try to hit up the nostr community for help. Remember to beware shady direct messages.
 
-## OBJECTIVE(optional): Prepare the external 1TB SSD([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE (optional): Prepare the external 1TB SSD ([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
 1. Put the disk in the case and plug in your computer
 2. Launch `Disks` program
 3. Select your 1TB disk and go to Settings wheel --> `Format Partition`
 4. Name the disk and go for `Ext4` file system
-5. You can password protect the disk too. Make sure to read about `LUKS`(Linux Unified Key Setup) before doing that because it has some implications you better know
+5. You can password protect the disk too. Make sure to read about `LUKS` (Linux Unified Key Setup) before doing that because it has some implications you better know
 6. Complete the process. You will see the name of the disk and `Ext4` label appearing instead of the initial `Unkown`
 7. The `Play` button mounts the disk - becomes accessible to the user
 8. The button can unmount if you want. You will use that from now on extensively with your node so don’t do it or stop your node before unmounting
@@ -218,7 +217,7 @@ If you get stuck at a certain step try to hit up the nostr community for help. R
 10. You can close the `Disks` program
 11. You can check info about your storage devices in the terminal
     ```sh
-lsblk
+    lsblk
 	```
     2. blk stands for “block device” which is how Linux calls hard disk storage where you read and write blocks of data
     3. You can think of `<a/b/c/d>` as different storage devices
@@ -228,23 +227,23 @@ lsblk
 
 ---
 
-## OBJECTIVE: Download bitcoin core and prepare for verification([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Download bitcoin core and prepare for verification ([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
 1. Go to the bitcoin core [webpage](https://bitcoincore.org){:target="_blank"}. Go to the “Download” section
-2. Download the latest version(24.0.1 at the time of writing) with the necessary files for verification:
+2. Download the latest version (24.0.1 at the time of writing) with the necessary files for verification:
     1. `“Download Bitcoin Core”` button downloads the main archive file (for x86-64 architecture, Linux platform)
     2. `SHA256 binary hashes`: Contains the hash list of that bitcoin core release for the different platforms. This list must contain the unique hash identifier of the archive file you just downloaded
     3. `SHA256 hash signatures`: Contains the signatures of the bitcoin core developers who attested to this release by signing the `“SHA256 binary hashes”` file with their private keys.
 3. Import public keys of some bitcoin core developers of your choosing. 
     4. You can go to the bitcoin core [builder keys folder](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys) to get some public keys. Alternatively you can get public keys of notable developers basically any way you want/can (social media, in-person…)
     5. You can cross-check them from different sources. Nostr, twitter, keybase, github are places these people might hang around advertising their public key
-    6. You see keys listed as `*.gpg`. You want to download a few of them(at least 3) and also import them: 
+    6. You see keys listed as `*.gpg`. You want to download a few of them (at least 3) and also import them: 
         ```sh
-curl \
-https://raw.githubusercontent.com/bitcoin-core/guix.sigs/main/builder-keys/<developer name>.gpg | \
-gpg --import
+        curl \
+        https://raw.githubusercontent.com/bitcoin-core/guix.sigs/main/builder-keys/<developer name>.gpg | \
+        gpg --import
 		```
-        2. Substitute `<developer name>` for their real name(e.g. `Sjors`) and run this command for all developer keys you want to download
+        2. Substitute `<developer name>` for their real name (e.g. `Sjors`) and run this command for all developer keys you want to download
         3. Use the `up` arrow to easily bring back the previous command and edit the names
     7. It might complain about this and that missing or not found but it should say imported
     8. You can go and learn more about gpg “[Web of trust](https://www.gnupg.org/gph/en/manual.html#AEN554){:target="_blank"}” and how to add trust to these keys when you cross check them
@@ -252,60 +251,60 @@ gpg --import
 
 ---
 
-## OBJECTIVE: Verify Bitcoin Core([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Verify Bitcoin Core ([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
 1. Now you can really verify bitcoin core against these imported keys:
-    1. Navigate to your Download folder where you have the `bitcoin-24.0.1-x86_64-linux-gnu.tar.gz`(or similarly looking file but different realease version of bitcoin core), `SHA256SUMS` and `SHA256SUMS.asc` file
+    1. Navigate to your `Download` folder where you have the `bitcoin-<version>-x86_64-linux-gnu.tar.gz` (or similarly looking file but different realease version of bitcoin core), `SHA256SUMS` and `SHA256SUMS.asc` file
     2. Verify the signature hashes file against your imported public keys:
         ```sh
-gpg --verify SHA256SUMS.asc
+        gpg --verify SHA256SUMS.asc
 		```
     3. You should be able to find lines that say `Good Signature from <developer name you chose to import>`. If you can’t find any then none of the developers you imported signed that release. This can be a warning sign of possible malicious software but since not every bitcoin core developer signs every release, it could be the case that there are other trustworthy developers who signed it. Import more signatures and retry
-    4. Now that we can trust the `SHA256SUMS` file, we can verify the downloaded bitcoin core linux archive file with it. That means if we create the hash of the downloaded `bitcoin-24.0.1-x86_64-linux-gnu.tar.gz` file on our machine, it should be listed in the list of precalculated release hashes in the `SHA256SUMS` file. We will ignore missing release files for different platforms:
+    4. Now that we can trust the `SHA256SUMS` file, we can verify the downloaded bitcoin core linux archive file with it. That means if we create the hash of the downloaded `bitcoin-<version>-x86_64-linux-gnu.tar.gz` file on our machine, it should be listed in the list of precalculated release hashes in the `SHA256SUMS` file. We will ignore missing release files for different platforms:
         ```sh
-sha256sum --check SHA256SUMS --ignore-missing
+        sha256sum --check SHA256SUMS --ignore-missing
 		```
-    5. Expected result: `bitcoin-24.0.1-x86_64-linux-gnu.tar.gz: OK`
+    5. Expected result: `bitcoin-<version>-x86_64-linux-gnu.tar.gz: OK`
 
-It was somewhat arduous to verify bitcoin core(especially if you cross-checked public keys from different sources. In this case, congratulations!). We should not take this process lightly because malware could indeed do us lots of harm. All your bitcoin transactions will be routed through your node so treat it with utmost respect.
+It was somewhat arduous to verify bitcoin core (especially if you cross-checked public keys from different sources. In this case, congratulations!). We should not take this process lightly because malware could indeed do us lots of harm. All your bitcoin transactions will be routed through your node so treat it with utmost respect.
 
 ---
 
-## OBJECTIVE: Install Bitcoin Core([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Install Bitcoin Core ([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
-1. Navigate to the Downloads folder
+1. Navigate to the `Downloads` folder
 2. Unpack the linux archive file:
     ```sh
-tar -x -f bitcoin-24.0.1-x86_64-linux-gnu.tar.gz
+    tar -x -f bitcoin-<version>-x86_64-linux-gnu.tar.gz
 	```
-3. Copy the bitcoin core binaries(executable program files) to a place where they belong(the directory where user-downloaded software usually goes) and set their privileges:
+3. Copy the bitcoin core binaries (executable program files) to a place where they belong (the directory where user-downloaded software usually goes) and set their privileges:
     ```sh
-sudo install -m 0755 -o root -g root -t \
-/usr/local/bin bitcoin-24.0.1/bin/
+    sudo install -m 0755 -o root -g root -t \
+    /usr/local/bin bitcoin-<version>/bin/
 	```
     3. Note that we use the `install` command to merely copy the binary files to the place they belong without using the `apt` package manager. Since bitcoin core is not a `.deb` package we do things manually.
 
-The binary files are already installed(copied) in place but you have to configure Bitcoin Core to your specific needs. Privacy is one of the important ones.
+The binary files are already installed (copied) in place but you have to configure Bitcoin Core to your specific needs. Privacy is one of the important ones.
 
 ---
 
 Let’s prepare to drive all traffic of Bitcoin Core through the Tor network for privacy gains.
 
-## OBJECTIVE: Setup a Tor proxy service([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Setup a Tor proxy service ([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
-1. Check out this explainer [youtube video](https://youtu.be/QRYzre4bf7I){:target="_blank"} about how Tor works and how [Tor onion services](https://youtu.be/QRYzre4bf7I){:target="_blank"} work(clearnet links)
+1. Check out this explainer [youtube video](https://youtu.be/QRYzre4bf7I){:target="_blank"} about how Tor works and how [Tor onion services](https://youtu.be/QRYzre4bf7I){:target="_blank"} work (clearnet links)
 2. Install tor package
     1. Open a terminal and run command
     ```sh
-sudo apt install tor
+    sudo apt install tor
 	```
-    4. This immediately starts tor daemon listening on port `9050` for incoming traffic on localhost(your local machine, no external connections)
+    4. This immediately starts tor daemon listening on port `9050` for incoming traffic on localhost (your local machine, no external connections)
 
 ![tor_with_bitcoin](/assets/img/graphics/tor_with_bitcoin.jpg)
 
 ---
 
-## OBJECTIVE: Configure and learn to manage Bitcoin Core([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
+## OBJECTIVE: Configure and learn to manage Bitcoin Core ([Progress Images](/en/progress-bitcoin-privacy){:target="_blank"})
 
 1. 💡 Learn about the components of [Bitcoin Core](/en/pleb-lessons/#bitcoin-core-components)
 2. Navigate to the directory where you will store the blockchain
@@ -313,14 +312,14 @@ sudo apt install tor
     2. If you have an external SSD just go to the root directory where it is mounted `lsblk`
 3. Create a hidden data directory for bitcoin core
     ```sh
-mkdir .bitcoin
+    mkdir .bitcoin
 	```
     ```sh
-cd .bitcoin
+    cd .bitcoin
 	```
 4. Create the configuration file in .bitcoin folder
     ```sh
-nano bitcoin.conf
+    nano bitcoin.conf
 	```
 5. Edit `bitcoin.conf` like this:
 	```sh
@@ -330,7 +329,7 @@ nano bitcoin.conf
 
 	###### bitcoind options ########
 
-	#Accept command line and JSON-RPC(remote) commands
+	#Accept command line and JSON-RPC (remote) commands
 	server=1
 
 	#Run as a background process
@@ -384,67 +383,67 @@ nano bitcoin.conf
 	```
 6. If you use an external SSD: bitcoind will look for the `.bitcoin` folder in your home folder by default but there is no such folder in your home directory, only in your SSD mount point. So in order to automatically redirect queries of that directory, create a magic portal to this directory, called a symbolic link or `symlink`. **Use your own username in the path:**
     ```sh
-ln -s “/media/<username>/<path_to_folder>/.bitcoin” “/home/<username>/.bitcoin”
+    ln -s “/media/<username>/<path_to_folder>/.bitcoin” “/home/<username>/.bitcoin”
 	```
 7. You can browse config options if you open another terminal tab and call the help command on bitcoind. You can search the output with the terminal search function
 	```sh
-bitcoind -h
+    bitcoind -h
 	```
-    7. edit, save `ctrl + o` and exit `ctrl + x`
+    7. Edit, save `Ctrl + O` and exit `Ctrl + X`
 6. If `bitcoind` is shut down (due to some error or your computer gets shut down) your node is shut down. Although you might have to sometimes restart it manually when you modify settings in `bitcoin.conf`, let’s make sure it is run on startup:
     ```sh
-crontab -e
+    crontab -e
 	```
-    9. select `nano` as editor
+    9. Select `nano` as editor
     10. Scroll to bottom and insert this line:
         ```sh
-@reboot sleep 30 ; bitcoind
+        @reboot sleep 30 ; bitcoind
 		```
         3. This line also lets your SSD be mounted by delaying the launch of bitcoind for 30 seconds after boot. There are other more sophisticated ways to do this with `systemd` scheduler
 8. Start bitcoind by just typing the command:
 	```sh
-bitcoind
+    bitcoind
 	```
 10. It should say `“Bitcoin Core starting”`
 11. To stop it, invoke the command
     ```sh
-bitcoin-cli stop
+    bitcoin-cli stop
 	```
     14. Output: `“Bitcoin Core stopping”`
 12. If `bitcoind` is running and you try to start it, an error message will say it is already running because you’re allowed to run only one mainnet instance of bitcoind on a machine
 13. Check if `bitcoind` (or other processes) is running with the `“htop”` program
     ```sh
-sudo apt install htop
+    sudo apt install htop
 	```
     ```sh
-htop
+    htop
 	```
     17. F4 to filter: `“bitcoind”`
     18. Exit by pressing `“Esc”` then `“q”`
-14. As soon as `bitcoind` is running, it immediately starts to download and verify all the blocks right from the genesis block. This is called `“Initial Block Download”(IBD)`. This can take days in some cases through `Tor`. Be patient
+14. As soon as `bitcoind` is running, it immediately starts to download and verify all the blocks right from the genesis block. This is called `“Initial Block Download” (IBD)`. This can take days in some cases through `Tor`. Be patient
 15. Check network configurations
     ```sh
-bitcoin-cli getnetworkinfo
+    bitcoin-cli getnetworkinfo
 	```
 16. You can check progress in the terminal running
     ```sh
-bitcoin-cli getblockchaininfo
+    bitcoin-cli getblockchaininfo
 	```
-    21. or check the number of downloaded and verified blocks with 
-        ```sh
-bitcoin-cli getblockcount
-		```
+    21. Or check the number of downloaded and verified blocks with 
+    ```sh
+    bitcoin-cli getblockcount
+    ```
 17. Furthermore, if you dump the “debug.log” file’s output in the  terminal you can see everything bitcoind does in live action:
     ```sh
-tail -f ~/.bitcoin/debug.log
+    tail -f ~/.bitcoin/debug.log
 	```
-    23. Use `ctrl+c` to stop and get back to the terminal
+    23. Use `Ctrl + C` to stop and get back to the terminal
 18. There are many other handy commands. Read about the RPC api reference [here](https://developer.bitcoin.org/reference/rpc/index.html){:target="_blank"} or get some help in the terminal running: 
     24. `bitcoin-cli -help` for usage of the command itself, or 
     25. `bitcoin-cli help` (without a dash) to show all the possible RPC options
 19. For example to list all the existing peers and check their nodes configurations
     ```sh
-bitcoin-cli getpeerinfo
+    bitcoin-cli getpeerinfo
 	```
     27. Notice the `.onion` addresses in the `“addr”` field
 20. Use the terminal’s search function on the output text if you’re looking for something specific.
@@ -460,8 +459,8 @@ However, let’s use `Sparrow` in testnet mode just a little more for a couple o
 
 ---
 
-## OBJECTIVE(optional): Upgrading bitcoin core in the future
-1. Since bitcoin core should be optional to upgrade(unless a hardfork happens in bitcoin which should be extremely rare) always carefully check the release notes and feel free to discuss the changes in related groups
+## OBJECTIVE (optional): Upgrading bitcoin core in the future
+1. Since bitcoin core should be optional to upgrade (unless a hardfork happens in bitcoin which should be extremely rare) always carefully check the release notes and feel free to discuss the changes in related groups
 2. The upgrading process is almost exactly the same as the process described above except you don't have to configure tor and bitcoind again
 3. Download the new version, verify, extract and install the new binaries
 4. Restart bitcoind and check new version:

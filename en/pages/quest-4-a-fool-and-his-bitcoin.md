@@ -95,12 +95,11 @@ The computer now is compromised meaning cyber attackers can steal your keys from
 1. You don’t have time to fix the infected machine yet
 2. Get another safe desktop computer or a safe mobile phone
 3. Get a copy of the secret key and the passphrase backups
-4. Install [Sparrow](https://sparrowwallet.com){:target="_blank"} on the desktop (or [Samourai wallet](https://samouraiwallet.com){:target="_blank"} on mobile if you were on `mainnet`, stay on desktop for this exercise though) and recover your wallet 
-5. In Sparrow/Samourai create a new passphrased wallet(new seed phrase, new passphrase) **on the other**, **safe** **device**
+4. Install [Sparrow](https://sparrowwallet.com){:target="_blank"} on the desktop and recover your wallet 
+5. In Sparrow create a new passphrased wallet(new seed phrase, new passphrase) **on the other**, **safe** **device**
     1. This time, also make sure to set an **encryption password**
     2. Don’t mistake passphrases for wallet-encryption passwords
     3. Write down the wallet password in your notebook
-    4. Samourai will always by default ask for a passphrase when you create a wallet and use it as an encryption password as well for automatic backups
 6. Sweep your funds to the newly created wallet
 
 Now your funds are safe but as long as the wallet file is on the infected machine, at least your bitcoin transaction history can still be stolen by the attacker (if there wasn’t any other sensitive data on the computer).

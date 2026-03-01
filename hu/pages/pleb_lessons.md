@@ -601,313 +601,313 @@ Mostanra felismerheted, hogy a jelkódod – finoman szólva – nem nyújt ugya
 ---
 ---
 
-## Bitcoin Plebs and Privacy
+## Bitcoin Plebs és az adatvédelem
 
 ![anon pleb](/assets/img/graphics/anon_pleb.jpg)
 
 ---
 
-## General Privacy considerations
+## Általános adatvédelmi szempontok
 {: .no_toc }
 
-Privacy is discussed quite a lot these days but most people ignore the alarming amount of surveillance we are put under by governments all the time.
+Manapság sokat beszélnek a privacy-ről, azaz az adatvédelemről illetve a magánszféra védelméről, de a legtöbb ember figyelmen kívül hagyja, hogy a kormányok milyen riasztó mértékű megfigyelés alatt tartanak minket folyamatosan.
 
-Quote from the Bitcoin [Whitepaper](https://nakamotoinstitute.org/static/docs/bitcoin.pdf){:target="_blank"} Chapter 10. about privacy by Satoshi himself:
+Idézet Satoshi Bitcoin [Whitepaper](https://nakamotoinstitute.org/static/docs/bitcoin.pdf){:target="_blank"} 10. fejezetéből, az adatvédelemről:
 
-> "The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone.
-> 
-> This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
-> 
-> As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner."
+> „A hagyományos banki modell úgy biztosít bizonyos szintű adatvédelmet, hogy az információhoz való hozzáférést a tranzakcióban részt vevő felekre és a megbízható harmadik félre korlátozza. Az a szükségszerűség, hogy minden tranzakciót nyilvánosan kell bejelenteni, kizárja ezt a módszert, de az adatvédelem továbbra is fenntartható, ha az információáramlást egy másik ponton szakítjuk meg: a nyilvános kulcsok anonimitásának megőrzésével. A nyilvánosság láthatja, hogy valaki küld egy összeget valaki másnak, de anélkül, hogy a tranzakciót bárki személyéhez lehetne kötni.
+>
+> Ez hasonló a tőzsdék által közzétett információk szintjéhez, ahol az egyes ügyletek ideje és mérete nyilvános, de anélkül, hogy elárulná, kik voltak a felek.
+>
+> További tűzfalként minden tranzakcióhoz új kulcspárt érdemes használni, hogy ne lehessen azokat egy közös tulajdonoshoz kötni. Bizonyos összekapcsolás elkerülhetetlen a több-bemenetes tranzakcióknál, amelyek szükségszerűen felfedik, hogy bemeneteik ugyanahhoz a tulajdonoshoz tartoztak. A kockázat az, hogy ha egy kulcs tulajdonosa lelepleződik, az összekapcsolás révén az ugyanahhoz a tulajdonoshoz tartozó többi tranzakció is napvilágra kerülhet."
 
 ---
 
-One thing is that obviously, anything you do on the internet basically stays there forever. Another thing is when you can’t really use a service without the service provider AND your government learning a lot of sensitive info about you. This is called **KYC/AML** (Know Your Customer/Anti Money Laundering) regulations.
+Egyrészt nyilvánvaló, hogy bármi, amit az interneten csinálsz, lényegében örökre ott marad. Másrészt viszont az az igazán súlyos, amikor egy szolgáltatást nem tudsz úgy igénybe venni, hogy közben a szolgáltató ÉS a kormányod ne jutna hozzá rengeteg érzékeny információhoz rólad. Ezt hívják **KYC/AML** (Know Your Customer/Anti Money Laundering) szabályozásnak.
 
-The problem is that this personally identifiable data (PID) you have to (or sometimes willingly) share can be used against you in many ways you would not even imagine. The previous years have shown that the trend of KYC/AML regulations is going to intensify heavily with time.
+A probléma az, hogy ezek a személyazonosításra alkalmas adatok (PID – Personally Identifiable Data), amelyeket meg kell osztanod (vagy önként megosztasz), számtalan módon felhasználhatók ellened – olyanokban is, amelyeket el sem tudnál képzelni. Az elmúlt évek azt mutatták, hogy a KYC/AML szabályozás idővel drasztikusan szigorodni fog.
 
-This has serious consequences:
-1. The PID that is “securely” stored by companies and the government can be safely assumed to be stolen by hackers in time.
-2. Hackers buy and sell this data on a daily basis. It gets disseminated very quickly.
-3. In practice the government can’t really catch that many criminals this way because they are adept at masking their identity but average Joes get rekt all the time by criminals stealing this collected data and exploiting it.
-4. Add bitcoin as an incentive in this game and you get the idea
-5. Not to mention there can be governments in the future that get very hostile towards bitcoin and Bitcoiners. You just can’t know whether it will be a [6102](https://en.wikipedia.org/wiki/Executive_Order_6102){:target="_blank"} type of “we know you have X bitcoin so hand it over” with threats of prison. Chances are you will choose to cough up your KYC bitcoin in this case instead of rotting in a cell away from your family
-6. Once you have bought KYC bitcoin on a traditional exchange like Coinbase, Kraken, Binance, Swan… that record is there forever in a centralized database. They know at least how much you bought and who you are. And assume they share everything with the government. You will have to account for these in case they expect you to do so.
-7. And so you come up with all this “boating accident” type of “I lost it” or “I donated it all away” but they are not dumb. They can issue subpoenas and put you and your circles under tremendous stress
-
----
-
-## A visual of what happens to your precious private data
-{: .no_toc }
-
-[![Privacy and KYC](/assets/img/diagrams/privacy_and_kyc.drawio.png)](/assets/img/diagrams/privacy_and_kyc.drawio.png){:target="_blank"}
+Ennek súlyos következményei vannak:
+1. A cégek és a kormány által „biztonságosan" tárolt PID-ről nyugodtan feltételezhetjük, hogy idővel hackerek ellopják.
+2. A hackerek napi szinten adják-veszik ezeket az adatokat. Rendkívül gyorsan szétterjednek.
+3. A gyakorlatban a kormány így nem tud igazán sok bűnözőt elkapni, mert azok ügyesen leplezik a kilétüket – viszont az átlagembereket nap mint nap megkárosítják a bűnözők, akik az összegyűjtött adatokat lopják el és használják ki.
+4. Gondolj bele, hogy a bitcoinod is célponttá tesz, és máris összeáll a kép!
+5. Nem is beszélve arról, hogy a jövőben lehetnek olyan kormányok, amelyek kifejezetten ellenségesek lesznek a bitcoinnal és a bitcoinerekkel szemben. Nem tudhatod, hogy nem lesz-e egy [6102](https://en.wikipedia.org/wiki/Executive_Order_6102){:target="_blank"} típusú „tudjuk, hogy van X bitcoinod, úgyhogy add ide" fenyegetés börtönnel a háttérben. Nagy valószínűséggel inkább kiadod a KYC bitcoinodat, minthogy a családodtól távol rohadj egy cellában.
+6. Ha egyszer KYC bitcoint vettél egy hagyományos exchange-en, mint a Coinbase, Kraken, Binance, Swan… az a rekord örökre ott van egy centralizált adatbázisban. Legalább azt tudják, mennyit vettél és ki vagy. És feltételezd, hogy mindent megosztanak a kormánnyal! Ezekkel el kell majd számolnod, ha elvárják tőled.
+7. Erre persze jöhet az összes „hajóbaleset" típusú „elvesztettem" vagy „mind eladományoztam" sztori, de ők nem buták. Ki tudnak adni bírósági végzéseket, és téged meg a környezetedet óriási nyomás alá tudnak helyezni.
 
 ---
 
-## Gist of it
+## Szemléltetés: mi történik a becses személyes adataiddal
 {: .no_toc }
 
-1. You should have a substantial NoKYC bitcoin stash. NoKYC means of course that the purchase is very hard to be tied to your name. If you have NoKYC bitcoin you solve many privacy headaches at the root. Of course you can still improve on privacy even if you bought NoKYC. And you should. But you’re much better-off.
-2. KYC bitcoin is regulated and therefore is impaired property compared to NoKYC bitcoin
-3. KYC bitcoin exposes that you are a bitcoiner for all existing and future governments and criminals. It is a privacy risk.
-4. You should practice serious privacy from now on. I don’t mean to be paranoid but develop a mental framework which makes you ponder the privacy aspect of your actions, especially online. Privacy leaks become security holes, so the saying goes.
-9. Prioritize high-return activities. Privacy of your UTXO-s should be of utmost importance. So this will be a focus in this program. It is too easy to get lost in the woods and eventually get very little in return.
-10. CAVEAT: Don't break the law. Eventually, privacy is about selectively revealing yourself to the world. Privacy is not secrecy. Most privacy practices are not illegal in most countries. Having said that, some practices are indeed considered illegal in some places. Check the law and abide by it or move if you are dissatisfied. I am showing you techniques but can’t/won’t take responsibility for your actions.
+[![Adatvédelem és KYC](/assets/img/diagrams/privacy_and_kyc.drawio.png)](/assets/img/diagrams/privacy_and_kyc.drawio.png){:target="_blank"}
 
 ---
 
-## What to do now?
+## A lényeg dióhéjban
 {: .no_toc }
 
-I believe there are three major low-hanging fruits you can pluck right now in terms of Bitcoin privacy:
-
-1. Learn privacy-focused UTXO management
-2. Learn how to run your own Bitcoin Node
-3. Learn how to get NoKYC bitcoin
-
-You learn these and immediately get tremendous privacy benefits, without a doubt.
-
-The crux of the matter is, you should be honing your skills in these areas primarily to gain the most privacy-related advantages.
-
-You could be thinking right now: Why couldn’t Satoshi design a system that has better privacy guarantees built in, confidential transactions by default (Monero guys often criticize Bitcoin like that)?
-
-You see, bitcoin has this very ambitious goal of being a permissionless, censorship-resistant, decentralized sound money **with verifiable finite supply, which is a requirement of hard money.**
-
-You basically can’t have it two-ways as it stands: Private transactions with _some trust_ built-in to verify supply (and therefore threat of inflation/debasement of the money) inevitably OR Public Transactions (“Pseudonymous”) with **zero trust on verification of the supply**.
-
-Bitcoin of course took the second option and this is why privacy becomes quite frankly, an issue that is mostly pushed from the protocol layer to the application layer which is a lot of headache for people. It will always require some manual work from users.
+1. Legyen egy jelentős NoKYC bitcoin tartalékod. A NoKYC természetesen azt jelenti, hogy a vásárlást nagyon nehéz a nevedhez kötni. Ha NoKYC bitcoinod van, rengeteg adatvédelemmel kapcsolatos fejfájást eleve a gyökerénél oldasz meg. Persze a NoKYC bitcoin adatvédelmén is lehet tovább javítani. És érdemes is. De sokkal jobb helyzetből indulsz.
+2. A KYC bitcoin szabályozott, ezért korlátozott tulajdon a NoKYC bitcoinhoz képest.
+3. A KYC bitcoin felfedi, hogy bitcoiner vagy – minden jelenlegi és jövőbeli kormány, illetve bűnöző számára. Adatvédelmi kockázat.
+4. Mostantól gyakorolj komoly adatvédelmet! Nem arról van szó, hogy legyél paranoiás, hanem alakíts ki egy gondolkodásmódot, amelyben minden cselekvésed adatvédelmi vonzatát mérlegeled, különösen online. Az adatvédelmi kiszivárgások biztonsági résekké válnak, ahogy a mondás tartja.
+9. Priorizáld a nagy hozamú tevékenységeket. Az UTXO-id adatvédelme legyen a legfontosabb. Ez lesz a fókusz ebben a programban. Túl könnyű elveszni a részletekben, és végül nagyon kevés eredményt elérni.
+10. FIGYELMEZTETÉS: Ne szegd meg a törvényt. Végső soron az adatvédelem arról szól, hogy szelektíven feded fel magad a világ felé. Az adatvédelem nem titoktartás. A legtöbb adatvédelmi gyakorlat a legtöbb országban nem illegális. Mindazonáltal egyes gyakorlatok bizonyos helyeken valóban illegálisnak számítanak. Nézz utána a törvényeknek, tartsd be őket, vagy költözz el, ha elégedetlen vagy! Technikákat mutatok, de nem tudok/nem vállalok felelősséget a cselekedeteidért.
 
 ---
 
-## Chain analysis/surveillance: The new evil on the horizon
+## Mit tegyél most?
 {: .no_toc }
 
-So the first fact about bitcoin privacy is that it is not too easy, by any means. Once your kyc data is spread all over and it is tied with your UTXOs, it is tilting at windmills. Chain analysis aims to find out as much as possible about bitcoiners because that data is and will have exorbitant value to criminals and nation state governments.
+Szerintem három könnyen elérhető gyümölcs van, amit most azonnal leszüretelhetsz a Bitcoin adatvédelem terén:
 
-They collect as much data about everyone’s bitcoin as possible and they sell you out without a second thought. Furthermore, they have infiltrated all KYC services to get as much personal data about their customers as possible.
+1. Tanuld meg az adatvédelem-fókuszú UTXO kezelést (UTXO management)!
+2. Tanuld meg, hogyan futtass saját Bitcoin node-ot!
+3. Tanuld meg, hogyan szerezz NoKYC bitcoint!
 
-This is done in broad daylight because governments have made it mandatory for companies to snitch on their customers. These GDPR laws and stuff like that are the psy-ops which are meant to deflect the attention from mass-surveillance.
+Ha ezeket megtanulod, azonnal hatalmas adatvédelmi előnyökhöz jutsz, kétség sem fér hozzá.
 
-The most painful reality about this is that the more people have bad privacy practices, the easier it gets to even deanonymize people with good privacy practices with processes of elimination. They are constantly piling up everyone's onchain and offchain data trying to find meaningful connections to make ever smarter guesses about identities and activities of these identities.
+A lényeg, hogy ezeken a területeken érdemes leginkább fejlesztened a tudásodat, mert itt szerezheted a legnagyobb adatvédelmi előnyöket.
 
-Back in the day people thought bitcoin payments were “anonymous”. Well, they did not understand bitcoin very well and did not know how easy it is to follow the money in bitcoin. No, your name is not shown in a transaction but the way you interact with the bitcoin network can be traced back to you in innumerable ways.
+Most arra gondolhatsz: Miért nem tervezte meg Satoshi úgy a rendszert, hogy jobb beépített adatvédelmi garanciái legyenek, alapértelmezetten bizalmas tranzakciókkal (a Monero-sok gyakran kritizálják így a Bitcoint)?
 
-Since bitcoin does not obfuscate sender and receiver details it is now public information and anyone who has additional information outside of the blockchain can try to identify the entities behind those UTXOs. Therefore bitcoin transactions are “pseudonymous” (pseudo=seemingly) instead of anonymous. Anyone can view these transactions and they are on the blockchain for eternity possibly.
+Nos, a bitcoinnak van ez a rendkívül ambiciózus célja, hogy egy engedélymentes, cenzúraálló, decentralizált, szilárd pénz legyen, **ellenőrizhető véges kínálattal, ami a kemény pénz előfeltétele.**
 
-Since a UTXO is inherently visibly linked from one address to another, the flow of bitcoin is obvious. This way if a UTXO is doxxed it can be followed along.
+Jelenlegi állás szerint lényegében nem lehet egyszerre mindkettőt: privát tranzakciók *valamennyi beépített bizalommal* a kínálat ellenőrzéséhez (és ezáltal az infláció/pénzrontás veszélyével) VAGY nyilvános tranzakciók („pszeudonim") **nulla bizalommal a kínálat ellenőrzésében**.
 
-Mostly it starts with the “fiat onramp” to bitcoin, meaning you buy KYC bitcoin by providing your information to government-compliant exchanges and then give a bitcoin address to withdraw your sats. This address is now doxxed and basically any transaction that involves this UTXO leaves a trace. This is how it works:
-
-1. Your wallet selects this UTXO to pay an amount. If this “bitcoin banknote” is not enough to pay the amount, other UTXOs are selected as well. This is called “coin selection”
-2. These UTXOs are the Inputs of the transaction. They know that the doxxed UTXO went into the transaction along with others from the open ledger.
-3. These other UTXOs will then be regarded as yours too because most probably you made a transaction from your own coins. You merged these inputs practically and their history is now tied together. This is called the “common input ownership heuristic”
-4. The Outputs of this transaction can be analyzed too. Probably there will be a higher amount which is the payment itself and a smaller amount which is the change output
-5. The “**doxxic change”** output from the doxxed transaction is assumed to be still yours. If your wallet selects this UTXO again for another transaction, the same heuristics can be applied to it again
-6. **Address reuse** for receiving payments is a very common mistake. All activity is now much more easily tied to a single address. That is why decent wallet software like Sparrow generates new addresses for every transaction
-7. If your transaction is a **full spend** of the UTXOs **without a change** Output, a **self spend** is implied because it is unlikely that you bought something that cost exactly as much as those UTXOs
-8. **Round amounts** indicate payment Outputs
-9. A different **type of** Output **address** indicates payment, while the change output tends to be the same address type that your wallet uses
-
-Many other heuristics can be applied to infer even more onchain information about the transaction in question. Feel free to dive deep in chain analysis heuristics [here](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923).
+A bitcoin természetesen a második opciót választotta, és ezért az adatvédelem őszintén szólva olyan kérdéssé vált, amelyet nagyrészt a protokoll szintről az alkalmazási szintre hárítottak, ami rengeteg fejfájást okoz az embereknek. Mindig igényelni fog némi kézi munkát a felhasználóktól.
 
 ---
 
-## How to tackle the problem of chain analysis?
+## Chain analysis/megfigyelés: Az új gonosz a láthatáron
 {: .no_toc }
 
-This is a pernicious plot indeed. But all hope is not lost. Privacy advocates have raised awareness about the urgency of better privacy practices from wallet developers as well as bitcoiners.
+Az első tény tehát a bitcoin adatvédelemmel kapcsolatban, hogy egyáltalán nem egyszerű. Amint a KYC adataid szétszóródtak mindenhol és összekapcsolódtak az UTXO-iddal, szélmalomharc az egész. A chain analysis célja, hogy minél többet derítsen ki a bitcoinerekről, mert ezek az adatok borzasztó értékesek a bűnözők és a nemzetállami kormányok számára – ma és a jövőben egyaránt.
 
-The most important part is that you too **raise awareness** of privacy in the first place. Tools are less useful if few people use them. This is especially true for privacy tools.
+Annyi adatot gyűjtenek mindenki bitcoinjáról, amennyit csak tudnak, és gondolkodás nélkül kiadják az adataidat. Ráadásul beszivárogtak az összes KYC szolgáltatásba, hogy minél több személyes adatot gyűjtsenek az ügyfeleikről.
 
-* **Practice privacy off-chain** too. The more data they can collect about you the stronger their guessing will be. Correlation of vast amounts of data will be trivial nowadays so leave fewer traces.
-Social media, unsafe http sites, logging browser search engines, browsing clearnet through ISP without a VPN, not using Tor, using sms, using google services instead of reputable services with emphasis on privacy. So on, so forth. Improve these gradually, don’t overwhelm yourself because you will burn out or get too paranoid. Not helpful
-* **Buy Nokyc bitcoin**. All chain analysis has to have a starting point. Don’t give them that starting point. Peer-to-peer marketplaces, meetups, conferences, face-to-face cash trades, Pleb home mining or selling products and services for sats mitigate this problem. These will be more onerous methods than a few clicks on a centralized exchange but will save you from most headaches of the not-so-distant future where doxxed bitcoin and bitcoiners will be hit hard
-* **Use** bitcoin software that is designed to cater to privacy needs like **Sparrow wallet**. It is not just the wallet functionality. It is also about the user experience which will guide you towards better practices where applicable
-* **Segregation.** E.g. you separate KYC UTXOs from NoKYC by putting them in different wallets so they may never be merged in a transaction.
-* Practice **UTXO management**. Previously I told you that your wallet selects the coins you pay with. This can be done manually as well of course. You can control the coin selection to protect your privacy called "**coin control"**. This can also be thought of as a type of segregation not on the wallet level but inside the wallet on the UTXO level.
-You can diligently keep track of your transaction metadata by applying **UTXO labeling** practices. This will allow for better coin control so you avoid doxxing yourself by merging the wrong kinds of UTXOs.
-Wrong kind could mean many things, like donating to a cause from the change left from the purchase of something you don't want others to know about or depositing to a regulated exchange from a UTXO that is easy to trace back to suspicious activity. Depends on regulations and subjective judgements. Better not to call attention to yourself and label UTXOs in every transaction which Sparrow demands explicitly
-* **Privacy enhanced transactions.** These are techniques to deliberately obfuscate transaction information. If you use a wallet with an emphasis on good privacy features like Sparrow or Samourai, they offer many ways to improve your privacy while transacting. These transactions tend to incur more cost and require more understanding though
-* **Coinjoin** is a collaborative transaction where parties join their UTXOs in a transaction only to introduce confusion about who owns which UTXO. If done well, it can “reset the history” of a UTXO that was part of a Coinjoin transaction or at least introduce a good deal of doubt about its future going forward. At that point the only thing that is known about those UTXOs is that they probably entered a Coinjoin transaction with other parties
+Ez fényes nappal történik, mert a kormányok kötelezték a cégeket, hogy jelentsenek az ügyfeleikről. Ezek a GDPR törvények és hasonlók puszta megtévesztés, amelyek célja elterelni a figyelmet a tömeges megfigyelésről.
 
-It cannot however erase KYC records. Coinjoin mitigates tracking by breaking the transaction graph. After a properly performed Coinjoin, you can only guess which Coinjoin transaction UTXOs belong to which transaction inputs. For example [Whirlpool](https://docs.samourai.io/whirlpool/start) is a coinjoin implementation with a centralized coordinator of these special transactions.
-Because these transactions reset the history of a UTXO they can be thought of as privacy tools as well as tools for increasing bitcoin fungibility (the degree of similarity, since they create outputs of equal amounts with zero link to the past). Hopefully in the future almost all transactions will be coinjoin transactions, even simple spends. This would make tracking super-hard for chain surveillance. Common open coinjoin protocols need to be widely adopted by bitcoiners to achieve this reality because coinjoin needs extra collaboration of wallets.
+A legfájdalmasabb valóság ezzel kapcsolatban, hogy minél több embernek vannak rossz adatvédelmi szokásai, annál könnyebb még a jó adatvédelmi gyakorlattal rendelkező embereket is deanonimizálni a kizárásos módszerrel. Folyamatosan halmozzák mindenki onchain és offchain adatait, hogy értelmes kapcsolatokat találjanak, és egyre okosabb becsléseket tegyenek az identitásokról és azok tevékenységéről.
+
+Régen az emberek azt hitték, a bitcoin fizetések „anonimak". Nos, nem értették túl jól a bitcoint, és nem tudták, milyen könnyű követni a pénz útját a bitcoinban. Nem, a neved nem jelenik meg egy tranzakcióban, de ahogyan a bitcoin hálózattal interakcióba lépsz, az számtalan módon visszakövethető hozzád.
+
+Mivel a bitcoin nem rejti el a küldő és a fogadó adatait, azok immár nyilvános információk, és bárki, aki a blokkláncon kívüli további információval rendelkezik, megpróbálhatja azonosítani az UTXO-k mögötti entitásokat. Ezért a bitcoin tranzakciók „pszeudonimak" (pszeudo=látszólag) az anonim helyett. Bárki megtekintheti ezeket a tranzakciókat, és azok esetleg örökkön-örökké rajta vannak a blokkláncon.
+
+Mivel egy UTXO eredendően láthatóan kapcsolódik egyik címtől a másikig, a bitcoin áramlása nyilvánvaló. Így ha egy UTXO-t doxxoltak (azaz nyilvánosan személyhez kötöttek), követni lehet.
+
+Általában a „fiat onramp"-nál kezdődik, vagyis KYC bitcoint veszel úgy, hogy megadod az adataidat a kormány-kompatibilis exchange-eknek, majd adsz egy bitcoin címet a sats kivételéhez. Ez a cím immár doxxolt, és lényegében minden tranzakció, amely ezt az UTXO-t érinti, nyomot hagy. Így működik:
+
+1. A tárcád kiválasztja ezt az UTXO-t egy összeg kifizetéséhez. Ha ez a „bitcoin bankjegy" nem elég az összeg kifizetéséhez, további UTXO-kat is kiválaszt. Ezt hívják érmekiválasztásnak (coin selection).
+2. Ezek az UTXO-k a tranzakció bemenetei (input). A nyílt főkönyvből tudják, hogy a doxxolt UTXO a tranzakcióba került másokkal együtt.
+3. A többi UTXO-t szintén a tiédnek fogják feltételezni, mert valószínűleg a saját érmékből hajtottad végre a tranzakciót. Gyakorlatilag összevontad ezeket a bemeneteket, és az előzményeik mostantól összekapcsolódnak. Ezt hívják a közös bemenet-tulajdonlási heurisztikának (common input ownership heuristic).
+4. A tranzakció kimeneteit (output) is elemezni lehet. Valószínűleg lesz egy nagyobb összeg, ami maga a fizetés, és egy kisebb összeg, ami a visszajáró (change).
+5. A doxxolt tranzakcióból származó „**doxxic change**" visszajáróról feltételezik, hogy még mindig a tiéd. Ha a tárcád újra kiválasztja ezt az UTXO-t egy másik tranzakcióhoz, ugyanazok a heurisztikák alkalmazhatók rá ismét.
+6. A címek újrahasználata (address reuse) a fizetések fogadására nagyon gyakori hiba. Az összes tevékenység így sokkal könnyebben köthető egyetlen címhez. Ezért generálnak a tisztességes tárca szoftverek, mint a Sparrow, minden tranzakcióhoz új címet.
+7. Ha a tranzakciód az UTXO-k **teljes elköltése visszajáró nélkül**, az **önköltésre (self spend)** utal, mert valószínűtlen, hogy pontosan annyiba került valami, amennyit azok az UTXO-k értek.
+8. A **kerek összegek** fizetési kimenetekre utalnak.
+9. Egy eltérő **típusú kimeneti cím** fizetésre utal, míg a visszajáró általában ugyanolyan címtípusú, mint amit a tárcád használ.
+
+Számos egyéb heurisztika alkalmazható a szóban forgó tranzakcióról még több onchain információ kinyerésére. Nyugodtan merülj el a chain analysis heurisztikákban [itt](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923)!
 
 ---
 
-## More about Coinjoin
+## Hogyan kezeljük a chain analysis problémáját?
 {: .no_toc }
 
-Sending your KYC UTXOs through Coinjoin transactions is therefore a great practice but does not come without a cost:
+Ez bizony egy aljas cselszövés. De nincs minden veszve. Az adatvédelem szószólói felhívták a figyelmet a jobb adatvédelmi gyakorlatok sürgősségére mind a tárcafejlesztők, mind a bitcoinerek körében.
 
-* Coinjoin transactions are not free. If they were free they could be easily abused which defeats the purpose of Coinjoin.
-* Coinjoin transactions today require you to have your bitcoin in hot wallets which introduces temporary cyber-risk
-* Choosing a bad implementation of Coinjoin comes with a false sense of security. But to choose wisely you must understand Coinjoin basics and do your own research which takes some time
-* Using coinjoin requires a deeper understanding of UTXO management which can backfire in many ways if not exercised correctly
-* Coinjoin requires maintenance oversight
-* **Coinjoin does not erase KYC records: Your KYC bitcoin purchases still present an attack surface on you regardless of you breaking the link with the past. They know you have it, they can make you account for it, that simple.**
+A legfontosabb az, hogy te is **növeld a tudatosságot** az adatvédelemmel kapcsolatban. Az eszközök kevésbé hasznosak, ha kevesen használják őket. Ez különösen igaz az adatvédelmi eszközökre.
 
-It is arguably a good idea to also coinjoin your NoKYC UTXOs to hide future activity from your trading partner as well because you generally doxx yourself to the trading counterparty at least even in a P2P exchange.
+* **Ügyelj az adatvédelemre offchain is!** Minél több adatot tudnak rólad gyűjteni, annál pontosabbak lesznek a feltételezéseik. A hatalmas adatmennyiségek összevetése manapság gyerekjáték, úgyhogy hagyj kevesebb nyomot!
+Social media, nem biztonságos http oldalak, naplózó böngésző keresőmotorok, clearnet böngészés az ISP-n keresztül VPN nélkül, Tor mellőzése, SMS használata, Google szolgáltatások használata az adatvédelmet előtérbe helyező megbízható szolgáltatások helyett. És így tovább. Ezeket fokozatosan javítsd, ne told túl, mert kiégsz vagy túl paranoiássá válsz! Az nem segít.
+* **Vegyél NoKYC bitcoint!** Minden chain analysis-nek kell egy kiindulópont. Ne add meg nekik azt a kiindulópontot! Peer-to-peer piacok, meetupok, konferenciák, személyes készpénzes ügyletek, pleb otthoni bányászat, vagy termékek és szolgáltatások értékesítése sats-ért – ezek mind enyhítik ezt a problémát. Ezek nehézkesebb módszerek, mint pár kattintás egy centralizált exchange-en, de megkímélnek a nem is olyan távoli jövő legtöbb fejfájásától, amikor a doxxolt bitcoin és bitcoinerek keményen komoly bajba kerülnek.
+* **Használj** olyan bitcoin szoftvert, amelyet adatvédelmi igények kiszolgálására terveztek, mint a **Sparrow tárca**! Nem csak a tárca működéséről van szó. A felhasználói élmény is fontos, amely a jobb gyakorlatok felé terel, ahol csak lehetséges.
+* **Szegregáció.** Pl. a KYC UTXO-kat elkülöníted a NoKYC-tól úgy, hogy különböző tárcákba teszed őket, így azok soha nem kerülhetnek össze egy tranzakcióban.
+* Gyakorolj **UTXO kezelést**! Korábban említettem, hogy a tárcád választja ki az érméket, amivel fizetsz. Ezt természetesen manuálisan is meg lehet tenni. Az érmekiválasztást (coin selection) te is kontrollálhatod az adataid védelme érdekében, amit „**coin control**"-nak hívnak. Ez is egyfajta szegregáció, csak nem tárcák között, hanem a tárcán belül, UTXO szinten.
+Gondosan nyomon követheted a tranzakciók metaadatait **UTXO labeling** (címkézési) gyakorlatokkal. Ez jobb coin control-hoz vezet, hogy ne doxxold magad rossz típusú UTXO-k összevonásával.
+Rossz típus sok mindent jelenthet, például adományozni egy ügyért abból a visszajáróból, ami egy olyan vásárlásból maradt, amiről nem akarod, hogy mások tudjanak, vagy befizetni egy szabályozott exchange-re egy olyan UTXO-ból, amit könnyű visszavezetni gyanús tevékenységhez. Ez a szabályozástól és szubjektív megítéléstől függ. Jobb nem felhívni magadra a figyelmet, és minden tranzakciónál címkézni az UTXO-kat, amit a Sparrow kifejezetten megkövetel.
+* **Fokozott adatvédelmű tranzakciók.** Ezek olyan technikák, amelyek szándékosan elhomályosítják a tranzakciós információkat. Ha olyan tárcát használsz, amely hangsúlyt fektet a jó adatvédelmi funkciókra – mint a Sparrow –, számos módszert találsz benne az adatvédelem javítására tranzakciók során. Ezek a tranzakciók azonban általában több költséggel járnak és mélyebb megértést igényelnek.
+* A **Coinjoin** egy együttműködésen alapuló tranzakció, ahol a résztvevők összekeverik az UTXO-ikat egy tranzakcióban egyetlen céllal: összezavarni, hogy ki melyik UTXO tulajdonosa. Ha jól csinálják, „nullázhatja az előzményeit" egy UTXO-nak, amely részt vett a Coinjoin tranzakcióban, vagy legalábbis jelentős kételyt ébreszt a jövőjével kapcsolatban. Onnantól az egyetlen, amit tudni lehet azokról az UTXO-król, hogy valószínűleg részt vettek egy Coinjoin tranzakcióban más felekkel.
 
-CAVEAT: Coinjoin is considered more and more suspicious for no legit reason and a centralized exchange may reject to book a transaction if they see it has been part of a coinjoin transaction. They may even flag you or freeze your account in some cases. Lesson: don't send coins to kyc exchanges with a "suspicious" history.
-
-Since this Pleb training program does only cater to the bare minimum you need, we won’t be covering Coinjoin but I encourage you to educate yourself on this topic. Check out the [zero-link specification](https://code.samourai.io/whirlpool/Whirlpool/-/blob/whirlpool/THEORY.md), [Joinmarket](https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#a-private-flow-through-joinmarket) with [Joininbox](https://github.com/openoms/joininbox) and [Whirlpool](https://sparrowwallet.com/docs/mixing-whirlpool.html) for more details.
+Azonban a KYC rekordokat nem tudja törölni. A Coinjoin a követést nehezíti meg azáltal, hogy megtöri a tranzakciós gráfot. Egy megfelelően végrehajtott Coinjoin után csak tippelni lehet, hogy a Coinjoin tranzakció UTXO-i melyik tranzakciós bemenetekhez tartoznak. Például a Whirlpool egy Coinjoin implementáció volt, centralizált koordinátorral. A Samourai Wallet lefoglalása óta a Whirlpool koordinátor nem működik, de a koncepció és a protokoll továbbra is releváns, és a közösség dolgozik decentralizált alternatívákon.
+Mivel ezek a tranzakciók nullázzák egy UTXO előzményeit, adatvédelmi eszközöknek tekinthetők, ugyanakkor a bitcoin helyettesíthetőségét (fungibility) növelő eszközöknek is (mivel egyenlő összegű kimeneteket hoznak létre, amelyeknek nincs kapcsolata a múlttal). Remélhetőleg a jövőben szinte az összes tranzakció Coinjoin tranzakció lesz, még az egyszerű költések is. Ez a chain surveillance számára rendkívül megnehezítené a követést. Nyílt Coinjoin protokollokat kell széles körben elfogadniuk a bitcoinereknek ahhoz, hogy ez valósággá váljon, mert a Coinjoin a tárcák extra együttműködését igényli.
 
 ---
 
-## Solutions above the bitcoin base-layer
+## Bővebben a Coinjoin-ról
+{: .no_toc }
+
+A KYC UTXO-id Coinjoin tranzakciókon való átküldése tehát remek gyakorlat, de nem költségmentes:
+
+* A Coinjoin tranzakciók nem ingyenesek. Ha ingyenesek lennének, könnyen visszaélhetnének velük, amivel a Coinjoin elvesztené az értelmét.
+* A Coinjoin tranzakciók ma megkövetelik, hogy a bitcoinod forró tárcákban legyen, ami átmeneti kiberkockázatot jelent.
+* Egy rossz Coinjoin implementáció választása hamis biztonságérzetet ad. De ahhoz, hogy bölcsen válassz, értened kell a Coinjoin alapjait és utána kell járnod a dolgoknak, ami időt igényel.
+* A Coinjoin használata mélyebb UTXO kezelési tudást igényel, ami sok módon visszaüthet, ha nem csinálod helyesen.
+* A Coinjoin folyamatos felügyeletet igényel.
+* **A Coinjoin nem törli a KYC rekordokat: A KYC bitcoin vásárlásaid továbbra is támadási felületet jelentenek, hiába szakítottad meg a kapcsolatot a múlttal. Tudják, hogy megvan, elszámoltathatnak vele, ilyen egyszerű.**
+
+Érdemes megfontolni, hogy a NoKYC UTXO-idat is átküld a Coinjoin-on, mert egy P2P exchange-en is legalább a kereskedési partnereddel doxxolod magad – így a jövőbeli tevékenységedet is elrejtheted előle.
+
+FIGYELMEZTETÉS: A Coinjoin-t minden jogos ok nélkül egyre gyanúsabbnak tartják, és egy centralizált exchange elutasíthatja egy tranzakció könyvelését, ha azt látja, hogy az részt vett egy Coinjoin tranzakcióban. Egyes esetekben meg is jelölhetnek vagy befagyaszthatják a fiókodat. Lecke: ne küldj „gyanús" előzményű érméket KYC exchange-ekre.
+
+Mivel ez a Pleb képzési program csak a szükséges minimumot fedi le, a Coinjoin-t nem fogjuk részletesen tárgyalni, de bátorítalak, hogy képezd magad ebben a témában. Nézd meg a [Joinmarket](https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#a-private-flow-through-joinmarket)-et a [Joininbox](https://github.com/openoms/joininbox)-szal a részletekért! A Whirlpool és a zero-link specifikáció a Samourai Wallet lefoglalása óta eredeti forráshelyükön nem érhetők el, de a Sparrow dokumentációjában továbbra is találsz [hasznos információkat a privát költésről](https://sparrowwallet.com/docs/spending-privately.html).
+
+---
+
+## A Bitcoin alapréteg feletti megoldások
 {: .no_toc }
 
 ---
 
-## Lightning network
+## Lightning Network
 {: .no_toc }
 
-You might be familiar with the Lightning network already. It is a layer-2 protocol based on bitcoin to make it more scalable.
+Lehet, hogy már ismered a Lightning Network-öt. Ez egy Bitcoin alapú layer-2 protokoll, amelynek célja a skálázhatóság javítása.
 
-Lightning allows people to basically create a bitcoin base-layer transaction to lock bitcoin in a shared (multisig) UTXO. This bitcoin is now locked between the two parties and they can pay each other to and from this pool of locked bitcoin. They can settle these multiple transactions later on the base layer when they agree to unlock the original transaction according to the updated state of who has how much.
+A Lightning lényege, hogy a felhasználók egy Bitcoin alapréteg-tranzakcióval bitcoint zárolnak egy közös (multisig) UTXO-ban. Ettől kezdve ez a bitcoin a két fél között zárolt, és ebből a zárolt összegből fizethetnek egymásnak oda-vissza. Ezeket az egymás közötti tranzakciókat később rendezhetik az alaprétegen, amikor megegyeznek az eredeti tranzakció feloldásáról a frissített állapotnak megfelelően – vagyis kinek mennyi jár.
 
-This multisig escrow transaction effectively opens a payment channel between the two parties in order to use those funds on the Lightning network for cheaper and "instant" payments. Multiple channels can be opened to create a network of parties transacting this way routing payments through each other in the network. They open and close channels between each other with base-layer transactions and in the meantime they can use the Lightning protocol to keep track of the up-to-date state and also keep each other honest (we don't go into how exactly).
+Ez a multisig letéti tranzakció gyakorlatilag egy fizetési csatornát nyit a két fél között, hogy ezeket az összegeket a Lightning Network-ön használhassák olcsóbb és „azonnali" fizetésekre. Több csatorna megnyitásával létrejön a résztvevő felek hálózata, akik egymáson keresztül irányítják a fizetéseket. Alapréteg-tranzakciókkal nyitnak és zárnak csatornákat egymás között, közben pedig a Lightning protokollal követik a legfrissebb állapotot, és biztosítják egymás tisztességét (a pontos működésbe most nem megyünk bele).
 
-Payments work very differently on Lightning. You basically send a Lightning invoice as the receiver of the payment and pay the exact amount **without any change** as the sender, routed through Lightning nodes. Fees are paid by the payment amount not by storage space taken up.
+A fizetések a Lightning-on egészen másképp működnek. A fogadó fél lényegében egy Lightning invoice-t küld, a küldő pedig pontosan a kért összeget fizeti ki **visszajáró nélkül**, Lightning node-okon keresztül irányítva. A díjak a fizetési összeg és nem az elfoglalt tárterület alapján számítódnak.
 
-Payments on the Lightning network are considered generally more private than on-chain transactions. **Receiving** payments however is considered less private than sending because the invoices contain data about your Lightning node.
+A Lightning Network-ön végzett fizetéseket általában privátabbnak tekintik az onchain tranzakcióknál. A fizetések **fogadása** azonban kevésbé privát a küldésnél, mert az invoice-ok adatokat tartalmaznak a Lightning node-odról.
 
-### Sovereign vs. Custodial LN
+### Szuverén vs. letéti LN
 
-This is only true however if you run your own Lightning node. Anyone can run their own node on Lightning just as in bitcoin, it is just way more effort and carries more risk. However if you are up to it you should definitely try running your own Lightning node. If you want to run a sovereign node at home but be able to pay with your mobile phone through that node, you can look into node remote control apps such as [Zeus](https://zeusln.com/) or [Bitbanana](https://bitbanana.app/).
+Ez azonban csak akkor igaz, ha saját Lightning node-ot futtatsz. A Lightning Network-ön ugyanúgy bárki futtathat saját node-ot, mint a Bitcoin hálózaton, csak jóval több erőfeszítéssel jár és több kockázatot hordoz. Ha nem riadsz vissza tőle, mindenképp vágj bele! Ha szuverén node-ot szeretnél otthon üzemeltetni, de a mobilodról is fizetni szeretnél rajta keresztül, nézz utána olyan node távvezérlő alkalmazásoknak, mint a [Zeus](https://zeusln.com/) vagy a [Bitbanana](https://bitbanana.app/)!
 
-Sadly, most bitcoiners still rather use a **custodial** (hopefully NoKYC) **Lightning** wallet today to make fast and cheap payments with minimal hassle.
+Sajnos a legtöbb bitcoiner ma még inkább **letéti** (custodial) – remélhetőleg NoKYC – **Lightning** tárcát használ a gyors és olcsó fizetésekhez, a könnyebbik utat választva.
 
-This means of course that these **companies can rug you** though. Don’t put funds on Lightning that would hurt you too much if you lost it (true for your own Lightning node as well IMHO). The other risk is that these companies can be suddenly pressured by governments to introduce KYC measures to future AND existing clients. This means that you are not getting your funds out there without giving them your personal information. This is called shotgun KYC.
+Ez természetesen azt jelenti, hogy ezek a **cégek bármikor megléphetnek a pénzeddel**. Ne tegyél annyi pénzt a Lightning-ra, amennyinek az elvesztése komolyan fájna (ez a saját Lightning node-odra is igaz, véleményem szerint). A másik kockázat, hogy ezeket a cégeket a kormányok hirtelen nyomás alá helyezhetik, hogy KYC intézkedéseket vezessenek be a jövőbeli ÉS meglévő ügyfeleik számára. Ilyenkor a pénzedhez nem jutsz hozzá anélkül, hogy megadnád a személyes adataidat. Ezt hívják shotgun KYC-nak – mondhatni rajtaütésszerű KYC.
 
-You can trade off custodial risk for convenience and cost-effectiveness with little amounts. That does not mean however, that **you** don’t **need** to make an **on-chain transaction** to put your funds on Lightning in the first place. Furthermore, make sure **NOT to doxx yourself to the custodial provider**. They tend to ask for email address and you can write a payment note for every transaction which are danger zones for privacy. In the end the only real way to preserve privacy is running your own node with privacy-hardening measures. Proof of Work.
+Kis összegekkel megérheti a kényelmet és költséghatékonyságot választani a letéti kockázat fejében. Ettől még **szükséged lesz** egy **onchain tranzakcióra** ahhoz, hogy a pénzedet egyáltalán a Lightning-ra juttasd. Továbbá ügyelj rá, hogy **NE doxxold magad a letéti szolgáltató felé**! Általában kérnek egy email címet, és minden tranzakcióhoz írhatsz megjegyzést – ezek adatvédelmi veszélyzónák. Végső soron az adatvédelem megőrzésének egyetlen igazi módja a saját node futtatása megfelelő védelmi intézkedésekkel. Proof-of-work.
 
-### The middle ground: The LSP model
+### A középút: Az LSP modell
 
-Wallets using the Lightning Service Providers model make an interesting trade-off by remaining self-custodial but you have to place some trust in your LSP not to rug your funds in a channel under certain circumstances. Privacy is also somewhat worse than running a fully sovereign Lightning node but definitely better than a custodial wallet. [Mutiny](https://www.mutinywallet.com/), [Phoenix](https://phoenix.acinq.co/), [Blixt](https://blixtwallet.github.io/), [Breez](https://breez.technology/) and [Zeus](https://zeusln.com/) are popular choices among bitcoiners for a good reason. 
+Az LSP-t, azaz Lightning szolgáltatót (Lightning Service Provider) használó tárcák érdekes kompromisszumot kínálnak: önrendelkezők (self-custodial) maradnak, de meg kell bíznod az LSP-dben, hogy adott körülmények között nem lép meg a csatornában lévő pénzeddel. Az adatvédelem is valamivel gyengébb, mint egy teljesen szuverén Lightning node esetében, de határozottan jobb, mint egy letéti tárcánál. A [Phoenix](https://phoenix.acinq.co/), a [Blixt](https://blixtwallet.github.io/), a [Breez](https://breez.technology/) és a [Zeus](https://zeusln.com/) nem véletlenül népszerűek a bitcoinerek körében.
 
 ---
 
 ## eCash
 {: .no_toc }
 
-eCash solutions make the news in bitcoin-land quite often these days and the hype is about the near-perfect privacy properties of eCash.
+Az eCash megoldások manapság gyakran kerülnek a hírekbe bitcoin-földön, és a felhajtás az eCash közel tökéletes adatvédelmi tulajdonságainak szól.
 
-Being a fully custodial solution, eCash is basically a very clear trade-off between custodial risk and privacy. The custodian takes a bitcoin payment and issues eCash tokens in turn for that. This token is used between members of the same eCash ecosystem.
+Teljesen letéti megoldás lévén az eCash lényegében egy nagyon egyértelmű választás a letéti kockázat és az adatvédelem között. A letétkezelő fogad egy bitcoin fizetést, és cserébe eCash tokeneket bocsát ki. Ezeket a tokeneket ugyanazon eCash ökoszisztéma tagjai használják egymás között.
 
-With the use of a cryptographic technique called “blinded signatures”, both the sender and the receiver of a payment can remains private. They are hidden not just from external viewers but the custodian as well.
+A „blinded signatures" (vak aláírások) nevű kriptográfiai technika révén mind a küldő, mind a fogadó rejtve marad – nemcsak a külső szemlélők, hanem maga a letétkezelő elől is.
 
-This decades-old concept initially introduced in mainstream by David Chaum was brought to life again by projects like [CashU](https://cashu.space/) and [Fedimint](https://fedimint.org/) in bitcoin.
+Ezt az évtizedes koncepciót, amelyet David Chaum tett ismertté, olyan projektek keltették újra életre a bitcoinban, mint a [CashU](https://cashu.space/) és a [Fedimint](https://fedimint.org/).
 
-I should note that eCash does not require an additional blockchain. eCash merely requires an “eCash-mint” to take care of the conversions into and out of the system as well as facilitate payments. Although it is called cash, all payments need to be completed with the help of the mint.
+Fontos megjegyezni, hogy az eCash nem igényel külön blokkláncot. Csupán egy eCash-mint-re, azaz egy digitális pénzverdére van szükség, amely a rendszerbe és rendszerből történő átváltásokat kezeli, és a fizetéseket közvetíti. Bár készpénznek hívják, minden fizetéshez szükség van a pénzverde közreműködésére.
 
-These solutions are still nascent but bitcoiners are bullish for a good reason. Privacy is a great cause to fight for and the more tool we have in the shed, the stronger and smarter we get.
+Ezek a megoldások még gyerekcipőben járnak, de a bitcoinerek nem véletlenül bizakodóak. Az adatvédelem nemes ügy, amelyért érdemes küzdeni, és minél több eszköz áll rendelkezésünkre, annál erősebbek és okosabbak leszünk.
 
-Last but not least, keep **learning** about privacy and be part of a bitcoin **community**.
+Végül, de nem utolsósorban: folyamatosan **tanulj** az adatvédelemről, és légy tagja egy bitcoin **közösségnek**!
 
-[Back to Objective]({{ site.baseurl }}/en/bitcoin-privacy/#objective-get-to-know-the-enemyprogress-images){: .btn .btn-purple}
-
----
----
-
-## Why Run a Bitcoin Node
-
-So let’s dive in running your own Bitcoin Node. They say: Not your Node, not your data and not your rules. That’s a good saying because it’s a great summary of what is at stake here.
-
-Imagine all your financial data: Your account balance and where you keep your money and assets, your transaction history of what you bought, when and where you bought it, for how much and from who.
-
-What if all this precious data is owned and possibly used for whatever reason by someone you don’t know. This entity can use or leak YOUR financial data anytime in the future (assume they already did) for any reason, to anyone. Doesn’t sound like “Peer-to-peer electronic cash” to me at all.
-
-You have been on testnet so far so don’t worry, your privacy is safe for now. But it is time you learned that this is the reality if you don’t run your own node. Somebody out there is handling all your transactions. You have a right to own your financial data, period. But this comes with consequences: You have to learn the basics of running your own node and how to protect that data from “prying eyes”.
-
-Another strong reason to run a node is that you essentially become an auditor of the bitcoin network and particularly the miners.
-
-What miners do at the end of the day is just selling their hashrate (energy) to the network of nodes. This hashrate adds to the security of the bitcoin network. If you become an auditor by running a node that validates the mined blocks, you actually add an extra check on those precious consensus rules that underpin the whole bitcoin protocol. The integrity of the bitcoin protocol is the root of trust in bitcoin as hard money. You get the idea.
-
-You can see how acting in your own selfish interest becomes an act of virtue in bitcoin. This is how the Bitcoin Plebs of the past have successfully repelled many serious attacks on bitcoin, most notably the blasphemous block size increase hard-fork attempt, well-documented in the book titled “The Blocksize War” by Jonathan Bier. The victory of those Plebs makes it possible for you to run your own node and verify the timechain in the first place.
+[Vissza a célkitűzéshez]({{ site.baseurl }}/hu/bitcoin-privacy/#cél-az-ellenség-megismerése-folyamatábrázoló-képek){: .btn .btn-purple}
 
 ---
+---
 
-## Bitcoin “Full nodes” vs. “light clients”
+## Miért futtass saját Bitcoin node-ot?
+
+Merüljünk hát bele a saját Bitcoin node futtatásába! Azt szokták mondani: Nem a te node-od, nem a te adataid és nem a te szabályaid. Ez egy találó mondás, mert remekül összefoglalja, hogy mi forog kockán.
+
+Képzeld el az összes pénzügyi adatodat: a számlaegyenlegedet, hogy hol tartod a pénzedet és az eszközeidet, a tranzakciós előzményeidet – mit vettél, mikor és hol vetted, mennyiért és kitől.
+
+Mi történik, ha mindezt a becses adatot valaki olyan birtokolja és esetleg bármire felhasználja, akit te nem is ismersz? Ez a szereplő a jövőben bármikor felhasználhatja vagy kiszivárogtathatja a pénzügyi adataidat (tételezd fel, hogy már meg is tette), tetszőleges okból, tetszőleges személynek. Ez szerintem cseppet sem hangzik úgy, mint a „Peer-to-peer elektronikus készpénz".
+
+Eddig a testnet-en voltál, úgyhogy ne aggódj, az adatvédelmed egyelőre biztonságban van. De ideje megtanulnod, hogy ez a valóság, ha nem futtatsz saját node-ot. Valaki odakint kezeli az összes tranzakciódat. Jogod van a saját pénzügyi adataid birtoklásához, és kész. De ennek ára van: meg kell tanulnod a saját node futtatásának alapjait, és azt, hogyan védd meg az adataidat a kíváncsi szemektől.
+
+Egy másik nyomós ok a node futtatására, hogy lényegében a Bitcoin hálózat és különösen a bányászok ellenőrévé válsz.
+
+A bányászok végső soron nem mást csinálnak, mint eladják a hashrate-jüket (számítási kapacitásukat, azaz energiájukat) a node-ok hálózatának. Ez a hashrate növeli a Bitcoin hálózat biztonságát. Ha ellenőrré válsz egy node futtatásával, amely validálja a kibányászott blokkokat, tulajdonképpen egy extra ellenőrzést adsz hozzá azokhoz a becses konszenzus-szabályokhoz, amelyek az egész bitcoin protokollt alátámasztják. A bitcoin protokoll integritása jelenti a bitcoin mint kemény pénz iránti bizalom alapját. Gondolom, tiszta a kép.
+
+Láthatod, hogy a bitcoinban a saját önző érdekeid követése erénnyé válik. Így verték vissza a múlt Bitcoin plebjei sikeresen a bitcoin elleni számos komoly támadást, legfőképpen az eretnek blokkméret-növelő hard fork kísérletet, amelyet Jonathan Bier „The Blocksize War" című könyve dokumentál részletesen. Azoknak a plebeknek a győzelme teszi egyáltalán lehetővé, hogy te saját node-ot futtass és ellenőrizd a timechain-t.
+
+---
+
+## Bitcoin „teljes node-ok" vs. „könnyű kliensek"
 {: .no_toc }
 
 ---
 
-## Full Nodes
+## Teljes node-ok (full node)
 {: .no_toc }
 
-In Bitcoin circles when we talk about full nodes we are referring to Bitcoin Software that can verify transactions on its own, without trusting any third party. The only trust a full node implies is trusting the most up-to-date full node of all connected nodes in the Bitcoin Peer to Peer Network. If there is only one honest peer that you're connected to, you can't be fooled.
+A Bitcoin körökben teljes node-ok alatt olyan Bitcoin szoftverre gondolunk, amely önállóan, harmadik félbe vetett bizalom nélkül képes ellenőrizni a tranzakciókat. A teljes node egyetlen bizalmi feltételezése, hogy a hozzá kapcsolódó peer-ek között van legalább egy naprakész és becsületes node. Ha egyetlen egy becsületes peer-hez is kapcsolódsz, nem tudnak átverni.
 
-This means that any full node stores the whole blockchain and all rules of Bitcoin are checked for validity whenever new transactions happen. This is achieved by Bitcoin Nodes “gossiping” any relevant activity they experience (they get a new block of transactions or they want to relay their own transactions to be validated) to each other, all the time.
+Ez azt jelenti, hogy minden teljes node tárolja az egész blokkláncot, és a Bitcoin összes szabályát ellenőrzi érvényesség szempontjából, valahányszor új tranzakciók történnek. Ezt úgy érik el, hogy a Bitcoin node-ok folyamatosan „pletykálnak" egymásnak minden releváns tevékenységről (új tranzakciós blokkot kaptak, vagy saját tranzakcióikat szeretnének továbbítani validálásra).
 
-Your full node is be able to verify all blocks and transactions on its own by verifying the Bitcoin Protocol rules that everyone agrees on called “Consensus Rules”, most notably:
+A teljes node-od képes önállóan ellenőrizni az összes blokkot és tranzakciót a Bitcoin protokoll mindenki által elfogadott szabályai, az úgynevezett „konszenzus-szabályok" alapján, különösen:
 
-* Verify new blocks received from peer nodes, checking valid Proof of Work (produced by miners)
-* Pick the chain of blocks with the most aggregate Proof of Work (aka. Nakamoto Consensus). This is the full node’s present sense of reality about the state of the Bitcoin Blockchain ergo the state of who owns what.
-    * Other nodes can tell us about alternative chains with a different order and/or length of blocks
-    * Our node scans for multiple peers to be able to get the data from different independent sources and choose the “best chain” with the most proof of work.
-* Verify other important consensus rules. There are many technical nuances here not really worth getting into
-* Verify all transactions included in the block whether they make sense according to the ledger they store (“checks for double spend”)
+* Ellenőrzi a peer node-októl kapott új blokkokat, hogy érvényes proof-of-work-kel rendelkeznek-e (amelyet a bányászok állítottak elő).
+* Kiválasztja a legnagyobb összesített proof-of-work-kel rendelkező (más néven Nakamoto-konszenzus) blokkok láncolatát. Ez a teljes node jelenlegi valóságérzékelése a Bitcoin blokklánc állapotáról, vagyis arról, hogy kinek mije van.
+    * Más node-ok tájékoztathatnak minket alternatív láncokról, eltérő sorrendű és/vagy hosszúságú blokkokkal.
+    * A node-unk több peer-t keres, hogy különböző független forrásokból szerezze be az adatokat, és a „legjobb láncot" válassza a legtöbb proof-of-work alapján.
+* Ellenőrzi a többi fontos konszenzus-szabályt. Sok technikai finomság van itt, amelyekbe nem érdemes belemenni.
+* Ellenőrzi a blokkban foglalt összes tranzakciót, hogy azok értelmesek-e az általa tárolt főkönyv szerint („dupla költés ellenőrzés").
 
-Running a Bitcoin Full Node and storing the whole blockchain history comes with the benefit of being able to browse blocks and transactions privately because you own all data necessary. With Sparrow you can do this conveniently.
+A Bitcoin teljes node futtatása és az egész blokklánc-történet tárolása azzal az előnnyel jár, hogy privát módon böngészheted a blokkokat és tranzakciókat, mert minden szükséges adat rendelkezésedre áll. A Sparrow-val ezt kényelmesen megteheted.
 
-Read more about full nodes [here](https://bitcoin.org/en/full-node)
+Bővebben a teljes node-okról [itt](https://bitcoin.org/en/full-node).
 
 ---
 
-## Light clients
+## Könnyű kliensek (light client)
 {: .no_toc }
 
-Light clients are nodes that don’t store the whole Blockchain but can still verify certain consensus rules. Since they don’t store the whole blockchain, just the block headers, they rely on full nodes to verify most consensus rules and can only do a so-called “Simple Payment Verification(SPV)”. That is, they are not fully sovereign. This is a major trade-off of light clients.
+A könnyű kliensek olyan node-ok, amelyek nem tárolják az egész blokkláncot, de bizonyos konszenzus-szabályokat még képesek ellenőrizni. Mivel nem tárolják a teljes blokkláncot, csak a blokkfejléceket, a legtöbb konszenzus-szabály ellenőrzéséhez teljes node-okra támaszkodnak, és csak úgynevezett „egyszerű fizetés-ellenőrzést (SPV – Simple Payment Verification)" tudnak végezni. Vagyis nem teljesen szuverének. Ez a könnyű kliensek legnagyobb hátránya.
 
-Light clients are for those with limited bandwidth or storage capacity. Since the whole blockchain today doesn’t take up more than a few hundred gigabytes of data and bandwidth is not too bad in most places either, it doesn’t make all too much sense running it. I recommend running a full node since you already decided to make the effort of running a Bitcoin node.
+A könnyű kliensek azoknak valók, akiknek korlátozott a sávszélességük vagy a tárkapacitásuk. Mivel a teljes blokklánc ma nem foglal el néhány száz gigabájtnál többet, és a sávszélesség sem túl rossz a legtöbb helyen, nem sok értelme van könnyű klienst futtatni. Azt javaslom, hogy ha már egyszer belevágasz a Bitcoin node futtatásába, futtass teljes node-ot!
 
-### Pruning
+### Megnyesés (pruning)
 
-You can also "prune" your full node to store a limited size of the blockchain, the part your wallet will most likely be interested in. This way you are still fully validating your transactions but cannot serve old blocks to peers and cannot retrieve history of an old wallet because you don't have that old history of the blockchain stored.
+A teljes node-odat „megnyesheted" is, hogy csak a blokklánc egy korlátozott méretű részét tárolja – azt, amelyre a tárcádnak valószínűleg szüksége lesz. Így továbbra is teljes mértékben validálod a tranzakcióidat, de nem tudsz régi blokkokat szolgáltatni a peer-eknek, és nem tudod lekérni egy régi tárca előzményeit, mert a blokklánc régi történetét nem tárolod.
 
-### New Technologies on the horizon
+### Új technológiák a láthatáron
 
-It is an important effort in bitcoin to make node-runners life increasingly simpler. There are always new interesting technologies with new trade-off balances. Such examples are [ZeroSync](https://zerosync.org/) and [Utreexo](https://bitcoinops.org/en/topics/utreexo/). Check them out if interested.
+Fontos törekvés a bitcoinban, hogy a node-futtatók élete egyre egyszerűbb legyen. Folyamatosan születnek új érdekes technológiák, új kompromisszumokkal. Ilyen például a [ZeroSync](https://zerosync.org/) és az [Utreexo](https://bitcoinops.org/en/topics/utreexo/). Nézd meg őket, ha érdekel!
 
-[Back to Objective]({{ site.baseurl }}/en/bitcoin-privacy/#objective--learn-about-bitcoin-nodes){: .btn .btn-purple}
+[Vissza a célkitűzéshez]({{ site.baseurl }}/hu/bitcoin-privacy/#cél--tudnivalók-a-bitcoin-node-okról){: .btn .btn-purple}
 
 ---
 ---
 
-## Bitcoin Core Components
+## A Bitcoin Core komponensei
 
-Bitcoin Core is not just a full node taking care of peer-to-peer connections and verifications. It is kind of a server and client packaged together in one software. Bitcoin Core alone can satisfy all the core needs of a bitcoin user.
+A Bitcoin Core nem csupán egy teljes node, amely a peer-to-peer kapcsolatokért és az ellenőrzésekért felel. Tulajdonképpen egy szerver és egy kliens egybecsomagolva egyetlen szoftverben. A Bitcoin Core önmagában képes kielégíteni egy bitcoin felhasználó összes alapvető igényét.
 
-However, bitcoin core specializes in the most crucial heavy-lifting part of bitcoin.That is why people started to develop new software on top of it where bitcoin core does not shine particularly, mainly but not limited to the “user experience” part. For average people (and I must say, most shadowy supercoders too) however, user interfaces are critical for security.
+A Bitcoin Core azonban a bitcoin legkritikusabb, nehézsúlyú feladataira specializálódott. Ezért kezdtek el fejlesztők új szoftvereket építeni rá olyan területeken, ahol a Bitcoin Core nem igazán jeleskedik – elsősorban, de nem kizárólag a felhasználói élmény terén. Az átlagember számára (és be kell valljam, a legtöbb árnyékban kódoló szuperhacker számára is) a felhasználói felületek kritikusan fontosak a biztonság szempontjából.
 
 ---
 
 ## Bitcoin Core GUI
 {: .no_toc }
 
-The Bitcoin Core software shipped with a graphical user interface called “Bitcoin Core GUI” but you will not install that particular part of Bitcoin Core. Rather you will be using Sparrow wallet for wallet features in a safe and user-friendly way. Sparrow is astonishingly easy to use compared to the advanced features it provides. But it is nice to have something to fall back on if need be.
+A Bitcoin Core szoftverhez tartozik egy grafikus felhasználói felület, a „Bitcoin Core GUI", de te nem ezt a részt fogod telepíteni. Ehelyett a Sparrow tárcát fogod használni a tárca funkciókhoz, biztonságos és felhasználóbarát módon. A Sparrow meglepően könnyen használható ahhoz képest, milyen fejlett funkciókat kínál. De azért jó, ha van egy tartalék megoldás szükség esetén.
 
 ---
 
-## bitcoind and bitcoin-cli
+## bitcoind és bitcoin-cli
 {: .no_toc }
 
-The two most important parts of Bitcoin Core are **bitcoind (bitcoin daemon)**and **bitcoin-cli (bitcoin command line interface - terminal stuff).** Bitcoind runs in the background and takes care of the classic “Bitcoin Node” tasks of finding and talking to peers on the network, broadcasting your transactions, verifying blocks… the important heavy-lifting.
+A Bitcoin Core két legfontosabb része a **bitcoind (bitcoin daemon)** és a **bitcoin-cli (bitcoin command line interface – parancssori felület)**. A bitcoind a háttérben fut, és ellátja a klasszikus „Bitcoin node" feladatokat: peer-eket keres és kommunikál velük a hálózaton, továbbítja a tranzakcióidat, ellenőrzi a blokkokat… egyszóval a neheze az ő dolga.
 
-Bitcoin-cli on the other hand is a management and monitoring tool. It provides you a superuser way to **control** bitcoind as well as a means to **read** important **information** about your node and the bitcoin network. This is done via the “RPC (remote procedure call) interface” which is just a fancy way of saying “Controls available remotely”. Both bitcoind and bitcoin-cli are available to us… you guessed it: Through The Linux Terminal.
+A bitcoin-cli ezzel szemben egy felügyeleti és monitorozó eszköz. Szuperfelhasználói hozzáférést biztosít a bitcoind **vezérléséhez**, valamint lehetővé teszi, hogy fontos **információkat olvass ki** a node-odról és a Bitcoin hálózatról. Mindezt az „RPC (remote procedure call) interfészen" keresztül, ami nem más, mint egy fellengzős neve annak, hogy „távolról elérhető vezérlők". A bitcoind és a bitcoin-cli egyaránt elérhető számunkra… szerintem kitalálod: a Linux terminálon keresztül.
 
 ---
 
-## The “.bitcoin” directory, “bitcoin.conf” file
+## A „.bitcoin" könyvtár és a „bitcoin.conf" fájl
 {: .no_toc }
 
-You could run bitcoind and bitcoin-cli with configuration options from the command line but then you would have to write the same command options again and again if you ever restart the service.
+A bitcoind-t és a bitcoin-cli-t futtathatnád parancssori konfigurációs opciókkal is, de akkor minden egyes újraindításkor újra és újra ugyanazokat a beállításokat kellene begépelned.
 
-So we have this handy configuration file called “bitcoin.conf” to make our lives easier. Note that the command line takes precedence so anything you write in bitcoin.conf can be overwritten in the command line.
+Ezért van ez a praktikus konfigurációs fájl, a „bitcoin.conf", hogy megkönnyítse az életünket. Fontos tudni, hogy a parancssor elsőbbséget élvez, tehát bármi, amit a bitcoin.conf-ba írsz, felülírható a parancssorból.
 
-[Back to Objective]({{ site.baseurl }}/en/bitcoin-privacy/#objective-configure-and-learn-to-manage-bitcoin-coreprogress-images){: .btn .btn-purple}
+[Vissza a célkitűzéshez]({{ site.baseurl }}/hu/bitcoin-privacy/#cél-a-bitcoin-core-konfigurálása-és-kezelésének-elsajátítása-folyamatábrázoló-képek){: .btn .btn-purple}
 
 ---
 ---
@@ -1436,7 +1436,7 @@ The downside is that there are certain limitations on miniscript that do not all
 
 **OP_VAULT** would basically enable you to implement reactive protection. Spending bitcoin from vaulted wallets would be approved only after a given time delay period during which you can sweep your funds into another wallet, allowing you to unvault coins in a simple way but having a super secure cold wallet escape recovery path vetoing any unsanctioned transactions. It makes use of tapscript and would need an additional protocol upgrade (soft consensus fork) of bitcoin script which could delay its adoption significantly knowing how slowly and rigorously they implement protocol changes nowadays (which is not bad at all).
 
-Also, plenty of new **products** are being developed improving convenience/security or other important factors of Self-Custody like new ways to create steel backups with [SteelQR](https://vulcan21.com/steelqr/), [Seedmint](https://vulcan21.com/seedmint/), [SeedHammer](https://seedhammer.com/) and [Roninsteel](https://ronindojo.io/en/roninsteel).
+Also, plenty of new **products** are being developed improving convenience/security or other important factors of Self-Custody like new ways to create steel backups with [SteelQR](https://vulcan21.com/steelqr/), [Seedmint](https://vulcan21.com/seedmint/) and [SeedHammer](https://seedhammer.com/).
 
 ---
 
