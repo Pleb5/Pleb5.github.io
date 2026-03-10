@@ -101,24 +101,24 @@ Az első védelmi vonalad a tudásod és a képességeid. Ugyanakkor a Plebek er
 ## Ideje a metaadat biztonsági mentésnek
 {: .no_toc }
 
-## CÉL: KeePass adatbázis biztonsági mentése ipari microSD kártyákra
+## CÉL: KeePass adatbázis biztonsági mentése ipari microSD-kártyákra
 
-1. Vásárolj ipari/tartós (endurance) típusú microSD kártyákat, ha eddig még nem tetted meg!
+1. Vásárolj ipari/tartós (endurance) típusú microSD-kártyákat, ha eddig még nem tetted meg!
     1. Ezek jobb minőségű memóriakártyák, tehát kisebb eséllyel mennek tönkre.
     2. Nem kell nagy kapacitás, néhány gigabájt elegendő.
     3. Vegyél többet, mondjuk 4-5 darabot!
     4. Ez általános célú hardver, tehát nem igazán számít, ha nem anonim módon vásárolod.
-2. Exportáld a KeePass adatbázis biztonsági mentését a microSD kártyáidra!
+2. Exportáld a KeePass adatbázis biztonsági mentését a microSD-kártyáidra!
     5. A KeePass AppImage fájlt is rámásolhatod az adatbázis mellé.
 3. Az adatbázis exportálás a KeePass adatbázis jelszavaddal van titkosítva, és a KeePassXC vagy a KeePass régebbi verzióival nyitható meg.
-4. Megjelölheted a mentési SD kártyákat alkuholos filccel, hogy megkülönböztesd őket a többitől.
+4. Megjelölheted a mentési SD-kártyákat alkuholos filccel, hogy megkülönböztesd őket a többitől.
 
 ---
 
 ## Gratula!
 {: .no_toc }
 
-Ez egy fontos lépés az utadon. Az imént biztonsági mentett metaadatok fontos alapját képezik egy erős bitcoin önrendelkezési rendszer (self-custody) tervezésének. A rendszeredet folyamatosan fejlesztheted, hogy egyre okosabb, gyorsabb és erősebb legyen. Tartsd biztonságban azokat az SD kártyákat!
+Ez egy fontos lépés az utadon. Az imént biztonsági mentett metaadatok fontos alapját képezik egy erős bitcoin önrendelkezési rendszer (self-custody) tervezésének. A rendszeredet folyamatosan fejlesztheted, hogy egyre okosabb, gyorsabb és erősebb legyen. Tartsd biztonságban azokat az SD-kártyákat!
 
 ## CÉL: Néhány kísérlet futtatása a Signet tanulási környezetedben
 

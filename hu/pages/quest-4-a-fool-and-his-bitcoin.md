@@ -95,12 +95,11 @@ A számítógéped most már kompromittálódott, vagyis kiberbűnözők ellopha
 1. Még nincs időd megjavítani a fertőzött gépet.
 2. Szerezz egy másik biztonságos asztali számítógépet vagy biztonságos mobiltelefont!
 3. Szerezd meg a titkos kulcs és a jelkód (passphrase) biztonsági mentéseinek egyik példányát!
-4. Telepítsd a [Sparrow](https://sparrowwallet.com){:target="_blank"} alkalmazást az asztali gépre (vagy a [Samourai wallet](https://samouraiwallet.com){:target="_blank"} alkalmazást mobilra, ha a `mainnet`-en voltál, de ehhez a gyakorlathoz maradj az asztali gépen), és állítsd vissza a tárcádat!
-5. A Sparrow-ban vagy Samourai-ban hozz létre egy új, jelkódos tárcát (új seed-phrase-zel, új jelkóddal) **a másik, biztonságos eszközön**!
+4. Telepítsd a [Sparrow](https://sparrowwallet.com){:target="_blank"} alkalmazást asztali gépre, és állítsd vissza a tárcádat!
+5. A Sparrow-ban hozz létre egy új, jelkódos tárcát (új seed-phrase-zel, új jelkóddal) **a másik, biztonságos eszközön**!
     1. Ezúttal mindenképpen állíts be egy **titkosítási jelszót (encryption password)** is!
     2. Ne téveszd össze a jelkódot (passphrase-t) a tárca titkosítási jelszavával!
     3. Írd fel a tárca jelszavát a jegyzetfüzetedbe!
-    4. A Samourai alapértelmezés szerint mindig kér jelkódot a tárca létrehozásakor, és ezt használja titkosítási jelszóként is az automatikus biztonsági mentésekhez.
 6. Mozgasd biztonságba a satjaidat az újonnan létrehozott tárcába!
 
 Most már biztonságban vannak a satjaid, de amíg a tárca fájlja a fertőzött gépen van, a támadó a bitcoin tranzakciós előzményeidet még ellophatja (ha nem voltak más érzékeny adatok a számítógépen).

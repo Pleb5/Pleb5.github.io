@@ -631,10 +631,10 @@ This has serious consequences:
 1. The PID that is “securely” stored by companies and the government can be safely assumed to be stolen by hackers in time.
 2. Hackers buy and sell this data on a daily basis. It gets disseminated very quickly.
 3. In practice the government can’t really catch that many criminals this way because they are adept at masking their identity but average Joes get rekt all the time by criminals stealing this collected data and exploiting it.
-4. Add bitcoin as an incentive in this game and you get the idea
-5. Not to mention there can be governments in the future that get very hostile towards bitcoin and Bitcoiners. You just can’t know whether it will be a [6102](https://en.wikipedia.org/wiki/Executive_Order_6102){:target="_blank"} type of “we know you have X bitcoin so hand it over” with threats of prison. Chances are you will choose to cough up your KYC bitcoin in this case instead of rotting in a cell away from your family
+4. Add bitcoin as an incentive in this game and you get the idea.
+5. Not to mention there can be governments in the future that get very hostile towards bitcoin and Bitcoiners. You just can’t know whether it will be a [6102](https://en.wikipedia.org/wiki/Executive_Order_6102){:target="_blank"} type of “we know you have X bitcoin so hand it over” with threats of prison. Chances are you will choose to cough up your KYC bitcoin in this case instead of rotting in a cell away from your family.
 6. Once you have bought KYC bitcoin on a traditional exchange like Coinbase, Kraken, Binance, Swan… that record is there forever in a centralized database. They know at least how much you bought and who you are. And assume they share everything with the government. You will have to account for these in case they expect you to do so.
-7. And so you come up with all this “boating accident” type of “I lost it” or “I donated it all away” but they are not dumb. They can issue subpoenas and put you and your circles under tremendous stress
+7. And so you come up with all this “boating accident” type of “I lost it” or “I donated it all away” but they are not dumb. They can issue subpoenas and put you and your circles under tremendous stress.
 
 ---
 
@@ -649,7 +649,7 @@ This has serious consequences:
 {: .no_toc }
 
 1. You should have a substantial NoKYC bitcoin stash. NoKYC means of course that the purchase is very hard to be tied to your name. If you have NoKYC bitcoin you solve many privacy headaches at the root. Of course you can still improve on privacy even if you bought NoKYC. And you should. But you’re much better-off.
-2. KYC bitcoin is regulated and therefore is impaired property compared to NoKYC bitcoin
+2. KYC bitcoin is regulated and therefore is impaired property compared to NoKYC bitcoin.
 3. KYC bitcoin exposes that you are a bitcoiner for all existing and future governments and criminals. It is a privacy risk.
 4. You should practice serious privacy from now on. I don’t mean to be paranoid but develop a mental framework which makes you ponder the privacy aspect of your actions, especially online. Privacy leaks become security holes, so the saying goes.
 9. Prioritize high-return activities. Privacy of your UTXO-s should be of utmost importance. So this will be a focus in this program. It is too easy to get lost in the woods and eventually get very little in return.
@@ -699,15 +699,15 @@ Since a UTXO is inherently visibly linked from one address to another, the flow 
 
 Mostly it starts with the “fiat onramp” to bitcoin, meaning you buy KYC bitcoin by providing your information to government-compliant exchanges and then give a bitcoin address to withdraw your sats. This address is now doxxed and basically any transaction that involves this UTXO leaves a trace. This is how it works:
 
-1. Your wallet selects this UTXO to pay an amount. If this “bitcoin banknote” is not enough to pay the amount, other UTXOs are selected as well. This is called “coin selection”
+1. Your wallet selects this UTXO to pay an amount. If this “bitcoin banknote” is not enough to pay the amount, other UTXOs are selected as well. This is called “coin selection”.
 2. These UTXOs are the Inputs of the transaction. They know that the doxxed UTXO went into the transaction along with others from the open ledger.
-3. These other UTXOs will then be regarded as yours too because most probably you made a transaction from your own coins. You merged these inputs practically and their history is now tied together. This is called the “common input ownership heuristic”
-4. The Outputs of this transaction can be analyzed too. Probably there will be a higher amount which is the payment itself and a smaller amount which is the change output
-5. The “**doxxic change”** output from the doxxed transaction is assumed to be still yours. If your wallet selects this UTXO again for another transaction, the same heuristics can be applied to it again
-6. **Address reuse** for receiving payments is a very common mistake. All activity is now much more easily tied to a single address. That is why decent wallet software like Sparrow generates new addresses for every transaction
-7. If your transaction is a **full spend** of the UTXOs **without a change** Output, a **self spend** is implied because it is unlikely that you bought something that cost exactly as much as those UTXOs
-8. **Round amounts** indicate payment Outputs
-9. A different **type of** Output **address** indicates payment, while the change output tends to be the same address type that your wallet uses
+3. These other UTXOs will then be regarded as yours too because most probably you made a transaction from your own coins. You merged these inputs practically and their history is now tied together. This is called the “common input ownership heuristic”.
+4. The Outputs of this transaction can be analyzed too. Probably there will be a higher amount which is the payment itself and a smaller amount which is the change output.
+5. The “**doxxic change”** output from the doxxed transaction is assumed to be still yours. If your wallet selects this UTXO again for another transaction, the same heuristics can be applied to it again.
+6. **Address reuse** for receiving payments is a very common mistake. All activity is now much more easily tied to a single address. That is why decent wallet software like Sparrow generates new addresses for every transaction.
+7. If your transaction is a **full spend** of the UTXOs **without a change** Output, a **self spend** is implied because it is unlikely that you bought something that cost exactly as much as those UTXOs.
+8. **Round amounts** indicate payment Outputs.
+9. A different **type of** Output **address** indicates payment, while the change output tends to be the same address type that your wallet uses.
 
 Many other heuristics can be applied to infer even more onchain information about the transaction in question. Feel free to dive deep in chain analysis heuristics [here](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923).
 
@@ -721,17 +721,17 @@ This is a pernicious plot indeed. But all hope is not lost. Privacy advocates ha
 The most important part is that you too **raise awareness** of privacy in the first place. Tools are less useful if few people use them. This is especially true for privacy tools.
 
 * **Practice privacy off-chain** too. The more data they can collect about you the stronger their guessing will be. Correlation of vast amounts of data will be trivial nowadays so leave fewer traces.
-Social media, unsafe http sites, logging browser search engines, browsing clearnet through ISP without a VPN, not using Tor, using sms, using google services instead of reputable services with emphasis on privacy. So on, so forth. Improve these gradually, don’t overwhelm yourself because you will burn out or get too paranoid. Not helpful
-* **Buy Nokyc bitcoin**. All chain analysis has to have a starting point. Don’t give them that starting point. Peer-to-peer marketplaces, meetups, conferences, face-to-face cash trades, Pleb home mining or selling products and services for sats mitigate this problem. These will be more onerous methods than a few clicks on a centralized exchange but will save you from most headaches of the not-so-distant future where doxxed bitcoin and bitcoiners will be hit hard
-* **Use** bitcoin software that is designed to cater to privacy needs like **Sparrow wallet**. It is not just the wallet functionality. It is also about the user experience which will guide you towards better practices where applicable
+Social media, unsafe http sites, logging browser search engines, browsing clearnet through ISP without a VPN, not using Tor, using sms, using google services instead of reputable services with emphasis on privacy. So on, so forth. Improve these gradually, don’t overwhelm yourself because you will burn out or get too paranoid. Not helpful.
+* **Buy Nokyc bitcoin**. All chain analysis has to have a starting point. Don’t give them that starting point. Peer-to-peer marketplaces, meetups, conferences, face-to-face cash trades, Pleb home mining or selling products and services for sats mitigate this problem. These will be more onerous methods than a few clicks on a centralized exchange but will save you from most headaches of the not-so-distant future where doxxed bitcoin and bitcoiners will be hit hard.
+* **Use** bitcoin software that is designed to cater to privacy needs like **Sparrow wallet**. It is not just the wallet functionality. It is also about the user experience which will guide you towards better practices where applicable.
 * **Segregation.** E.g. you separate KYC UTXOs from NoKYC by putting them in different wallets so they may never be merged in a transaction.
 * Practice **UTXO management**. Previously I told you that your wallet selects the coins you pay with. This can be done manually as well of course. You can control the coin selection to protect your privacy called "**coin control"**. This can also be thought of as a type of segregation not on the wallet level but inside the wallet on the UTXO level.
 You can diligently keep track of your transaction metadata by applying **UTXO labeling** practices. This will allow for better coin control so you avoid doxxing yourself by merging the wrong kinds of UTXOs.
-Wrong kind could mean many things, like donating to a cause from the change left from the purchase of something you don't want others to know about or depositing to a regulated exchange from a UTXO that is easy to trace back to suspicious activity. Depends on regulations and subjective judgements. Better not to call attention to yourself and label UTXOs in every transaction which Sparrow demands explicitly
-* **Privacy enhanced transactions.** These are techniques to deliberately obfuscate transaction information. If you use a wallet with an emphasis on good privacy features like Sparrow or Samourai, they offer many ways to improve your privacy while transacting. These transactions tend to incur more cost and require more understanding though
-* **Coinjoin** is a collaborative transaction where parties join their UTXOs in a transaction only to introduce confusion about who owns which UTXO. If done well, it can “reset the history” of a UTXO that was part of a Coinjoin transaction or at least introduce a good deal of doubt about its future going forward. At that point the only thing that is known about those UTXOs is that they probably entered a Coinjoin transaction with other parties
+Wrong kind could mean many things, like donating to a cause from the change left from the purchase of something you don't want others to know about or depositing to a regulated exchange from a UTXO that is easy to trace back to suspicious activity. Depends on regulations and subjective judgements. Better not to call attention to yourself and label UTXOs in every transaction which Sparrow demands explicitly.
+* **Privacy enhanced transactions.** These are techniques to deliberately obfuscate transaction information. If you use a wallet with an emphasis on good privacy features like Sparrow, they offer many ways to improve your privacy while transacting. These transactions tend to incur more cost and require more understanding though.
+* **Coinjoin** is a collaborative transaction where parties join their UTXOs in a transaction only to introduce confusion about who owns which UTXO. If done well, it can “reset the history” of a UTXO that was part of a Coinjoin transaction or at least introduce a good deal of doubt about its future going forward. At that point the only thing that is known about those UTXOs is that they probably entered a Coinjoin transaction with other parties.
 
-It cannot however erase KYC records. Coinjoin mitigates tracking by breaking the transaction graph. After a properly performed Coinjoin, you can only guess which Coinjoin transaction UTXOs belong to which transaction inputs. For example [Whirlpool](https://docs.samourai.io/whirlpool/start) is a coinjoin implementation with a centralized coordinator of these special transactions.
+It cannot however erase KYC records. Coinjoin mitigates tracking by breaking the transaction graph. After a properly performed Coinjoin, you can only guess which Coinjoin transaction UTXOs belong to which transaction inputs. For example, Whirlpool was a Coinjoin implementation with a centralized coordinator. Since the Samourai Wallet seizure, the Whirlpool coordinator is no longer operational, but the concept and protocol remain relevant, and the community is working on decentralized alternatives.
 Because these transactions reset the history of a UTXO they can be thought of as privacy tools as well as tools for increasing bitcoin fungibility (the degree of similarity, since they create outputs of equal amounts with zero link to the past). Hopefully in the future almost all transactions will be coinjoin transactions, even simple spends. This would make tracking super-hard for chain surveillance. Common open coinjoin protocols need to be widely adopted by bitcoiners to achieve this reality because coinjoin needs extra collaboration of wallets.
 
 ---
@@ -742,21 +742,21 @@ Because these transactions reset the history of a UTXO they can be thought of as
 Sending your KYC UTXOs through Coinjoin transactions is therefore a great practice but does not come without a cost:
 
 * Coinjoin transactions are not free. If they were free they could be easily abused which defeats the purpose of Coinjoin.
-* Coinjoin transactions today require you to have your bitcoin in hot wallets which introduces temporary cyber-risk
-* Choosing a bad implementation of Coinjoin comes with a false sense of security. But to choose wisely you must understand Coinjoin basics and do your own research which takes some time
-* Using coinjoin requires a deeper understanding of UTXO management which can backfire in many ways if not exercised correctly
-* Coinjoin requires maintenance oversight
+* Coinjoin transactions today require you to have your bitcoin in hot wallets which introduces temporary cyber-risk.
+* Choosing a bad implementation of Coinjoin comes with a false sense of security. But to choose wisely you must understand Coinjoin basics and do your own research which takes some time.
+* Using coinjoin requires a deeper understanding of UTXO management which can backfire in many ways if not exercised correctly.
+* Coinjoin requires maintenance oversight.
 * **Coinjoin does not erase KYC records: Your KYC bitcoin purchases still present an attack surface on you regardless of you breaking the link with the past. They know you have it, they can make you account for it, that simple.**
 
 It is arguably a good idea to also coinjoin your NoKYC UTXOs to hide future activity from your trading partner as well because you generally doxx yourself to the trading counterparty at least even in a P2P exchange.
 
 CAVEAT: Coinjoin is considered more and more suspicious for no legit reason and a centralized exchange may reject to book a transaction if they see it has been part of a coinjoin transaction. They may even flag you or freeze your account in some cases. Lesson: don't send coins to kyc exchanges with a "suspicious" history.
 
-Since this Pleb training program does only cater to the bare minimum you need, we won’t be covering Coinjoin but I encourage you to educate yourself on this topic. Check out the [zero-link specification](https://code.samourai.io/whirlpool/Whirlpool/-/blob/whirlpool/THEORY.md), [Joinmarket](https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#a-private-flow-through-joinmarket) with [Joininbox](https://github.com/openoms/joininbox) and [Whirlpool](https://sparrowwallet.com/docs/mixing-whirlpool.html) for more details.
+Since this Pleb training program does only cater to the bare minimum you need, we won’t be covering Coinjoin but I encourage you to educate yourself on this topic. Check out [Joinmarket](https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#a-private-flow-through-joinmarket) with [Joininbox](https://github.com/openoms/joininbox) for details. Whirlpool and the zero-link specification are no longer available at their original sources since the Samourai Wallet seizure, but you can still find [useful information about spending privately](https://sparrowwallet.com/docs/spending-privately.html) in the Sparrow documentation.
 
 ---
 
-## Solutions above the bitcoin base-layer
+## Solutions above the Bitcoin base-layer
 {: .no_toc }
 
 ---
@@ -764,9 +764,9 @@ Since this Pleb training program does only cater to the bare minimum you need, w
 ## Lightning network
 {: .no_toc }
 
-You might be familiar with the Lightning network already. It is a layer-2 protocol based on bitcoin to make it more scalable.
+You might be familiar with the Lightning network already. It is a layer-2 protocol based on Bitcoin to make it more scalable.
 
-Lightning allows people to basically create a bitcoin base-layer transaction to lock bitcoin in a shared (multisig) UTXO. This bitcoin is now locked between the two parties and they can pay each other to and from this pool of locked bitcoin. They can settle these multiple transactions later on the base layer when they agree to unlock the original transaction according to the updated state of who has how much.
+Lightning allows people to basically create a Bitcoin base-layer transaction to lock bitcoin in a shared (multisig) UTXO. This bitcoin is now locked between the two parties and they can pay each other to and from this pool of locked bitcoin. They can settle these multiple transactions later on the base layer when they agree to unlock the original transaction according to the updated state of who has how much.
 
 This multisig escrow transaction effectively opens a payment channel between the two parties in order to use those funds on the Lightning network for cheaper and "instant" payments. Multiple channels can be opened to create a network of parties transacting this way routing payments through each other in the network. They open and close channels between each other with base-layer transactions and in the meantime they can use the Lightning protocol to keep track of the up-to-date state and also keep each other honest (we don't go into how exactly).
 
@@ -776,7 +776,7 @@ Payments on the Lightning network are considered generally more private than on-
 
 ### Sovereign vs. Custodial LN
 
-This is only true however if you run your own Lightning node. Anyone can run their own node on Lightning just as in bitcoin, it is just way more effort and carries more risk. However if you are up to it you should definitely try running your own Lightning node. If you want to run a sovereign node at home but be able to pay with your mobile phone through that node, you can look into node remote control apps such as [Zeus](https://zeusln.com/) or [Bitbanana](https://bitbanana.app/).
+This is only true however if you run your own Lightning node. Anyone can run their own node on Lightning just as in Bitcoin, it is just way more effort and carries more risk. However if you are up to it you should definitely try running your own Lightning node. If you want to run a sovereign node at home but be able to pay with your mobile phone through that node, you can look into node remote control apps such as [Zeus](https://zeusln.com/) or [Bitbanana](https://bitbanana.app/).
 
 Sadly, most bitcoiners still rather use a **custodial** (hopefully NoKYC) **Lightning** wallet today to make fast and cheap payments with minimal hassle.
 
@@ -822,9 +822,9 @@ What if all this precious data is owned and possibly used for whatever reason by
 
 You have been on testnet so far so don’t worry, your privacy is safe for now. But it is time you learned that this is the reality if you don’t run your own node. Somebody out there is handling all your transactions. You have a right to own your financial data, period. But this comes with consequences: You have to learn the basics of running your own node and how to protect that data from “prying eyes”.
 
-Another strong reason to run a node is that you essentially become an auditor of the bitcoin network and particularly the miners.
+Another strong reason to run a node is that you essentially become an auditor of the Bitcoin network and particularly the miners.
 
-What miners do at the end of the day is just selling their hashrate (energy) to the network of nodes. This hashrate adds to the security of the bitcoin network. If you become an auditor by running a node that validates the mined blocks, you actually add an extra check on those precious consensus rules that underpin the whole bitcoin protocol. The integrity of the bitcoin protocol is the root of trust in bitcoin as hard money. You get the idea.
+What miners do at the end of the day is just selling their hashrate (energy) to the network of nodes. This hashrate adds to the security of the Bitcoin network. If you become an auditor by running a node that validates the mined blocks, you actually add an extra check on those precious consensus rules that underpin the whole bitcoin protocol. The integrity of the bitcoin protocol is the root of trust in bitcoin as hard money. You get the idea.
 
 You can see how acting in your own selfish interest becomes an act of virtue in bitcoin. This is how the Bitcoin Plebs of the past have successfully repelled many serious attacks on bitcoin, most notably the blasphemous block size increase hard-fork attempt, well-documented in the book titled “The Blocksize War” by Jonathan Bier. The victory of those Plebs makes it possible for you to run your own node and verify the timechain in the first place.
 
@@ -844,12 +844,12 @@ This means that any full node stores the whole blockchain and all rules of Bitco
 
 Your full node is be able to verify all blocks and transactions on its own by verifying the Bitcoin Protocol rules that everyone agrees on called “Consensus Rules”, most notably:
 
-* Verify new blocks received from peer nodes, checking valid Proof of Work (produced by miners)
+* Verify new blocks received from peer nodes, checking valid Proof of Work (produced by miners).
 * Pick the chain of blocks with the most aggregate Proof of Work (aka. Nakamoto Consensus). This is the full node’s present sense of reality about the state of the Bitcoin Blockchain ergo the state of who owns what.
-    * Other nodes can tell us about alternative chains with a different order and/or length of blocks
+    * Other nodes can tell us about alternative chains with a different order and/or length of blocks.
     * Our node scans for multiple peers to be able to get the data from different independent sources and choose the “best chain” with the most proof of work.
-* Verify other important consensus rules. There are many technical nuances here not really worth getting into
-* Verify all transactions included in the block whether they make sense according to the ledger they store (“checks for double spend”)
+* Verify other important consensus rules. There are many technical nuances here not really worth getting into.
+* Verify all transactions included in the block whether they make sense according to the ledger they store (“checks for double spend”).
 
 Running a Bitcoin Full Node and storing the whole blockchain history comes with the benefit of being able to browse blocks and transactions privately because you own all data necessary. With Sparrow you can do this conveniently.
 
@@ -1437,7 +1437,7 @@ The downside is that there are certain limitations on miniscript that do not all
 
 **OP_VAULT** would basically enable you to implement reactive protection. Spending bitcoin from vaulted wallets would be approved only after a given time delay period during which you can sweep your funds into another wallet, allowing you to unvault coins in a simple way but having a super secure cold wallet escape recovery path vetoing any unsanctioned transactions. It makes use of tapscript and would need an additional protocol upgrade (soft consensus fork) of bitcoin script which could delay its adoption significantly knowing how slowly and rigorously they implement protocol changes nowadays (which is not bad at all).
 
-Also, plenty of new **products** are being developed improving convenience/security or other important factors of Self-Custody like new ways to create steel backups with [SteelQR](https://vulcan21.com/steelqr/), [Seedmint](https://vulcan21.com/seedmint/), [SeedHammer](https://seedhammer.com/) and [Roninsteel](https://ronindojo.io/en/roninsteel).
+Also, plenty of new **products** are being developed improving convenience/security or other important factors of Self-Custody like new ways to create steel backups with [SteelQR](https://vulcan21.com/steelqr/), [Seedmint](https://vulcan21.com/seedmint/) and [SeedHammer](https://seedhammer.com/).
 
 ---
 
