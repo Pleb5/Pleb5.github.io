@@ -21,7 +21,7 @@ So, you have done a bunch of things I told you but now things start to get more 
 
 You are now on a level of security where frankly, most Bitcoiners never get to. But don’t be complacent like LukeDashJr., the renowned Bitcoin Core developer who must be like a 1000 times more knowledgeable than you and I and he still [lost his hard-earned bitcoin](https://cointelegraph.com/news/bitcoin-core-developer-claims-to-have-lost-200-btc-in-hack). This is a reminder for all of us that threats are very real.
 
-You know, Bitcoin is still so early you can basically buy it on a 99% discount today. Being the most valuable “crypto”(hate the term) just means that it is a big fish in a little pond.
+You know, Bitcoin is still so early you can basically buy it on a 99% discount today. Being the most valuable “crypto” (hate the term) just means that it is a big fish in a little pond.
 
 ## What am I getting at though?
 {: .no_toc }
@@ -64,7 +64,7 @@ So let us get down to practical business: You have learned a thing or two about 
 
 ## Your Citadel's needs
 * **Primary defense - Security**:
-    * Avoid Single Points of Failure(SPoF) due to
+    * Avoid Single Points of Failure (SPoF) due to
       * Human error, Loss, degradation, destruction - Acts of God
       * Physical and cyber Attacks - Acts of People
     * Protect against collusion
@@ -92,7 +92,7 @@ There can be no Captain without principles of his/her own. So let’s start at t
 3. Refine your Principles from the inspiration
 4. Share your thoughts and experience if you feel like it!
 
-Documenting everything in Keepass creates a true metadata quarters in your Citadel encompassing many things you would want to revisit from time to time alone or with trustees and pass it on if anything happened to you. While written text cannot convey Principles perfectly(it is acted out), the clarity it brings can be beneficial to you and others as well.
+Documenting everything in Keepass creates a true metadata quarters in your Citadel encompassing many things you would want to revisit from time to time alone or with trustees and pass it on if anything happened to you. While written text cannot convey Principles perfectly (it is acted out), the clarity it brings can be beneficial to you and others as well.
 
 ---
 
@@ -105,7 +105,7 @@ From the Principles you wrote down, you can now get down to the nitty-gritty pra
     1. Some people have multiple fiat accounts just because many times your bank censors “suspicious” transactions when you are buying NoKYC bitcoin
 3. List your fiat wallets
     2. Bank accounts
-    3. Accounts with payment providers(Venmo, Paypal, Strike, CashApp, Revolut, Wise…)
+    3. Accounts with payment providers (Venmo, Paypal, Strike, CashApp, Revolut, Wise…)
 4. List your Bitcoin revenue sources, if any
     4. Pleb Mining
     5. V4V
@@ -127,7 +127,7 @@ From the Principles you wrote down, you can now get down to the nitty-gritty pra
     13. Coinjoin hot wallet(s). If you know what you’re doing.
     14. Decoy wallets with enough sats to satisfy an attacker. I’d recommend above 500 USD. Your call
 6. Get a simplistic, **open source**, **offline** flowchart diagramming or mind mapping tool. My go-to is [draw.io desktop](https://get.diagrams.net/)
-7. Model the flow of your funds. See example(click to enlarge):
+7. Model the flow of your funds. See example (click to enlarge):
 [![My citadel fundflow](/assets/img/diagrams/my_citadel_flowchart.drawio.png)](/assets/img/diagrams/my_citadel_flowchart.drawio.png){:target="_blank"}
     15. The sources and wallets are the nodes
     16. The arrows show the funds flowing to your wallets or to the external world as spendings.
@@ -156,7 +156,7 @@ You can see your wallet setup and flow of your funds layed out in front of you. 
     6. Go over the design choices, tradeoffs and possible vulnerabilities with them
     7. Go over the inheritance procedure. Write it down or model it in the diagram or both. You could add wallets for this purpose specifically if you want
     8. Cover any other important cases like traveling and vacation, possible relocation of residence...
-8. Export your diagrams in editable and view-only(pdf) format and save them in KeePass
+8. Export your diagrams in editable and view-only (pdf) format and save them in KeePass
 9. Delete the original unencrypted files
 10. Create new records in your Keepass database for each wallet and save important data
     9. Wallet encryption password

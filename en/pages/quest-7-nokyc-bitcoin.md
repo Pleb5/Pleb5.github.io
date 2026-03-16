@@ -23,14 +23,14 @@ To get a taste of P2P freedom-exchanges, you can test things out on bitcoin test
 
 ---
 
-## OBJECTIVE: Prepare yourself to test P2P bitcoin exchanges([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
+## OBJECTIVE: Prepare yourself to test P2P bitcoin exchanges ([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
 
 1. 💡 Learn about the [P2P market ecosystem and how to get NoKYC bitcoin](/en/pleb-lessons/#p2p-markets-and-nokyc-bitcoin)
 2. Reboot Sparrow in legacy-testnet mode
     1. From menu: `Tools` --> `Restart in Testnet`
     2. From the command line. Close Sparrow then:
         ```sh
-Sparrow -n testnet
+        Sparrow -n testnet
 		```
     3. Luckily legacy testnet has a built-in public server option. Connect to that in the server preferences. Sparrow server button should be yellow now
     4. Create 2 new testnet hot wallets. No encryption password necessary for these
@@ -40,7 +40,7 @@ Sparrow -n testnet
 
 ---
 
-## OBJECTIVE: Try HodlHodl on testnet([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
+## OBJECTIVE: Try HodlHodl on testnet ([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
 
 1. Go to HodlHodl [testnet version](https://hhtestnet.com/){:target="_blank"}
 2. Create 2 testnet accounts. You will need 2 test email addresses
@@ -49,8 +49,8 @@ Sparrow -n testnet
 		3. Protonmail aliases if you pay for a [mail plus subscription](https://proton.me/mail/pricing){:target="_blank"}
 		4. Or these two combined
 		5. Or just use separate email addresses
-    6. Generate and Save your passwords in your Keepass of course(or cloud based password manager since this testnet accounts are not that crucial)
-    7. Confirm accounts and log in both of them with different browser sessions(incognito tab or different browsers)
+    6. Generate and Save your passwords in your Keepass of course (or cloud based password manager since this testnet accounts are not that crucial)
+    7. Confirm accounts and log in both of them with different browser sessions (incognito tab or different browsers)
     8. Either now or later at the trade you will be asked to create an extra `“Trade password”` in the `Account settings`. Save those too they are important
 3. Copy an unused address in your testnet wallets and save them in your HodlHodl accounts. This is used as the btc buyer’s `Release address` where funds arrive after he paid for the sats in fiat
     9. Click on your username in HodlHodl and select `Dashboard`
@@ -87,7 +87,7 @@ Sparrow -n testnet
 7. Wait for the escrow transaction to confirm. Go back to the bitcoin buyer/taker account and see the information is changed. It warns that you should not send the fiat payment until the seller funds are not locked in
     36. Legacy testnet block confirmation times can vary
     37. Test the trader chat in the meantime
-8. Once it has reached the necessary amount of confirmations(mostly it is 1), the bitcoin buyer has to “send” the fiat payment. This of course won’t happen so just push `“I’ve sent the payment”`
+8. Once it has reached the necessary amount of confirmations (mostly it is 1), the bitcoin buyer has to “send” the fiat payment. This of course won’t happen so just push `“I’ve sent the payment”`
 9. On the btc seller side you can now either accept that the fiat transaction is complete by pressing `“Release deposit”` or `“Start a dispute”` if the fiat payment has not arrived contrary to what your trading partner claims. Release the deposit by entering the payment password
 10. You can rate your trading partner after a trade
 
@@ -97,7 +97,7 @@ Sparrow -n testnet
 
 **Warning: This exercise has not been thoroughly tested to work 100% because it builds on tools that are not always reliable.**
 
-## OBJECTIVE: Try Robosats on testnet([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
+## OBJECTIVE: Try Robosats on testnet ([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
 
 1. First you need a testnet Lightning wallet
     1. Go to this custodial testnet [Lightning site](https://htlc.me/){:target="_blank"}
@@ -105,20 +105,19 @@ Sparrow -n testnet
     3. Follow instructions and save secret
     4. You get some initial Lightning tBTC
     5. You can fund a Phoenix testnet Lightning wallet as an alternative
-2. Open a Tor Browser and go to [https://robosats.com](https://robosats.com){:target="_blank"}
-    6. Go to the dotted menu `“…”`(more) in the bottom bar and the hat icon will take you to [https://learn.robosats.com](https://learn.robosats.com){:target="_blank"}
+2. Open a Tor Browser and go to [https://learn.robosats.org](https://learn.robosats.org){:target="_blank"}
     7. Select `“Quick start”` and browse the topics and links
     8. Go to `“Access Robosats”`
     9. Scroll down to Testnet and go to the onion address site
     10. The unsafe clearnet site is more stable
 3. Note: This exercise works with one Tor browser but it can be buggy sometimes. It is easier to do it different Tor browsers but Tor does not allow multiple browser instances to be opened. So either use another computer/android mobile phone with a Tor browser OR Use clearnet Robosats with the other trading party
-4. Generate your one-time Robot(maker) for the trade
+4. Generate your one-time Robot (maker) for the trade
     11. Click `"Generate Robot"` and save the token then continue
     12. Backup the robot token always when you create one. It is just for one trade, can be in a simple offline text file
     13. Click `“Create”` and this time choose the btc buyer role for the maker
     14. Enable advanced settings in the the top-right corner to see some more details
     15. Decide on amount range, dummy payment method and premium
-    16. Robosats uses [fidelity bonds](https://learn.robosats.com/docs/bonds/){:target="_blank"} as a pre-commitment mechanism to incentivize honesty in trades. This is determined as a percentage of the value of the trade in sats. You can set it to any percentage and Robosats will ask you to lock in that amount before the trade. The more you set it the more “fidelity” is assumed by traders. If you cheat or don’t follow up on the trade, your bond is not returned to you
+    16. Robosats uses [fidelity bonds](https://learn.robosats.org/docs/bonds/){:target="_blank"} as a pre-commitment mechanism to incentivize honesty in trades. This is determined as a percentage of the value of the trade in sats. You can set it to any percentage and Robosats will ask you to lock in that amount before the trade. The more you set it the more “fidelity” is assumed by traders. If you cheat or don’t follow up on the trade, your bond is not returned to you
     17. Click `“Create order”`. You are presented a Lightning hold invoice as the maker bond
         1. Pay it in time, it gives you like 10 minutes
     18. Copy it and go to htlc.me. Go to `“Send”` and paste the Lightning invoice then hit enter to pay
@@ -134,11 +133,11 @@ Sparrow -n testnet
 8. Pay the taker bond from `htlc.me` or Phoenix wallet
     24. **Don’t run out of time**
 9. Now you have to deposit the sats that you want to sell as the taker. Pay the invoice with `htlc.me`
-10. Now the buyer needs a way to receive the locked sats from the seller. Go back to the maker(buyer) Robot on the Robot tab selecting it from the dropdown menu or from the other tab.
+10. Now the buyer needs a way to receive the locked sats from the seller. Go back to the maker (buyer) Robot on the Robot tab selecting it from the dropdown menu or from the other tab.
 11. Submit a Lightning invoice with the exact amount of sats with `htlc.me` or `Phoenix` OR you can receive the sats `on-chain` for an extra fee. Let’s select onchain for this example
 12. Generate a fresh address in the receiver wallet in `Sparrow`, add a label like `“from Robosats trade”` and paste it in the Bitcoin address field. See that it is a high on-chain swap fee of 1-2%. Click `Submit`.
 13. Now the two Robots can chat about the payment details. There is no preset fiat payment account to receive to. You can push the the tiny concentric circle button in the trader chat if `Tor` connection is slow
-14. With the order maker(btc buyer) robot click confirm fiat money sent to btc seller
+14. With the order maker (btc buyer) robot click confirm fiat money sent to btc seller
 15. On the taker side confirm fiat money received
 16. Your trade is complete. See the released bonds are returned and the escrowed sats from the btc seller shortly are released on the wallet address in `Sparrow`
 17. You see now that `Robosats` is effectively releasing the funds to the btc buyer which means it Robosats could rug you theoretically. However this would harm its reputation so perhaps it is does not serve its interests to steal from a few people then go bankrupt
@@ -188,15 +187,15 @@ Sparrow wallet has been connecting to the Bitcoin Plebs Signet node. To launch S
 ## Warning: Don’t ever use the same seed words for your testnet wallets as your mainnet ones. Generate fresh wallets.
 {: .no_toc }
 
-## OBJECTIVE: Launch Sparrow in mainnet mode([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
+## OBJECTIVE: Launch Sparrow in mainnet mode ([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
 
 1. Edit the `“.profile”` file
     ```sh
-nano ~/.profile
+    nano ~/.profile
 	```
 2. Delete or comment out the line that you put there previously or edit to `“mainnet”` instead of `“signet”`
     ```sh
-#export SPARROW_NETWORK=”signet”
+    #export SPARROW_NETWORK=”signet”
 	```
     3. You can switch it back by uncommenting this line whenever you feel like experimenting
     4. Or you can start Sparrow with a network option like `“Sparrow -n signet”` or `“Sparrow -n testnet”` to run single experiments. Since it is on `PATH` you can do it from anywhere in the command line
@@ -204,8 +203,7 @@ nano ~/.profile
 
 ---
 
-## OBJECTIVE: Connect Sparrow to Bitcoin Core([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
-
+## OBJECTIVE: Connect Sparrow to Bitcoin Core ([Progress Images](/en/progress-nokyc-bitcoin/){:target="_blank"})
 
 1. Check with `htop` that your node restarted after reboot
 2. Open `Sparrow` in mainnet mode
@@ -230,19 +228,18 @@ nano ~/.profile
     9. If you hover over it it should say that it is connected and the info about the connection
     10. To the left of it you see the Tor sign appearing. Hover over it and it should say something like `“External Tor proxy enabled”`
 10. Create your first mainnet airgapped wallet. You will use it soon enough! Consider backing it up in steel!
-11. Take a quick look at the result architecture again(click to enlarge):
+11. Take a quick look at the result architecture again (click to enlarge):
 [![Final Architecture](/assets/img/diagrams/architecture_bitcoinplebs_quest_6.drawio.png)](/assets/img/diagrams/architecture_bitcoinplebs_quest_6.drawio.png){:target="_blank"}
 
 Note that this guide is a fairly minimalistic approach in order to jumpstart your bitcoin node journey. Feel free to look for additional features, optimizations and security hardening measures in the `Bitcoin Plebs` community or other node-related communities, like the [Raspibolt](https://raspibolt.org){:target="_blank"} or [Raspiblitz](https://raspiblitz.org){:target="_blank"} community to improve your node experience and level up your nodes capabilities:
 
 1. You can use more advanced node configuration options
-2. You can set up your own private electrum(electrs/fulcrum) server. This will speed up wallet loading in Sparrow, improves privacy and unlocks extra services that rely on an electrum server implementation
+2. You can set up your own private electrum (electrs/fulcrum) server. This will speed up wallet loading in Sparrow, improves privacy and unlocks extra services that rely on an electrum server implementation
 3. You can set up a safe remote connection to your node
 4. You can add Lightning capabilities to your node. This comes with substantially more maintenance though
 5. … and many more!
 
 ---
-
 
 ## The following is NO professional advice! Author cannot be held liable for any harm, damage or losses you incur by applying the following practices!
 {: .no_toc }
@@ -257,11 +254,11 @@ Note that this guide is a fairly minimalistic approach in order to jumpstart you
 4. Buy some NoKYC bitoin on `HodlHodl`
     1. You can watch [this video](https://www.youtube.com/watch?v=FmyYxrZM3Ms&ab_channel=BTCSessions){:target="_blank"} about HodlHodl from the one and only BTC Sessions as extra preparation
 4. Buy some NoKYC bitcoin on `Peach`
-    2. You can coinjoin funds after each buy if you know [how to do it](https://sparrowwallet.com/docs/mixing-whirlpool.html)(not part of this program). It will be more private
+    2. You can coinjoin funds after each buy if you know how to do it (not part of this program). It will be more private
 5. Use the sats you bought to buy some more NoKYC bitcoin on `Bisq`
     1. You can watch [this video](https://www.youtube.com/watch?v=4LyEKA5Iq9I&t=819s&ab_channel=BTCSessions){:target="_blank"} about Bisq from BTC Sessions
     2. Never deposit **KYC** bitcoin into a bisq trade because the UTXO gets mixed up with the NoKYC UTXO that your partner will sell you!
-    3. Always coinjoin KYC coins before doing anything with them and **NEVER** keep unmixed KYC UTXOs with NoKYC UTXOs in the same wallet!(Remember, Segregation)
+    3. Always coinjoin KYC coins before doing anything with them and **NEVER** keep unmixed KYC UTXOs with NoKYC UTXOs in the same wallet! (Remember, Segregation)
 6. The NoKYC sats bought on P2P marketplaces is already quite private but you can coinjoin the sats you just bought of course to sever the identity link from your peers as well
 7. You should send bitcoin you bought to your prepared cold wallet. Some platforms already asked you to provide an address to send the sats to but e.g. bisq deposits the bitcoin you bought in its own hot wallet so it will warn you that although you custody the bitcoin already, you should withdraw it to a safer cold wallet
 8. Understand your trade on the blockchain: track every step of the trades you just made on `mempool.space` in `Tor browser`. Helps to really understand what just happened
@@ -322,7 +319,6 @@ For now the most usable and accessible AI I can recommend to use as your technic
 4. You can now verify anything in this program more easily, improve on your present setup and gain more knowledge. Don't trust, verify.
 
 ---
-
 
 ## Congratulations!
 {: .no_toc }
