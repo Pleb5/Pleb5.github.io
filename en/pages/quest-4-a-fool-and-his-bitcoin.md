@@ -96,7 +96,7 @@ The computer now is compromised meaning cyber attackers can steal your keys from
 2. Get another safe desktop computer or a safe mobile phone
 3. Get a copy of the secret key and the passphrase backups
 4. Install [Sparrow](https://sparrowwallet.com){:target="_blank"} on the desktop and recover your wallet 
-5. In Sparrow create a new passphrased wallet(new seed phrase, new passphrase) **on the other**, **safe** **device**
+5. In Sparrow create a new passphrased wallet (new seed phrase, new passphrase) **on the other**, **safe** **device**
     1. This time, also make sure to set an **encryption password**
     2. Don’t mistake passphrases for wallet-encryption passwords
     3. Write down the wallet password in your notebook

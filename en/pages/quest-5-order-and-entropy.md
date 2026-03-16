@@ -22,7 +22,7 @@ permalink: en/order-and-entropy/
 
 Since your **paper notebook** contains sensitive private information about your bitcoin-related things it is ill-advised to keep it in plain text on your desk in the long run. Also, backing up and updating hand-written text if anything changes is an arduous task.
 
-You might also have some important **digital notes** unencrypted on your computer, and also some important details about your bitcoin citadel(self-custody system) only **in your head**. It is better to store and manage all this intelligence in one safe place. You have to switch to offline digital encrypted passwords and notes. An open-source popular choice is **KeePassXC**(formerly KeePass):
+You might also have some important **digital notes** unencrypted on your computer, and also some important details about your bitcoin citadel (self-custody system) only **in your head**. It is better to store and manage all this intelligence in one safe place. You have to switch to offline digital encrypted passwords and notes. An open-source popular choice is **KeePassXC** (formerly KeePass):
 ![Isolation of metadata](/assets/img/diagrams/isolation_of_citadel_metadata.drawio.png){:target="_blank"}
 
 ## OBJECTIVE: Start using KeePassXC ([Progress Images](/en/progress-order-and-entropy/){:target="_blank"})
@@ -71,11 +71,11 @@ Note how open source code ensures eternal access because even if KeePass ceased 
 
 Another very important feature of open source is that it is much easier to find bugs in the software because if it is of value to people you can expect many eyes to scrutinize the code and hunt any defects.
 
-A proprietary software suffers from the problem of much fewer(and lazier in many cases) eyes inspecting the code and guess what happens if the company goes down(always the case in the time horizon you need for bitcoin)? No more support and the code is gone so no easy fixes either. You are at the whims of corporate people to help you if they can and if they are allowed, out of sheer altruism. Not a great insurance if you ask me.
+A proprietary software suffers from the problem of much fewer (and lazier in many cases) eyes inspecting the code and guess what happens if the company goes down (always the case in the time horizon you need for bitcoin)? No more support and the code is gone so no easy fixes either. You are at the whims of corporate people to help you if they can and if they are allowed, out of sheer altruism. Not a great insurance if you ask me.
 
 When it comes to Bitcoin, go for simple, effective, tried and tested, long life-span, verifiable and modifiable software which is free, open source and standards-based in a nutshell. Don’t fall for convenience and unnecessary bells and whistles.
 
-Since hardware is mostly proprietary today you cannot apply the same approach to it as to software but you can still verify proper functioning of your Bitcoin hardware as you did with your hardware wallet. Get in the mindset of coming up with clever ways to verify things(and people) around you. This is the essence of adversarial thinking without the paranoia part.
+Since hardware is mostly proprietary today you cannot apply the same approach to it as to software but you can still verify proper functioning of your Bitcoin hardware as you did with your hardware wallet. Get in the mindset of coming up with clever ways to verify things (and people) around you. This is the essence of adversarial thinking without the paranoia part.
 
 Your first line of defense is your skills and knowledge. However, a strong community of Plebs is essential to keep your knowledge and information always up to date. Check in from time to time because you are not alone!
 

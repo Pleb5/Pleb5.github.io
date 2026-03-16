@@ -180,11 +180,11 @@ The Tor browser is a powerful privacy tool to fend off snoopers trying to monito
 
 Tor is great for looking up simple info but can be a painfully slow experience and time is the scarcest of all things. Instead you can browse with Firefox or [Mullvad browser](https://mullvad.net/en/browser){:target="_blank"} coupled with [Proton](https://protonvpn.com/){:target="_blank"}- or [Mullvad](https://mullvad.net/en){:target="_blank"} VPN service enabled on the desktop. VPN is great but choose wisely because many of the services out there are just a fraud and you trust them not to log your activities and they can start logging without notice anytime the government asks them to do so.
 
-## OBJECTIVE: Download, verify and Install Tor browser(process similar to Mullvad browser)([Progress images](/en/progress-get-on-board/){:target="_blank"})
+## OBJECTIVE: Download, verify and Install Tor browser (process similar to Mullvad browser)([Progress images](/en/progress-get-on-board/){:target="_blank"})
 1. 💡 Learn about [Verification of digital information](/en/pleb-lessons/#verifying-digital-information)
-2. Your Ubuntu came with a handy tool to use for encryption and verification: GPG(Gnu Privacy Guard, implementing the OpenPGP standard). Open a terminal to use it
-    1. Super + start typing “terminal”(add to favorites with right-click)
-3. Go to the [website](https://www.torproject.org/){:target="_blank"} of the Tor project. It should be a simple https website(check the little lock icon in the address bar)
+2. Your Ubuntu came with a handy tool to use for encryption and verification: GPG (Gnu Privacy Guard, implementing the OpenPGP standard). Open a terminal to use it
+    1. Super + start typing “terminal” (add to favorites with right-click)
+3. Go to the [website](https://www.torproject.org/){:target="_blank"} of the Tor project. It should be a simple https website (check the little lock icon in the address bar)
 4. Go to `Download Tor Browser` and select Linux
 5. Download the signature file as well
 6. In the terminal navigate into the download directory
@@ -229,8 +229,8 @@ When you are doing anything bitcoin-related the most interaction is going to be 
 1. Open Firefox browser and navigate to the [Sparrow wallet website](https://sparrowwallet.com/){:target="_blank"}(clearnet link)
     1. Download is very slow on Tor browser but you can try
 2. Go to Download and navigate to version 1.7.6 in [previous releases](https://github.com/sparrowwallet/sparrow/releases/tag/1.7.6){:target="_blank"}(known working version with the this course)
-3. Download these files(click “show all assets” to expand the list)
-	* sparrow_1.7.6.1_amd64.deb(debian 64-bit linux package, no server in name!) 
+3. Download these files (click “show all assets” to expand the list)
+	* sparrow_1.7.6.1_amd64.deb (debian 64-bit linux package, no server in name!) 
 	* …manifest.txt file
 	* …manifest.txt.**asc** file
 4. Verify the downloaded software according to [instructions](https://sparrowwallet.com/download/){:target="_blank"}:

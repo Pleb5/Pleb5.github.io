@@ -17,7 +17,7 @@ permalink: en/the-journey-begins/
 
 ---
 
-**Important Note**: You are going to use Bitcoin Testnet(specifically the latest and most stable one called “signet”) to simulate a life-like environment where you can safely hone your Pleb skills and experiment!
+**Important Note**: You are going to use Bitcoin Testnet (specifically the latest and most stable one called “signet”) to simulate a life-like environment where you can safely hone your Pleb skills and experiment!
 
 Feel free to not just complete the exercises but also try out other exciting things! You can’t really screw anything up once you’ve made sure you’re using testnet which will be obvious to check.
 

@@ -215,7 +215,7 @@ Sparrow wallet has been connecting to the Bitcoin Plebs Signet node. To launch S
     2. In the port field put in `8332` (default rpc port on mainnet)
     3. For `Authentication`, select the `User/Pass` option and enter the `rpcuser` and `rpcpassword` from your `“bitcoin.conf”` file
     4. Enable your external tor proxy by switching on the `“Use Proxy”` switch and entering the proxy settings: `127.0.0.1:9050`
-    5. Now Sparrow will handle all external(not node-specific) communications through tor
+    5. Now Sparrow will handle all external (not node-specific) communications through tor
         1. Fetching data for fee estimation
         2. Fetching bitcoin/fiat exchange rates
         3. Communication with the Coinjoin coordinator server
@@ -276,7 +276,7 @@ If the transaction fees rise (which is supposed to be a good thing that improves
 2. Get a decent non-custodial Lightning mobile wallet like [Phoenix](https://phoenix.acinq.co/){:target="_blank"} or [Breez](https://breez.technology/){:target="_blank"}
 3. Upgrade to a LN full node and use Lighting in a non-custodial sovereign way. You can upgrade your current machine or buy a dedicated Nodl or a Raspiblitz node
     1. Once you have your own Lightning node up and running, you can try funding its on-chain wallet, open channels and make some payments
-    2. It can also be used in testnet mode(might be a good substitute for htlc.me)
+    2. It can also be used in testnet mode (might be a good substitute for htlc.me)
     3. Use [Zeus wallet](https://zeusln.app/){:target="_blank"} to control your LN node from mobile
 4. Skip this part and come back later
 
@@ -287,7 +287,7 @@ If the transaction fees rise (which is supposed to be a good thing that improves
 3. Probably your best choice would be to use something that [Robosats lists](https://learn.robosats.com/docs/wallets/){:target="_blank"} as fully compatible AND is desktop compatible as well. If you go custodial, [Alby](https://getalby.com/){:target="_blank"} is a decent choice in my case. It goes very well with using nostr on desktop too
     1. On mobile the choice is not so obvious because of all sorts of potential compatibility issues
 4. Install the `Alby extension` on a compatible browser according to instructions if you haven't already
-5. Create an account with a private email address(no gmail)
+5. Create an account with a private email address (no gmail)
 6. Fund the wallet with some sats. Be aware that if you are to be the taker on `Robosats`, the minimum offers tend to be around 100 EUR/USD and you need to send the taker bond of several percent of the value in sats before trading
 7. Open `Robosats` in a `Tor` browser, create and backup the robot
 8. Make or take an offer to buy sats
@@ -312,7 +312,7 @@ For now the most usable and accessible AI I can recommend to use as your technic
 1. Create an account on [OpenAI](https://chat.openai.com/auth/login){:target="_blank"}(clearnet link!). Make sure to do this with privacy in mind:
     1. Use a VPN service on the machine where you intend to create the account or use the service
     2. Use a dedicated privacy-preserving email address like Protonmail
-    2. At the time being there is sms-based phone verification involved in the account creation process. Circumvent it with services like **textverified**, **silent.link**, **sms4sats** or **lnvpn**. Make sure to pay for these services with bitcoin(where there is option to pay with fiat) with a privacy enhanced transaction
+    2. At the time being there is sms-based phone verification involved in the account creation process. Circumvent it with services like **textverified**, **silent.link**, **sms4sats** or **lnvpn**. Make sure to pay for these services with bitcoin (where there is option to pay with fiat) with a privacy enhanced transaction
     3. For now there is a free plan that you can use when server traffic load is low
 2. Do not doxx yourself or any delicate information that is tightly related to your bitcoin setup while using the service
 3. It will be most useful with well-established areas of knowledge like Linux. Try to ask something from the AI like "Tell me how to use Ubuntu in a secure and private way"
