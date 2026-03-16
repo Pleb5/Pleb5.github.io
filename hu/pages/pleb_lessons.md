@@ -1211,7 +1211,7 @@ Látszólag biztonságos, mert pl. „5-ből 3 kulcs kell a költéshez, minél 
 ## Aktív fenyegetések/támadások multisig ellen
 {: .no_toc }
 
-## Egyetlen hibapont — nem használod megfelelően a multisiget
+## Egyetlen meghibásodási pont — nem használod megfelelően a multisiget
 {: .no_toc }
 
 Ha elegendő információd van a multisig walletből való költéshez egy helyen, könnyen zsarolhatnak vagy kirabolhatnak. Ez az ún. „5 dolláros csavarkulcs támadás”. Rossz gyakorlat, és épp a multisig célját hiúsítja meg.

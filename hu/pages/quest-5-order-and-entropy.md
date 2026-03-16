@@ -111,7 +111,7 @@ Az első védelmi vonalad a tudásod és a képességeid. Ugyanakkor a Plebek er
 2. Exportáld a KeePass adatbázis biztonsági mentését a microSD-kártyáidra!
     5. A KeePass AppImage fájlt is rámásolhatod az adatbázis mellé.
 3. Az adatbázis exportálás a KeePass adatbázis jelszavaddal van titkosítva, és a KeePassXC vagy a KeePass régebbi verzióival nyitható meg.
-4. Megjelölheted a mentési SD-kártyákat alkuholos filccel, hogy megkülönböztesd őket a többitől.
+4. Megjelölheted a mentési SD-kártyákat alkoholos filccel, hogy megkülönböztesd őket a többitől.
 
 ---
 
