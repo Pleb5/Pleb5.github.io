@@ -4,12 +4,12 @@ permalink: /hu/progress-order-and-entropy/
 lang: hu
 ---
 
-# Progress Images for Quest 5: Order and Entropy 
+# Folyamatábrázoló képek az 5. küldetéshez: Rend és entrópia
 {: .no_toc }
 
 ---
 
-## Table of contents
+## Tartalomjegyzék
 {: .no_toc .text-delta }
 
 1. TOC
@@ -21,7 +21,7 @@ lang: hu
 <!-- A .yml file must exist in _data folder named after the quest name -->
 {% for objective in site.data.quest_5_order_and_entropy %}
 {% if  objective.progress_imgs %}
-## {{objective.objective_name}} [Click to enlarge]
+## {{objective.objective_name}} [kattints a nagyításhoz]
 {% assign image_files = site.static_files | where: "image", true %}
 <!-- get all images and filter them against the path defined in the quest's .yml file -->
 {% for image in image_files %}

@@ -3,12 +3,12 @@ layout: page
 permalink: hu/progress-nokyc-bitcoin/
 ---
 
-# Progress Images for Quest 7: The Real Deal: Get some real NoKYC bitcoin
+# Folyamatábrázoló képek a 7. küldetéshez: A valódi cucc: Szerezz igazi NoKYC bitcoint!
 {: .no_toc }
 
 ---
 
-## Table of contents
+## Tartalomjegyzék
 {: .no_toc .text-delta }
 
 1. TOC
@@ -20,7 +20,7 @@ permalink: hu/progress-nokyc-bitcoin/
 <!-- A .yml file must exist in _data folder named after the quest name -->
 {% for objective in site.data.quest_7_nokyc_bitcoin %}
 {% if  objective.progress_imgs %}
-## {{objective.objective_name}} [Click to enlarge]
+## {{objective.objective_name}} [kattints a nagyításhoz]
 {% assign image_files = site.static_files | where: "image", true %}
 <!-- get all images and filter them against the path defined in the quest's .yml file -->
 {% for image in image_files %}

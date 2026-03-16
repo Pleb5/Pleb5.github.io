@@ -3,12 +3,12 @@ layout: page
 permalink: hu/progress-bitcoin-privacy/
 ---
 
-# Progress Images for Quest 6: The first line of defense: Bitcoin Privacy
+# Folyamatábrázoló képek a 6. küldetéshez: Az első védelmi vonal: Bitcoin adatvédelem
 {: .no_toc }
 
 ---
 
-## Table of contents
+## Tartalomjegyzék
 {: .no_toc .text-delta }
 
 1. TOC
@@ -20,7 +20,7 @@ permalink: hu/progress-bitcoin-privacy/
 <!-- A .yml file must exist in _data folder named after the quest name -->
 {% for objective in site.data.quest_6_bitcoin_privacy %}
 {% if  objective.progress_imgs %}
-## {{objective.objective_name}} [Click to enlarge]
+## {{objective.objective_name}} [kattints a nagyításhoz]
 {% assign image_files = site.static_files | where: "image", true %}
 <!-- get all images and filter them against the path defined in the quest's .yml file -->
 {% for image in image_files %}
