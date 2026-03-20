@@ -1,10 +1,9 @@
 ---
 layout: page
-permalink: /hu/progress-order-and-entropy/
-lang: hu
+permalink: hu/progress-nokyc-bitcoin/
 ---
 
-# Folyamatábrázoló képek az 5. küldetéshez: Rend és entrópia
+# Folyamatábrázoló képek a 7. küldetéshez: A valódi cucc: Szerezz igazi NoKYC bitcoint!
 {: .no_toc }
 
 ---
@@ -19,7 +18,7 @@ lang: hu
 
 <!-- This is very ugly. Kramdown renders liquid code in <code> tags unless I get rid of indentations -->
 <!-- A .yml file must exist in _data folder named after the quest name -->
-{% for objective in site.data.quest_5_order_and_entropy %}
+{% for objective in site.data.quest_7_nokyc_bitcoin %}
 {% if  objective.progress_imgs %}
 ## {{objective.objective_name}} [kattints a nagyításhoz]
 {% assign image_files = site.static_files | where: "image", true %}

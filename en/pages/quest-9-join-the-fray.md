@@ -57,7 +57,7 @@ Look at people _they_ follow and start broadening your bitcoin social network!
     1. Citadel Dispatch: The most important for Self-Custody related topics from Matt Odell
     2. Stephan Livera podcast
     3. Bit Buy Bit podcast
-    4. Bitcoin Review podcast with NVK(Coinkite founder)
+    4. Bitcoin Review podcast with NVK (Coinkite founder)
     5. Rabbit Hole Recap podcast with Marty Bent and Matt Odell
     6. TFTC podcast
     7. Journey to Sovereignty podcast from the Foundation team

@@ -17,7 +17,7 @@ language_selector:
 
 select_language:
   en: "Select Language"
-  hu: "Nyelv választás"
+  hu: "Nyelvválasztás"
 
 # Common buttons and links
 start_my_journey:

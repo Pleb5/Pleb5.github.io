@@ -73,7 +73,7 @@ Van rá mód, hogy védekezz az ellen, hogy mások megtalálják a biztonsági m
 4. Írd fel a tárca nevét és a mester ujjlenyomatot egy papír jegyzetfüzetbe!
 5. Küldd át a teljes összeget a biztonságosabb, jelkóddal védett tárcába!
 6. Töröld a régi tárcát a Sparrow-ból, és semmisítsd meg a régi tárca biztonsági mentéseit!
-7. A seed-phrase és a jelkód (passphrase) biztonsági mentéseit külön kell tárolni, hogy elkerüld az **kritikus hibapont** lehetőségét!
+7. A seed-phrase és a jelkód (passphrase) biztonsági mentéseit külön kell tárolni, hogy elkerüld az **egyetlen meghibásodási pont** lehetőségét!
     2. Az összes kulcsmentésed vagy jelkódmentésed könnyen elveszhet vagy megsemmisülhet, ha ugyanott tárolod azokat.
     3. Egy rosszindulatú támadó egyszerre rátalálhat a privát kulcsod másolatára és a jelkódod másolatára, ha egy helyen vannak.
 8. Bölcsen válaszd meg a tárolási helyeket!

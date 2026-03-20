@@ -524,7 +524,7 @@ So your private key has been generated on this specialized device. Is your hardw
 * Your transactions are created by Sparrow with help from your node and they need to be **signed** somehow with the private key. So Sparrow constructs the transaction, sends this transaction data (PSBT - Partially Signed Bitcoin Transaction) to the hardware wallet for signing and then it has to be communicated back to Sparrow for broadcasting the signed transaction to the network.
 * Addresses have to be communicated to the hardware wallet from Sparrow to be able to verify them
 
-So what you do is create another type of wallet in Sparrow that specifically serves these separated functions. Wallets of this kind with only limited functionality have different names. **“Watch-only”** wallet is when only the public key is online so we can only watch the balance and the history, and of course generate new receive addresses from the Xpub. **“Air-gapped”** wallets refers to the special case when the unsafe networked computer(running Sparrow) is not just separated but there is **never a cabled connection** between it and the hardware wallet.
+So what you do is create another type of wallet in Sparrow that specifically serves these separated functions. Wallets of this kind with only limited functionality have different names. **“Watch-only”** wallet is when only the public key is online so we can only watch the balance and the history, and of course generate new receive addresses from the Xpub. **“Air-gapped”** wallets refers to the special case when the unsafe networked computer (running Sparrow) is not just separated but there is **never a cabled connection** between it and the hardware wallet.
 
 This separation of course introduces some additional steps in the wallet management procedures but it is not that big of a deal.
 
@@ -860,7 +860,7 @@ Read more about full nodes [here](https://bitcoin.org/en/full-node)
 ## Light clients
 {: .no_toc }
 
-Light clients are nodes that don’t store the whole Blockchain but can still verify certain consensus rules. Since they don’t store the whole blockchain, just the block headers, they rely on full nodes to verify most consensus rules and can only do a so-called “Simple Payment Verification(SPV)”. That is, they are not fully sovereign. This is a major trade-off of light clients.
+Light clients are nodes that don’t store the whole Blockchain but can still verify certain consensus rules. Since they don’t store the whole blockchain, just the block headers, they rely on full nodes to verify most consensus rules and can only do a so-called “Simple Payment Verification (SPV)”. That is, they are not fully sovereign. This is a major trade-off of light clients.
 
 Light clients are for those with limited bandwidth or storage capacity. Since the whole blockchain today doesn’t take up more than a few hundred gigabytes of data and bandwidth is not too bad in most places either, it doesn’t make all too much sense running it. I recommend running a full node since you already decided to make the effort of running a Bitcoin node.
 
@@ -1000,7 +1000,7 @@ Here are P2P exchange platforms that I can recommend at the moment:
 * [Bisq](https://bisq.network/): The go-to for the lovers of decentralization. Both parties need to deposit a percentage of the trade value into escrow before the trade. No company runs Bisq but a “DAO” (decentralized autonomous organization) of contributors. This DAO is quite a shitcoin show but hey, it is a great product so let’s give them a little benefit of the doubt.  
 Bisq runs its own hot SPV wallet and runs through Tor by default so you just download, verify, install, configure fiat rails and start stacking sats. It has quite decent liquidity with lower premiums than most platforms.  
 It uses a 2 of 2 multisig escrow so both parties have to unlock the coins to settle the trade. There is a mediation option conducted by volunteers but at the end of the day you just have to come to terms with your counterparty.  
-Fiat accounts are trusted in Bisq through a process called “signing” where you must complete a trade with an already trusted(signed) account and wait some time in order to get your fiat account signed too. This mitigates some fiat chargeback risk. Don’t forget to withdraw funds from the hot wallet to your cold storage. You can introduce an intermediate coinjoin step in the process
+Fiat accounts are trusted in Bisq through a process called “signing” where you must complete a trade with an already trusted (signed) account and wait some time in order to get your fiat account signed too. This mitigates some fiat chargeback risk. Don’t forget to withdraw funds from the hot wallet to your cold storage. You can introduce an intermediate coinjoin step in the process
 
 ---
 
@@ -1170,7 +1170,7 @@ Multisig makes sense when you study the meaning of this word commonly used in mu
 
 First you have to designate the people eligible for voting and a ruleset or constitution to abide by in votes. This is when you create the multisig wallet in a coordinator wallet software like Sparrow wallet.
 
-The wallet software registers the multisig public keys/Xpubs in the quorum (members/possible voters) and also registers the quorum signature threshold(minimum number of votes necessary for a successful vote). A special file is generated: The Wallet Output **Descriptor**. It can be thought of as the **constitution** of the voting committee.
+The wallet software registers the multisig public keys/Xpubs in the quorum (members/possible voters) and also registers the quorum signature threshold (minimum number of votes necessary for a successful vote). A special file is generated: The Wallet Output **Descriptor**. It can be thought of as the **constitution** of the voting committee.
 
 It can define rules like 2 of 3 majority voting or 3 of 5. But it can also define e.g. 1 of 3, so a minority can also get a successful vote in some setups. Of course there is also the consensus voting mechanism which demands all possible signatories to sign. 2 of 2, 3 of 3 etc.
 
