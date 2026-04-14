@@ -4,7 +4,8 @@ theme: just-the-docs
 
 color_scheme: bitcoin_plebs_dark.scss
 
-url: bitcoinplebs.org
+url: "https://bitcoinplebs.org"
+baseurl: ""
 
 # Multilanguage support
 languages: ["en", "hu"]
@@ -82,5 +83,4 @@ footer_content: '<a href="https://github.com/Pleb5/Pleb5.github.io" target="_bla
 
 # Additional custom footer can be added via this file
 footer: "footer_custom.html"
-
 
